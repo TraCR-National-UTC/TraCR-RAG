@@ -1,0 +1,673 @@
+Texas
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Texas\Business\Tex. Bus. & Com. Code § 521.053.pdfLegislation code:Page 1 of 3 
+Page 1 of 3 
+Tex. Bus. & Com. Code § 521.053  
+    
+Tex. Bus. & Com. Code § 521.053  
+ This document is current through the 2023 Regular Session; the 1st C.S.; the 2nd C.S.; the 3rd C.S. and 
+the 4th C.S. of the 88th Legislature; and the November 7, 2023 general election results.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®   >  Business  and Commerce Code   >  Title 11 Personal 
+Identity Information (Subts. A — C)  >  Subtitle B Identity Theft (Chs. 521 — 523)  >  Chapter 521 
+Unauthorized Use of Identifying Information (Subchs. A — D)  >  Subchapter B Identity Theft (§§ 521.051 — 
+521.053)  
+ 
+Sec. 521.053. Notification Required Following Breach of Security of Computerized 
+Data.   
+ 
+(a)  In this section, “breach of system security” means unauthorized acquisition of computerized 
+data that compromises the security, confidentiality, or integrity of sensitive personal information 
+maintained by a person, including data that is encrypted if the person accessing the data has the 
+key required to decrypt the data. Good faith acquisition of sensitive personal information by an 
+employee or agent of the perso n for the purposes of the person is not a breach of system security 
+unless the person uses or discloses the sensitive personal information in an unauthorized manner.  
+(b)  A person who conducts business in this state and owns or licenses computerized data t hat 
+includes sensitive personal information shall disclose any breach of system security, after 
+discovering or receiving notification of the breach, to any individual whose sensitive personal 
+information was, or is reasonably believed to have been, acquire d by an unauthorized person. The 
+disclosure shall be made without unreasonable delay and in each case not later than the 60th day 
+after the date on which the person determines that the breach occurred, except as provided by 
+Subsection (d) or as necessary t o determine the scope of the breach and restore the reasonable 
+integrity of the data system.  
+(b-1)If the individual whose sensitive personal information was or is reasonably believed to have 
+been acquired by an unauthorized person is a resident of a state that requires a person described by 
+Subsection (b) to provide notice of a breach of system security, the notice of the breach of system 
+security required under Subsection (b) may be provided under that state’s law or under Subsection 
+(b). 
+(c)  Any person w ho maintains computerized data that includes sensitive personal information not 
+owned by the person shall notify the owner or license holder of the information of any breach of 
+system security immediately after discovering the breach, if the sensitive pers onal information 
+was, or is reasonably believed to have been, acquired by an unauthorized person.  
+(d)  A person may delay providing notice as required by Subsection (b) or (c) at the request of a 
+law enforcement agency that determines that the notification  will impede a criminal investigation. Page 2 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   The notification shall be made as soon as the law enforcement agency determines that the 
+notification will not compromise the investigation.  
+(e)  A person may give notice as required by Subsection (b) or (c) by provid ing: 
+(1)  written notice at the last known address of the individual;  
+(2)  electronic notice, if the notice is provided in accordance with 15 U.S.C. Section 7001; or  
+(3)  notice as provided by Subsection (f).  
+(f)  If the person required to give notice unde r Subsection (b) or (c) demonstrates that the cost of 
+providing notice would exceed $250,000, the number of affected persons exceeds 500,000, or the 
+person does not have sufficient contact information, the notice may be given by:  
+(1)  electronic mail, if t he person has electronic mail addresses for the affected persons;  
+(2)  conspicuous posting of the notice on the person’s website; or  
+(3)  notice published in or broadcast on major statewide media.  
+(g)  Notwithstanding Subsection (e), a person who maintains  the person’s own notification 
+procedures as part of an information security policy for the treatment of sensitive personal 
+information that complies with the timing requirements for notice under this section complies with 
+this section if the person notifi es affected persons in accordance with that policy.  
+(h)  If a person is required by this section to notify at one time more than 10,000 persons of a 
+breach of system security, the person shall also notify each consumer reporting agency, as defined 
+by 15 U. S.C. Section 1681a, that maintains files on consumers on a nationwide basis, of the 
+timing, distribution, and content of the notices. The person shall provide the notice required by this 
+subsection without unreasonable delay.  
+(i)  A person who is required to disclose or provide notification of a breach of system security 
+under this section shall notify the attorney general of that breach as soon as practicable and not 
+later than the 30th day after the date on which the person determines that the breach occu rred if the 
+breach involves at least 250 residents of this state. The notification under this subsection must be 
+submitted electronically using a form accessed through the attorney general’s Internet website and 
+must include:                     
+(1)  a det ailed description of the nature and circumstances of the breach or the use of sensitive 
+personal information acquired as a result of the breach;                       
+                     
+(2)  the number of residents of this state affected by the breach at  the time of notification;                       
+                     
+(3)  the number of affected residents that have been sent a disclosure of the breach by mail or 
+other direct method of communication at the time of notification;                       
+                     
+(4)  the measures taken by the person regarding the breach;                       
+                     Page 3 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   (5)  any measures the person intends to take regarding the breach  after the notification under 
+this subsection; and                       
+                     
+(6)  information regarding whether law enforcement is engaged in investigating the breach.                       
+                   
+(j)  The attorney general shal l post on the attorney general’s publicly accessible Internet website:                     
+(1)  an electronic form for submitting a notification under Subsection (i); and                       
+                     
+(2)  a listing of the notifications receiv ed by the attorney general under Subsection (i), 
+excluding any sensitive personal information that may have been reported to the attorney 
+general under that subsection, any information that may compromise a data system’s security, 
+and any other information  reported to the attorney general that is made confidential by law. 
+The attorney general shall:                         
+(A)  update the listing not later than the 30th day after the date the attorney general 
+receives notification of a new breach of system security;                           
+                         
+(B)  remove a notification from the listing not later than the first anniversary of the date the 
+attorney general added the notification to the listing if the person who provided the 
+notification  has not notified the attorney general of any additional breaches under 
+Subsection (i) during that period; and                           
+                         
+(C)  maintain only the most recently updated listing on the attorney general’s website.                           
+                       
+                   
+History   
+ 
+Enacted by Acts 2007, 80th Leg., ch. 885 (H.B. 2278), §  2.01, effective April 1, 2009; am. Act s 2009, 
+81st Leg., ch. 419 (H.B. 2004), §  3, effective September 1, 2009; am. Acts 2011, 82nd Leg., ch. 1126 
+(H.B. 300), §  14, effective September 1, 2012; am. Acts 2013, 83rd Leg., ch. 1368 (S.B. 1610), §  1, 
+effective June 14, 2013; Acts 2019, 86th Leg., ch. 1326 (H.B. 4390), § 1, effective January 1, 2020; Acts 
+2021, 87th Leg., ch. 496 (H.B. 3746), § 1, effective September 1, 2021; Acts 2023, 88th Leg., ch. 246 
+(S.B. 768), § 1, effective September 1, 2023.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Texas\Business\Tex. Bus. & Com. Code § 521.053.pdfLegislation code:Page 1 of 3 
+Page 1 of 3 
+Tex. Bus. & Com. Code § 521.053  
+    
+Tex. Bus. & Com. Code § 521.053  
+ This document is current through the 2023 Regular Session; the 1st C.S.; the 2nd C.S.; the 3rd C.S. and 
+the 4th C.S. of the 88th Legislature; and the November 7, 2023 general election results.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®   >  Business  and Commerce Code   >  Title 11 Personal 
+Identity Information (Subts. A — C)  >  Subtitle B Identity Theft (Chs. 521 — 523)  >  Chapter 521 
+Unauthorized Use of Identifying Information (Subchs. A — D)  >  Subchapter B Identity Theft (§§ 521.051 — 
+521.053)  
+ 
+Sec. 521.053. Notification Required Following Breach of Security of Computerized 
+Data.   
+ 
+(a)  In this section, “breach of system security” means unauthorized acquisition of computerized 
+data that compromises the security, confidentiality, or integrity of sensitive personal information 
+maintained by a person, including data that is encrypted if the person accessing the data has the 
+key required to decrypt the data. Good faith acquisition of sensitive personal information by an 
+employee or agent of the perso n for the purposes of the person is not a breach of system security 
+unless the person uses or discloses the sensitive personal information in an unauthorized manner.  
+(b)  A person who conducts business in this state and owns or licenses computerized data t hat 
+includes sensitive personal information shall disclose any breach of system security, after 
+discovering or receiving notification of the breach, to any individual whose sensitive personal 
+information was, or is reasonably believed to have been, acquire d by an unauthorized person. The 
+disclosure shall be made without unreasonable delay and in each case not later than the 60th day 
+after the date on which the person determines that the breach occurred, except as provided by 
+Subsection (d) or as necessary t o determine the scope of the breach and restore the reasonable 
+integrity of the data system.  
+(b-1)If the individual whose sensitive personal information was or is reasonably believed to have 
+been acquired by an unauthorized person is a resident of a state that requires a person described by 
+Subsection (b) to provide notice of a breach of system security, the notice of the breach of system 
+security required under Subsection (b) may be provided under that state’s law or under Subsection 
+(b). 
+(c)  Any person w ho maintains computerized data that includes sensitive personal information not 
+owned by the person shall notify the owner or license holder of the information of any breach of 
+system security immediately after discovering the breach, if the sensitive pers onal information 
+was, or is reasonably believed to have been, acquired by an unauthorized person.  
+(d)  A person may delay providing notice as required by Subsection (b) or (c) at the request of a 
+law enforcement agency that determines that the notification  will impede a criminal investigation. Page 2 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   The notification shall be made as soon as the law enforcement agency determines that the 
+notification will not compromise the investigation.  
+(e)  A person may give notice as required by Subsection (b) or (c) by provid ing: 
+(1)  written notice at the last known address of the individual;  
+(2)  electronic notice, if the notice is provided in accordance with 15 U.S.C. Section 7001; or  
+(3)  notice as provided by Subsection (f).  
+(f)  If the person required to give notice unde r Subsection (b) or (c) demonstrates that the cost of 
+providing notice would exceed $250,000, the number of affected persons exceeds 500,000, or the 
+person does not have sufficient contact information, the notice may be given by:  
+(1)  electronic mail, if t he person has electronic mail addresses for the affected persons;  
+(2)  conspicuous posting of the notice on the person’s website; or  
+(3)  notice published in or broadcast on major statewide media.  
+(g)  Notwithstanding Subsection (e), a person who maintains  the person’s own notification 
+procedures as part of an information security policy for the treatment of sensitive personal 
+information that complies with the timing requirements for notice under this section complies with 
+this section if the person notifi es affected persons in accordance with that policy.  
+(h)  If a person is required by this section to notify at one time more than 10,000 persons of a 
+breach of system security, the person shall also notify each consumer reporting agency, as defined 
+by 15 U. S.C. Section 1681a, that maintains files on consumers on a nationwide basis, of the 
+timing, distribution, and content of the notices. The person shall provide the notice required by this 
+subsection without unreasonable delay.  
+(i)  A person who is required to disclose or provide notification of a breach of system security 
+under this section shall notify the attorney general of that breach as soon as practicable and not 
+later than the 30th day after the date on which the person determines that the breach occu rred if the 
+breach involves at least 250 residents of this state. The notification under this subsection must be 
+submitted electronically using a form accessed through the attorney general’s Internet website and 
+must include:                     
+(1)  a det ailed description of the nature and circumstances of the breach or the use of sensitive 
+personal information acquired as a result of the breach;                       
+                     
+(2)  the number of residents of this state affected by the breach at  the time of notification;                       
+                     
+(3)  the number of affected residents that have been sent a disclosure of the breach by mail or 
+other direct method of communication at the time of notification;                       
+                     
+(4)  the measures taken by the person regarding the breach;                       
+                     Page 3 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   (5)  any measures the person intends to take regarding the breach  after the notification under 
+this subsection; and                       
+                     
+(6)  information regarding whether law enforcement is engaged in investigating the breach.                       
+                   
+(j)  The attorney general shal l post on the attorney general’s publicly accessible Internet website:                     
+(1)  an electronic form for submitting a notification under Subsection (i); and                       
+                     
+(2)  a listing of the notifications receiv ed by the attorney general under Subsection (i), 
+excluding any sensitive personal information that may have been reported to the attorney 
+general under that subsection, any information that may compromise a data system’s security, 
+and any other information  reported to the attorney general that is made confidential by law. 
+The attorney general shall:                         
+(A)  update the listing not later than the 30th day after the date the attorney general 
+receives notification of a new breach of system security;                           
+                         
+(B)  remove a notification from the listing not later than the first anniversary of the date the 
+attorney general added the notification to the listing if the person who provided the 
+notification  has not notified the attorney general of any additional breaches under 
+Subsection (i) during that period; and                           
+                         
+(C)  maintain only the most recently updated listing on the attorney general’s website.                           
+                       
+                   
+History   
+ 
+Enacted by Acts 2007, 80th Leg., ch. 885 (H.B. 2278), §  2.01, effective April 1, 2009; am. Act s 2009, 
+81st Leg., ch. 419 (H.B. 2004), §  3, effective September 1, 2009; am. Acts 2011, 82nd Leg., ch. 1126 
+(H.B. 300), §  14, effective September 1, 2012; am. Acts 2013, 83rd Leg., ch. 1368 (S.B. 1610), §  1, 
+effective June 14, 2013; Acts 2019, 86th Leg., ch. 1326 (H.B. 4390), § 1, effective January 1, 2020; Acts 
+2021, 87th Leg., ch. 496 (H.B. 3746), § 1, effective September 1, 2021; Acts 2023, 88th Leg., ch. 246 
+(S.B. 768), § 1, effective September 1, 2023.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Texas\Business\Tex. Bus. & Com. Code § 521.053.pdfLegislation code:Page 1 of 3 
+Page 1 of 3 
+Tex. Bus. & Com. Code § 521.053  
+    
+Tex. Bus. & Com. Code § 521.053  
+ This document is current through the 2023 Regular Session; the 1st C.S.; the 2nd C.S.; the 3rd C.S. and 
+the 4th C.S. of the 88th Legislature; and the November 7, 2023 general election results.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®   >  Business  and Commerce Code   >  Title 11 Personal 
+Identity Information (Subts. A — C)  >  Subtitle B Identity Theft (Chs. 521 — 523)  >  Chapter 521 
+Unauthorized Use of Identifying Information (Subchs. A — D)  >  Subchapter B Identity Theft (§§ 521.051 — 
+521.053)  
+ 
+Sec. 521.053. Notification Required Following Breach of Security of Computerized 
+Data.   
+ 
+(a)  In this section, “breach of system security” means unauthorized acquisition of computerized 
+data that compromises the security, confidentiality, or integrity of sensitive personal information 
+maintained by a person, including data that is encrypted if the person accessing the data has the 
+key required to decrypt the data. Good faith acquisition of sensitive personal information by an 
+employee or agent of the perso n for the purposes of the person is not a breach of system security 
+unless the person uses or discloses the sensitive personal information in an unauthorized manner.  
+(b)  A person who conducts business in this state and owns or licenses computerized data t hat 
+includes sensitive personal information shall disclose any breach of system security, after 
+discovering or receiving notification of the breach, to any individual whose sensitive personal 
+information was, or is reasonably believed to have been, acquire d by an unauthorized person. The 
+disclosure shall be made without unreasonable delay and in each case not later than the 60th day 
+after the date on which the person determines that the breach occurred, except as provided by 
+Subsection (d) or as necessary t o determine the scope of the breach and restore the reasonable 
+integrity of the data system.  
+(b-1)If the individual whose sensitive personal information was or is reasonably believed to have 
+been acquired by an unauthorized person is a resident of a state that requires a person described by 
+Subsection (b) to provide notice of a breach of system security, the notice of the breach of system 
+security required under Subsection (b) may be provided under that state’s law or under Subsection 
+(b). 
+(c)  Any person w ho maintains computerized data that includes sensitive personal information not 
+owned by the person shall notify the owner or license holder of the information of any breach of 
+system security immediately after discovering the breach, if the sensitive pers onal information 
+was, or is reasonably believed to have been, acquired by an unauthorized person.  
+(d)  A person may delay providing notice as required by Subsection (b) or (c) at the request of a 
+law enforcement agency that determines that the notification  will impede a criminal investigation. Page 2 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   The notification shall be made as soon as the law enforcement agency determines that the 
+notification will not compromise the investigation.  
+(e)  A person may give notice as required by Subsection (b) or (c) by provid ing: 
+(1)  written notice at the last known address of the individual;  
+(2)  electronic notice, if the notice is provided in accordance with 15 U.S.C. Section 7001; or  
+(3)  notice as provided by Subsection (f).  
+(f)  If the person required to give notice unde r Subsection (b) or (c) demonstrates that the cost of 
+providing notice would exceed $250,000, the number of affected persons exceeds 500,000, or the 
+person does not have sufficient contact information, the notice may be given by:  
+(1)  electronic mail, if t he person has electronic mail addresses for the affected persons;  
+(2)  conspicuous posting of the notice on the person’s website; or  
+(3)  notice published in or broadcast on major statewide media.  
+(g)  Notwithstanding Subsection (e), a person who maintains  the person’s own notification 
+procedures as part of an information security policy for the treatment of sensitive personal 
+information that complies with the timing requirements for notice under this section complies with 
+this section if the person notifi es affected persons in accordance with that policy.  
+(h)  If a person is required by this section to notify at one time more than 10,000 persons of a 
+breach of system security, the person shall also notify each consumer reporting agency, as defined 
+by 15 U. S.C. Section 1681a, that maintains files on consumers on a nationwide basis, of the 
+timing, distribution, and content of the notices. The person shall provide the notice required by this 
+subsection without unreasonable delay.  
+(i)  A person who is required to disclose or provide notification of a breach of system security 
+under this section shall notify the attorney general of that breach as soon as practicable and not 
+later than the 30th day after the date on which the person determines that the breach occu rred if the 
+breach involves at least 250 residents of this state. The notification under this subsection must be 
+submitted electronically using a form accessed through the attorney general’s Internet website and 
+must include:                     
+(1)  a det ailed description of the nature and circumstances of the breach or the use of sensitive 
+personal information acquired as a result of the breach;                       
+                     
+(2)  the number of residents of this state affected by the breach at  the time of notification;                       
+                     
+(3)  the number of affected residents that have been sent a disclosure of the breach by mail or 
+other direct method of communication at the time of notification;                       
+                     
+(4)  the measures taken by the person regarding the breach;                       
+                     Page 3 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   (5)  any measures the person intends to take regarding the breach  after the notification under 
+this subsection; and                       
+                     
+(6)  information regarding whether law enforcement is engaged in investigating the breach.                       
+                   
+(j)  The attorney general shal l post on the attorney general’s publicly accessible Internet website:                     
+(1)  an electronic form for submitting a notification under Subsection (i); and                       
+                     
+(2)  a listing of the notifications receiv ed by the attorney general under Subsection (i), 
+excluding any sensitive personal information that may have been reported to the attorney 
+general under that subsection, any information that may compromise a data system’s security, 
+and any other information  reported to the attorney general that is made confidential by law. 
+The attorney general shall:                         
+(A)  update the listing not later than the 30th day after the date the attorney general 
+receives notification of a new breach of system security;                           
+                         
+(B)  remove a notification from the listing not later than the first anniversary of the date the 
+attorney general added the notification to the listing if the person who provided the 
+notification  has not notified the attorney general of any additional breaches under 
+Subsection (i) during that period; and                           
+                         
+(C)  maintain only the most recently updated listing on the attorney general’s website.                           
+                       
+                   
+History   
+ 
+Enacted by Acts 2007, 80th Leg., ch. 885 (H.B. 2278), §  2.01, effective April 1, 2009; am. Act s 2009, 
+81st Leg., ch. 419 (H.B. 2004), §  3, effective September 1, 2009; am. Acts 2011, 82nd Leg., ch. 1126 
+(H.B. 300), §  14, effective September 1, 2012; am. Acts 2013, 83rd Leg., ch. 1368 (S.B. 1610), §  1, 
+effective June 14, 2013; Acts 2019, 86th Leg., ch. 1326 (H.B. 4390), § 1, effective January 1, 2020; Acts 
+2021, 87th Leg., ch. 496 (H.B. 3746), § 1, effective September 1, 2021; Acts 2023, 88th Leg., ch. 246 
+(S.B. 768), § 1, effective September 1, 2023.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 4: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Texas\Government\Tex. Code § 2054.603.pdfLegislation code:Page 1 of 3 
+Page 1 of 3 
+Tex. Bus. & Com. Code § 521.053  
+    
+Tex. Bus. & Com. Code § 521.053  
+ This document is current through the 2023 Regular Session; the 1st C.S.; the 2nd C.S.; the 3rd C.S. and 
+the 4th C.S. of the 88th Legislature; and the November 7, 2023 general election results.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®   >  Business  and Commerce Code   >  Title 11 Personal 
+Identity Information (Subts. A — C)  >  Subtitle B Identity Theft (Chs. 521 — 523)  >  Chapter 521 
+Unauthorized Use of Identifying Information (Subchs. A — D)  >  Subchapter B Identity Theft (§§ 521.051 — 
+521.053)  
+ 
+Sec. 521.053. Notification Required Following Breach of Security of Computerized 
+Data.   
+ 
+(a)  In this section, “breach of system security” means unauthorized acquisition of computerized 
+data that compromises the security, confidentiality, or integrity of sensitive personal information 
+maintained by a person, including data that is encrypted if the person accessing the data has the 
+key required to decrypt the data. Good faith acquisition of sensitive personal information by an 
+employee or agent of the perso n for the purposes of the person is not a breach of system security 
+unless the person uses or discloses the sensitive personal information in an unauthorized manner.  
+(b)  A person who conducts business in this state and owns or licenses computerized data t hat 
+includes sensitive personal information shall disclose any breach of system security, after 
+discovering or receiving notification of the breach, to any individual whose sensitive personal 
+information was, or is reasonably believed to have been, acquire d by an unauthorized person. The 
+disclosure shall be made without unreasonable delay and in each case not later than the 60th day 
+after the date on which the person determines that the breach occurred, except as provided by 
+Subsection (d) or as necessary t o determine the scope of the breach and restore the reasonable 
+integrity of the data system.  
+(b-1)If the individual whose sensitive personal information was or is reasonably believed to have 
+been acquired by an unauthorized person is a resident of a state that requires a person described by 
+Subsection (b) to provide notice of a breach of system security, the notice of the breach of system 
+security required under Subsection (b) may be provided under that state’s law or under Subsection 
+(b). 
+(c)  Any person w ho maintains computerized data that includes sensitive personal information not 
+owned by the person shall notify the owner or license holder of the information of any breach of 
+system security immediately after discovering the breach, if the sensitive pers onal information 
+was, or is reasonably believed to have been, acquired by an unauthorized person.  
+(d)  A person may delay providing notice as required by Subsection (b) or (c) at the request of a 
+law enforcement agency that determines that the notification  will impede a criminal investigation. Page 2 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   The notification shall be made as soon as the law enforcement agency determines that the 
+notification will not compromise the investigation.  
+(e)  A person may give notice as required by Subsection (b) or (c) by provid ing: 
+(1)  written notice at the last known address of the individual;  
+(2)  electronic notice, if the notice is provided in accordance with 15 U.S.C. Section 7001; or  
+(3)  notice as provided by Subsection (f).  
+(f)  If the person required to give notice unde r Subsection (b) or (c) demonstrates that the cost of 
+providing notice would exceed $250,000, the number of affected persons exceeds 500,000, or the 
+person does not have sufficient contact information, the notice may be given by:  
+(1)  electronic mail, if t he person has electronic mail addresses for the affected persons;  
+(2)  conspicuous posting of the notice on the person’s website; or  
+(3)  notice published in or broadcast on major statewide media.  
+(g)  Notwithstanding Subsection (e), a person who maintains  the person’s own notification 
+procedures as part of an information security policy for the treatment of sensitive personal 
+information that complies with the timing requirements for notice under this section complies with 
+this section if the person notifi es affected persons in accordance with that policy.  
+(h)  If a person is required by this section to notify at one time more than 10,000 persons of a 
+breach of system security, the person shall also notify each consumer reporting agency, as defined 
+by 15 U. S.C. Section 1681a, that maintains files on consumers on a nationwide basis, of the 
+timing, distribution, and content of the notices. The person shall provide the notice required by this 
+subsection without unreasonable delay.  
+(i)  A person who is required to disclose or provide notification of a breach of system security 
+under this section shall notify the attorney general of that breach as soon as practicable and not 
+later than the 30th day after the date on which the person determines that the breach occu rred if the 
+breach involves at least 250 residents of this state. The notification under this subsection must be 
+submitted electronically using a form accessed through the attorney general’s Internet website and 
+must include:                     
+(1)  a det ailed description of the nature and circumstances of the breach or the use of sensitive 
+personal information acquired as a result of the breach;                       
+                     
+(2)  the number of residents of this state affected by the breach at  the time of notification;                       
+                     
+(3)  the number of affected residents that have been sent a disclosure of the breach by mail or 
+other direct method of communication at the time of notification;                       
+                     
+(4)  the measures taken by the person regarding the breach;                       
+                     Page 3 of 3 
+Tex. Bus. & Com. Code § 521.053  
+   (5)  any measures the person intends to take regarding the breach  after the notification under 
+this subsection; and                       
+                     
+(6)  information regarding whether law enforcement is engaged in investigating the breach.                       
+                   
+(j)  The attorney general shal l post on the attorney general’s publicly accessible Internet website:                     
+(1)  an electronic form for submitting a notification under Subsection (i); and                       
+                     
+(2)  a listing of the notifications receiv ed by the attorney general under Subsection (i), 
+excluding any sensitive personal information that may have been reported to the attorney 
+general under that subsection, any information that may compromise a data system’s security, 
+and any other information  reported to the attorney general that is made confidential by law. 
+The attorney general shall:                         
+(A)  update the listing not later than the 30th day after the date the attorney general 
+receives notification of a new breach of system security;                           
+                         
+(B)  remove a notification from the listing not later than the first anniversary of the date the 
+attorney general added the notification to the listing if the person who provided the 
+notification  has not notified the attorney general of any additional breaches under 
+Subsection (i) during that period; and                           
+                         
+(C)  maintain only the most recently updated listing on the attorney general’s website.                           
+                       
+                   
+History   
+ 
+Enacted by Acts 2007, 80th Leg., ch. 885 (H.B. 2278), §  2.01, effective April 1, 2009; am. Act s 2009, 
+81st Leg., ch. 419 (H.B. 2004), §  3, effective September 1, 2009; am. Acts 2011, 82nd Leg., ch. 1126 
+(H.B. 300), §  14, effective September 1, 2012; am. Acts 2013, 83rd Leg., ch. 1368 (S.B. 1610), §  1, 
+effective June 14, 2013; Acts 2019, 86th Leg., ch. 1326 (H.B. 4390), § 1, effective January 1, 2020; Acts 
+2021, 87th Leg., ch. 496 (H.B. 3746), § 1, effective September 1, 2021; Acts 2023, 88th Leg., ch. 246 
+(S.B. 768), § 1, effective September 1, 2023.  
+ 
+Texas Statutes & Codes Annotated by LexisNexis®  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+
+Nebraska
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Nebraska\Financial\R.R.S. Neb. § 87-803.pdfLegislation code:Page 1 of 2 
+Page 1 of 2 
+R.R.S. Neb. § 87 -803 
+    
+R.R.S. Neb. § 87 -803 
+ Current currency: Code: Current through Acts of the 2nd Regular Session of the 108th Legislature 
+(2024): LB 1, LB 16, LB 16A, LB 20, LB 20A, LB 43, LB 51, LB 52, LB 52A, LB 61, LB 62, LB 71A, 
+LB 78, LB 83, LB 94, LB 102, LB 102A, LB 126A, LB 126, LB 130, LB 130A, LB 139e, LB 140, LB 
+140A, LB 144, LB 146, LB 147, LB 151, LB 152, LB 164, LB 164A, LB 184, LB 190, LB 196, LB 
+196A, LB 198e, LB 204, LB 204A, LB 247, LB 252, LB 257, LB 262A, LB 279, LB 287A, LB 299e, LB 
+303, LB 304, LB 308, LB 317, LB 358A, LB 39 9, LB 461, LB 484A, LB 569e, LB 600A, LB 605, LB, 
+607, LB 624, LB 628, LB 631A, LB 644, LB 644A, LB 658A, LB 664, LB 686, LB 716, LB 731, LB 
+771e, LB 771Ae, LB 829A, LB 839e, LB 844, LB 847, LB 848, LB 851e, LB 854, LB 857, LB 857A, LB 
+867, LB 867A, LB 870 A, LB 876A, LB 880, LB 894, LB 895, LB 903, LB 904A, LB 905, LB 905A, LB 
+906, LB 908, LB 909e, LB 926, LB 936, LB 937A, LB 938, LB 940, LB 989, LB 992e, LB 992A, LB 
+1004e, LB 1017, LB 1023A, LB 1027, LB 1030, LB 1031A, LB 1035A, LB 1051, LB 1069, LB 1074A,  
+LB 1087, LB 1087A, LB 1088, LB 1102, LB 1104e, LB 1108, LB 1118, LB 1143, LB 1167, LB 1188e, 
+LB 1195, LB 1200A, LB 1204A, LB 1214, LB 1215, LB 1270, LB 1284A, LB 1300A, LB 1301A, LB 
+1306A, LB 1313, LB 1317A, LB 1326, LB 1329A, LB 1344, LB 1344A, LB 1355A,  LB 1368A, LB 
+1394, LB 1394A, LB 1402A, LB 1412, LB 1413; and 2024 ballot propositions.  
+ 
+Revised Statutes of Nebraska Annotated   >  Chapter 87 Trade Practices (Arts. 1 — 8)  >  Article 8 Financial 
+Data Protection and Consumer Notification of Data Security Breach Act of 2006 (§§ 87 -801 — 87-808) 
+ 
+§ 87-803. Breach of security; investigation; notice to resident; notice to Attorney 
+General.   
+ 
+(1)  An individual or a commercial entity that conducts business in Nebraska and that owns or 
+licenses computerized data that includes personal information about a resident of Nebraska shall, 
+when it becomes aware of a breach of the security of the system, conduct in good faith a 
+reasonable and prompt investigation to determine the likelihood that personal information h as been 
+or will be used for an unauthorized purpose. If the investigation determines that the use of 
+information about a Nebraska resident for an unauthorized purpose has occurred or is reasonably 
+likely to occur, the individual or commercial entity shall give notice to the affected Nebraska 
+resident. Notice shall be made as soon as possible and without unreasonable delay, consistent with 
+the legitimate needs of law enforcement and consistent with any measures necessary to determine 
+the scope of the breach and to restore the reasonable integrity of the computerized data system.  
+(2)  If notice of a breach of security of the system is required by subsection (1) of this section, the 
+individual or commercial entity shall also, not later than the time when notice  is provided to the 
+Nebraska resident, provide notice of the breach of security of the system to the Attorney General.  
+(3)  An individual or a commercial entity that maintains computerized data that includes personal 
+information that the individual or comm ercial entity does not own or license shall give notice to 
+and cooperate with the owner or licensee of the information of any breach of the security of the Page 2 of 2 
+R.R.S. Neb. § 87 -803 
+   system when it becomes aware of a breach if use of personal information about a Nebraska 
+resident fo r an unauthorized purpose occurred or is reasonably likely to occur. Cooperation 
+includes, but is not limited to, sharing with the owner or licensee information relevant to the 
+breach, not including information proprietary to the individual or commercial e ntity.  
+(4)  Notice required by this section may be delayed if a law enforcement agency determines that 
+the notice will impede a criminal investigation. Notice shall be made in good faith, without 
+unreasonable delay, and as soon as possible after the law en forcement agency determines that 
+notification will no longer impede the investigation.  
+History   
+ 
+Laws 2006, LB 876, §  3; 2016 LB 835, § 28, effective July 21, 2016.  
+ 
+Revised Statutes of Nebraska Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Nebraska\Financial\R.R.S. Neb. § 87-803.pdfLegislation code:Page 1 of 2 
+Page 1 of 2 
+R.R.S. Neb. § 87 -803 
+    
+R.R.S. Neb. § 87 -803 
+ Current currency: Code: Current through Acts of the 2nd Regular Session of the 108th Legislature 
+(2024): LB 1, LB 16, LB 16A, LB 20, LB 20A, LB 43, LB 51, LB 52, LB 52A, LB 61, LB 62, LB 71A, 
+LB 78, LB 83, LB 94, LB 102, LB 102A, LB 126A, LB 126, LB 130, LB 130A, LB 139e, LB 140, LB 
+140A, LB 144, LB 146, LB 147, LB 151, LB 152, LB 164, LB 164A, LB 184, LB 190, LB 196, LB 
+196A, LB 198e, LB 204, LB 204A, LB 247, LB 252, LB 257, LB 262A, LB 279, LB 287A, LB 299e, LB 
+303, LB 304, LB 308, LB 317, LB 358A, LB 39 9, LB 461, LB 484A, LB 569e, LB 600A, LB 605, LB, 
+607, LB 624, LB 628, LB 631A, LB 644, LB 644A, LB 658A, LB 664, LB 686, LB 716, LB 731, LB 
+771e, LB 771Ae, LB 829A, LB 839e, LB 844, LB 847, LB 848, LB 851e, LB 854, LB 857, LB 857A, LB 
+867, LB 867A, LB 870 A, LB 876A, LB 880, LB 894, LB 895, LB 903, LB 904A, LB 905, LB 905A, LB 
+906, LB 908, LB 909e, LB 926, LB 936, LB 937A, LB 938, LB 940, LB 989, LB 992e, LB 992A, LB 
+1004e, LB 1017, LB 1023A, LB 1027, LB 1030, LB 1031A, LB 1035A, LB 1051, LB 1069, LB 1074A,  
+LB 1087, LB 1087A, LB 1088, LB 1102, LB 1104e, LB 1108, LB 1118, LB 1143, LB 1167, LB 1188e, 
+LB 1195, LB 1200A, LB 1204A, LB 1214, LB 1215, LB 1270, LB 1284A, LB 1300A, LB 1301A, LB 
+1306A, LB 1313, LB 1317A, LB 1326, LB 1329A, LB 1344, LB 1344A, LB 1355A,  LB 1368A, LB 
+1394, LB 1394A, LB 1402A, LB 1412, LB 1413; and 2024 ballot propositions.  
+ 
+Revised Statutes of Nebraska Annotated   >  Chapter 87 Trade Practices (Arts. 1 — 8)  >  Article 8 Financial 
+Data Protection and Consumer Notification of Data Security Breach Act of 2006 (§§ 87 -801 — 87-808) 
+ 
+§ 87-803. Breach of security; investigation; notice to resident; notice to Attorney 
+General.   
+ 
+(1)  An individual or a commercial entity that conducts business in Nebraska and that owns or 
+licenses computerized data that includes personal information about a resident of Nebraska shall, 
+when it becomes aware of a breach of the security of the system, conduct in good faith a 
+reasonable and prompt investigation to determine the likelihood that personal information h as been 
+or will be used for an unauthorized purpose. If the investigation determines that the use of 
+information about a Nebraska resident for an unauthorized purpose has occurred or is reasonably 
+likely to occur, the individual or commercial entity shall give notice to the affected Nebraska 
+resident. Notice shall be made as soon as possible and without unreasonable delay, consistent with 
+the legitimate needs of law enforcement and consistent with any measures necessary to determine 
+the scope of the breach and to restore the reasonable integrity of the computerized data system.  
+(2)  If notice of a breach of security of the system is required by subsection (1) of this section, the 
+individual or commercial entity shall also, not later than the time when notice  is provided to the 
+Nebraska resident, provide notice of the breach of security of the system to the Attorney General.  
+(3)  An individual or a commercial entity that maintains computerized data that includes personal 
+information that the individual or comm ercial entity does not own or license shall give notice to 
+and cooperate with the owner or licensee of the information of any breach of the security of the Page 2 of 2 
+R.R.S. Neb. § 87 -803 
+   system when it becomes aware of a breach if use of personal information about a Nebraska 
+resident fo r an unauthorized purpose occurred or is reasonably likely to occur. Cooperation 
+includes, but is not limited to, sharing with the owner or licensee information relevant to the 
+breach, not including information proprietary to the individual or commercial e ntity.  
+(4)  Notice required by this section may be delayed if a law enforcement agency determines that 
+the notice will impede a criminal investigation. Notice shall be made in good faith, without 
+unreasonable delay, and as soon as possible after the law en forcement agency determines that 
+notification will no longer impede the investigation.  
+History   
+ 
+Laws 2006, LB 876, §  3; 2016 LB 835, § 28, effective July 21, 2016.  
+ 
+Revised Statutes of Nebraska Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Nebraska\Financial\R.R.S. Neb. § 87-803.pdfLegislation code:Page 1 of 2 
+Page 1 of 2 
+R.R.S. Neb. § 87 -803 
+    
+R.R.S. Neb. § 87 -803 
+ Current currency: Code: Current through Acts of the 2nd Regular Session of the 108th Legislature 
+(2024): LB 1, LB 16, LB 16A, LB 20, LB 20A, LB 43, LB 51, LB 52, LB 52A, LB 61, LB 62, LB 71A, 
+LB 78, LB 83, LB 94, LB 102, LB 102A, LB 126A, LB 126, LB 130, LB 130A, LB 139e, LB 140, LB 
+140A, LB 144, LB 146, LB 147, LB 151, LB 152, LB 164, LB 164A, LB 184, LB 190, LB 196, LB 
+196A, LB 198e, LB 204, LB 204A, LB 247, LB 252, LB 257, LB 262A, LB 279, LB 287A, LB 299e, LB 
+303, LB 304, LB 308, LB 317, LB 358A, LB 39 9, LB 461, LB 484A, LB 569e, LB 600A, LB 605, LB, 
+607, LB 624, LB 628, LB 631A, LB 644, LB 644A, LB 658A, LB 664, LB 686, LB 716, LB 731, LB 
+771e, LB 771Ae, LB 829A, LB 839e, LB 844, LB 847, LB 848, LB 851e, LB 854, LB 857, LB 857A, LB 
+867, LB 867A, LB 870 A, LB 876A, LB 880, LB 894, LB 895, LB 903, LB 904A, LB 905, LB 905A, LB 
+906, LB 908, LB 909e, LB 926, LB 936, LB 937A, LB 938, LB 940, LB 989, LB 992e, LB 992A, LB 
+1004e, LB 1017, LB 1023A, LB 1027, LB 1030, LB 1031A, LB 1035A, LB 1051, LB 1069, LB 1074A,  
+LB 1087, LB 1087A, LB 1088, LB 1102, LB 1104e, LB 1108, LB 1118, LB 1143, LB 1167, LB 1188e, 
+LB 1195, LB 1200A, LB 1204A, LB 1214, LB 1215, LB 1270, LB 1284A, LB 1300A, LB 1301A, LB 
+1306A, LB 1313, LB 1317A, LB 1326, LB 1329A, LB 1344, LB 1344A, LB 1355A,  LB 1368A, LB 
+1394, LB 1394A, LB 1402A, LB 1412, LB 1413; and 2024 ballot propositions.  
+ 
+Revised Statutes of Nebraska Annotated   >  Chapter 87 Trade Practices (Arts. 1 — 8)  >  Article 8 Financial 
+Data Protection and Consumer Notification of Data Security Breach Act of 2006 (§§ 87 -801 — 87-808) 
+ 
+§ 87-803. Breach of security; investigation; notice to resident; notice to Attorney 
+General.   
+ 
+(1)  An individual or a commercial entity that conducts business in Nebraska and that owns or 
+licenses computerized data that includes personal information about a resident of Nebraska shall, 
+when it becomes aware of a breach of the security of the system, conduct in good faith a 
+reasonable and prompt investigation to determine the likelihood that personal information h as been 
+or will be used for an unauthorized purpose. If the investigation determines that the use of 
+information about a Nebraska resident for an unauthorized purpose has occurred or is reasonably 
+likely to occur, the individual or commercial entity shall give notice to the affected Nebraska 
+resident. Notice shall be made as soon as possible and without unreasonable delay, consistent with 
+the legitimate needs of law enforcement and consistent with any measures necessary to determine 
+the scope of the breach and to restore the reasonable integrity of the computerized data system.  
+(2)  If notice of a breach of security of the system is required by subsection (1) of this section, the 
+individual or commercial entity shall also, not later than the time when notice  is provided to the 
+Nebraska resident, provide notice of the breach of security of the system to the Attorney General.  
+(3)  An individual or a commercial entity that maintains computerized data that includes personal 
+information that the individual or comm ercial entity does not own or license shall give notice to 
+and cooperate with the owner or licensee of the information of any breach of the security of the Page 2 of 2 
+R.R.S. Neb. § 87 -803 
+   system when it becomes aware of a breach if use of personal information about a Nebraska 
+resident fo r an unauthorized purpose occurred or is reasonably likely to occur. Cooperation 
+includes, but is not limited to, sharing with the owner or licensee information relevant to the 
+breach, not including information proprietary to the individual or commercial e ntity.  
+(4)  Notice required by this section may be delayed if a law enforcement agency determines that 
+the notice will impede a criminal investigation. Notice shall be made in good faith, without 
+unreasonable delay, and as soon as possible after the law en forcement agency determines that 
+notification will no longer impede the investigation.  
+History   
+ 
+Laws 2006, LB 876, §  3; 2016 LB 835, § 28, effective July 21, 2016.  
+ 
+Revised Statutes of Nebraska Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+

@@ -1,0 +1,492 @@
+Oklahoma
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Oklahoma\Data Breach Notifcation\_ 163. Disclosure of Security Breach_Notice.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+24 Okl. St. § 163  
+This document is current with emergency effective legislation through Chapter 300 of the Second Regular 
+Session of the 59th Legislature (2024) with exceptions to Chapter 182.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®   >  Title 24. Debtor and Creditor (Chs. 1 — 9)  >  Chapter 8. 
+Credit Services Organiz ation Act (§§ 131 — 166)  >  Security Breach Notification Act (§§ 161 — 166) 
+ 
+§ 163. Disclosure of Security Breach —Notice   
+ 
+A.  An individual or entity that owns or licenses computerized data that includes personal 
+information shall disclose any breach of  the security of the system following discovery or 
+notification of the breach of the security of the system to any resident of this state whose 
+unencrypted and unredacted personal information was or is reasonably believed to have been 
+accessed and acquired  by an unauthorized person and that causes, or the individual or entity 
+reasonably believes has caused or will cause, identity theft or other fraud to any resident of this 
+state. Except as provided in subsection D of this section or in order to take any me asures necessary 
+to determine the scope of the breach and to restore the reasonable integrity of the system, the 
+disclosure shall be made without unreasonable delay.  
+B.  An individual or entity must disclose the breach of the security of the system if encr ypted 
+information is accessed and acquired in an unencrypted form or if the security breach involves a 
+person with access to the encryption key and the individual or entity reasonably believes that such 
+breach has caused or will cause identity theft or oth er fraud to any resident of this state.  
+C.  An individual or entity that maintains computerized data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breac h of the security of the system as soon as practicable following discovery, 
+if the personal information was or if the entity reasonably believes was accessed and acquired by 
+an unauthorized person.  
+D.  Notice required by this section may be delayed if a law enforcement agency determines and 
+advises the individual or entity that the notice will impede a criminal or civil investigation or 
+homeland or national security. Notice required by this section must be made without unreasonable 
+delay after the law enf orcement agency determines that notification will no longer impede the 
+investigation or jeopardize national or homeland security.  
+History   
+ 
+Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®  
+Copyright © 20 24 All rights reserved.  Page 2 of 2 
+§ 163. Disclosure of Security Breach —Notice  
+    
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Oklahoma\Data Breach Notifcation\_ 165. Enforcement_Authority to Bring Action.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+24 Okl. St. § 163  
+This document is current with emergency effective legislation through Chapter 300 of the Second Regular 
+Session of the 59th Legislature (2024) with exceptions to Chapter 182.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®   >  Title 24. Debtor and Creditor (Chs. 1 — 9)  >  Chapter 8. 
+Credit Services Organiz ation Act (§§ 131 — 166)  >  Security Breach Notification Act (§§ 161 — 166) 
+ 
+§ 163. Disclosure of Security Breach —Notice   
+ 
+A.  An individual or entity that owns or licenses computerized data that includes personal 
+information shall disclose any breach of  the security of the system following discovery or 
+notification of the breach of the security of the system to any resident of this state whose 
+unencrypted and unredacted personal information was or is reasonably believed to have been 
+accessed and acquired  by an unauthorized person and that causes, or the individual or entity 
+reasonably believes has caused or will cause, identity theft or other fraud to any resident of this 
+state. Except as provided in subsection D of this section or in order to take any me asures necessary 
+to determine the scope of the breach and to restore the reasonable integrity of the system, the 
+disclosure shall be made without unreasonable delay.  
+B.  An individual or entity must disclose the breach of the security of the system if encr ypted 
+information is accessed and acquired in an unencrypted form or if the security breach involves a 
+person with access to the encryption key and the individual or entity reasonably believes that such 
+breach has caused or will cause identity theft or oth er fraud to any resident of this state.  
+C.  An individual or entity that maintains computerized data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breac h of the security of the system as soon as practicable following discovery, 
+if the personal information was or if the entity reasonably believes was accessed and acquired by 
+an unauthorized person.  
+D.  Notice required by this section may be delayed if a law enforcement agency determines and 
+advises the individual or entity that the notice will impede a criminal or civil investigation or 
+homeland or national security. Notice required by this section must be made without unreasonable 
+delay after the law enf orcement agency determines that notification will no longer impede the 
+investigation or jeopardize national or homeland security.  
+History   
+ 
+Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®  
+Copyright © 20 24 All rights reserved.  Page 2 of 2 
+§ 163. Disclosure of Security Breach —Notice  
+    
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Oklahoma\Data Breach Notifcation\_ 164. Compliance.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+24 Okl. St. § 163  
+This document is current with emergency effective legislation through Chapter 300 of the Second Regular 
+Session of the 59th Legislature (2024) with exceptions to Chapter 182.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®   >  Title 24. Debtor and Creditor (Chs. 1 — 9)  >  Chapter 8. 
+Credit Services Organiz ation Act (§§ 131 — 166)  >  Security Breach Notification Act (§§ 161 — 166) 
+ 
+§ 163. Disclosure of Security Breach —Notice   
+ 
+A.  An individual or entity that owns or licenses computerized data that includes personal 
+information shall disclose any breach of  the security of the system following discovery or 
+notification of the breach of the security of the system to any resident of this state whose 
+unencrypted and unredacted personal information was or is reasonably believed to have been 
+accessed and acquired  by an unauthorized person and that causes, or the individual or entity 
+reasonably believes has caused or will cause, identity theft or other fraud to any resident of this 
+state. Except as provided in subsection D of this section or in order to take any me asures necessary 
+to determine the scope of the breach and to restore the reasonable integrity of the system, the 
+disclosure shall be made without unreasonable delay.  
+B.  An individual or entity must disclose the breach of the security of the system if encr ypted 
+information is accessed and acquired in an unencrypted form or if the security breach involves a 
+person with access to the encryption key and the individual or entity reasonably believes that such 
+breach has caused or will cause identity theft or oth er fraud to any resident of this state.  
+C.  An individual or entity that maintains computerized data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breac h of the security of the system as soon as practicable following discovery, 
+if the personal information was or if the entity reasonably believes was accessed and acquired by 
+an unauthorized person.  
+D.  Notice required by this section may be delayed if a law enforcement agency determines and 
+advises the individual or entity that the notice will impede a criminal or civil investigation or 
+homeland or national security. Notice required by this section must be made without unreasonable 
+delay after the law enf orcement agency determines that notification will no longer impede the 
+investigation or jeopardize national or homeland security.  
+History   
+ 
+Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®  
+Copyright © 20 24 All rights reserved.  Page 2 of 2 
+§ 163. Disclosure of Security Breach —Notice  
+    
+ 
+End of Document  
+Context 4: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Oklahoma\Data Breach Notifcation\_ 166. Application of Act.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+24 Okl. St. § 163  
+This document is current with emergency effective legislation through Chapter 300 of the Second Regular 
+Session of the 59th Legislature (2024) with exceptions to Chapter 182.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®   >  Title 24. Debtor and Creditor (Chs. 1 — 9)  >  Chapter 8. 
+Credit Services Organiz ation Act (§§ 131 — 166)  >  Security Breach Notification Act (§§ 161 — 166) 
+ 
+§ 163. Disclosure of Security Breach —Notice   
+ 
+A.  An individual or entity that owns or licenses computerized data that includes personal 
+information shall disclose any breach of  the security of the system following discovery or 
+notification of the breach of the security of the system to any resident of this state whose 
+unencrypted and unredacted personal information was or is reasonably believed to have been 
+accessed and acquired  by an unauthorized person and that causes, or the individual or entity 
+reasonably believes has caused or will cause, identity theft or other fraud to any resident of this 
+state. Except as provided in subsection D of this section or in order to take any me asures necessary 
+to determine the scope of the breach and to restore the reasonable integrity of the system, the 
+disclosure shall be made without unreasonable delay.  
+B.  An individual or entity must disclose the breach of the security of the system if encr ypted 
+information is accessed and acquired in an unencrypted form or if the security breach involves a 
+person with access to the encryption key and the individual or entity reasonably believes that such 
+breach has caused or will cause identity theft or oth er fraud to any resident of this state.  
+C.  An individual or entity that maintains computerized data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breac h of the security of the system as soon as practicable following discovery, 
+if the personal information was or if the entity reasonably believes was accessed and acquired by 
+an unauthorized person.  
+D.  Notice required by this section may be delayed if a law enforcement agency determines and 
+advises the individual or entity that the notice will impede a criminal or civil investigation or 
+homeland or national security. Notice required by this section must be made without unreasonable 
+delay after the law enf orcement agency determines that notification will no longer impede the 
+investigation or jeopardize national or homeland security.  
+History   
+ 
+Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008.  
+ 
+Oklahoma Statutes, Annotated by LexisNexis®  
+Copyright © 20 24 All rights reserved.  Page 2 of 2 
+§ 163. Disclosure of Security Breach —Notice  
+    
+ 
+End of Document  
+
+Ohio
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Ohio\Data Breach Notification\_ 1349.192.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+ORC Ann. 1349.192  
+Current through File 26 of the 135th General Assembly (2023 -2024).  
+ 
+Page’s Ohio Revised Code Annotated   >  Title 13: Commercial Transactions — Other Commercial Transactions 
+(Chs. 1301 — 1355)   >  Chapter 1349: Consumer Protection (§§ 1349 .01 — 1349.99)   >  Disclosure or 
+Notification of Breach of Security of Personal Information System (§§ 1349.19 — 1349.192)  
+ 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of 
+investigation and action.   
+ 
+(A)   
+(1)  The attorney general shall have the exclusive authority to bring a civil action in a court of 
+common pleas for appropriate relief under this section, including a temporary restraining order, 
+preliminary or permanent injunction, and civil penalties, if it a ppears that a state agency or an 
+agency of a political subdivision has failed or is failing to comply with section 1347.12 of the 
+Revised Code or that a person has failed or is failing to comply with section 1349.19 of the 
+Revised Code. Upon its finding th at a state agency or an agency of a political subdivision has 
+failed to comply with section 1347.12 of the Revised Code or that a person has failed to 
+comply with section 1349.19 of the Revised Code, the court shall impose a civil penalty upon 
+the state ag ency, agency of a political subdivision, or person as follows:  
+(a)  For each day that the state agency, agency of a political subdivision, or person has 
+intentionally or recklessly failed to comply with the applicable section, subject to divisions 
+(A)(1)(b ) and (c) of this section, a civil penalty of up to one thousand dollars for each day 
+the agency or person fails to comply with the section;  
+(b)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to co mply with the applicable section for more than sixty days, subject to 
+division (A)(1)(c) of this section, a civil penalty in the amount specified in division 
+(A)(1)(a) of this section for each day of the first sixty days that the agency or person fails 
+to comply with the section and, for each day commencing with the sixty -first day that the 
+state agency, agency of a political subdivision, or person has failed to comply with the 
+section, a civil penalty of up to five thousand dollars for each such day the ag ency or 
+person fails to comply with the section;  
+(c)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to comply with the applicable section for more than ninety days, a civil 
+penalty in the amount sp ecified in division (A)(1)(a) of this section for each day of the first 
+sixty days that the agency or person fails to comply with the section, a civil penalty of up 
+to five thousand dollars for each day commencing with the sixty -first day and continuing 
+through the ninetieth day that the agency or person fails to comply with the section, and, 
+for each day commencing with the ninety -first day that the state agency, agency of a Page 2 of 2 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of investigation and action.  
+   political subdivision, or person has failed to comply with the section, a civil pe nalty of up 
+to ten thousand dollars for each such day the agency or person fails to comply with the 
+section.  
+(2)  Any civil penalty that is assessed under division (A)(1) of this section shall be deposited 
+into the consumer protection enforcement fund crea ted by section 1345.51 of the Revised 
+Code.  
+(3)  In determining the appropriate civil penalty to assess under division (A)(1) of this section, 
+the court shall consider all relevant factors, including the following:  
+(a)  If the defendant in the civil action is a state agency, an agency of a political 
+subdivision, or a person that is a business entity, whether or not the high managerial 
+officer, agent, or employee of the agency or business entity having supervisory 
+responsi bility for compliance with section 1347.12 or 1349.19 of the Revised Code, 
+whichever is applicable, acted in bad faith in failing to comply with the section.  
+(b)  If the defendant in the civil action is a person other than a business entity, whether or 
+not the person acted in bad faith in failing to comply with section 1349.19 of the Revised 
+Code.  
+(B)  Any state agency or agency of a political subdivision that is found by the court to have failed 
+to comply with section 1347.12 of the Revised Code or any per son that is found by the court to 
+have failed to comply with section 1349.19 of the Revised Code shall be liable to the attorney 
+general for the attorney general’s costs in conducting an investigation under section 1349.191 of 
+the Revised Code and bringing  an action under this section.  
+(C)  The rights and remedies that are provided under this section are in addition to any other rights 
+or remedies that are provided by law.  
+History   
+ 
+151 v H 104, §  1, eff. 2 -17-06. 
+ 
+Page’s Ohio Revised Code Annotated  
+Copyri ght © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Ohio\Data Breach Notification\_ 1349.19 Disclosure or notification of.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+ORC Ann. 1349.192  
+Current through File 26 of the 135th General Assembly (2023 -2024).  
+ 
+Page’s Ohio Revised Code Annotated   >  Title 13: Commercial Transactions — Other Commercial Transactions 
+(Chs. 1301 — 1355)   >  Chapter 1349: Consumer Protection (§§ 1349 .01 — 1349.99)   >  Disclosure or 
+Notification of Breach of Security of Personal Information System (§§ 1349.19 — 1349.192)  
+ 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of 
+investigation and action.   
+ 
+(A)   
+(1)  The attorney general shall have the exclusive authority to bring a civil action in a court of 
+common pleas for appropriate relief under this section, including a temporary restraining order, 
+preliminary or permanent injunction, and civil penalties, if it a ppears that a state agency or an 
+agency of a political subdivision has failed or is failing to comply with section 1347.12 of the 
+Revised Code or that a person has failed or is failing to comply with section 1349.19 of the 
+Revised Code. Upon its finding th at a state agency or an agency of a political subdivision has 
+failed to comply with section 1347.12 of the Revised Code or that a person has failed to 
+comply with section 1349.19 of the Revised Code, the court shall impose a civil penalty upon 
+the state ag ency, agency of a political subdivision, or person as follows:  
+(a)  For each day that the state agency, agency of a political subdivision, or person has 
+intentionally or recklessly failed to comply with the applicable section, subject to divisions 
+(A)(1)(b ) and (c) of this section, a civil penalty of up to one thousand dollars for each day 
+the agency or person fails to comply with the section;  
+(b)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to co mply with the applicable section for more than sixty days, subject to 
+division (A)(1)(c) of this section, a civil penalty in the amount specified in division 
+(A)(1)(a) of this section for each day of the first sixty days that the agency or person fails 
+to comply with the section and, for each day commencing with the sixty -first day that the 
+state agency, agency of a political subdivision, or person has failed to comply with the 
+section, a civil penalty of up to five thousand dollars for each such day the ag ency or 
+person fails to comply with the section;  
+(c)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to comply with the applicable section for more than ninety days, a civil 
+penalty in the amount sp ecified in division (A)(1)(a) of this section for each day of the first 
+sixty days that the agency or person fails to comply with the section, a civil penalty of up 
+to five thousand dollars for each day commencing with the sixty -first day and continuing 
+through the ninetieth day that the agency or person fails to comply with the section, and, 
+for each day commencing with the ninety -first day that the state agency, agency of a Page 2 of 2 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of investigation and action.  
+   political subdivision, or person has failed to comply with the section, a civil pe nalty of up 
+to ten thousand dollars for each such day the agency or person fails to comply with the 
+section.  
+(2)  Any civil penalty that is assessed under division (A)(1) of this section shall be deposited 
+into the consumer protection enforcement fund crea ted by section 1345.51 of the Revised 
+Code.  
+(3)  In determining the appropriate civil penalty to assess under division (A)(1) of this section, 
+the court shall consider all relevant factors, including the following:  
+(a)  If the defendant in the civil action is a state agency, an agency of a political 
+subdivision, or a person that is a business entity, whether or not the high managerial 
+officer, agent, or employee of the agency or business entity having supervisory 
+responsi bility for compliance with section 1347.12 or 1349.19 of the Revised Code, 
+whichever is applicable, acted in bad faith in failing to comply with the section.  
+(b)  If the defendant in the civil action is a person other than a business entity, whether or 
+not the person acted in bad faith in failing to comply with section 1349.19 of the Revised 
+Code.  
+(B)  Any state agency or agency of a political subdivision that is found by the court to have failed 
+to comply with section 1347.12 of the Revised Code or any per son that is found by the court to 
+have failed to comply with section 1349.19 of the Revised Code shall be liable to the attorney 
+general for the attorney general’s costs in conducting an investigation under section 1349.191 of 
+the Revised Code and bringing  an action under this section.  
+(C)  The rights and remedies that are provided under this section are in addition to any other rights 
+or remedies that are provided by law.  
+History   
+ 
+151 v H 104, §  1, eff. 2 -17-06. 
+ 
+Page’s Ohio Revised Code Annotated  
+Copyri ght © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Ohio\Data Breach Notification\_ 1349.19 Disclosure or notification of.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+ORC Ann. 1349.192  
+Current through File 26 of the 135th General Assembly (2023 -2024).  
+ 
+Page’s Ohio Revised Code Annotated   >  Title 13: Commercial Transactions — Other Commercial Transactions 
+(Chs. 1301 — 1355)   >  Chapter 1349: Consumer Protection (§§ 1349 .01 — 1349.99)   >  Disclosure or 
+Notification of Breach of Security of Personal Information System (§§ 1349.19 — 1349.192)  
+ 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of 
+investigation and action.   
+ 
+(A)   
+(1)  The attorney general shall have the exclusive authority to bring a civil action in a court of 
+common pleas for appropriate relief under this section, including a temporary restraining order, 
+preliminary or permanent injunction, and civil penalties, if it a ppears that a state agency or an 
+agency of a political subdivision has failed or is failing to comply with section 1347.12 of the 
+Revised Code or that a person has failed or is failing to comply with section 1349.19 of the 
+Revised Code. Upon its finding th at a state agency or an agency of a political subdivision has 
+failed to comply with section 1347.12 of the Revised Code or that a person has failed to 
+comply with section 1349.19 of the Revised Code, the court shall impose a civil penalty upon 
+the state ag ency, agency of a political subdivision, or person as follows:  
+(a)  For each day that the state agency, agency of a political subdivision, or person has 
+intentionally or recklessly failed to comply with the applicable section, subject to divisions 
+(A)(1)(b ) and (c) of this section, a civil penalty of up to one thousand dollars for each day 
+the agency or person fails to comply with the section;  
+(b)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to co mply with the applicable section for more than sixty days, subject to 
+division (A)(1)(c) of this section, a civil penalty in the amount specified in division 
+(A)(1)(a) of this section for each day of the first sixty days that the agency or person fails 
+to comply with the section and, for each day commencing with the sixty -first day that the 
+state agency, agency of a political subdivision, or person has failed to comply with the 
+section, a civil penalty of up to five thousand dollars for each such day the ag ency or 
+person fails to comply with the section;  
+(c)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to comply with the applicable section for more than ninety days, a civil 
+penalty in the amount sp ecified in division (A)(1)(a) of this section for each day of the first 
+sixty days that the agency or person fails to comply with the section, a civil penalty of up 
+to five thousand dollars for each day commencing with the sixty -first day and continuing 
+through the ninetieth day that the agency or person fails to comply with the section, and, 
+for each day commencing with the ninety -first day that the state agency, agency of a Page 2 of 2 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of investigation and action.  
+   political subdivision, or person has failed to comply with the section, a civil pe nalty of up 
+to ten thousand dollars for each such day the agency or person fails to comply with the 
+section.  
+(2)  Any civil penalty that is assessed under division (A)(1) of this section shall be deposited 
+into the consumer protection enforcement fund crea ted by section 1345.51 of the Revised 
+Code.  
+(3)  In determining the appropriate civil penalty to assess under division (A)(1) of this section, 
+the court shall consider all relevant factors, including the following:  
+(a)  If the defendant in the civil action is a state agency, an agency of a political 
+subdivision, or a person that is a business entity, whether or not the high managerial 
+officer, agent, or employee of the agency or business entity having supervisory 
+responsi bility for compliance with section 1347.12 or 1349.19 of the Revised Code, 
+whichever is applicable, acted in bad faith in failing to comply with the section.  
+(b)  If the defendant in the civil action is a person other than a business entity, whether or 
+not the person acted in bad faith in failing to comply with section 1349.19 of the Revised 
+Code.  
+(B)  Any state agency or agency of a political subdivision that is found by the court to have failed 
+to comply with section 1347.12 of the Revised Code or any per son that is found by the court to 
+have failed to comply with section 1349.19 of the Revised Code shall be liable to the attorney 
+general for the attorney general’s costs in conducting an investigation under section 1349.191 of 
+the Revised Code and bringing  an action under this section.  
+(C)  The rights and remedies that are provided under this section are in addition to any other rights 
+or remedies that are provided by law.  
+History   
+ 
+151 v H 104, §  1, eff. 2 -17-06. 
+ 
+Page’s Ohio Revised Code Annotated  
+Copyri ght © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 4: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Ohio\Data Breach Notification\_ 1349.19 Disclosure or notification of.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+ORC Ann. 1349.192  
+Current through File 26 of the 135th General Assembly (2023 -2024).  
+ 
+Page’s Ohio Revised Code Annotated   >  Title 13: Commercial Transactions — Other Commercial Transactions 
+(Chs. 1301 — 1355)   >  Chapter 1349: Consumer Protection (§§ 1349 .01 — 1349.99)   >  Disclosure or 
+Notification of Breach of Security of Personal Information System (§§ 1349.19 — 1349.192)  
+ 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of 
+investigation and action.   
+ 
+(A)   
+(1)  The attorney general shall have the exclusive authority to bring a civil action in a court of 
+common pleas for appropriate relief under this section, including a temporary restraining order, 
+preliminary or permanent injunction, and civil penalties, if it a ppears that a state agency or an 
+agency of a political subdivision has failed or is failing to comply with section 1347.12 of the 
+Revised Code or that a person has failed or is failing to comply with section 1349.19 of the 
+Revised Code. Upon its finding th at a state agency or an agency of a political subdivision has 
+failed to comply with section 1347.12 of the Revised Code or that a person has failed to 
+comply with section 1349.19 of the Revised Code, the court shall impose a civil penalty upon 
+the state ag ency, agency of a political subdivision, or person as follows:  
+(a)  For each day that the state agency, agency of a political subdivision, or person has 
+intentionally or recklessly failed to comply with the applicable section, subject to divisions 
+(A)(1)(b ) and (c) of this section, a civil penalty of up to one thousand dollars for each day 
+the agency or person fails to comply with the section;  
+(b)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to co mply with the applicable section for more than sixty days, subject to 
+division (A)(1)(c) of this section, a civil penalty in the amount specified in division 
+(A)(1)(a) of this section for each day of the first sixty days that the agency or person fails 
+to comply with the section and, for each day commencing with the sixty -first day that the 
+state agency, agency of a political subdivision, or person has failed to comply with the 
+section, a civil penalty of up to five thousand dollars for each such day the ag ency or 
+person fails to comply with the section;  
+(c)  If the state agency, agency of a political subdivision, or person has intentionally or 
+recklessly failed to comply with the applicable section for more than ninety days, a civil 
+penalty in the amount sp ecified in division (A)(1)(a) of this section for each day of the first 
+sixty days that the agency or person fails to comply with the section, a civil penalty of up 
+to five thousand dollars for each day commencing with the sixty -first day and continuing 
+through the ninetieth day that the agency or person fails to comply with the section, and, 
+for each day commencing with the ninety -first day that the state agency, agency of a Page 2 of 2 
+§ 1349.192 Civil action by attorney general; penalties; liability for costs of investigation and action.  
+   political subdivision, or person has failed to comply with the section, a civil pe nalty of up 
+to ten thousand dollars for each such day the agency or person fails to comply with the 
+section.  
+(2)  Any civil penalty that is assessed under division (A)(1) of this section shall be deposited 
+into the consumer protection enforcement fund crea ted by section 1345.51 of the Revised 
+Code.  
+(3)  In determining the appropriate civil penalty to assess under division (A)(1) of this section, 
+the court shall consider all relevant factors, including the following:  
+(a)  If the defendant in the civil action is a state agency, an agency of a political 
+subdivision, or a person that is a business entity, whether or not the high managerial 
+officer, agent, or employee of the agency or business entity having supervisory 
+responsi bility for compliance with section 1347.12 or 1349.19 of the Revised Code, 
+whichever is applicable, acted in bad faith in failing to comply with the section.  
+(b)  If the defendant in the civil action is a person other than a business entity, whether or 
+not the person acted in bad faith in failing to comply with section 1349.19 of the Revised 
+Code.  
+(B)  Any state agency or agency of a political subdivision that is found by the court to have failed 
+to comply with section 1347.12 of the Revised Code or any per son that is found by the court to 
+have failed to comply with section 1349.19 of the Revised Code shall be liable to the attorney 
+general for the attorney general’s costs in conducting an investigation under section 1349.191 of 
+the Revised Code and bringing  an action under this section.  
+(C)  The rights and remedies that are provided under this section are in addition to any other rights 
+or remedies that are provided by law.  
+History   
+ 
+151 v H 104, §  1, eff. 2 -17-06. 
+ 
+Page’s Ohio Revised Code Annotated  
+Copyri ght © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+

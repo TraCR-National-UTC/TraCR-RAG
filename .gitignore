@@ -1,0 +1,27 @@
+.venv
+venv
+Current Cybersecurity Law - Copy/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build / temp folders
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+
+~$*

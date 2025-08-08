@@ -1,0 +1,12 @@
+,question,rouge1_precision,rouge1_recall,rouge1_fmeasure,rouge2_precision,rouge2_recall,rouge2_fmeasure,rougeL_precision,rougeL_recall,rougeL_fmeasure
+0,Does Delaware require entities to notify the state attorney general or other governmental agency in the event of a data breach?,0.184713376,0.644444444,0.287128713,0.083333333,0.295454545,0.13,0.127388535,0.444444444,0.198019802
+1,How does Connecticut’s Data Breach Notification statute define a breach of security?,0.457627119,0.830769231,0.590163934,0.247863248,0.453125,0.320441989,0.355932203,0.646153846,0.459016393
+2,How does Montana’s Data Breach Notification Statute define personal information?,0.586206897,0.518292683,0.550161812,0.402777778,0.355828221,0.377850163,0.475862069,0.420731707,0.446601942
+3,Under what circumstances must disclosure of a data breach be made in North Dakota?,0.136752137,0.571428571,0.220689655,0.043103448,0.185185185,0.06993007,0.111111111,0.464285714,0.179310345
+4,What are the acceptable methods of notice of a data breach in Tennessee?,0.479674797,0.398648649,0.435424354,0.147540984,0.12244898,0.133828996,0.227642276,0.189189189,0.206642066
+5,What are the maximum penalties for failing to follow the data breach notification statutes in Ohio and Oklahoma?,0.145945946,0.421875,0.21686747,0.054347826,0.158730159,0.08097166,0.102702703,0.296875,0.152610442
+6,What information must be provided in a data breach notification in South Carolina and Wyoming?,0.514851485,0.601156069,0.554666667,0.208955224,0.244186047,0.225201072,0.262376238,0.306358382,0.282666667
+7,Who must receive notice of a data breach in either Texas or Nebraska?,0.540540541,0.294117647,0.380952381,0.109589041,0.059259259,0.076923077,0.337837838,0.183823529,0.238095238
+8,Who must comply with the data breach notification statute in Pennsylvania and Virginia?,0.590551181,0.283018868,0.382653061,0.19047619,0.090909091,0.123076923,0.377952756,0.181132075,0.244897959
+9,"When do you have to provide notice to affected individuals of a data breach in California, Utah, Florida, and Michigan?",0.368852459,0.239361702,0.290322581,0.074380165,0.048128342,0.058441558,0.204918033,0.132978723,0.161290323
+,,0.400571594,0.480311286,0.390903063,0.156236724,0.201325483,0.159666551,0.258372376,0.326597261,0.256915118

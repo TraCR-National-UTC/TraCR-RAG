@@ -1,0 +1,488 @@
+Question: How do most states define critical infrastructure in the context of cybersecurity?
+
+Response:
+Indiana:
+No documents found on this state.
+Kansas:
+No documents found on this state.
+Florida: 
+According to Fla. Stat. § 282.318:
+A "cybersecurity incident" severity level is defined as follows:
+(I) Level 5 is an emergency-level incident within the specified jurisdiction that poses an imminent threat to the provision of wide-scale critical infrastructure services; national, state, or local government security; or the lives of the country’s, state’s, or local government’s residents.
+(II) Level 4 is a severe-level incident that is likely to result in a significant impact in the affected jurisdiction to public health or safety; national, state, or local security; economic security; or civil liberties.
+(III) Level 3 is a high-level incident that is likely to result in a demonstrable impact in the affected jurisdiction to public health or safety; national, state, or local security; economic security; civil liberties; or public confidence.
+(IV) Level 2 is a medium-level incident that may impact public health or safety; national, state, or local security; economic security; civil liberties; or public confidence.
+(V) Level 1 is a low-level incident that is unlikely to impact public health or safety; national, state, or local security; economic security; civil liberties; or public confidence.
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Florida\Information Technology\Fla. Stat. _ 282.318.pdf" target="_blank">Current Cybersecurity Law\Florida\Information Technology\Fla. Stat. _ 282.318.pdf</a>
+Indformation based on insurance documents:
+According to the contexts, most states define critical infrastructure in the context of cybersecurity as “the systems and assets, whether physical or virtual, so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.” 
+
+References:
+1) [file path]
+Louisiana: 
+According to La. R.S. § 39:15.12:  
+“Critical infrastructure sectors” includes the following sectors which the Cybersecurity and Infrastructure Security Agency of the federal Department of Homeland Security has identified as critical:  
+(a)  Chemical.  
+(b)  Commercial facilities.  
+(c)  Communications.  
+(d)  Critical manufacturing.  
+(e)  Dams.  
+(f)  Defense industrial base.  
+(g)  Emergency services.  
+(h)  Energy.  
+(i)  Financial services.  
+(j)  Food and agriculture.  
+(k)  Government facilities.  
+(l)  Healthcare and public health.  
+(m)  Information technology.  
+(n)  Nuclear reactors, materials, and waste.  
+(o)  Transportation systems.  
+(p)  Water and wastewater systems.  
+(q)  Any other sector which the Cybersecurity and Infrastructure Security Agency deems to be critical in the future.  
+
+Reference:  
+1) <a href= "static/Current Cybersecurity Law\Louisiana\Government\La. R.S. _ 39_15.12.pdf" target="_blank">Current Cybersecurity Law\Louisiana\Government\La. R.S. _ 39_15.12.pdf</a>  
+Indformation based on insurance documents:
+According to La. R.S. § 22:2503:
+"Critical infrastructure" is not explicitly defined within the provided contexts. 
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Louisiana\Insurance\La. R.S. _ 22_2503.pdf" target="_blank">Current Cybersecurity Law\Louisiana\Insurance\La. R.S. _ 22_2503.pdf</a>
+North Carolina: 
+According to N.C. Gen. Stat. § 166A-19.78A:
+“critical infrastructure partners” means any entity that manages, oversees, or is otherwise responsible for critical infrastructure, as defined in 42 U.S.C. § 5195c.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\North Carolina\Emergency Management\N.C. Gen. Stat. § 166A-19.78A.pdf" target="_blank">Current Cybersecurity Law\North Carolina\Emergency Management\N.C. Gen. Stat. § 166A-19.78A.pdf</a>
+Indformation based on insurance documents:
+According to Code of Ala. § 8-27-2:
+Most states define critical infrastructure in the context of cybersecurity as the systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+Nebraska: 
+According to R.R.S. Neb. § 81-829.01:
+(2) "Critical infrastructure utility worker means an essential critical infrastructure worker identified in the Guidance on the Essential Critical Infrastructure Workforce, Version 4.1, as released on August 5, 2021, by the United States Department of Homeland Security Cybersecurity and Infrastructure Security Agency;  
+(7) "Utility system means the physical and cyber assets and infrastructure used in providing utility services to wholesale or retail customers. Utility system includes electrical, gas, water, steam, sewage, and telecommunications services."
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Nebraska\Government\R.R.S. Neb. § 81-829.01.pdf" target="_blank">Current Cybersecurity Law\Nebraska\Government\R.R.S. Neb. § 81-829.01.pdf</a>  
+2) <a href= "static/Current Cybersecurity Law\Nebraska\Government\R.R.S. Neb. § 84-712.05.pdf" target="_blank">Current Cybersecurity Law\Nebraska\Government\R.R.S. Neb. § 84-712.05.pdf</a>  
+Indformation based on insurance documents:
+According to Code of Ala. § 8-27-2:
+Most states define critical infrastructure as "systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters."
+
+References:
+1) [file path]
+Utah: 
+According to Utah Code Ann. § 63C-27-101:
+“Critical infrastructure” includes the following sectors the United States Department of Homeland Security identifies as critical:
+(a) chemical;
+(b) commercial facilities;
+(c) communications;
+(d) critical manufacturing;
+(e) dams;
+(f) defense industrial base;
+(g) emergency services;
+(h) energy;
+(i) financial services;
+(j) food and agriculture;
+(k) government facilities;
+(l) healthcare and public health;
+(m) information technology;
+(n) nuclear reactors, nuclear materials, and nuclear waste;
+(o) transportation systems; and
+(p) water and wastewater systems.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Utah\Government\Utah Code Ann. § 63C-27-101.pdf" target="_blank">Current Cybersecurity Law\Utah\Government\Utah Code Ann. § 63C-27-101.pdf</a>
+Indformation based on insurance documents:
+According to Code of Ala. § 8-27-2:
+Most states define critical infrastructure in the context of cybersecurity as including systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+Arizona:
+No documents found on this state.
+Missouri:
+No documents found on this state.
+New Mexico: 
+According to N.M. Stat. Ann. § 9-27-3:  
+B. “cybersecurity” means acts, practices or systems that eliminate or reduce the risk of loss of critical assets, loss of sensitive information or reputational harm as a result of a cyberattack or breach within an organization’s telecommunication network;  
+
+Reference:  
+1) <a href= "static/Current Cybersecurity Law\New Mexico\Information Technology\N.M. Stat. Ann. § 9-27-3.pdf" target="_blank">Current Cybersecurity Law\New Mexico\Information Technology\N.M. Stat. Ann. § 9-27-3.pdf</a>
+Indformation based on insurance documents:
+According to various state legislations, critical infrastructure is often defined as "the assets, systems, and networks, whether physical or virtual, so vital to the United States that the incapacity or destruction of such assets, systems, and networks would have a debilitating impact on security, national economic security, national public health or safety, or any combination of these matters."
+
+Reference:
+1) [file path]
+Delaware:
+No documents found on this state.
+Colorado:
+No documents found on this state.
+South Dakota: 
+According to S.D. Codified Laws § 1 -25-2:
+Executive or closed meetings may be held for the sole purposes of:
+(6)  Discussing information pertaining to the protection of public or private property and any person on or within public or private property specific to:
+(a)  Any vulnerability assessment or response plan intended to prevent or mitigate criminal acts; 
+(b)  Emergency management or response; 
+(c)  Public safety information that would create a substantial likelihood of endangering public safety or property, if disclosed; 
+(d)  Cyber security plans, computer, communications network schema, passwords, or user identification names; 
+(e)  Guard schedules; 
+(f)  Lock combinations; 
+(g)  Any blueprint, building plan, or infrastructure record regarding any building or facility that would expose or create vulnerability through disclosure of the location, configuration, or security of critical systems of the building or facility; and 
+(h)  Any emergency or disaster response plans or protocols, safety or security audits or reviews, or lists of emergency or disaster response personnel or material; any location or listing of weapons or ammunition; nuclear, chemical, or biological agents; or other military or law enforcement equipment or personnel.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\South Dakota\Government\S.D. Codified Laws § 1-25-2.pdf" target="_blank">Current Cybersecurity Law\South Dakota\Government\S.D. Codified Laws § 1-25-2.pdf</a>  
+2) <a href= "static/Current Cybersecurity Law\South Dakota\Government\S.D. Codified Laws § 1-27-1.5.pdf" target="_blank">Current Cybersecurity Law\South Dakota\Government\S.D. Codified Laws § 1-27-1.5.pdf</a>  
+3) <a href= "static/Current Cybersecurity Law\South Dakota\Trade Secrets Act\37-29-1. Definitions.pdf" target="_blank">Current Cybersecurity Law\South Dakota\Trade Secrets Act\37-29-1. Definitions.pdf</a>
+Indformation based on insurance documents:
+According to the context, most states define critical infrastructure in the context of cybersecurity as key elements that support the fundamental operation of the economy and society. These elements are often characterized by their significance in maintaining public safety, security, and health. This includes sectors such as energy, water, transportation, and communications, all of which are essential for the well-being of the community and are vulnerable to cyber threats.
+
+Reference:
+1) [file path]
+Kentucky: 
+According to KRS § 39A.270:  
+The term "critical infrastructure" is defined as “individuals and businesses that are engaged in conduct, business, or an activity that otherwise constitutes a critical infrastructure sector as determined by the United States Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency, or its successor.”
+
+References:  
+1) <a href= "static/Current Cybersecurity Law\Kentucky\Emergency Planning\KRS _ 39A.270.pdf" target="_blank">Current Cybersecurity Law\Kentucky\Emergency Planning\KRS _ 39A.270.pdf</a>  
+
+Indformation based on insurance documents:
+According to KRS § 304.3 -750, there is no explicit definition of "critical infrastructure" in the context of cybersecurity provided in the contexts available. 
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Kentucky\Insurance\KRS _ 304.3-750.pdf" target="_blank">Current Cybersecurity Law\Kentucky\Insurance\KRS _ 304.3-750.pdf</a>
+West Virginia: 
+According to W. Va. Code § 5A -6B-2:  
+“Cybersecurity framework” means computer technology security guidance for organizations to assess and improve their ability to prevent, detect, and respond to cyber incidents.  
+“Cyber incident” means any event that threatens the security, confidentiality, integrity, or availability of information assets, information systems, or the networks that deliver the information.  
+“Cyber risk management service” means technologies, practices and policies that address threats and vulnerabilities in networks, computers, programs and data, flowing from or enabled by connection to digital infrastructure, information systems or industrial control systems, including, but not limited to, information security, supply chain assurance, information assistance and hardware or software assurance.
+
+Reference:  
+1) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-2.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-2.pdf</a>  
+2) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-4.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-4.pdf</a>  
+3) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-3.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-3.pdf</a>  
+4) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6C-3.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6C-3.pdf</a>  
+5) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6C-1.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6C-1.pdf</a>  
+6) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-1.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-1.pdf</a>  
+7) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-5.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6B-5.pdf</a>  
+8) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6C-4.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code § 5A-6C-4.pdf</a>  
+9) <a href= "static/Current Cybersecurity Law\West Virginia\Criminal\W. Va. Code § 61-3C-3.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Criminal\W. Va. Code § 61-3C-3.pdf</a>  
+10) <a href= "static/Current Cybersecurity Law\West Virginia\Government\W. Va. Code Ch. 5A, Art. 6B.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Government\W. Va. Code Ch. 5A, Art. 6B.pdf</a>  
+11) <a href= "static/Current Cybersecurity Law\West Virginia\Education\W. Va. Code § 18-2-5h.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Education\W. Va. Code § 18-2-5h.pdf</a>  
+12) <a href= "static/Current Cybersecurity Law\West Virginia\Education\W. Va. Code § 18-2-5h.pdf" target="_blank">Current Cybersecurity Law\West Virginia\Education\W. Va. Code § 18-2-5h.pdf</a>
+Indformation based on insurance documents:
+According to various state legislation on cybersecurity, most states define critical infrastructure as including, but not limited to, sectors vital to national security, economic security, public health, or safety. This encompasses facilities, assets, or systems that are essential for the functioning of society, including energy, water, transportation, and information technology systems.
+
+Reference:
+1) [file path]
+Alaska:
+No documents found on this state.
+Michigan: 
+According to MCLS § 18.222:
+“Critical infrastructure” means systems and assets, whether physical or virtual, so vital to the United States or this state that the incapacity or destruction of that system or asset would have a debilitating impact on security, economic security, public health or safety, or any combination of these as determined by the department.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Michigan\Government\MCLS _ 18.222.pdf" target="_blank">Current Cybersecurity Law\Michigan\Government\MCLS _ 18.222.pdf</a>
+Indformation based on insurance documents:
+According to the provided contexts, there is no specific definition of "critical infrastructure" in the context of cybersecurity mentioned in any of the documents.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.555.pdf" target="_blank">Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.555.pdf</a>
+2) <a href= "static/Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.553.pdf" target="_blank">Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.553.pdf</a>
+3) <a href= "static/Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.559.pdf" target="_blank">Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.559.pdf</a>
+4) <a href= "static/Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.561.pdf" target="_blank">Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.561.pdf</a>
+5) <a href= "static/Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.557.pdf" target="_blank">Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.557.pdf</a>
+Pennsylvania:
+No documents found on this state.
+Rhode Island: 
+According to R.I. Gen. Laws § 11-49.3-3:
+A “cybersecurity incident” means unauthorized access that could jeopardize the confidentiality, integrity, or availability of critical information systems and critical infrastructure systems (i.e., first responder networks, water, energy).
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Rhode Island\Criminal\R.I. Gen. Laws § 11-49.3-3.pdf" target="_blank">Current Cybersecurity Law\Rhode Island\Criminal\R.I. Gen. Laws § 11-49.3-3.pdf</a>
+Indformation based on insurance documents:
+According to various state legislations, most states define critical infrastructure in the context of cybersecurity as “systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.”
+
+Reference:
+1) [file path]
+Idaho:
+No documents found on this state.
+Connecticut:
+No documents found on this state.
+Oregon: 
+According to ORS § 276A.560:
+(A) One member who represents a critical infrastructure sector in Oregon as defined by the Cybersecurity and Infrastructure Security Agency of the United States Department of Homeland Security;
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Oregon\Information Technology\ORS § 276A.560.pdf" target="_blank">Current Cybersecurity Law\Oregon\Information Technology\ORS § 276A.560.pdf</a>
+Indformation based on insurance documents:
+According to Code of Ala. § 8-27-2:
+Most states define "critical infrastructure" in the context of cybersecurity as systems and assets, whether physical or virtual, that are so vital to the United States that their incapacitation or destruction would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+References:
+1) [file path]
+New York: 
+According to NY CLS Exec § 713, § 714, and § 716, the term “critical infrastructure” has the meaning ascribed to that term in subdivision five of section eighty-six of the public officers law. 
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\New York\Government\NY CLS Exec § 713.pdf" target="_blank">Current Cybersecurity Law\New York\Government\NY CLS Exec § 713.pdf</a>
+2) <a href= "static/Current Cybersecurity Law\New York\Government\NY CLS Exec § 714.pdf" target="_blank">Current Cybersecurity Law\New York\Government\NY CLS Exec § 714.pdf</a>
+3) <a href= "static/Current Cybersecurity Law\New York\Government\NY CLS Exec § 716.pdf" target="_blank">Current Cybersecurity Law\New York\Government\NY CLS Exec § 716.pdf</a>
+Indformation based on insurance documents:
+According to various state legislations, most states define critical infrastructure in the context of cybersecurity as infrastructure that "provides a vital service to the public" and includes "systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters."
+
+References:
+1) [file path]
+Oklahoma: 
+According to 50 Okl. St. § 16:
+"B. For purposes of this section, “critical infrastructure sectors” means any of the critical infrastructure sectors identified by the Cybersecurity and Infrastructure Security Agency (CISA) whose assets, systems and networks, whether physical or virtual, are considered so vital to the United States and the state that the sectors’ incapacitation or destruction would have a debilitating effect on security, economic security, public health or safety or any combination thereof."
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Oklahoma\Tort\50 Okl. St. § 16.pdf" target="_blank">Current Cybersecurity Law\Oklahoma\Tort\50 Okl. St. § 16.pdf</a>
+Indformation based on insurance documents:
+According to the contexts provided, I do not have any information regarding how most states define critical infrastructure in the context of cybersecurity. 
+
+References:
+1) [file path]
+Virginia:
+No documents found on this state.
+Massachusetts: 
+According to ALM GL ch. 93H, § 2:
+The regulations shall be designed to safeguard the personal information of residents of the commonwealth and shall be consistent with the safeguards for protection of personal information set forth in the federal regulations by which the person is regulated. The objectives of the regulations shall be to: 
+(i) insuring the security and confidentiality of customer information in a manner fully consistent with industry standards; 
+(ii) protect against anticipated threats or hazards to the security or integrity of such information; 
+(iii) protect against unauthorized access to or use of such information that may result in substantial harm or inconvenience to any consumer.
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Massachusetts\Business\ALM GL ch. 93H, _ 2.pdf" target="_blank">Current Cybersecurity Law\Massachusetts\Business\ALM GL ch. 93H, _ 2.pdf</a>
+2) <a href= "static/Current Cybersecurity Law\Massachusetts\Business\ALM GL ch. 93H, _ 1.pdf" target="_blank">Current Cybersecurity Law\Massachusetts\Business\ALM GL ch. 93H, _ 1.pdf</a>
+Indformation based on insurance documents:
+According to Code of Ala. § 8-27-2:
+Most states define critical infrastructure in the context of cybersecurity as including "systems and assets, whether physical or virtual, so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters."
+
+Reference:
+1) [file path]
+Iowa: 
+According to Iowa Code § 554G.3:  
+1. A covered entity’s cybersecurity program, as described in section 554G.2, reasonably conforms to an industry-recognized cybersecurity framework for purposes of section 554G.2 if any of the following are true:  
+a.  
+(1) The cybersecurity program reasonably conforms to the current version of any of the following or any combination of the following, subject to subparagraph (2) and subsection 2:  
+(a) The framework for improving critical infrastructure cybersecurity developed by the national institute of standards and technology.  
+(b) National institute of standards and technology special publication 800-171.  
+(c) National institute of standards and technology special publications 800-53 and 800-53a.  
+(d) The federal risk and authorization management program security assessment framework.  
+(e) The center for internet security critical security controls for effective cyber defense.  
+(f) The international organization for standardization/international electrotechnical commission 27000 family — information security management systems.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Iowa\Commerce\Iowa Code _ 554G.3.pdf" target="_blank">Current Cybersecurity Law\Iowa\Commerce\Iowa Code _ 554G.3.pdf</a>
+Indformation based on insurance documents:
+According to Iowa Code § 507F.3:
+The context does not provide a definition of "critical infrastructure" in the context of cybersecurity.
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Iowa\Insurance\Iowa Code _ 507F.3.pdf" target="_blank">Current Cybersecurity Law\Iowa\Insurance\Iowa Code _ 507F.3.pdf</a>
+South Carolina:
+No documents found on this state.
+Alabama:
+No documents found on this state.
+Maine:
+No documents found on this state.
+California: 
+According to the contexts provided, the specific legislation code related to critical infrastructure in the context of cybersecurity was not mentioned. However, it commonly refers to assets, systems, and networks, whether physical or virtual, that are considered vital to the functioning of a society and economy. These definitions can vary by state, but they often align closely with federal definitions and emphasize protection against threats related to cybersecurity.
+
+Reference:
+1) [file path]
+Indformation based on insurance documents:
+According to Code of Maryland § 3-301:
+"Critical infrastructure" means systems and assets, whether physical or virtual, so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+Arkansas:
+No documents found on this state.
+Wyoming:
+No documents found on this state.
+New Jersey: 
+According to N.J. Stat. § App.A:9-43.1:
+The plan shall:
+(3) incorporate a framework to address cybersecurity incidents that shall, at a minimum, serve as a mechanism to facilitate and coordinate preparation for detection, analysis, containment and eradication of, and recovery from, a cybersecurity incident, and to prescribe post-incident activity.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\New Jersey\National Defense\N.J. Stat. § App.A_9-43.1.pdf" target="_blank">Current Cybersecurity Law\New Jersey\National Defense\N.J. Stat. § App.A_9-43.1.pdf</a>
+Indformation based on insurance documents:
+According to various state legislations, critical infrastructure in the context of cybersecurity is often defined as those systems and assets, whether physical or virtual, that are so vital to the United States that their incapacitation or destruction would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+Texas: 
+According to Tex. Bus. & Com. Code § 117.001:
+“Critical infrastructure” means a communication infrastructure system, cybersecurity system, electric grid, hazardous waste treatment system, or water treatment facility.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Texas\Business\Tex. Bus. & Com. Code § 117.001.pdf" target="_blank">Current Cybersecurity Law\Texas\Business\Tex. Bus. & Com. Code § 117.001.pdf</a>
+Indformation based on insurance documents:
+According to the contexts, most states define critical infrastructure in the context of cybersecurity as systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating effect on security, national economic security, national public health or safety, or any combination of these matters.
+
+Reference:
+1) [file path]
+Wisconsin:
+No documents found on this state.
+Mississippi:
+No documents found on this state.
+Washington: 
+According to Rev. Code Wash. (ARCW) § 38.52.040:
+
+(4)(b) The cybersecurity advisory committee shall bring together organizations with expertise and responsibility for cybersecurity and incident response among local government, tribes, state agencies, institutions of higher education, the technology sector, and first responders with the goal of providing recommendations on building and sustaining the state’s capability to identify and mitigate cybersecurity risk and to respond to and recover from cybersecurity-related incidents, including but not limited to ransomware incidents. With respect to critical infrastructure, the cybersecurity advisory committee shall work with relevant federal agencies, state agencies, institutions of higher education as defined in chapter 28B.92 RCW, industry experts, and technical specialists to:
+(i) Identify which local, tribal, and industry infrastructure sectors are at the greatest risk of cyberattacks and need the most enhanced cybersecurity measures;
+(ii) Use federal guidance to analyze categories of critical infrastructure in the state that could reasonably result in catastrophic consequences if unauthorized cyber access to the infrastructure occurred.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Washington\Military\Rev. Code Wash. (ARCW) § 38.52.040.pdf" target="_blank">Current Cybersecurity Law\Washington\Military\Rev. Code Wash. (ARCW) § 38.52.040.pdf</a>
+Indformation based on insurance documents:
+According to the context, most states define critical infrastructure in the context of cybersecurity as:
+
+1. Systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+Minnesota:
+No documents found on this state.
+New Hampshire:
+No documents found on this state.
+Ohio:
+No documents found on this state.
+Nevada: 
+According to Nev. Rev. Stat. Ann. § 480.900:
+The Legislature hereby finds and declares that:
+2. The continued development of technologies relating to information systems and the expanding and diverse applications of those technologies pose significant implications for the functioning of any infrastructure in this State that is critical to the health, safety and welfare of the people of this State, particularly in the areas of transportation, health care, energy, education, law enforcement and commercial enterprises.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Nevada\Public Safety\Nev. Rev. Stat. Ann. § 480.900.pdf" target="_blank">Current Cybersecurity Law\Nevada\Public Safety\Nev. Rev. Stat. Ann. § 480.900.pdf</a>
+Indformation based on insurance documents:
+According to various state legislations regarding cybersecurity, most states define critical infrastructure as systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating effect on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+Maryland: 
+According to Md. State Government Code Ann. § 9-2901:
+The Council shall work with the National Institute of Standards and Technology and other federal agencies, private sector businesses, and private cybersecurity experts to:
+(1) for critical infrastructure not covered by federal law or the Executive Order, review and conduct risk assessments to determine which local infrastructure sectors are at the greatest risk of cyber attacks and need the most enhanced cybersecurity measures;
+(2) use federal guidance to identify categories of critical infrastructure as critical cyber infrastructure if cyber damage or unauthorized cyber access to the infrastructure could reasonably result in catastrophic consequences, including:
+(i) interruption in the provision of energy, water, transportation, emergency services, food, or other life-sustaining services sufficient to cause a mass casualty event or mass evacuations;
+(ii) catastrophic economic damage; or
+(iii) severe degradation of State or national security.
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Maryland\Government\Md. State Government Code Ann. _ 9-2901.pdf" target="_blank">Current Cybersecurity Law\Maryland\Government\Md. State Government Code Ann. _ 9-2901.pdf</a>
+Indformation based on insurance documents:
+According to Code of Ala. § 8-27-2:
+Most states define critical infrastructure in the context of cybersecurity as "essential assets and systems that are vital to the functioning of society and economy, including but not limited to utilities, transportation, communication, and financial sectors."
+
+Reference:
+1) [file path]
+North Dakota: 
+According to N.D. Cent. Code, § 44-04-24:  
+"‘Critical infrastructure’ means public buildings, systems, including telecommunications centers and computers, power generation plants, dams, bridges, and similar key resources, and systems related to utility services, fuel supply, energy, hazardous liquid, natural gas, or coal, whether physical or virtual, so vital to the state that the incapacity or destruction of these systems would have a debilitating impact on security, state economic security, state public health or safety, or any combination of those matters."
+
+References:  
+1) <a href= "static/Current Cybersecurity Law\North Dakota\Government\N.D. Cent. Code, § 44-04-24.pdf" target="_blank">Current Cybersecurity Law\North Dakota\Government\N.D. Cent. Code, § 44-04-24.pdf</a>
+Indformation based on insurance documents:
+According to N.D. Cent. Code, § 26.1 -02.2-03:
+The contexts provided do not contain specific definitions of "critical infrastructure" in the context of cybersecurity. 
+
+References:
+1) <a href= "static/Current Cybersecurity Law\North Dakota\Insurance\N.D. Cent. Code, § 26.1-02.2-03.pdf" target="_blank">Current Cybersecurity Law\North Dakota\Insurance\N.D. Cent. Code, § 26.1-02.2-03.pdf</a>  
+2) <a href= "static/Current Cybersecurity Law\North Dakota\Insurance\N.D. Cent. Code, § 26.1-02.2-05.pdf" target="_blank">Current Cybersecurity Law\North Dakota\Insurance\N.D. Cent. Code, § 26.1-02.2-05.pdf</a>  
+3) <a href= "static/Current Cybersecurity Law\North Dakota\Insurance\N.D. Cent. Code, § 26.1-02.2-04.pdf" target="_blank">Current Cybersecurity Law\North Dakota\Insurance\N.D. Cent. Code, § 26.1-02.2-04.pdf</a>  
+Illinois:
+No documents found on this state.
+Tennessee:
+No documents found on this state.
+Montana: 
+According to 30-14-1704, MCA:
+Most states do not have a shared or universal definition of critical infrastructure in the context of cybersecurity as it specifically relates to the definition provided within individual state laws. For Montana, critical infrastructure may implicitly include sectors associated with significant cybersecurity concerns, but the exact phrase "critical infrastructure" is not directly defined in the available statutes.
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Montana\Identity Theft\30-14-1704 Computer security breach.pdf" target="_blank">Current Cybersecurity Law\Montana\Identity Theft\30-14-1704 Computer security breach.pdf</a>
+Indformation based on insurance documents:
+According to various state legislations, most states define critical infrastructure in the context of cybersecurity as the systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating effect on security, national economic security, national public health or safety, or any combination of those matters.
+
+References:
+1) [file path]
+Georgia: 
+According to O.C.G.A. § 50-18-72:
+The term “critical infrastructure” shall have the same meaning as in 42 U.S.C. Section 5195c(e). 
+
+Reference:
+1) <a href= "static/Current Cybersecurity Law\Georgia\State Government\O.C.G.A. _ 50-18-72.pdf" target="_blank">Current Cybersecurity Law\Georgia\State Government\O.C.G.A. _ 50-18-72.pdf</a>
+Indformation based on insurance documents:
+According to Code of Ala. § 8-27-2:  
+Most states define critical infrastructure in the context of cybersecurity as "systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters."
+
+References:  
+1) [file path]
+Vermont: 
+According to 20 V.S.A. § 4661:  
+“Critical infrastructure” has the same meaning as in 11 V.S.A. § 1701.
+
+Reference:  
+1) <a href= "static/Current Cybersecurity Law\Vermont\Cybersecurity\20 V.S.A. § 4661.pdf" target="_blank">Current Cybersecurity Law\Vermont\Cybersecurity\20 V.S.A. § 4661.pdf</a>  
+Indformation based on insurance documents:
+According to various state legislations, most states define critical infrastructure in the context of cybersecurity as "systems and assets, whether physical or virtual, so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters."
+
+Reference:
+1) [file path]
+Hawaii: 
+According to HRS § 708-890:
+“Critical infrastructure” means publicly or privately owned or operated systems or assets vital to the defense, security, economic security, public health or safety, or any combination thereof, of the State or nation. “Critical infrastructure” includes:  
+(1) Gas and oil production, storage, and delivery systems;  
+(2) Water supply systems;  
+(3) Telecommunications networks;  
+(4) Electrical power delivery systems;  
+(5) Finance and banking systems;  
+(6) Emergency services, such as medical, police, fire, and rescue services;  
+(7) Transportation systems and services, such as highways, mass transit, airlines, and airports; and  
+(8) Government operations that provide essential services to the public.  
+
+References:
+1) <a href= "static/Current Cybersecurity Law\Hawaii\Criminal\HRS _ 708-890.pdf" target="_blank">Current Cybersecurity Law\Hawaii\Criminal\HRS _ 708-890.pdf</a>  
+
+Indformation based on insurance documents:
+According to various state legislation codes, most states define critical infrastructure in the context of cybersecurity as systems and assets that are "vital to the United States' security, economy, public health, or safety" and "which, if destroyed, compromised, or incapacitated, would have a devastating impact." 
+
+References:
+1) [file path]
+
+Most states define critical infrastructure in the context of cybersecurity as “the systems and assets, whether physical or virtual, so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.” 
+
+1) According to the contexts provided, most states define critical infrastructure in the context of cybersecurity as systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+
+2) According to various state legislations, critical infrastructure in the context of cybersecurity is often defined as those systems and assets, whether physical or virtual, that are so vital to the United States that their incapacity or destruction would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+
+3) According to various state legislations, most states define critical infrastructure in the context of cybersecurity as “systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination of those matters.”
+
+Reference:
+1) [file path]
+
+4) According to various state legislations regarding cybersecurity, most states define critical infrastructure as systems and assets, whether physical or virtual, that are so vital to the United States that the incapacity or destruction of such systems and assets would have a debilitating effect on security, national economic security, national public health or safety, or any combination of those matters.
+
+Reference:
+1) [file path]
+
+5) According to various state legislation codes, most states define critical infrastructure in the context of cybersecurity as systems and assets that are "vital to the United States' security, economy, public health, or safety" and "which, if destroyed, compromised, or incapacitated, would have a devastating impact." 
+
+References:
+1) [file path]

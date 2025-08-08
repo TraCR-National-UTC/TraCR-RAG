@@ -1,0 +1,270 @@
+Delaware
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Delaware\Data breach Notification\_ 12B-102. Disclosure of breach ofsecurity; notice.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+6 Del. C. § 12B -102 
+This document is current through 84 Del. Laws, c. 269.  
+ 
+Delaware Code Annotated   >  Title 6 Commerce and Trade (Subts. I — IV)  >  Subtitle II Other Laws Relating to 
+Commerce  and Trade (Chs. 12 — 50E)   >  Chapter 12B Computer Security Breaches (§§ 12B -100 — 12B-104) 
+ 
+§ 12B -102. Disclosure of bre ach of security; notice.   
+ 
+(a)  Any person who conducts business in this State and who owns or licenses computerized data 
+that includes personal information shall provide notice of any breach of security following 
+determination of the breach of security to any resident of this State whos e personal information 
+was breached or is reasonably believed to have been breached, unless, after an appropriate 
+investigation, the person reasonably determines that the breach of security is unlikely to result in 
+harm to the individuals whose personal in formation has been breached.  
+(b)  A person that maintains computerized data that includes personal information that the person 
+does not own or license shall give notice to and cooperate with the owner or licensee of the 
+information of any breach of securi ty immediately following determination of the breach of 
+security. For purposes of this subsection, “cooperation” includes sharing with the owner or 
+licensee information relevant to the breach.  
+(c)  Notice required by subsection (a) of this section must be made without unreasonable delay but 
+not later than 60 days after determination of the breach of security, except in the following 
+situations:  
+(1)  A shorter time is required under federal law.  
+(2)  A law -enforcement agency determines that the notice will impede a criminal investigation 
+and such law -enforcement agency has made a request of the person that the notice be delayed. 
+Any such delayed notice must be made after such law -enforcement agency determines that 
+notice will not compromise the criminal inve stigation and so notifies the person of such 
+determination.  
+(3)  When a person otherwise required by subsection (a) of this section to provide notice, could 
+not, through reasonable diligence, identify within 60 days that the personal information of 
+certain  residents of this State was included in a breach of security, such person must provide 
+the notice required by subsection (a) of this section to such residents as soon as practicable 
+after the determination that the breach of security included the personal  information of such 
+residents, unless such person provides or has provided substitute notice in accordance with § 
+12B-101(5)d. of this title.  
+(d)  If the affected number of Delaware residents to be notified exceeds 500 residents, the person 
+required to p rovide notice shall, not later than the time when notice is provided to the resident, also 
+provide notice of the breach of security to the Attorney General.  Page 2 of 2 
+§ 12B -102. Disclosure of breach ofsecurity; notice.  
+   (e)  If the breach of security includes a Social Security number, the person shall offer to each 
+resident, whose personal information, including Social Security number, was breached or is 
+reasonably believed to have been breached, credit monitoring services at no cost to such resident 
+for a period of 1 year. Such person shall provide all information nec essary for such resident to 
+enroll in such services and shall include information on how such resident can place a credit freeze 
+on such resident’s credit file. Such services are not required if, after an appropriate investigation, 
+the person reasonably de termines that the breach of security is unlikely to result in harm to the 
+individuals whose personal information has been breached.  
+(f)  In the case of a breach of security involving personal information defined in § 12B -101(7)a.5. 
+of this title for login credentials of an email account furnished by the person, the person cannot 
+comply with this section by providing the security breach notification to such email address, but 
+may instead comply with this section by providing notice by another method describe d in § 12B -
+101(5) of this title or by clear and conspicuous notice delivered to the resident online when the 
+resident is connected to the online account from an Internet Protocol address or online location 
+from which the person knows the resident customari ly accesses the account.  
+History   
+ 
+75 Del. Laws, c. 61, §  1; 81 Del. Laws, c. 129, § 1.  
+ 
+Delaware Code Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Delaware\Data breach Notification\_ 12B-102. Disclosure of breach ofsecurity; notice.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+6 Del. C. § 12B -102 
+This document is current through 84 Del. Laws, c. 269.  
+ 
+Delaware Code Annotated   >  Title 6 Commerce and Trade (Subts. I — IV)  >  Subtitle II Other Laws Relating to 
+Commerce  and Trade (Chs. 12 — 50E)   >  Chapter 12B Computer Security Breaches (§§ 12B -100 — 12B-104) 
+ 
+§ 12B -102. Disclosure of bre ach of security; notice.   
+ 
+(a)  Any person who conducts business in this State and who owns or licenses computerized data 
+that includes personal information shall provide notice of any breach of security following 
+determination of the breach of security to any resident of this State whos e personal information 
+was breached or is reasonably believed to have been breached, unless, after an appropriate 
+investigation, the person reasonably determines that the breach of security is unlikely to result in 
+harm to the individuals whose personal in formation has been breached.  
+(b)  A person that maintains computerized data that includes personal information that the person 
+does not own or license shall give notice to and cooperate with the owner or licensee of the 
+information of any breach of securi ty immediately following determination of the breach of 
+security. For purposes of this subsection, “cooperation” includes sharing with the owner or 
+licensee information relevant to the breach.  
+(c)  Notice required by subsection (a) of this section must be made without unreasonable delay but 
+not later than 60 days after determination of the breach of security, except in the following 
+situations:  
+(1)  A shorter time is required under federal law.  
+(2)  A law -enforcement agency determines that the notice will impede a criminal investigation 
+and such law -enforcement agency has made a request of the person that the notice be delayed. 
+Any such delayed notice must be made after such law -enforcement agency determines that 
+notice will not compromise the criminal inve stigation and so notifies the person of such 
+determination.  
+(3)  When a person otherwise required by subsection (a) of this section to provide notice, could 
+not, through reasonable diligence, identify within 60 days that the personal information of 
+certain  residents of this State was included in a breach of security, such person must provide 
+the notice required by subsection (a) of this section to such residents as soon as practicable 
+after the determination that the breach of security included the personal  information of such 
+residents, unless such person provides or has provided substitute notice in accordance with § 
+12B-101(5)d. of this title.  
+(d)  If the affected number of Delaware residents to be notified exceeds 500 residents, the person 
+required to p rovide notice shall, not later than the time when notice is provided to the resident, also 
+provide notice of the breach of security to the Attorney General.  Page 2 of 2 
+§ 12B -102. Disclosure of breach ofsecurity; notice.  
+   (e)  If the breach of security includes a Social Security number, the person shall offer to each 
+resident, whose personal information, including Social Security number, was breached or is 
+reasonably believed to have been breached, credit monitoring services at no cost to such resident 
+for a period of 1 year. Such person shall provide all information nec essary for such resident to 
+enroll in such services and shall include information on how such resident can place a credit freeze 
+on such resident’s credit file. Such services are not required if, after an appropriate investigation, 
+the person reasonably de termines that the breach of security is unlikely to result in harm to the 
+individuals whose personal information has been breached.  
+(f)  In the case of a breach of security involving personal information defined in § 12B -101(7)a.5. 
+of this title for login credentials of an email account furnished by the person, the person cannot 
+comply with this section by providing the security breach notification to such email address, but 
+may instead comply with this section by providing notice by another method describe d in § 12B -
+101(5) of this title or by clear and conspicuous notice delivered to the resident online when the 
+resident is connected to the online account from an Internet Protocol address or online location 
+from which the person knows the resident customari ly accesses the account.  
+History   
+ 
+75 Del. Laws, c. 61, §  1; 81 Del. Laws, c. 129, § 1.  
+ 
+Delaware Code Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Delaware\Insurance\18 Del. C. _ 8606.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+6 Del. C. § 12B -102 
+This document is current through 84 Del. Laws, c. 269.  
+ 
+Delaware Code Annotated   >  Title 6 Commerce and Trade (Subts. I — IV)  >  Subtitle II Other Laws Relating to 
+Commerce  and Trade (Chs. 12 — 50E)   >  Chapter 12B Computer Security Breaches (§§ 12B -100 — 12B-104) 
+ 
+§ 12B -102. Disclosure of bre ach of security; notice.   
+ 
+(a)  Any person who conducts business in this State and who owns or licenses computerized data 
+that includes personal information shall provide notice of any breach of security following 
+determination of the breach of security to any resident of this State whos e personal information 
+was breached or is reasonably believed to have been breached, unless, after an appropriate 
+investigation, the person reasonably determines that the breach of security is unlikely to result in 
+harm to the individuals whose personal in formation has been breached.  
+(b)  A person that maintains computerized data that includes personal information that the person 
+does not own or license shall give notice to and cooperate with the owner or licensee of the 
+information of any breach of securi ty immediately following determination of the breach of 
+security. For purposes of this subsection, “cooperation” includes sharing with the owner or 
+licensee information relevant to the breach.  
+(c)  Notice required by subsection (a) of this section must be made without unreasonable delay but 
+not later than 60 days after determination of the breach of security, except in the following 
+situations:  
+(1)  A shorter time is required under federal law.  
+(2)  A law -enforcement agency determines that the notice will impede a criminal investigation 
+and such law -enforcement agency has made a request of the person that the notice be delayed. 
+Any such delayed notice must be made after such law -enforcement agency determines that 
+notice will not compromise the criminal inve stigation and so notifies the person of such 
+determination.  
+(3)  When a person otherwise required by subsection (a) of this section to provide notice, could 
+not, through reasonable diligence, identify within 60 days that the personal information of 
+certain  residents of this State was included in a breach of security, such person must provide 
+the notice required by subsection (a) of this section to such residents as soon as practicable 
+after the determination that the breach of security included the personal  information of such 
+residents, unless such person provides or has provided substitute notice in accordance with § 
+12B-101(5)d. of this title.  
+(d)  If the affected number of Delaware residents to be notified exceeds 500 residents, the person 
+required to p rovide notice shall, not later than the time when notice is provided to the resident, also 
+provide notice of the breach of security to the Attorney General.  Page 2 of 2 
+§ 12B -102. Disclosure of breach ofsecurity; notice.  
+   (e)  If the breach of security includes a Social Security number, the person shall offer to each 
+resident, whose personal information, including Social Security number, was breached or is 
+reasonably believed to have been breached, credit monitoring services at no cost to such resident 
+for a period of 1 year. Such person shall provide all information nec essary for such resident to 
+enroll in such services and shall include information on how such resident can place a credit freeze 
+on such resident’s credit file. Such services are not required if, after an appropriate investigation, 
+the person reasonably de termines that the breach of security is unlikely to result in harm to the 
+individuals whose personal information has been breached.  
+(f)  In the case of a breach of security involving personal information defined in § 12B -101(7)a.5. 
+of this title for login credentials of an email account furnished by the person, the person cannot 
+comply with this section by providing the security breach notification to such email address, but 
+may instead comply with this section by providing notice by another method describe d in § 12B -
+101(5) of this title or by clear and conspicuous notice delivered to the resident online when the 
+resident is connected to the online account from an Internet Protocol address or online location 
+from which the person knows the resident customari ly accesses the account.  
+History   
+ 
+75 Del. Laws, c. 61, §  1; 81 Del. Laws, c. 129, § 1.  
+ 
+Delaware Code Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 4: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Delaware\Insurance\18 Del. C. _ 8606.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+6 Del. C. § 12B -102 
+This document is current through 84 Del. Laws, c. 269.  
+ 
+Delaware Code Annotated   >  Title 6 Commerce and Trade (Subts. I — IV)  >  Subtitle II Other Laws Relating to 
+Commerce  and Trade (Chs. 12 — 50E)   >  Chapter 12B Computer Security Breaches (§§ 12B -100 — 12B-104) 
+ 
+§ 12B -102. Disclosure of bre ach of security; notice.   
+ 
+(a)  Any person who conducts business in this State and who owns or licenses computerized data 
+that includes personal information shall provide notice of any breach of security following 
+determination of the breach of security to any resident of this State whos e personal information 
+was breached or is reasonably believed to have been breached, unless, after an appropriate 
+investigation, the person reasonably determines that the breach of security is unlikely to result in 
+harm to the individuals whose personal in formation has been breached.  
+(b)  A person that maintains computerized data that includes personal information that the person 
+does not own or license shall give notice to and cooperate with the owner or licensee of the 
+information of any breach of securi ty immediately following determination of the breach of 
+security. For purposes of this subsection, “cooperation” includes sharing with the owner or 
+licensee information relevant to the breach.  
+(c)  Notice required by subsection (a) of this section must be made without unreasonable delay but 
+not later than 60 days after determination of the breach of security, except in the following 
+situations:  
+(1)  A shorter time is required under federal law.  
+(2)  A law -enforcement agency determines that the notice will impede a criminal investigation 
+and such law -enforcement agency has made a request of the person that the notice be delayed. 
+Any such delayed notice must be made after such law -enforcement agency determines that 
+notice will not compromise the criminal inve stigation and so notifies the person of such 
+determination.  
+(3)  When a person otherwise required by subsection (a) of this section to provide notice, could 
+not, through reasonable diligence, identify within 60 days that the personal information of 
+certain  residents of this State was included in a breach of security, such person must provide 
+the notice required by subsection (a) of this section to such residents as soon as practicable 
+after the determination that the breach of security included the personal  information of such 
+residents, unless such person provides or has provided substitute notice in accordance with § 
+12B-101(5)d. of this title.  
+(d)  If the affected number of Delaware residents to be notified exceeds 500 residents, the person 
+required to p rovide notice shall, not later than the time when notice is provided to the resident, also 
+provide notice of the breach of security to the Attorney General.  Page 2 of 2 
+§ 12B -102. Disclosure of breach ofsecurity; notice.  
+   (e)  If the breach of security includes a Social Security number, the person shall offer to each 
+resident, whose personal information, including Social Security number, was breached or is 
+reasonably believed to have been breached, credit monitoring services at no cost to such resident 
+for a period of 1 year. Such person shall provide all information nec essary for such resident to 
+enroll in such services and shall include information on how such resident can place a credit freeze 
+on such resident’s credit file. Such services are not required if, after an appropriate investigation, 
+the person reasonably de termines that the breach of security is unlikely to result in harm to the 
+individuals whose personal information has been breached.  
+(f)  In the case of a breach of security involving personal information defined in § 12B -101(7)a.5. 
+of this title for login credentials of an email account furnished by the person, the person cannot 
+comply with this section by providing the security breach notification to such email address, but 
+may instead comply with this section by providing notice by another method describe d in § 12B -
+101(5) of this title or by clear and conspicuous notice delivered to the resident online when the 
+resident is connected to the online account from an Internet Protocol address or online location 
+from which the person knows the resident customari ly accesses the account.  
+History   
+ 
+75 Del. Laws, c. 61, §  1; 81 Del. Laws, c. 129, § 1.  
+ 
+Delaware Code Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+

@@ -1,0 +1,309 @@
+Wyoming
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Wyoming\Data Breach Notification\Wyo. Stat. -º 40-12-502.pdfLegislation code:Page 1 of 3 
+Page 1 of 3 
+Wyo. Stat. § 40 -12-502 
+    
+Wyo. Stat. § 40 -12-502 
+Current through 2024 Budget Session. Subject to revisions by LSO.  
+ 
+Wyoming Statutes Annotated   >  Title 40 Trade and Commerce (§§ 40 -1-101 — 40-31-110)  >  Chapter 12 
+Consumer Protection (Arts. 1 — 7)  >  Article 5. Credit Freeze Reports (§§ 40 -12-501 — 40-12-509) 
+ 
+§ 40-12-502. Computer security breach; notice to affected persons.   
+ 
+(a)  An individual or commercial entity that conducts business in Wyoming and that owns or 
+licenses computerized data that includes personal identifying information about a resident of 
+Wyoming shall, when it becomes aware of a breach of the security of the  system, conduct in good 
+faith a reasonable and prompt investigation to determine the likelihood that personal identifying 
+information has been or will be misused. If the investigation determines that the misuse of 
+personal identifying information about a Wyoming resident has occurred or is reasonably likely to 
+occur, the individual or the commercial entity shall give notice as soon as possible to the affected 
+Wyoming resident. Notice shall be made in the most expedient time possible and without 
+unreasonabl e delay, consistent with the legitimate needs of law enforcement and consistent with 
+any measures necessary to determine the scope of the breach and to restore the reasonable integrity 
+of the computerized data system.  
+(b)  The notification required by this  section may be delayed if a law enforcement agency 
+determines in writing that the notification may seriously impede a criminal investigation.  
+(c)  Any financial institution as defined in 15 U.S.C. 6809 or federal credit union as defined by 12 
+U.S.C. 1752 that maintains notification procedures subject to the requirements of 15 U.S.C. 
+6801(b)(3) and 12 C.F.R. Part 364 Appendix B or Part 748 Appendix B, is deemed to be in 
+compliance with this section if the financial institution notifies affected Wyoming cust omers in 
+compliance with the requirements of 15 U.S.C. 6801 through 6809 and 12 C.F.R. Part 364 
+Appendix B or Part 748 Appendix B.  
+(d)  For purposes of this section, notice to consumers may be provided by one (1) of the following 
+methods:  
+(i)  Written noti ce; 
+(ii)  Electronic mail notice;  
+(iii)  Substitute notice, if the person demonstrates:  
+(A)  That the cost of providing notice would exceed ten thousand dollars ($10,000.00) for 
+Wyoming -based persons or businesses, and two hundred fifty thousand dollars 
+($250,000.00) for all other businesses operating but not based in Wyoming;  Page 2 of 3 
+Wyo. Stat. § 40 -12-502 
+   (B)  That the affected class of subject persons to be notified exceeds ten thousand (10,000) 
+for Wyoming -based persons or businesses and five hundred thousand (500,000) for all 
+other businesses operating but not based in Wyoming; or  
+(C)  The person does not have sufficient contact information.  
+(iv)  Substitute notice shall consist of all of the following:  
+(A)  Conspicuous posting of the notice on the Internet, the World Wide Web or a  similar 
+proprietary or common carrier electronic system site of the person collecting the data, if the 
+person maintains a public Internet, the World Wide Web or a similar proprietary or 
+common carrier electronic system site; and  
+(B)  Notification to major  statewide media. The notice to media shall include a toll -free 
+phone number where an individual can learn whether or not that individual’s personal data 
+is included in the security breach.  
+(e)  Notice required under subsection (a) of this section shall be  clear and conspicuous and shall 
+include, at a minimum:  
+(i)  A toll -free number:  
+(A)  That the individual may use to contact the person collecting the data, or his agent; and  
+(B)  From which the individual may learn the toll -free contact telephone numbers and 
+addresses for the major credit reporting agencies.  
+(ii)  The types of personal identifying information that were or are reasonably believed to have 
+been the subject of the breach;  
+(iii)  A general description of the breach incident;  
+(iv)  The approxima te date of the breach of security, if that information is reasonably possible 
+to determine at the time notice is provided;  
+(v)  In general terms, the actions taken by the individual or commercial entity to protect the 
+system containing the personal identif ying information from further breaches;  
+(vi)  Advice that directs the person to remain vigilant by reviewing account statements and 
+monitoring credit reports;  
+(vii)  Whether notification was delayed as a result of a law enforcement investigation, if that 
+information is reasonably possible to determine at the time the notice is provided.  
+(f)  The attorney general may bring an action in law or equity to address any violation of this 
+section and for other relief that may be appropriate to ensure proper compli ance with this section, 
+to recover damages, or both. The provisions of this section are not exclusive and do not relieve an 
+individual or a commercial entity subject to this section from compliance with all other applicable 
+provisions of law.  
+(g)  Any pers on who maintains computerized data that includes personal identifying information 
+on behalf of another business entity shall disclose to the business entity for which the information 
+is maintained any breach of the security of the system as soon as practic able following the 
+determination that personal identifying information was, or is reasonably believed to have been, 
+acquired by an unauthorized person. The person who maintains the data on behalf of another Page 3 of 3 
+Wyo. Stat. § 40 -12-502 
+   business entity and the business entity on whose behalf the data is maintained may agree which 
+person or entity will provide any required notice as provided in subsection (a) of this section, 
+provided only a single notice for each breach of the security of the system shall be required. If 
+agreement regar ding notification cannot be reached, the person who has the direct business 
+relationship with the resident of this state shall provide notice subject to the provisions of 
+subsection (a) of this section.  
+(h)  A covered entity or business associate that is s ubject to and complies with the Health 
+Insurance Portability and Accountability Act, and the regulations promulgated under that act, 45 
+C.F.R. Parts 160 and 164, is deemed to be in compliance with this section if the covered entity or 
+business associate no tifies affected Wyoming customers or entities in compliance with the 
+requirements of the Health Insurance Portability and Accountability Act and 45 C.F.R. Parts 160 
+and 164.  
+History    
+Laws 2007, ch. 162, § 1; 2015 ch. 65, § 1, effective July 1, 2015.  
+ 
+Wyo ming Statutes Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Wyoming\Data Breach Notification\Wyo. Stat. -º 40-12-502.pdfLegislation code:Page 1 of 3 
+Page 1 of 3 
+Wyo. Stat. § 40 -12-502 
+    
+Wyo. Stat. § 40 -12-502 
+Current through 2024 Budget Session. Subject to revisions by LSO.  
+ 
+Wyoming Statutes Annotated   >  Title 40 Trade and Commerce (§§ 40 -1-101 — 40-31-110)  >  Chapter 12 
+Consumer Protection (Arts. 1 — 7)  >  Article 5. Credit Freeze Reports (§§ 40 -12-501 — 40-12-509) 
+ 
+§ 40-12-502. Computer security breach; notice to affected persons.   
+ 
+(a)  An individual or commercial entity that conducts business in Wyoming and that owns or 
+licenses computerized data that includes personal identifying information about a resident of 
+Wyoming shall, when it becomes aware of a breach of the security of the  system, conduct in good 
+faith a reasonable and prompt investigation to determine the likelihood that personal identifying 
+information has been or will be misused. If the investigation determines that the misuse of 
+personal identifying information about a Wyoming resident has occurred or is reasonably likely to 
+occur, the individual or the commercial entity shall give notice as soon as possible to the affected 
+Wyoming resident. Notice shall be made in the most expedient time possible and without 
+unreasonabl e delay, consistent with the legitimate needs of law enforcement and consistent with 
+any measures necessary to determine the scope of the breach and to restore the reasonable integrity 
+of the computerized data system.  
+(b)  The notification required by this  section may be delayed if a law enforcement agency 
+determines in writing that the notification may seriously impede a criminal investigation.  
+(c)  Any financial institution as defined in 15 U.S.C. 6809 or federal credit union as defined by 12 
+U.S.C. 1752 that maintains notification procedures subject to the requirements of 15 U.S.C. 
+6801(b)(3) and 12 C.F.R. Part 364 Appendix B or Part 748 Appendix B, is deemed to be in 
+compliance with this section if the financial institution notifies affected Wyoming cust omers in 
+compliance with the requirements of 15 U.S.C. 6801 through 6809 and 12 C.F.R. Part 364 
+Appendix B or Part 748 Appendix B.  
+(d)  For purposes of this section, notice to consumers may be provided by one (1) of the following 
+methods:  
+(i)  Written noti ce; 
+(ii)  Electronic mail notice;  
+(iii)  Substitute notice, if the person demonstrates:  
+(A)  That the cost of providing notice would exceed ten thousand dollars ($10,000.00) for 
+Wyoming -based persons or businesses, and two hundred fifty thousand dollars 
+($250,000.00) for all other businesses operating but not based in Wyoming;  Page 2 of 3 
+Wyo. Stat. § 40 -12-502 
+   (B)  That the affected class of subject persons to be notified exceeds ten thousand (10,000) 
+for Wyoming -based persons or businesses and five hundred thousand (500,000) for all 
+other businesses operating but not based in Wyoming; or  
+(C)  The person does not have sufficient contact information.  
+(iv)  Substitute notice shall consist of all of the following:  
+(A)  Conspicuous posting of the notice on the Internet, the World Wide Web or a  similar 
+proprietary or common carrier electronic system site of the person collecting the data, if the 
+person maintains a public Internet, the World Wide Web or a similar proprietary or 
+common carrier electronic system site; and  
+(B)  Notification to major  statewide media. The notice to media shall include a toll -free 
+phone number where an individual can learn whether or not that individual’s personal data 
+is included in the security breach.  
+(e)  Notice required under subsection (a) of this section shall be  clear and conspicuous and shall 
+include, at a minimum:  
+(i)  A toll -free number:  
+(A)  That the individual may use to contact the person collecting the data, or his agent; and  
+(B)  From which the individual may learn the toll -free contact telephone numbers and 
+addresses for the major credit reporting agencies.  
+(ii)  The types of personal identifying information that were or are reasonably believed to have 
+been the subject of the breach;  
+(iii)  A general description of the breach incident;  
+(iv)  The approxima te date of the breach of security, if that information is reasonably possible 
+to determine at the time notice is provided;  
+(v)  In general terms, the actions taken by the individual or commercial entity to protect the 
+system containing the personal identif ying information from further breaches;  
+(vi)  Advice that directs the person to remain vigilant by reviewing account statements and 
+monitoring credit reports;  
+(vii)  Whether notification was delayed as a result of a law enforcement investigation, if that 
+information is reasonably possible to determine at the time the notice is provided.  
+(f)  The attorney general may bring an action in law or equity to address any violation of this 
+section and for other relief that may be appropriate to ensure proper compli ance with this section, 
+to recover damages, or both. The provisions of this section are not exclusive and do not relieve an 
+individual or a commercial entity subject to this section from compliance with all other applicable 
+provisions of law.  
+(g)  Any pers on who maintains computerized data that includes personal identifying information 
+on behalf of another business entity shall disclose to the business entity for which the information 
+is maintained any breach of the security of the system as soon as practic able following the 
+determination that personal identifying information was, or is reasonably believed to have been, 
+acquired by an unauthorized person. The person who maintains the data on behalf of another Page 3 of 3 
+Wyo. Stat. § 40 -12-502 
+   business entity and the business entity on whose behalf the data is maintained may agree which 
+person or entity will provide any required notice as provided in subsection (a) of this section, 
+provided only a single notice for each breach of the security of the system shall be required. If 
+agreement regar ding notification cannot be reached, the person who has the direct business 
+relationship with the resident of this state shall provide notice subject to the provisions of 
+subsection (a) of this section.  
+(h)  A covered entity or business associate that is s ubject to and complies with the Health 
+Insurance Portability and Accountability Act, and the regulations promulgated under that act, 45 
+C.F.R. Parts 160 and 164, is deemed to be in compliance with this section if the covered entity or 
+business associate no tifies affected Wyoming customers or entities in compliance with the 
+requirements of the Health Insurance Portability and Accountability Act and 45 C.F.R. Parts 160 
+and 164.  
+History    
+Laws 2007, ch. 162, § 1; 2015 ch. 65, § 1, effective July 1, 2015.  
+ 
+Wyo ming Statutes Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Wyoming\Data Breach Notification\Wyo. Stat. -º 40-12-502.pdfLegislation code:Page 1 of 3 
+Page 1 of 3 
+Wyo. Stat. § 40 -12-502 
+    
+Wyo. Stat. § 40 -12-502 
+Current through 2024 Budget Session. Subject to revisions by LSO.  
+ 
+Wyoming Statutes Annotated   >  Title 40 Trade and Commerce (§§ 40 -1-101 — 40-31-110)  >  Chapter 12 
+Consumer Protection (Arts. 1 — 7)  >  Article 5. Credit Freeze Reports (§§ 40 -12-501 — 40-12-509) 
+ 
+§ 40-12-502. Computer security breach; notice to affected persons.   
+ 
+(a)  An individual or commercial entity that conducts business in Wyoming and that owns or 
+licenses computerized data that includes personal identifying information about a resident of 
+Wyoming shall, when it becomes aware of a breach of the security of the  system, conduct in good 
+faith a reasonable and prompt investigation to determine the likelihood that personal identifying 
+information has been or will be misused. If the investigation determines that the misuse of 
+personal identifying information about a Wyoming resident has occurred or is reasonably likely to 
+occur, the individual or the commercial entity shall give notice as soon as possible to the affected 
+Wyoming resident. Notice shall be made in the most expedient time possible and without 
+unreasonabl e delay, consistent with the legitimate needs of law enforcement and consistent with 
+any measures necessary to determine the scope of the breach and to restore the reasonable integrity 
+of the computerized data system.  
+(b)  The notification required by this  section may be delayed if a law enforcement agency 
+determines in writing that the notification may seriously impede a criminal investigation.  
+(c)  Any financial institution as defined in 15 U.S.C. 6809 or federal credit union as defined by 12 
+U.S.C. 1752 that maintains notification procedures subject to the requirements of 15 U.S.C. 
+6801(b)(3) and 12 C.F.R. Part 364 Appendix B or Part 748 Appendix B, is deemed to be in 
+compliance with this section if the financial institution notifies affected Wyoming cust omers in 
+compliance with the requirements of 15 U.S.C. 6801 through 6809 and 12 C.F.R. Part 364 
+Appendix B or Part 748 Appendix B.  
+(d)  For purposes of this section, notice to consumers may be provided by one (1) of the following 
+methods:  
+(i)  Written noti ce; 
+(ii)  Electronic mail notice;  
+(iii)  Substitute notice, if the person demonstrates:  
+(A)  That the cost of providing notice would exceed ten thousand dollars ($10,000.00) for 
+Wyoming -based persons or businesses, and two hundred fifty thousand dollars 
+($250,000.00) for all other businesses operating but not based in Wyoming;  Page 2 of 3 
+Wyo. Stat. § 40 -12-502 
+   (B)  That the affected class of subject persons to be notified exceeds ten thousand (10,000) 
+for Wyoming -based persons or businesses and five hundred thousand (500,000) for all 
+other businesses operating but not based in Wyoming; or  
+(C)  The person does not have sufficient contact information.  
+(iv)  Substitute notice shall consist of all of the following:  
+(A)  Conspicuous posting of the notice on the Internet, the World Wide Web or a  similar 
+proprietary or common carrier electronic system site of the person collecting the data, if the 
+person maintains a public Internet, the World Wide Web or a similar proprietary or 
+common carrier electronic system site; and  
+(B)  Notification to major  statewide media. The notice to media shall include a toll -free 
+phone number where an individual can learn whether or not that individual’s personal data 
+is included in the security breach.  
+(e)  Notice required under subsection (a) of this section shall be  clear and conspicuous and shall 
+include, at a minimum:  
+(i)  A toll -free number:  
+(A)  That the individual may use to contact the person collecting the data, or his agent; and  
+(B)  From which the individual may learn the toll -free contact telephone numbers and 
+addresses for the major credit reporting agencies.  
+(ii)  The types of personal identifying information that were or are reasonably believed to have 
+been the subject of the breach;  
+(iii)  A general description of the breach incident;  
+(iv)  The approxima te date of the breach of security, if that information is reasonably possible 
+to determine at the time notice is provided;  
+(v)  In general terms, the actions taken by the individual or commercial entity to protect the 
+system containing the personal identif ying information from further breaches;  
+(vi)  Advice that directs the person to remain vigilant by reviewing account statements and 
+monitoring credit reports;  
+(vii)  Whether notification was delayed as a result of a law enforcement investigation, if that 
+information is reasonably possible to determine at the time the notice is provided.  
+(f)  The attorney general may bring an action in law or equity to address any violation of this 
+section and for other relief that may be appropriate to ensure proper compli ance with this section, 
+to recover damages, or both. The provisions of this section are not exclusive and do not relieve an 
+individual or a commercial entity subject to this section from compliance with all other applicable 
+provisions of law.  
+(g)  Any pers on who maintains computerized data that includes personal identifying information 
+on behalf of another business entity shall disclose to the business entity for which the information 
+is maintained any breach of the security of the system as soon as practic able following the 
+determination that personal identifying information was, or is reasonably believed to have been, 
+acquired by an unauthorized person. The person who maintains the data on behalf of another Page 3 of 3 
+Wyo. Stat. § 40 -12-502 
+   business entity and the business entity on whose behalf the data is maintained may agree which 
+person or entity will provide any required notice as provided in subsection (a) of this section, 
+provided only a single notice for each breach of the security of the system shall be required. If 
+agreement regar ding notification cannot be reached, the person who has the direct business 
+relationship with the resident of this state shall provide notice subject to the provisions of 
+subsection (a) of this section.  
+(h)  A covered entity or business associate that is s ubject to and complies with the Health 
+Insurance Portability and Accountability Act, and the regulations promulgated under that act, 45 
+C.F.R. Parts 160 and 164, is deemed to be in compliance with this section if the covered entity or 
+business associate no tifies affected Wyoming customers or entities in compliance with the 
+requirements of the Health Insurance Portability and Accountability Act and 45 C.F.R. Parts 160 
+and 164.  
+History    
+Laws 2007, ch. 162, § 1; 2015 ch. 65, § 1, effective July 1, 2015.  
+ 
+Wyo ming Statutes Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+
+South Carolina

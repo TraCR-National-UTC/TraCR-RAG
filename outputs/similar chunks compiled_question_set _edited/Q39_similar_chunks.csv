@@ -1,0 +1,1051 @@
+,question,chunks
+0,"Are there any gaps in the regulations concerning employee training and awareness programs, leaving organizations vulnerable to insider threats?","Page 2 of 5 
+ORC Ann. 3965.02  
+   consideration of such threats in each relevant area of the licensee’s operations, including all of 
+the following:  
+(a)  Employee training and management;  
+(b)  Information systems, including network and software design, as well as information 
+classification, g overnance, processing, storage, transmission, and disposal;  
+(c)  Detecting, preventing, and responding to attacks, intrusions, or other systems failures.  
+(5)  Implement information safeguards to manage the threats identified in its ongoing 
+assessment;  
+(6)  Not less than annually, assess the effectiveness of the safeguards’ key controls, systems, 
+and procedures.  
+(D)  Based on its risk assessment, the licensee shall do all of the following:  
+(1)  Design its information security program to mitigate the identifi ed risks in a way that is 
+commensurate with the size and complexity of the licensee, the nature and scope of the 
+licensee’s activities including its use of third -party service providers, and the sensitivity of the 
+nonpublic information used by the licensee  or in the licensee’s possession, custody, or control;  
+(2)  Determine which of the following security measures are appropriate and implement such 
+security measures:  
+(a)  Place access controls on information systems, including controls to authenticate and 
+permit access only to authorized individuals, to protect against the unauthorized acquisition 
+of nonpublic information;  
+(b)  Identify and manage the data, personnel, devices, systems, and facilities that enable the 
+organization to achieve business purposes in accordance with their relative importance to 
+business objectives and the organization’s risk strategy;  
+(c)  Restrict access at physical locations containing nonpublic information to authorized 
+individuals;  
+(d)  Protect by encryption or other appropriate  means all nonpublic information while such 
+information is being transmitted over an external network and all nonpublic information 
+stored on a laptop computer or other portable computing or storage device or media;  
+(e)  Adopt secure development practices for in -house developed applications utilized by the 
+licensee and procedures for evaluating, assessing, or testing the security of externally 
+developed applications utilized by the licensee;  
+(f)  Modify the information system in accordance with the licensee ’s information security 
+program;  
+(g)  Utilize effective controls, which may include multifactor authentication procedures for 
+accessing nonpublic information;  
+(h)  Regularly test and monitor systems and procedures to detect actual and attempted 
+attacks on,  or intrusions into, information systems;"
+1,,"Page 4 of 5 
+ORC Ann. 3965.02  
+   (3)  Internal or external threats to information;  
+(4)  The licensee’s own changing business arrangements, such as mergers and acquisitions, 
+alliances and joint ventures, outsourcing arrangements, and changes to information systems.  
+(H)   
+(1)  As part of its information security program, each licensee shall establish a written incident 
+response plan designed to promptly respond to, and recover from, any cybersecurity event that 
+compromises the confidentiality, integrity, or availability of nonpublic information in its 
+possession, the licensee’s information systems, or the continuing functionality of any aspect of 
+the licensee’s business or opera tions.  
+(2)  The incident response plan described in division (H) (1) of this section shall address all of 
+the following areas:  
+(a)  The internal process for responding to a cybersecurity event;  
+(b)  The goals of the incident response plan;  
+(c)  The definit ion of clear roles, responsibilities, and levels of decision -making authority;  
+(d)  External and internal communications and information sharing;  
+(e)  Identification of requirements for the remediation of any identified weaknesses in 
+information systems an d associated controls;  
+(f)  Documentation and reporting regarding cybersecurity events and related incident 
+response activities;  
+(g)  The evaluation and revision as necessary of the incident response plan following a 
+cybersecurity event.  
+(I)   
+(1)  By the fifteenth day of February of each year, unless otherwise permitted to file on the first 
+day of June in division (I)(2) of this section, each insurer domiciled in this state shall submit to 
+the superintendent of insurance a written statement certifying that  the insurer is in compliance 
+with the requirements set forth in this section. Each insurer shall maintain for examination by 
+the department of insurance all records, schedules, and data supporting this certificate for a 
+period of five years. To the extent  an insurer has identified areas, systems, or processes that 
+require material improvement, updating, or redesign, the insurer shall document the 
+identification and the remedial efforts planned and underway to address such areas, systems, or 
+processes. Such  documentation must be available for inspection by the superintendent.  
+(2)  Notwithstanding division (I)(1) of this section, an insurer domiciled in this state and 
+licensed exclusively to conduct business in this state and no other state shall be permitted  to 
+submit to the superintendent of insurance a written statement certifying that the insurer is in 
+compliance with the requirements set forth in this section as part of the insurer’s corporate 
+governance annual disclosure required by section 3901.073 of t he Revised Code.  
+(J)  A licensee that meets the requirements of this chapter shall be deemed to have implemented a 
+cybersecurity program that reasonably conforms to an industry -recognized cybersecurity 
+framework for the purposes of Chapter 1354. of the Rev ised Code."
+2,,"Page 3 of 5 
+ORC Ann. 3965.02  
+   (i)  Include audit trails within the information security program designed to detect and 
+respond to cybersecurity events and designed to reconstruct material financial transactions 
+sufficient to support normal oper ations and obligations of the licensee;  
+(j)  Implement measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, such as fire and water damage or other 
+catastrophes or technological failures;  
+(k)  Devel op, implement, and maintain procedures for the secure disposal of nonpublic 
+information in any format.  
+(3)  Include cybersecurity risks in the licensee’s enterprise risk management process;  
+(4)  Stay informed regarding emerging threats or vulnerabilities a nd utilize reasonable security 
+measures when sharing information relative to the character of the sharing and the type of 
+information shared;  
+(5)  Provide its personnel with cybersecurity awareness training that is updated as necessary to 
+reflect risks ide ntified by the licensee in the risk assessment.  
+(E)  If the licensee has a board of directors, the board or an appropriate committee of the board 
+shall, at a minimum, do all of the following:  
+(1)  Require the licensee’s executive management or its delegate s to develop, implement, and 
+maintain the licensee’s information security program;  
+(2)  Require the licensee’s executive management or its delegates to report in writing at least 
+annually, all of the following information:  
+(a)  The overall status of the information security program and the licensee’s compliance 
+with this chapter;  
+(b)  Material matters related to the information security program, addressing issues such as 
+risk assessment, risk management and control decisions, third -party service provider 
+arrangements, results of testing, cybersecurity events or violations and management’s 
+responses thereto, and recommendations for changes in the information security program.  
+(3)  If executive management delegates any of its responsibilities under this sect ion, it shall 
+oversee the development, implementation, and maintenance of the licensee’s information 
+security program prepared by the delegates and shall require the delegates to submit a report 
+that complies with the requirements of division (E)(2) of thi s section.  
+(F)   
+(1)  A licensee shall exercise due diligence in selecting its third -party service provider.  
+(2)  A licensee shall require a third -party service provider to implement appropriate 
+administrative, technical, and physical measures to protect a nd secure the information systems 
+and nonpublic information that are accessible to, or held by, the third -party service provider.  
+(G)  The licensee shall monitor, evaluate, and adjust, as appropriate, the information security 
+program consistent with all of  the following:  
+(1)  Any relevant changes in technology;  
+(2)  The sensitivity of its nonpublic information;"
+3,,"Page 2 of 2 
+HRS § 431:3B -203 
+   (H)  Regularly test and monitor systems and procedures to detect actual and attempte d 
+attacks on, or intrusions into, information systems;  
+(I)  Include audit trails within the information security program designed to detect and 
+respond to cybersecurity events and reconstruct material financial transactions sufficient to 
+support normal ope rations and obligations of the licensee;  
+(J)  Implement measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, such as fire and water damage or other 
+catastrophes or technological failures; and  
+(K)  Develop, implement, and maintain procedures for the secure disposal of nonpublic 
+information in any format;  
+(3)  Include cybersecurity risks in the licensee’s enterprise risk management process;  
+(4)  Stay informed regarding emerging threats or vulnerabilit ies and use reasonable security 
+measures when sharing information relative to the character of the sharing and the type of 
+information shared; and  
+(5)  Provide its personnel with cybersecurity awareness training that is updated as necessary to 
+reflect risk s identified by the licensee in the risk assessment.  
+History   
+ 
+L 2021, c 112, § 2, effective July 1, 2021.  
+ 
+Michie's™ Hawaii Revised Statutes Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document"
+4,,"Page 3 of 4 
+Wis. Stat. § 601.952  
+   (e)  No less than annually, assess the effectiveness of security safeguards, including key 
+controls, systems, and procedures.  
+(f)  Include cybersecurity risks in the licensee’s enterprise risk management process.  
+(g)  Utilize reasonable security measures when sharing information, taking into consideration 
+the character of the sharing and the type of information shared.  
+(h)  Provide personnel with cybersecurity awareness training that is updated as necessary.  
+(4) Progr am adjustments.   The licensee shall monitor, evaluate, and adjust the information 
+security program under sub. (1) consistent with changes in technology, the sensitivity of the 
+nonpublic information, internal and external threats to nonpublic information, and changes to the 
+licensee’s business operations, outsourcing arrangements, and information systems. If a licensee 
+identifies areas, systems, or processes that require material improvement, updating, or redesign, 
+the licensee shall document the identifica tion and remedial efforts to address the areas, systems, or 
+processes. The licensee shall maintain the documentation for a period of at least 5 years starting 
+from the date the documentation was created and shall produce the documentation upon demand of 
+the commissioner.  
+(5) Incident response plan.   As part of its information security program, a licensee shall develop 
+an incident response plan to promptly respond to, and recover from, a cybersecurity event that 
+compromises the confidentiality, integrity, o r availability of nonpublic information, the licensee’s 
+information systems, or the continuing functionality of any aspect of the licensee’s business or 
+operations. The incident response plan shall be in writing and address all of the following:  
+(a)  The g oals of the incident response plan.  
+(b)  The internal process for responding to a cybersecurity event.  
+(c)  The identification of clear roles, responsibilities, and levels of decision -making authority 
+during and immediately following a cybersecurity event.  
+(d)  The external and internal communications and information sharing during and 
+immediately following a cybersecurity event.  
+(e)  Requirements for the remediation of identified weaknesses in the information systems and 
+associated controls.  
+(f)  The repor ting and documentation of a cybersecurity event and related incident response 
+activities.  
+(g)  The evaluation and revision of the incident response plan following a cybersecurity event.  
+(6) Oversight of 3rd -party service provider arrangements.   If applica ble, no later than 2 years 
+after the effective date of this subsection.... [LRB inserts date], a licensee shall exercise due 
+diligence when selecting any 3rd -party service provider. The licensee shall make reasonable 
+efforts to require a 3rd -party service provider to do all of the following:  
+(a)  Implement appropriate administrative, technical, and physical measures to protect and 
+secure the information systems and nonpublic information that are accessible to or held by the 
+3rd-party service provider.  
+(b)  Report a cybersecurity event under s. 601.954."
+5,,"Page 2 of 4 
+MCLS § 500.555  
+ Trayce Hockstad   (d)  Assess the sufficiency of policies, procedures, information systems, and other safeguards 
+in place to manage these threats, including consideration of threats in each relevant area of the 
+licensee’s operations, including all of the following:  
+(i)  Employee training and management.  
+(ii)  Information systems, including network and software design, as well as information 
+classification, governance, processing, storage, transmission, and disposal.  
+(iii)  Detecting, preventing, and responding to attacks, intrusions, or other systems failures.  
+(e)  Implement information safeguards to manage the threats identified in its ongoing 
+assessment, and, no less than annually, assess the effectiveness of the s afeguards’ key controls, 
+systems, and procedures.  
+(4)  Based on its risk assessment, a licensee shall do all of the following:  
+(a)  Design its information security program to mitigate the identified risks, commensurate 
+with the size and complexity of the l icensee, the nature and scope of the licensee’s activities, 
+including its use of third -party service providers, and the sensitivity of the nonpublic 
+information used by the licensee or in the licensee’s possession, custody, or control.  
+(b)  Determine which  of the following security measures are appropriate and implement those 
+appropriate security measures:  
+(i)  Placing access controls on information systems, including controls to authenticate and 
+permit access only to authorized individuals to protect again st the unauthorized acquisition 
+of nonpublic information.  
+(ii)  Identifying and managing the data, personnel, devices, systems, and facilities that 
+enable the organization to achieve business purposes in accordance with their relative 
+importance to business objectives and the organization’s risk strategy.  
+(iii)  Restricting physical access to nonpublic information to authorized individuals only.  
+(iv)  Protecting by encryption or other appropriate means all nonpublic information while 
+being transmitte d over an external network and all nonpublic information stored on a 
+laptop computer or other portable computing or storage device or media.  
+(v)  Adopting secure development practices for in -house developed applications utilized by 
+the licensee.  
+(vi)  Addi ng procedures for evaluating, assessing, or testing the security of externally 
+developed applications used by the licensee.  
+(vii)  Modifying the information system in accordance with the licensee’s information 
+security program.  
+(viii)  Using effective cont rols, which may include multi -factor authentication procedures 
+for employees accessing nonpublic information.  
+(ix)  Regularly testing and monitoring systems and procedures to detect actual and 
+attempted attacks on, or intrusions into, information systems."
+6,,"Page 3 of 4 
+MCLS § 500.555  
+ Trayce Hockstad   (x)  Including audit trails within the information security program designed to detect and 
+respond to cybersecurity events and designed to reconstruct material financial transactions 
+sufficient to support normal operations and obligations of the licensee.  
+(xi)  Implementing measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, such as fire and water damage or other 
+catastrophes or technological failures.  
+(xii)  Developing, implementing, and maintaini ng procedures for the secure disposal of 
+nonpublic information in any format.  
+(c)  Include cybersecurity risks in the licensee’s enterprise risk management process.  
+(d)  Stay informed regarding emerging threats or vulnerabilities and utilize reasonable security 
+measures when sharing information relative to the character of the sharing and the type of 
+information shared.  
+(e)  Provide its personnel with cybersecurity awareness training that is updated as necessary to 
+reflect risks identified by the license e in the risk assessment.  
+(5)  If a licensee has a board of directors, the board or an appropriate committee of the board shall, 
+at a minimum, do all of the following:  
+(a)  Require the licensee’s executive management or its delegates to develop, implement,  and 
+maintain the licensee’s information security program.  
+(b)  Require the licensee’s executive management or its delegates to report in writing, at least 
+annually, all of the following information:  
+(i)  The overall status of the information security prog ram and the licensee’s compliance 
+with this chapter.  
+(ii)  Material matters related to the information security program, addressing issues such as 
+risk assessment, risk management and control decisions, results of testing, cybersecurity 
+events or violation s, and management’s responses to the material matters described in this 
+subparagraph, and recommendations for changes in the information security program.  
+(iii)  If executive management delegates any of its responsibilities under this section, it 
+shall ove rsee the development, implementation, and maintenance of the licensee’s 
+information security program prepared by a delegate and shall receive a report from the 
+delegate complying with the requirements of the report to the board of directors.  
+(6)  A license e shall exercise due diligence in selecting its third -party service provider. A licensee 
+shall require a third -party service provider to implement appropriate administrative, technical, and 
+physical measures to protect and secure the information systems an d nonpublic information that 
+are accessible to, or held by, the third -party service provider.  
+(7)  A licensee shall monitor, evaluate, and adjust, as appropriate, the information security 
+program consistent with any relevant changes in technology, the sens itivity of its nonpublic 
+information, internal or external threats to information, and the licensee’s own changing business 
+arrangements, such as mergers and acquisitions, alliances and joint ventures, outsourcing 
+arrangements, and changes to information s ystems."
+7,,"Page 2 of 4 
+RSA 420 -P:4 
+   (1)  Employe e training and management;  
+(2)  Information systems, including network and software design, as well as information 
+classification, governance, processing, storage, transmission, and disposal; and  
+(3)  Detecting, preventing, and responding to attacks, intru sions, or other systems failures.  
+(e)  Implement information safeguards to manage the threats identified in its ongoing 
+assessment, and no less than annually, assess the effectiveness of the safeguards’ key controls, 
+systems, and procedures.  
+IV.  Based on its risk assessment and to manage its risk, the licensee shall:  
+(a)  Design its program to mitigate the identified risks, commensurate with the size and 
+complexity of the licensee, the nature and scope of the licensee’s activities, including its use of 
+third-party service providers, and the sensitivity of the nonpublic information used by the 
+licensee or in the licensee’s possession, custody, or control.  
+(b)  Determine which security measures listed below are appropriate and implement such 
+security measures : 
+(1)  Place access controls on information systems, including controls to authenticate and 
+permit access only to authorized individuals to protect against the unauthorized acquisition 
+of nonpublic information.  
+(2)  Identify and manage the data, personnel,  devices, systems, and facilities that enable the 
+organization to achieve business purposes in accordance with their relative importance to 
+business objectives and the organization’s risk strategy.  
+(3)  Restrict physical access to nonpublic information to authorized individuals only.  
+(4)  Protect by encryption or other appropriate means, all nonpublic information while 
+being transmitted over an external network and all nonpublic information stored on a 
+laptop computer or other portable computing or storage device or media.  
+(5)  Adopt secure development practices for in -house developed applications utilized by 
+the licensee.  
+(6)  Modify the information system in accordance with the licensee’s information security 
+program.  
+(7)  Utilize effective controls, which  may include multi -factor authentication procedures 
+for any individual accessing nonpublic information.  
+(8)  Regularly test and monitor systems and procedures to detect actual and attempted 
+attacks on, or intrusions into, information systems.  
+(9)  Include audit trails within the information security program designed to detect and 
+respond to cybersecurity events and designed to reconstruct material financial transactions 
+sufficient to support normal operations and obligations of the licensee.  
+(10)  Implement  measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, such as fire and water damage or other 
+catastrophes or technological failures."
+8,,"Page 2 of 5 
+Tenn. Code Ann. § 56 -2-1004 
+   (B)  Identify reas onably foreseeable internal or external threats that could result in 
+unauthorized access, transmission, disclosure, misuse, alteration, or destruction of 
+nonpublic information, including threats to the security of information systems and 
+nonpublic informat ion accessible to or held by third -party service providers;  
+(C)  Assess the likelihood and potential damage of reasonably foreseeable internal or 
+external threats, taking into consideration the sensitivity of the nonpublic information 
+involved;  
+(D)  Assess  the sufficiency of policies, procedures, information systems, and other 
+safeguards in place to manage threats throughout the licensee's operations, including in:  
+(i)  Employee training and management;  
+(ii)  Information systems, including network and softw are design, as well as 
+information classification, governance, processing, storage, transmission, and disposal; 
+and 
+(iii)  Detection, prevention, and response to attacks, intrusions, or other information 
+systems failures; and  
+(E)  Implement information saf eguards to manage the threats identified in the licensee's 
+risk assessment and, no less than annually, assess the effectiveness of the safeguards' key 
+controls, systems, and procedures;  
+(4)  Based on a licensee's risk assessment, the licensee shall:  
+(A)  Design an information security program to mitigate the identified risks, commensurate 
+with the size and complexity of the licensee and the nature and scope of its activities, 
+including its use of third -party service providers, and the sensitivity of the non public 
+information used by or in the possession, custody, or control of the licensee;  
+(B)  Determine which of the following security measures are appropriate for the licensee 
+and implement those security measures:  
+(i)  Place access controls on information systems, including controls to authenticate and 
+restrict access to authorized individuals to protect against the unauthorized acquisition 
+of nonpublic information;  
+(ii)  Identify and manage the data, personnel, devices, systems, and facilities that enable 
+the licensee to achieve the licensee's business objectives in accordance with the relative 
+importance of the data, personnel, devices, systems, and facilities to the licensee's 
+business objectives and risk strategy;  
+(iii)  Restrict physical access to nonpu blic information to authorized individuals;  
+(iv)  Protect by encryption or other appropriate means nonpublic information being 
+transmitted over an external network and nonpublic information stored on a laptop 
+computer or other portable computing or storage  device or media;  
+(v)  Adopt secure development practices for internally developed applications utilized 
+by the licensee and procedures for evaluating, assessing, or testing the security of 
+externally developed applications utilized by the licensee;"
+9,,"Page 3 of 4 
+KRS § 292.336  
+ Trayce Hockstad   iii.  Other disruptions or cessations of business activities;  
+c.  Office relocation in the event of temporary or permanent loss of a principal place of 
+business; and  
+d.  Assignment of duties to qualified responsible persons in the event of the death or 
+unavailability of key personnel; and  
+3.  Otherwise minimize service di sruptions and client harm that could result from a sudden 
+significant business interruption.  
+(c)  The investment adviser shall, at least annually, review the plan, and the review shall be 
+documented and maintained for three (3) years.  
+(6)   
+(a)  Every investment adviser that is registered or required to be registered shall establish and 
+implement written physical security and cybersecurity policies and procedures designed to 
+ensure the confidentiality, integrity, and availability of physical and e lectronic records and 
+information.  
+(b)  The policies and procedures shall:  
+1.  Be tailored to the investment adviser’s business model, taking into account the size of 
+the firm, types of services provided, and the number of locations;  
+2.  At a minimum:  
+a.  Protect against reasonably anticipated threats or hazards to the security or integrity 
+of client records and information;  
+b.  Ensure that the investment adviser safeguards confidential client records and 
+information; and  
+c.  Protect any records and informa tion for which the release could result in harm or 
+inconvenience to any client; and  
+3.  Cover at least the following five (5) functions:  
+a.  Identification -development of organizational understanding to manage information 
+security risk to systems, assets, data, and capabilities;  
+b.  Protection -development and implementation of appropriate safeguards to ensure 
+delivery of critical infrastructure services;  
+c.  Detection -development and implementation of appropriate activities to identify the 
+occurrence of an information security event;  
+d.  Response -development and implementation of appropriate activities to take action 
+regarding a detected information security event; and  
+e.  Recovery -development and implementation of appropriate activities to maintain 
+plans fo r resilience and to restore any capabilities or services that were impaired due to 
+an information security event.  
+(c)"
+10,,"Page 4 of 6 
+KRS § 304.3 -756 
+ Trayce Hockstad   (5)   
+(a)  A licensee’s executive management or its delegates shall , at a minimum:  
+1.  Develop, implement, and maintain the licensee’s information security program; and  
+2.  If the licensee has a board of directors or other appropriate committee, report at least 
+annually, in writing, to the board or committee the following  information:  
+a.  The overall status of the information security program and the licensee’s compliance 
+with KRS 304.3 -750 to 304.3 -768; and  
+b.  Material matters related to the information security program, addressing issues 
+including risk assessment, risk management and control decisions, third -party service 
+provider arrangements, results of testing, cybersecurity events or violations and 
+management’s response to the events or violations, and recommendations for changes 
+in the information security program.  
+(b)  If a licensee’s executive management delegates any of its responsibilities under this 
+subsection, executive management shall:  
+1.  Oversee the development, implementation, and maintenance of the licensee’s 
+information security program prepared by the d elegate or delegates; and  
+2.  Receive a report from the delegate or delegates that complies with the requirements of 
+paragraph (a)2. of this subsection.  
+(6)  Each licensee that uses a third -party service provider shall:  
+(a)  Exercise due diligence in selec ting the third -party service provider; and  
+(b)  Require the third -party service provider to implement appropriate administrative, 
+technical, and physical measures to protect and secure the information systems and nonpublic 
+information that are accessible t o, or held by, the third -party service provider.  
+(7)  Each licensee shall monitor, evaluate, and adjust, as appropriate, the information security 
+program consistent with:  
+(a)  Any relevant changes in technology;  
+(b)  The sensitivity of its nonpublic inform ation;  
+(c)  Internal or external threats to information; and  
+(d)  The licensee’s own changing business arrangements, including mergers and acquisitions, 
+alliances and joint ventures, outsourcing arrangements, and changes to information systems.  
+(8)   
+(a)  As part of its information security program, each licensee shall establish a written incident 
+response plan designed to promptly respond to, and recover from, any cybersecurity event that 
+compromises:  
+1.  The confidentiality, integrity, or availability of nonpublic information in its possession;  
+2.  The licensee’s information systems; or  
+3.  The continuing functionality of any aspect of the licensee’s business or operations."
+11,,"Page 2 of 5 
+24-A M.R.S. § 2264  
+ Trayce Hockstad   C.  Assess the likelihood and potential damage of the threats described in parag raph B, 
+taking into consideration the sensitivity of the nonpublic information;  
+D.  Assess the sufficiency of policies, procedures and other safeguards in place to 
+manage the threats described in paragraph B, including consideration of threats in each 
+relevant area of the licensee’s operations, including:  
+(1)  Employee training and management;  
+(2)  Information systems, including network and software design, as well as 
+information classification, governance, processing, storage, transmission and 
+disposal; a nd  
+(3)  Detecting, preventing and responding to attacks, intrusions or other system 
+failures; and  
+E.  At least annually, assess the effectiveness of the key controls, information systems 
+and procedures and other safeguards in paragraph D implemented to m anage the threats 
+described in paragraph B that are identified in the licensee’s ongoing assessment.  
+4. Risk management.  Based on its risk assessment pursuant to subsection 3, a licensee 
+shall:  
+A.  Design its information security program to mitigate the i dentified risks, 
+commensurate with the size and complexity of the licensee, the nature and scope of the 
+licensee’s activities, including its use of 3rd -party service providers, and the sensitivity 
+of the nonpublic information used by the licensee or in the  licensee’s possession, 
+custody or control;  
+B.  Consider the following security measures and implement the measures considered 
+appropriate:  
+(1)  Place access controls on information systems, including controls to 
+authenticate and permit access only to authorized individuals to protect against 
+the unauthorized acquisition of nonpublic information;  
+(2)  Identify and manage the data, personnel, devic es, systems and facilities that 
+enable the licensee to achieve its business purposes in accordance with their 
+relative importance to business objectives and the licensee’s risk management 
+strategy;  
+(3)  Restrict access at physical locations containing non public information to 
+only authorized individuals;  
+(4)  Protect, by encryption or other appropriate means, all nonpublic 
+information while it is being transmitted over an external network and all 
+nonpublic information stored on a laptop computer or other portable computing 
+or storage device or media;  
+(5)  Adopt secure development practices for applications developed and used by 
+the licensee and procedures for evaluating, assessing or testing the security of 
+externally developed applications used by the li censee;"
+12,,"Page 4 of 5 
+24-A M.R.S. § 2264  
+ Trayce Hockstad   A.  Exercise due diligence in selecting its 3rd -party service providers; and  
+B.  Require each 3rd -party service provider to implement appropriate administrative, 
+technical and physical safeguards to protect and secure the information systems and  
+nonpublic information that are accessible to or held by the 3rd -party service provider.  
+7. Program adjustments.  A licensee shall monitor, evaluate and adjust, as appropriate, its 
+information security program consistent with any relevant changes in techno logy, the 
+sensitivity of the licensee’s nonpublic information, internal or external threats to nonpublic 
+information and the licensee’s own changing business arrangements, such as mergers and 
+acquisitions, alliances and joint ventures, outsourcing arrangem ents and changes to 
+information systems.  
+8. Incident response plan.  As part of its information security program, a licensee shall 
+establish a written incident response plan designed to promptly respond to and recover 
+from any cybersecurity  event that compromises the confidentiality, integrity or availability 
+of nonpublic information in its possession; the licensee’s information systems; or the 
+continuing functionality of any aspect of the licensee’s business or operations. The incident 
+response plan must address the following areas:  
+A.  The internal process for responding to a cybersecurity event;  
+B.  The goals of the incident response plan;  
+C.  The definition of clear roles, responsibilities and levels of decision -making 
+authority;  
+D.  External and internal communications and information sharing;  
+E.  Requirements for the remediation of any identified weaknesses in the licensee’s 
+information systems and associated controls;  
+F.  Documentation and reporting regarding cybersecurity events and re lated incident 
+response activities; and  
+G.  The evaluation and revision as necessary of the incident response plan following a 
+cybersecurity event.  
+9. Annual certification to superintendent.  By April 15th annually, an insurance carrier 
+domiciled in this S tate shall submit to the superintendent a written statement certifying that 
+the insurance carrier is in compliance with the requirements set forth in this section. An 
+insurance carrier shall maintain for examination by the superintendent all records, 
+sched ules and data supporting this certification for a period of 5 years. To the extent that an 
+insurance carrier has identified areas, systems or processes that require material 
+improvement, updating or redesign, the insurance carrier shall document the identi fication 
+and the remedial efforts planned and underway to address such areas, systems or processes. 
+The documentation required pursuant to this subsection must be available for inspection by 
+the superintendent.  
+History"
+13,,"Page 3 of 5 
+24-A M.R.S. § 2264  
+ Trayce Hockstad   (6)  Modify information systems in accordance with the licensee’s information 
+security program;  
+(7)  Use effective controls, which may include multifactor authentication 
+procedures, for individuals accessing nonpublic information;  
+(8)  Regularly  test and monitor systems and procedures to detect actual and 
+attempted attacks on or intrusions into information systems;  
+(9)  Include audit trails within the information security program designed to 
+detect and respond to cybersecurity events and to reco nstruct material financial 
+transactions sufficient to support normal operations and obligations of the 
+licensee;  
+(10)  Implement measures to protect against destruction, loss or damage of 
+nonpublic information due to environmental hazards, such as fire an d water 
+damage, or other catastrophes or technological failures; and  
+(11)  Develop, implement and maintain procedures for the secure disposal of 
+nonpublic information in any format;  
+C.  Include cybersecurity risks in the licensee’s enterprise risk manage ment process;  
+D.  Stay informed regarding emerging threats to or vulnerabilities of information 
+systems and use reasonable security measures when sharing information relative to the 
+character of the sharing and the type of information shared; and  
+E.  Provi de its personnel with cybersecurity awareness training that is updated as 
+necessary to reflect risks identified by the licensee in its risk assessment.  
+5. Oversight by board of directors.  If a licensee has a board of directors, the board or an 
+appropriate  committee of the board, at a minimum, shall require the licensee’s executive 
+management or the executive management’s delegates to:  
+A.  Develop, implement and maintain the licensee’s information security program; and  
+B.  Report to the board in writing at least annually the following information:  
+(1)  The overall status of the licensee’s information security program and the 
+licensee’s compliance with this chapter; and  
+(2)  Material matters related to the information security program, addressing 
+issues such  as risk assessment, risk management and control decisions, 3rd -
+party service provider arrangements, results of testing, cybersecurity events or 
+cybersecurity violations and the executive management’s responses to 
+cybersecurity events or cybersecurity viol ations, and recommendations for 
+changes to the information security program.  
+If a licensee’s executive management delegates any of its responsibilities under this 
+section, the licensee’s executive management shall oversee each delegate’s efforts 
+with resp ect to the development, implementation and maintenance of the licensee’s 
+information security program and shall require each delegate to submit a report to 
+the board pursuant to paragraph B.  
+6. Oversight of 3rd -party service provider arrangements.  A licen see shall:"
+14,,"Page 2 of 4 
+Minn. Stat. § 60A.9851  
+ Trayce Hockstad   (i)  employee training and management;  
+(ii)  information systems, including network and software design, as well as information 
+classification, governance, processing, storage, transmission, and disposal; and  
+(iii)  detecting, preven ting, and responding to attacks, intrusions, or other systems failures; 
+and 
+(5)  implement information safeguards to manage the threats identified in its ongoing 
+assessment, and no less than annually, assess the effectiveness of the safeguards’ key control s, 
+systems, and procedures.  
+Subd. 4. Risk management. —  Based on its risk assessment, the licensee shall:  
+(1)  design its information security program to mitigate the identified risks, commensurate with 
+the size and complexity of the licensee, the nature and scope of the licensee’s activities, 
+including its use of third -party service providers, and the sensitivity of the nonpublic 
+information used by the licensee or in the licensee’s possession, custody, or control;  
+(2)  determine which of the following se curity measures are appropriate and implement any 
+appropriate security measures:  
+(i)  place access controls on information systems, including controls to authenticate and 
+permit access only to authorized individuals, to protect against the unauthorized acq uisition 
+of nonpublic information;  
+(ii)  identify and manage the data, personnel, devices, systems, and facilities that enable the 
+organization to achieve business purposes in accordance with their relative importance to 
+business objectives and the organiz ation’s risk strategy;  
+(iii)  restrict physical access to nonpublic information to authorized individuals only;  
+(iv)  protect, by encryption or other appropriate means, all nonpublic information while 
+being transmitted over an external network and all nonpublic information stored on a 
+laptop computer or other portable computing or storage device or media;  
+(v)  adopt secure development practices for in -house developed applications utilized by the 
+licensee;  
+(vi)  modify the information system in accordanc e with the licensee’s information security 
+program;  
+(vii)  utilize effective controls, which may include multifactor authentication procedures 
+for any authorized individual accessing nonpublic information;  
+(viii)  regularly test and monitor systems and pro cedures to detect actual and attempted 
+attacks on, or intrusions into, information systems;  
+(ix)  include audit trails within the information security program designed to detect and 
+respond to cybersecurity events and designed to reconstruct material finan cial transactions 
+sufficient to support normal operations and obligations of the licensee;  
+(x)  implement measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, such as fire and water damage, other 
+catastrophes, or technological failures; and"
+15,,"Page 3 of 4 
+Minn. Stat. § 60A.9851  
+ Trayce Hockstad   (xi)  develop, implement, and maintain procedures for the secure disposal of nonpublic 
+information in any format;  
+(3)  include cybersecurity risks in the licensee’s enterprise risk management process;  
+(4)  stay i nformed regarding emerging threats or vulnerabilities and utilize reasonable security 
+measures when sharing information relative to the character of the sharing and the type of 
+information shared; and  
+(5)  provide its personnel with cybersecurity awareness  training that is updated as necessary to 
+reflect risks identified by the licensee in the risk assessment.  
+Subd. 5. Oversight by board of directors. —  If the licensee has a board of directors, the board 
+or an appropriate committee of the board shall, at a  minimum:  
+(1)  require the licensee’s executive management or its delegates to develop, implement, and 
+maintain the licensee’s information security program;  
+(2)  require the licensee’s executive management or its delegates to report in writing, at least 
+annually, the following information:  
+(i)  the overall status of the information security program and the licensee’s compliance 
+with this act; and  
+(ii)  material matters related to the information security program, addressing issues such as 
+risk assessment, r isk management and control decisions, third -party service provider 
+arrangements, results of testing, cybersecurity events or violations and management’s 
+responses thereto, and recommendations for changes in the information security program; 
+and 
+(3)  if exe cutive management delegates any of its responsibilities under this section, it shall 
+oversee the development, implementation, and maintenance of the licensee’s information 
+security program prepared by the delegate and shall receive a report from the delega te 
+complying with the requirements of the report to the board of directors.  
+Subd. 6. Oversight of third -party service provider arrangements.   
+(a)  A licensee shall exercise due diligence in selecting its third -party service provider.  
+(b)  A licensee shall  require a third -party service provider to implement appropriate 
+administrative, technical, and physical measures to protect and secure the information systems 
+and nonpublic information that are accessible to, or held by, the third -party service provider.  
+Subd. 7. Program adjustments. —  The licensee shall monitor, evaluate, and adjust, as 
+appropriate, the information security program consistent with any relevant changes in technology, 
+the sensitivity of its nonpublic information, internal or external threa ts to information, and the 
+licensee’s own changing business arrangements, such as mergers and acquisitions, alliances and 
+joint ventures, outsourcing arrangements, and changes to information systems.  
+Subd. 8. Incident response plan.   
+(a)  As part of its i nformation security program, each licensee shall establish a written incident 
+response plan designed to promptly respond to, and recover from, any cybersecurity event that 
+compromises the confidentiality, integrity, or availability of nonpublic information  in its"
+16,,"Trayce Hockstad   
+La. R.S. § 42:1267  
+Current through the 2024 First Extraordinary Session and Act 22  of the Second Extraordinary Session. 
+Revisions of the Louisiana State Law Institute now current through all titles received as of February 1, 
+2024.  
+ 
+LexisNexis® Louisiana Annotated Statutes   >  Louisiana Revised Statutes   >  Title 42. Public officers and 
+employees (Chs. 1 — 29)  >  Chapter 17. In -Service Training for State Employees (§§ 42:1261 — 42:1267)  
+ 
+§ 42:1267. Required training; cybersecurity.   
+ 
+A.   
+(1)  The Department of State Civil Service shall institute, develop, conduct, and otherwise 
+provide for training programs designed to keep state agencies safe from cyberattack. The 
+programs shall be designed to focus on forming information security habits and p rocedures 
+that protect information resources and teach best practices for detecting, assessing, reporting, 
+and addressing information security threats. The department may make the training available 
+as an online course. The office of technology services sh all provide assistance to the 
+Department of State Civil Service in the development of the training program. The cost of 
+instituting, developing, conducting, and otherwise providing cybersecurity awareness training 
+shall be paid in the manner established by  R.S. 42:1383.  
+(2)  The Department of State Civil Service shall make the education and training on 
+cybersecurity developed pursuant to Paragraph (1) of this Subsection available to agencies 
+within political subdivisions of the state at as minimal cost as p ossible to assist those agencies 
+in compliance with the provisions of this Section.  
+B.   
+(1)  Each state and local agency shall identify employees or elected officials who have access 
+to the agency’s information technology assets and require those employees and elected 
+officials to complete cybersecurity training. Each new state and local agency of ficial or 
+employee with access to the agency’s information technology assets shall complete this 
+training within the first thirty days of initial service or employment with the agency.  
+(2)  The agency head shall verify and report to the Department of State  Civil Service on the 
+completion of cybersecurity training by agency employees. The agency head shall periodically 
+require an internal review to ensure compliance.  
+(3)   
+(a)  An agency shall require any contractor who has access to state or local governmen t 
+information technology assets to complete cybersecurity training during the term of the 
+contract and during any renewal period."
+17,,"Page 3 of 4 
+La. R.S. § 22:2504  
+ Trayce Hockstad   (h)  Regularly test and monitor systems and procedures to detect actual and attempted 
+attacks on or intrusions into information systems.  
+(i)  Include audit trails within the information security program designed to detect and 
+respond to cybersecurity events and designed to reconstruct material financial transactions 
+sufficient to support normal operations and obligations of the licensee.  
+(j)  Implement measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, such as fire and water damage or other 
+catastrophes or technological failures.  
+(k)  Develop, implement, and maintain procedures for the secure disposal of nonpublic 
+information in any format.  
+(3)  Include cybersecurity risks in the licensee’s enterprise risk management process.  
+(4)  Stay informed regarding emerging threats or vulnerabilities.  
+(5)  Use reasonable security measures when shar ing information relative to the character of the 
+sharing and the type of information shared.  
+(6)  Provide its personnel with cybersecurity awareness training that reflects current risks 
+identified by the licensee in the risk assessment.  
+E.  If a licensee h as a board of directors, the board or an appropriate committee of the board shall, 
+at a minimum, require a licensee’s executive management or its delegates to do all of the 
+following:  
+(1)  Develop, implement, and maintain the licensee’s information securit y program.  
+(2)  Report in writing, at least annually, all of the following information:  
+(a)  The overall status of the information security program and the licensee’s compliance 
+with this Chapter.  
+(b)  Material matters related to the information security p rogram, addressing issues such as 
+risk assessment, risk management and control decisions, third -party service provider 
+arrangements, results of testing, cybersecurity events or violations and management’s 
+responses thereto, and recommendations for changes in the information security program.  
+(3)  If executive management delegates any of the responsibilities provided for in this Section, 
+management shall oversee the development, implementation, and maintenance of the 
+licensee’s information security program p repared by the delegates and shall receive a report 
+from the delegates complying with the requirements of the report to the board of directors 
+above.  
+F.  With regard to third -party service providers, a licensee shall do all of the following:  
+(1)  Exercise due diligence in selecting a third -party service provider.  
+(2)  Require third -party service providers to implement appropriate administrative, technical, 
+and physical measures to protect and secure the information systems and nonpublic 
+information that are  accessible to or held by the third -party service provider.  
+G.  A licensee shall monitor, evaluate, and adjust, as appropriate, the information security program 
+consistent with any relevant changes in technology, the sensitivity of its nonpublic informatio n,"
+18,,"Page 2 of 4 
+S.C. Code Ann. § 38 -99-20 
+   (4)  assess the sufficiency of policies, procedures, information systems, and other safeguards in 
+place t o manage these threats, taking into consideration threats in each relevant area of the 
+licensee’s operations, including:  
+(a)  employee training and management;  
+(b)  information systems, including network and software design, and information 
+classification,  governance, processing, storage, transmission, and disposal; and  
+(c)  detecting, preventing, and responding to attacks, intrusions, or other systems failures; 
+and 
+(5)  implement information safeguards to manage the threats identified in its ongoing 
+assess ment, and at least annually assess the effectiveness of the safeguards’ key controls, 
+systems, and procedures.  
+(D)  Based on its risk assessment, the licensee shall:  
+(1)  design its information security program to mitigate the identified risks, commensurat e with 
+the size and complexity of the licensee’s activities, including its use of third -party service 
+providers, and the sensitivity of the nonpublic information used by the licensee or in the 
+licensee’s possession, custody, or control;  
+(2)  determine the appropriateness of and implement the following security measures:  
+(a)  placing access controls on information systems, including controls to authenticate and 
+permit access only to authorized individuals to protect against the unauthorized acquisition 
+of no npublic information;  
+(b)  identifying and managing the data, personnel, devices, systems, and facilities that 
+enable the organization to achieve business purposes in accordance with their relative 
+importance to business objectives and the organization’s ri sk strategy;  
+(c)  restricting access at physical locations containing nonpublic information to authorized 
+individuals;  
+(d)  protecting by encryption or other appropriate means, all nonpublic information while 
+being transmitted over an external network and all nonpublic information stored on a 
+laptop computer or other portable computing or storage device or media;  
+(e)  adopting secure development practices for in -house developed applications used by the 
+licensee and procedures for evaluating, assessing, and testing the security of externally 
+developed applications used by the licensee;  
+(f)  modifying the information system in accordance with the licensee’s information 
+security program;  
+(g)  utilizing effective controls, which may include multifactor authentic ation procedures 
+for an individual accessing nonpublic information;  
+(h)  regularly testing and monitoring systems and procedures to detect actual and attempted 
+attacks on, or intrusions into, information systems;"
+19,,"Page 2 of 4 
+Miss. Code Ann. §  83 -5-807 
+ Trayce Hockstad   (d)  Assess the sufficiency of policies, procedures, information systems and other safeguards in 
+place to manage these threat s, including consideration of threats in each relevant area of the 
+licensee’s operations, including:  
+(i)  Employee training and management;  
+(ii)  Information systems, including network and software design, as well as information 
+classification, governance,  processing, storage, transmission and disposal; and  
+(iii)  Detecting, preventing and responding to attacks, intrusions or other systems failures; 
+and 
+(e)  Implement information safeguards to manage the threats identified in its ongoing 
+assessment, and no less than annually, assess the effectiveness of the safeguards’ key controls, 
+systems and procedures.  
+(4)  Based on its risk assessment, the licensee shall:  
+(a)  Design its information security program to mitigate the identified risks, commensurate 
+with th e size and complexity of the licensee, the nature and scope of the licensee’s activities, 
+including its use of third -party service providers, and the sensitivity of the nonpublic 
+information used by the licensee or in the licensee’s possession, custody or control.  
+(b)  Determine which security measures listed below are appropriate and implement such 
+security measures.  
+(i)  Place access controls on information systems, including controls to authenticate and 
+permit access only to authorized individuals to pro tect against the unauthorized acquisition 
+of nonpublic information;  
+(ii)  Identify and manage the data, personnel, devices, systems and facilities that enable the 
+organization to achieve business purposes in accordance with their relative importance to 
+business objectives and the organization’s risk strategy;  
+(iii)  Restrict physical access to nonpublic information, only to authorized individuals;  
+(iv)  Protect by encryption or other appropriate means, all nonpublic information while 
+being transmitted over an external network and all nonpublic information stored on a 
+laptop computer or other portable computing or storage device or media;  
+(v)  Adopt secure development practices for in -house developed applications utilized by 
+the licensee;  
+(vi)  Modify the inf ormation system in accordance with the licensee’s information security 
+program;  
+(vii)  Utilize effective controls, which may include multi -factor authentication procedures 
+for employees accessing nonpublic information;  
+(viii)  Regularly test and monitor sy stems and procedures to detect actual and attempted 
+attacks on, or intrusions into, information systems;  
+(ix)  Include audit trails within the information security program designed to detect and 
+respond to cybersecurity events and designed to reconstruct m aterial financial transactions 
+sufficient to support normal operations and obligations of the licensee;"
+20,,"Page 3 of 4 
+Miss. Code Ann. §  83 -5-807 
+ Trayce Hockstad   (x)  Implement measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, such as fire and water da mage or other 
+catastrophes or technological failures; and  
+(xi)  Develop, implement, and maintain procedures for the secure disposal of nonpublic 
+information in any format.  
+(c)  Include cybersecurity risks in the licensee’s enterprise risk management proces s. 
+(d)  Stay informed regarding emerging threats or vulnerabilities and utilize reasonable security 
+measures when sharing information relative to the character of the sharing and the type of 
+information shared.  
+(e)  Provide its personnel with cybersecurity  awareness training that is updated as necessary to 
+reflect risks identified by the licensee in the risk assessment.  
+(5)  If the licensee has a board of directors, the board or an appropriate committee of the board 
+shall, at a minimum:  
+(a)  Require the licensee’s executive management or its delegates to develop, implement and 
+maintain the licensee’s information security program;  
+(b)  Require the licensee’s executive management or its delegates to report in writing at least 
+annually, the following informa tion: 
+(i)  The overall status of the information security program and the licensee’s compliance 
+with this article; and  
+(ii)  Material matters related to the information security program, addressing issues such as 
+risk assessment, risk management and contro l decisions, third -party service provider 
+arrangements, results of testing, cybersecurity events or violations and management’s 
+responses thereto, and recommendations for changes in the information security program;  
+(c)  If executive management delegates a ny of its responsibilities under this section, it shall 
+oversee the development, implementation and maintenance of the licensee’s information 
+security program prepared by the delegate(s) and shall receive a report from the delegate(s) 
+complying with the re quirements of the report to the board of directors above.  
+(6)   
+(a)  A licensee shall exercise due diligence in selecting its third -party service provider; and  
+(b)  A licensee shall require a third -party service provider to implement appropriate 
+administra tive, technical and physical measures to protect and secure the information systems 
+and nonpublic information that are accessible to, or held by, the third -party service provider.  
+(7)  The licensee shall monitor, evaluate and adjust, as appropriate, the in formation security 
+program consistent with any relevant changes in technology, the sensitivity of its nonpublic 
+information, internal or external threats to information, and the licensee’s own changing business 
+arrangements, such as mergers and acquisition s, alliances and joint ventures, outsourcing 
+arrangements and changes to information systems.  
+(8)"
+21,,"Page 2 of 4 
+215 ILCS 215/10  
+   (4)  assess the sufficiency of policies, procedures, information systems, and other safeguards in 
+place to manage these threats, including consideration of threats in each relevant area of the 
+licensee’s operations, inclu ding:  
+(A)  employee training and management;  
+(B)  information systems, including network and software design, as well as information 
+classification, governance, processing, storage, transmission, and disposal; and  
+(C)  detecting, preventing, and responding  to attacks, intrusions, or other systems failures; 
+and 
+(5)  implement information safeguards to manage the threats identified in its ongoing 
+assessment, and, no less than annually, assess the effectiveness of the safeguards’ key controls, 
+systems, and pro cedures.  
+(d)  Based on its risk assessment, the licensee shall:  
+(1)  design its information security program to mitigate the identified risks, commensurate with 
+the size and complexity of the licensee, the nature and scope of the licensee’s activities, 
+including its use of third -party service providers, and the sensitivity of the nonpublic 
+information used by the licensee or in the licensee’s possession, custody, or control;  
+(2)  select and implement appropriate security measures from the following:  
+(A)  place access controls on information systems, including controls to authenticate and 
+permit access only to authorized individuals to protect against the unauthorized acquisition 
+of nonpublic information;  
+(B)  identify and manage the data, personnel, devices,  systems, and facilities that enable the 
+organization to achieve business purposes in accordance with their relative importance to 
+business objectives and the organization’s risk strategy;  
+(C)  restrict access at physical locations containing nonpublic information only to 
+authorized individuals;  
+(D)  protect, by encryption or other appropriate means, all nonpublic information while 
+being transmitted over an external network and all nonpublic information stored on a 
+laptop computer or other portable compu ting or storage device or media;  
+(E)  adopt secure development practices for in -house -developed applications utilized by 
+the licensee and procedures for evaluating, assessing, or testing the security of externally 
+developed applications utilized by the lic ensee;  
+(F)  modify the information system in accordance with the licensee’s information security 
+program;  
+(G)  utilize effective controls, including multifactor authentication procedures for any 
+individual accessing nonpublic information;  
+(H)  regularly te st and monitor systems and procedures to detect actual and attempted 
+attacks on or intrusions into information systems;"
+22,,"Page 3 of 4 
+215 ILCS 215/10  
+   (I)  include audit trails within the information security program designed to detect and 
+respond to cybersecurity events and designed to  reconstruct material financial transactions 
+sufficient to support normal operations and obligations of the licensee;  
+(J)  implement measures to protect against destruction, loss, or damage of nonpublic 
+information due to environmental hazards, including f ire and water damage, other 
+catastrophes, or technological failures; and  
+(K)  develop, implement, and maintain procedures for the secure disposal of nonpublic 
+information in any format;  
+(3)  include cybersecurity risks in the licensee’s enterprise risk man agement process;  
+(4)  stay informed regarding emerging threats or vulnerabilities and utilize reasonable security 
+measures when sharing information relative to the character of the sharing and the type of 
+information shared; and  
+(5)  provide its personnel with cybersecurity awareness training that is updated as necessary to 
+reflect risks identified by the licensee in the risk assessment.  
+(e)  If the licensee has a board of directors, the board or an appropriate committee of the board 
+shall, at a minimum:  
+(1)  require the licensee’s executive management or its delegates to develop, implement, and 
+maintain the licensee’s information security program;  
+(2)  require the licensee’s executive management or its delegates to report in writing, at least 
+annually, the following information:  
+(A)  the overall status of the information security program and the licensee’s compliance 
+with this Act; and  
+(B)  material matters related to the information security program, addressing issues such as 
+risk assessment, risk managemen t and control decisions, third -party service provider 
+arrangements, results of testing, cybersecurity events or violations and management’s 
+responses thereto, and recommendations for changes in the information security program; 
+and 
+(3)  if executive manage ment delegates any of its responsibilities under this Section, it shall 
+oversee the development, implementation, and maintenance of the licensee’s information 
+security program prepared by the delegate and shall receive a report from the delegate 
+complying with the requirements of the report to the board of directors.  
+(f)  A licensee shall exercise due diligence in selecting its third -party service provider and a 
+licensee shall require a third -party service provider to implement appropriate administrative, 
+technical, and physical measures to protect and secure the information systems and nonpublic 
+information that are accessible to or held by the third -party service provider.  
+(g)  The licensee shall monitor, evaluate, and adjust, as appropriate, the informati on security 
+program consistent with any relevant changes in technology, the sensitivity of its nonpublic 
+information, internal or external threats to information, and the licensee’s own changing business 
+arrangements, including mergers and acquisitions, al liances and joint ventures, outsourcing 
+arrangements, and changes to information systems."
+23,,"Page 1 of 1 
+20 ILCS 450/25  
+    
+20 ILCS 450/25  
+ Statutes current with legislation through P.A. 103 -585 of the 2024 Regular Session of the 103rd General 
+Assembly.  
+ 
+Illinois Compiled Statutes Annotated   >  Chapter 20 EXECUTIVE BRANCH (§§ 5/1 -1 — 100-90)  >  
+DEPARTMENT OF CENTRAL MANAGEMENT SERVICES (§§ 4 05/35.7b — 450/99)   >  Data Security on 
+State Computers Act (§§ 450/1 — 450/99)  
+ 
+20 ILCS 450/25 Mandatory State employee training.   
+ 
+(a)  As used in this Section, “employee” has the meaning ascribed to it in Section 1 -5 of the State 
+Officials and Employees Ethics Act [5 ILCS 430/1 -5], but does not include an employee of the 
+legislative branch, the judicial branch, a public university of the State, or a constitutional officer 
+other than the Governor.  
+(b)  Every employee shall annually undergo traini ng by the Department of Innovation and 
+Technology concerning cybersecurity. The Department may, in its discretion, make the training an 
+online course. The training shall include, but need not be limited to, detecting phishing scams, 
+preventing spyware infe ctions and identity theft, and preventing and responding to data breaches.  
+(c)  The Department of Innovation and Technology may adopt rules to implement the requirements 
+of this Section.  
+History   
+ 
+2017 P.A. 100 -40, § 5, effective January 1, 2018.  
+ 
+Illinois Compiled Statutes Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document"
+24,,"Page 1 of 1 
+20 ILCS 1375/5 -30 
+    
+20 ILCS 1375/5 -30 
+ Statutes current with legislation through P.A. 103 -585 of the 2024 Regular Session of the 103rd General 
+Assembly.  
+ 
+Illinois Compiled Statutes Annotated   >  Chapter 20 EXECUTIVE BRANCH (§§ 5/1 -1 — 100-90)  >  
+DEPARTMENT OF INNOVATION AND TECHNOLOGY (§§ 137 0/1-1 — 1375/99 -99)  >  Illinois Information 
+Security Improvement (§§ 1375/5 -1 — 1375/99 -99) 
+ 
+20 ILCS 1375/5 -30 Local government employee cybersecurity training.   
+ 
+Every employee of a county or municipality shall annually complete a cybersecurity  training 
+program. The training shall include, but need not be limited to, detecting phishing scams, 
+preventing spyware infections and identity theft, and preventing and responding to data breaches. 
+The Department shall make available to each county and mu nicipality a training program for 
+employees that complies with the content requirements of this Section. A county or municipality 
+may create its own cybersecurity training program.  
+History   
+ 
+2022 P.A. 102 -753, § 15, effective January 1, 2023.  
+ 
+Illinois Co mpiled Statutes Annotated  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document"
+25,,"Page 2 of 4 
+N.D. Cent. Code, § 26.1 -02.2-03 
+   (1)  Employee training and management;  
+(2)  Information systems, including network and software design, as well as information 
+classification, governance, processing , storage, transmission, and disposal; and  
+(3)  Detecting, preventing, and responding to attacks, intrusions, or other systems failures; 
+and  
+e.  Implement information safeguards to manage the threats identified in the licensee’s ongoing 
+assessment and as sess the effectiveness of the safeguards’ key controls, systems, and 
+procedures on an annual basis.  
+4.  Based on the licensee’s risk assessment, the licensee shall:  
+a.  Design the information security program to mitigate the identified risks, commensurat e 
+with the size and complexity of the licensee, the nature and scope of the licensee’s activities, 
+including the licensee’s use of third -party service providers, and the sensitivity of the 
+nonpublic information used by the licensee or in the licensee’s pos session, custody, or control.  
+b.  Determine which security measures as provided under this subdivision are appropriate and 
+implement the security measures:  
+(1)  Place access controls on information systems, including controls to authenticate and 
+permit a ccess only to an authorized individual to protect against the unauthorized 
+acquisition of nonpublic information;  
+(2)  Identify and manage the data, personnel, devices, systems, and facilities that enable the 
+organization to achieve business purposes in ac cordance with the business’ relative 
+importance to business objectives and the organization’s risk strategy;  
+(3)  Restrict physical access to nonpublic information only to an authorized individual;  
+(4)  Protect by encryption or other appropriate means, all nonpublic information while 
+being transmitted over an external network and all nonpublic information stored on a 
+laptop computer or other portable computing or storage device or media;  
+(5)  Adopt secur e development practices for in -house developed applications utilized by 
+the licensee;  
+(6)  Modify the information system in accordance with the licensee’s information security 
+program;  
+(7)  Utilize effective controls, which may include multi -factor authe ntication procedures 
+for employees accessing nonpublic information;  
+(8)  Regularly test and monitor systems and procedures to detect actual and attempted 
+attacks on, or intrusions into, information systems;  
+(9)  Include audit trails within the informatio n security program designed to detect and 
+respond to cybersecurity events and designed to reconstruct material financial transactions 
+sufficient to support normal operations and obligations of the licensee;  
+(10)  Implement measures to protect against dest ruction, loss, or damage of nonpublic 
+information due to environmental hazards, including fire and water damage or other 
+catastrophes or technological failures; and"
+26,,"Page 3 of 3 
+40 Pa.C.S. § 4513  
+   (5)  Provide its personnel with cybersecurity awareness training that is updated as necessary to 
+reflect risks identified by the licensee in the risk assessment.  
+(d) Monitoring, evaluation and adjustment.   A licensee  shall monitor, evaluate and adjust, as 
+appropriate, the information security program consistent with:  
+(1)  Any relevant changes in technology.  
+(2)  The sensitivity of the licensee’s nonpublic information.  
+(3)  Internal or external threats to information.  
+(4)  The licensee’s own changing business arrangements, such as mergers and acquisitions, 
+alliances and joint ventures, outsourcing arrangements and changes to information systems.  
+(e) Incident response plan.   As part of its information security program, each licensee shall 
+establish and maintain a written incident response plan designed to promptly respond to, and 
+recover from, any cybersecurity event that compromises the confidentiality, integrity or 
+availability of nonpublic information in its possessio n, the licensee’s information systems or the 
+continuing functionality of any aspect of the licensee’s business or operations. The incident 
+response plan shall address the following areas:  
+(1)  The internal process for responding to a cybersecurity event.  
+(2)  The goals of the incident response plan.  
+(3)  The definition of clear roles, responsibilities and levels of decision -making authority.  
+(4)  External and internal communications and information sharing.  
+(5)  Identification of requirements for the remedi ation of any identified weaknesses in 
+information systems and associated controls.  
+(6)  Documentation and reporting regarding cybersecurity events and related incident response 
+activities.  
+(7)  The evaluation and revision of the incident response plan foll owing a cybersecurity event, 
+as necessary.  
+History   
+ 
+Act 2023 -2 (H.B. 739), § 1, approved June 14, 2023, effective December 11, 2023.  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®  
+Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document"

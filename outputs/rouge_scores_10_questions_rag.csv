@@ -1,0 +1,12 @@
+,question,rouge1_precision,rouge1_recall,rouge1_fmeasure,rouge2_precision,rouge2_recall,rouge2_fmeasure,rougeL_precision,rougeL_recall,rougeL_fmeasure
+0,Does Delaware require entities to notify the state attorney general or other governmental agency in the event of a data breach?,0.354924702,0.815555556,0.492688218,0.20664959,0.481818182,0.288069111,0.248691455,0.573333333,0.345531915
+1,How does Connecticut’s Data Breach Notification statute define a breach of security?,0.524216768,0.933846154,0.665404769,0.422839482,0.7515625,0.535932665,0.45954407,0.816923077,0.582813305
+2,How does Montana’s Data Breach Notification Statute define personal information?,0.646978581,0.561585366,0.595801449,0.484345405,0.42392638,0.447970692,0.555118268,0.483536585,0.512030372
+3,Under what circumstances must disclosure of a data breach be made in North Dakota?,0.104769056,0.742857143,0.183403822,0.052322547,0.388888889,0.092132213,0.076759386,0.55,0.134558486
+4,What are the acceptable methods of notice of a data breach in Tennessee?,0.492075267,0.518243243,0.502143079,0.24810254,0.26462585,0.254824252,0.313524928,0.334459459,0.322028355
+5,What are the maximum penalties for failing to follow the data breach notification statutes in Ohio and Oklahoma?,0.126271906,0.69375,0.21329389,0.062250364,0.346031746,0.105343963,0.09240803,0.5078125,0.156099559
+6,What information must be provided in a data breach notification in South Carolina and Wyoming?,0.205363049,0.79132948,0.324791781,0.098006328,0.384302326,0.155469374,0.132640251,0.515606936,0.210047118
+7,Who must receive notice of a data breach in either Texas or Nebraska?,0.345883949,0.694117647,0.44989452,0.132685845,0.278518519,0.176291242,0.193611373,0.391911765,0.253005103
+8,Who must comply with the data breach notification statute in Pennsylvania and Virginia?,0.442576198,0.562264151,0.493053678,0.21290786,0.270075758,0.237041296,0.258027945,0.327924528,0.287489905
+9,"When do you have to provide notice to affected individuals of a data breach in California, Utah, Florida, and Michigan?",0.237369829,0.754787234,0.359196424,0.120438508,0.388770053,0.18290078,0.141337813,0.454255319,0.214427832
+,,0.348042931,0.706833597,0.427967163,0.204054847,0.39785202,0.247597559,0.247166352,0.49557635,0.301803195

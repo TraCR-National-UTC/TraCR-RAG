@@ -1,0 +1,472 @@
+No,question,answer & reference,answer_1
+1,Does Delaware require entities to notify the state attorney general or other governmental agency in the event of a data breach?,"Looking into the following states:
+1. Delaware
+
+Delaware:
+According to Legislation code 6 Del. C. § 12B-102:
+(d) If the affected number of Delaware residents to be notified exceeds 500 residents, the person required to provide notice shall, not later than the time when notice is provided to the resident, also provide notice of the breach of security to the Attorney General.
+
+References:
+1) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Delaware\Data breach Notification\_ 12B-102. Disclosure of breach of security; notice.pdf
+2) Current Cybersecurity Law\Delaware\Insurance\18 Del. C. _ 8606.pdf","Looking into the following states:
+1. Delaware
+
+Delaware:
+According to Legislation code 6 Del. C. § 12B-102:
+(d) If the affected number of Delaware residents to be notified exceeds 500 residents, the person required to provide notice shall, not later than the time when notice is provided to the resident, also provide notice of the breach of security to the Attorney General.
+"
+2,How does Connecticut’s Data Breach Notification statute define a breach of security?,"Looking into the following states:
+1. Connecticut
+
+Connecticut:
+According to Conn. Gen. Stat. § 36a-701b:
+
+(a) For purposes of this section, (1) “breach of security” means unauthorized access to or unauthorized acquisition of electronic files, media, databases or computerized data, containing personal information when access to the personal information has not been secured by encryption or by any other method or technology that renders the personal information unreadable or unusable.
+
+References:
+1) Current Cybersecurity Law\Connecticut\Data Breach Notification\Conn. Gen. Stat. -º 36a-701b.pdf","Looking into the following states:
+1. Connecticut
+
+Connecticut:
+According to Conn. Gen. Stat. § 36a-701b:
+
+(a) For purposes of this section, (1) “breach of security” means unauthorized access to or unauthorized acquisition of electronic files, media, databases or computerized data, containing personal information when access to the personal information has not been secured by encryption or by any other method or technology that renders the personal information unreadable or unusable.
+"
+3,How does Montana’s Data Breach Notification Statute define personal information?,"Looking into the following states:
+1. Montana
+
+Montana:
+According to Legislation code 30-14-1704, MCA, Montana’s Data Breach Notification Statute defines personal information as follows:
+
+Paragraph (4)(b)(i) states:
+""“Personal information” means an individual’s first name or first initial and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted: (A) social security number; (B) driver’s license number, state identification card number, or tribal identification card number; (C) account number or credit or debit card number, in combination with any required security code, access code, or password that would permit access to an individual’s financial account; (D) medical record information as defined in 33-19-104; (E) a taxpayer identification number; or (F) an identity protection personal identification number issued by the United States internal revenue service.""
+
+References:
+1. Current Cybersecurity Law\Montana\Identity Theft\30-14-1704 Computer security breach.pdf
+2. Current Cybersecurity Law\Montana\Identity Theft\30-14-1702 Definitions.pdf","Looking into the following states:
+1. Montana
+
+Montana:
+According to Legislation code 30-14-1704, MCA, Montana’s Data Breach Notification Statute defines personal information as follows:
+
+Paragraph (4)(b)(i) states:
+""“Personal information” means an individual’s first name or first initial and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted: (A) social security number; (B) driver’s license number, state identification card number, or tribal identification card number; (C) account number or credit or debit card number, in combination with any required security code, access code, or password that would permit access to an individual’s financial account; (D) medical record information as defined in 33-19-104; (E) a taxpayer identification number; or (F) an identity protection personal identification number issued by the United States internal revenue service.""
+"
+4,Under what circumstances must disclosure of a data breach be made in North Dakota?,"Looking into the following states:
+1. North Dakota
+
+North Dakota:
+According to N.D. Cent. Code, § 51-30-02:
+1. ""Any person that owns or licenses computerized data that includes personal information, shall disclose any breach of the security system following discovery or notification of the breach in the security of the data to any resident of the state whose unencrypted personal information was, or is reasonably believed to have been, acquired by an unauthorized person.""
+2. ""Any person that experiences a breach of the security system as provided in this section shall disclose to the attorney general by mail or electronic mail any breach of the security system which exceeds two hundred fifty individuals.""
+3. ""The disclosure must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement, as provided in section 51-30-04, or any measures necessary to determine the scope of the breach and to restore the integrity of the data system.""
+
+References:
+1) Current Cybersecurity Law\North Dakota\Data Breach Notification\51-30-02. Notice to attorney general and consumers.pdf","Looking into the following states:
+1. North Dakota
+
+North Dakota:
+According to N.D. Cent. Code, § 51-30-02:
+1. ""Any person that owns or licenses computerized data that includes personal information, shall disclose any breach of the security system following discovery or notification of the breach in the security of the data to any resident of the state whose unencrypted personal information was, or is reasonably believed to have been, acquired by an unauthorized person.""
+2. ""Any person that experiences a breach of the security system as provided in this section shall disclose to the attorney general by mail or electronic mail any breach of the security system which exceeds two hundred fifty individuals.""
+3. ""The disclosure must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement, as provided in section 51-30-04, or any measures necessary to determine the scope of the breach and to restore the integrity of the data system.""
+"
+5,What are the acceptable methods of notice of a data breach in Tennessee?,"Looking into the following states:
+1. Tennessee
+
+Tennessee:
+According to Tenn. Code Ann. § 56-2-1006:
+a) Following a determination that a cybersecurity event has occurred and that the cybersecurity event has a reasonable likelihood of materially harming a consumer, a licensee shall notify consumers residing in this state whose nonpublic information has been acquired, or reasonably believed to have been acquired, by the cybersecurity event. The disclosure must be made no later than forty-five (45) days after the determination of the cybersecurity event unless a longer period of time is required due to the legitimate needs of law enforcement. For purposes of this section, notice may be provided by:
+1) Written notice;
+2) Electronic notice, if the notice provided is consistent with the provisions regarding electronic records and signatures set forth in 15 U.S.C. § 7001, or if the licensee's primary method of communication with the consumer has been by electronic means. Electronic means may include email notification; or
+3) Substitute notice, if the licensee demonstrates that the cost of providing notice would exceed two hundred fifty thousand dollars ($250,000), the affected class of subject persons to be notified exceeds five hundred thousand (500,000) persons, or the licensee does not have sufficient contact information and the notice consists of the following:
+A) Email notice, when the licensee has an email address for the consumer;
+B) Conspicuous posting of the notice on the licensee's website, if the licensee maintains a website page; and
+C) Notification to major statewide media.
+
+References:
+1) Current Cybersecurity Law\Tennessee\Insurance\Tenn. Code Ann. § 56-2-1006.pdf","Looking into the following states:
+1. Tennessee
+
+Tennessee:
+According to Tenn. Code Ann. § 56-2-1006:
+a) Following a determination that a cybersecurity event has occurred and that the cybersecurity event has a reasonable likelihood of materially harming a consumer, a licensee shall notify consumers residing in this state whose nonpublic information has been acquired, or reasonably believed to have been acquired, by the cybersecurity event. The disclosure must be made no later than forty-five (45) days after the determination of the cybersecurity event unless a longer period of time is required due to the legitimate needs of law enforcement. For purposes of this section, notice may be provided by:
+1) Written notice;
+2) Electronic notice, if the notice provided is consistent with the provisions regarding electronic records and signatures set forth in 15 U.S.C. § 7001, or if the licensee's primary method of communication with the consumer has been by electronic means. Electronic means may include email notification; or
+3) Substitute notice, if the licensee demonstrates that the cost of providing notice would exceed two hundred fifty thousand dollars ($250,000), the affected class of subject persons to be notified exceeds five hundred thousand (500,000) persons, or the licensee does not have sufficient contact information and the notice consists of the following:
+A) Email notice, when the licensee has an email address for the consumer;
+B) Conspicuous posting of the notice on the licensee's website, if the licensee maintains a website page; and
+C) Notification to major statewide media.
+"
+6,What are the maximum penalties for failing to follow the data breach notification statutes in Ohio and Oklahoma?,"Looking into the following states:
+1. Oklahoma
+2. Ohio
+
+Oklahoma:
+According to Legislation code 24 Okl. St. § 163 in Oklahoma:
+
+1. The maximum penalty for failing to follow the data breach notification statutes in Ohio is:
+Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008.
+
+References:
+1) Current Cybersecurity Law\Oklahoma\Data Breach Notifcation\_ 163. Disclosure of Security Breach_Notice.pdf
+2) Current Cybersecurity Law\Oklahoma\Data Breach Notifcation\_ 164. Compliance.pdf
+
+Ohio:
+According to ORC Ann. 1349.192:
+1. For each day of intentional or reckless failure to comply:
+- A civil penalty of up to one thousand dollars for each day the agency or person fails to comply with the section.
+2. If the failure exceeds sixty days:
+- Civil penalty of up to five thousand dollars for each day commencing with the sixty-first day.
+3. If the failure exceeds ninety days:
+- Civil penalty of up to ten thousand dollars for each day commencing with the ninety-first day.
+References:
+1) Current Cybersecurity Law\Ohio\Data Breach Notification\_ 1349.192.pdf
+2) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Ohio\Data Breach Notification\ _1349.19 Disclosure or notification of.pdf
+3) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Ohio\Data Breach Notification\ _1349.19 Disclosure or notification of.pdf
+4) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Ohio\Data Breach Notification\ _1349.19 Disclosure or notification of.pdf
+
+The maximum penalties for failing to follow the data breach notification statutes in Ohio are as follows:
+1. For each day of intentional or reckless failure to comply, a civil penalty of up to one thousand dollars for each day the agency or person fails to comply with the section.
+2. If the failure exceeds sixty days, a civil penalty of up to five thousand dollars for each day commencing with the sixty-first day.
+3. If the failure exceeds ninety days, a civil penalty of up to ten thousand dollars for each day commencing with the ninety-first day.
+
+The maximum penalty for failing to follow the data breach notification statutes in Oklahoma has been set by Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008.","Looking into the following states:
+1. Oklahoma
+2. Ohio
+
+Oklahoma:
+According to Legislation code 24 Okl. St. § 163 in Oklahoma:
+
+1. The maximum penalty for failing to follow the data breach notification statutes in Ohio is:
+Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008.
+
+
+Ohio:
+According to ORC Ann. 1349.192:
+1. For each day of intentional or reckless failure to comply:
+- A civil penalty of up to one thousand dollars for each day the agency or person fails to comply with the section.
+2. If the failure exceeds sixty days:
+- Civil penalty of up to five thousand dollars for each day commencing with the sixty-first day.
+3. If the failure exceeds ninety days:
+- Civil penalty of up to ten thousand dollars for each day commencing with the ninety-first day.
+
+The maximum penalties for failing to follow the data breach notification statutes in Ohio are as follows:
+1. For each day of intentional or reckless failure to comply, a civil penalty of up to one thousand dollars for each day the agency or person fails to comply with the section.
+2. If the failure exceeds sixty days, a civil penalty of up to five thousand dollars for each day commencing with the sixty-first day.
+3. If the failure exceeds ninety days, a civil penalty of up to ten thousand dollars for each day commencing with the ninety-first day.
+
+The maximum penalty for failing to follow the data breach notification statutes in Oklahoma has been set by Laws 2008, HB 2245, c. 86, § 3, eff. November 1, 2008."
+7,What information must be provided in a data breach notification in South Carolina and Wyoming?,"Looking into the following states:
+1. South Carolina
+2. Wyoming
+
+South Carolina:
+According to South Carolina Code of Laws Annotated by LexisNexis® Title 38. Insurance, Chapter 99, §  38 -99-40:
+
+In a data breach notification in South Carolina, the following information must be provided by the licensee to the director:
+1) The date of the cybersecurity event;
+2) A description of how the information was exposed, lost, stolen, or breached, including the specific roles and responsibilities of third-party service providers, if any;
+3) How the cybersecurity event was discovered;
+4) Whether any lost, stolen, or breached information has been recovered and if so, how this was done;
+5) The identity of the source of the cybersecurity event;
+6) Whether the licensee has filed a police report or has notified any regulatory, governmental or law enforcement agencies and, if so, when such notification was provided;
+7) A description of the specific types of information acquired without authorization, including particular data elements such as types of medical information, types of financial information, or types of information allowing identification of the consumer;
+8) The period during which the information system was compromised by the cybersecurity event;
+9) The number of total consumers in South Carolina affected by the cybersecurity event, providing the best estimate in the initial report to the director and updating this estimate with each subsequent report;
+10) The results of any internal review identifying a lapse in either automated controls or internal procedures, or confirming that all automated controls or internal procedures were followed;
+11) A description of efforts being undertaken to remediate the situation which permitted the cybersecurity event to occur;
+12) A copy of the licensee’s privacy policy and a statement outlining the steps the licensee will take to investigate and notify consumers affected by the cybersecurity event; and
+13) The name of a contact person who is both familiar with the cybersecurity event and authorized to act on behalf of the licensee.
+
+References:
+1) Current Cybersecurity Law\South Carolina\Insurance\S.C. Code Ann. § 38-99-40.pdf
+
+Wyoming:
+According to Wyo. Stat. § 40-12-502:
+(a) Notice required under subsection (a) of this section shall be clear and conspicuous and shall include:
+(i) A toll-free number:
+(A) That the individual may use to contact the person collecting the data, or his agent; and
+(B) From which the individual may learn the toll-free contact telephone numbers and addresses for the major credit reporting agencies.
+(ii) The types of personal identifying information that were or are reasonably believed to have been the subject of the breach;
+(iii) A general description of the breach incident;
+(iv) The approximate date of the breach of security, if that information is reasonably possible to determine at the time notice is provided;
+(v) In general terms, the actions taken by the individual or commercial entity to protect the system containing the personal identifying information from further breaches;
+(vi) Advice that directs the person to remain vigilant by reviewing account statements and monitoring credit reports;
+(vii) Whether notification was delayed as a result of a law enforcement investigation, if that information is reasonably possible to determine at the time the notice is provided.
+
+References:
+1) Current Cybersecurity Law\Wyoming\Data Breach Notification\Wyo. Stat. -º 40-12-502.pdf
+
+In a data breach notification in South Carolina, the following information must be provided by the licensee to the director:
+1) The date of the cybersecurity event;
+2) A description of how the information was exposed, lost, stolen, or breached, including the specific roles and responsibilities of third-party service providers, if any;
+3) How the cybersecurity event was discovered;
+4) Whether any lost, stolen, or breached information has been recovered and if so, how this was done;
+5) The identity of the source of the cybersecurity event;
+6) Whether the licensee has filed a police report or has notified any regulatory, governmental or law enforcement agencies and, if so, when such notification was provided;
+7) A description of the specific types of information acquired without authorization, including particular data elements such as types of medical information, types of financial information, or types of information allowing identification of the consumer;
+8) The period during which the information system was compromised by the cybersecurity event;
+9) The number of total consumers in South Carolina affected by the cybersecurity event, providing the best estimate in the initial report to the director and updating this estimate with each subsequent report;
+10) The results of any internal review identifying a lapse in either automated controls or internal procedures, or confirming that all automated controls or internal procedures were followed;
+11) A description of efforts being undertaken to remediate the situation which permitted the cybersecurity event to occur;
+12) A copy of the licensee’s privacy policy and a statement outlining the steps the licensee will take to investigate and notify consumers affected by the cybersecurity event; and
+13) The name of a contact person who is both familiar with the cybersecurity event and authorized to act on behalf of the licensee.
+
+In Wyoming, the required information for a data breach notification includes:
+(i) A toll-free number:
+(A) That the individual may use to contact the person collecting the data, or his agent; and
+(B) From which the individual may learn the toll-free contact telephone numbers and addresses for the major credit reporting agencies.
+(ii) The types of personal identifying information that were or are reasonably believed to have been the subject of the breach;
+(iii) A general description of the breach incident;
+(iv) The approximate date of the breach of security, if that information is reasonably possible to determine at the time notice is provided;
+(v) In general terms, the actions taken by the individual or commercial entity to protect the system containing the personal identifying information from further breaches;
+(vi) Advice that directs the person to remain vigilant by reviewing account statements and monitoring credit reports;
+(vii) Whether notification was delayed as a result of a law enforcement investigation, if that information is reasonably possible to determine at the time the notice is provided.","Looking into the following states:
+1. South Carolina
+2. Wyoming
+
+South Carolina:
+According to South Carolina Code of Laws Annotated by LexisNexis® Title 38. Insurance, Chapter 99, §  38 -99-40:
+
+In a data breach notification in South Carolina, the following information must be provided by the licensee to the director:
+1) The date of the cybersecurity event;
+2) A description of how the information was exposed, lost, stolen, or breached, including the specific roles and responsibilities of third-party service providers, if any;
+3) How the cybersecurity event was discovered;
+4) Whether any lost, stolen, or breached information has been recovered and if so, how this was done;
+5) The identity of the source of the cybersecurity event;
+6) Whether the licensee has filed a police report or has notified any regulatory, governmental or law enforcement agencies and, if so, when such notification was provided;
+7) A description of the specific types of information acquired without authorization, including particular data elements such as types of medical information, types of financial information, or types of information allowing identification of the consumer;
+8) The period during which the information system was compromised by the cybersecurity event;
+9) The number of total consumers in South Carolina affected by the cybersecurity event, providing the best estimate in the initial report to the director and updating this estimate with each subsequent report;
+10) The results of any internal review identifying a lapse in either automated controls or internal procedures, or confirming that all automated controls or internal procedures were followed;
+11) A description of efforts being undertaken to remediate the situation which permitted the cybersecurity event to occur;
+12) A copy of the licensee’s privacy policy and a statement outlining the steps the licensee will take to investigate and notify consumers affected by the cybersecurity event; and
+13) The name of a contact person who is both familiar with the cybersecurity event and authorized to act on behalf of the licensee.
+
+
+Wyoming:
+According to Wyo. Stat. § 40-12-502:
+(a) Notice required under subsection (a) of this section shall be clear and conspicuous and shall include:
+(i) A toll-free number:
+(A) That the individual may use to contact the person collecting the data, or his agent; and
+(B) From which the individual may learn the toll-free contact telephone numbers and addresses for the major credit reporting agencies.
+(ii) The types of personal identifying information that were or are reasonably believed to have been the subject of the breach;
+(iii) A general description of the breach incident;
+(iv) The approximate date of the breach of security, if that information is reasonably possible to determine at the time notice is provided;
+(v) In general terms, the actions taken by the individual or commercial entity to protect the system containing the personal identifying information from further breaches;
+(vi) Advice that directs the person to remain vigilant by reviewing account statements and monitoring credit reports;
+(vii) Whether notification was delayed as a result of a law enforcement investigation, if that information is reasonably possible to determine at the time the notice is provided.
+
+In a data breach notification in South Carolina, the following information must be provided by the licensee to the director:
+1) The date of the cybersecurity event;
+2) A description of how the information was exposed, lost, stolen, or breached, including the specific roles and responsibilities of third-party service providers, if any;
+3) How the cybersecurity event was discovered;
+4) Whether any lost, stolen, or breached information has been recovered and if so, how this was done;
+5) The identity of the source of the cybersecurity event;
+6) Whether the licensee has filed a police report or has notified any regulatory, governmental or law enforcement agencies and, if so, when such notification was provided;
+7) A description of the specific types of information acquired without authorization, including particular data elements such as types of medical information, types of financial information, or types of information allowing identification of the consumer;
+8) The period during which the information system was compromised by the cybersecurity event;
+9) The number of total consumers in South Carolina affected by the cybersecurity event, providing the best estimate in the initial report to the director and updating this estimate with each subsequent report;
+10) The results of any internal review identifying a lapse in either automated controls or internal procedures, or confirming that all automated controls or internal procedures were followed;
+11) A description of efforts being undertaken to remediate the situation which permitted the cybersecurity event to occur;
+12) A copy of the licensee’s privacy policy and a statement outlining the steps the licensee will take to investigate and notify consumers affected by the cybersecurity event; and
+13) The name of a contact person who is both familiar with the cybersecurity event and authorized to act on behalf of the licensee.
+
+In Wyoming, the required information for a data breach notification includes:
+(i) A toll-free number:
+(A) That the individual may use to contact the person collecting the data, or his agent; and
+(B) From which the individual may learn the toll-free contact telephone numbers and addresses for the major credit reporting agencies.
+(ii) The types of personal identifying information that were or are reasonably believed to have been the subject of the breach;
+(iii) A general description of the breach incident;
+(iv) The approximate date of the breach of security, if that information is reasonably possible to determine at the time notice is provided;
+(v) In general terms, the actions taken by the individual or commercial entity to protect the system containing the personal identifying information from further breaches;
+(vi) Advice that directs the person to remain vigilant by reviewing account statements and monitoring credit reports;
+(vii) Whether notification was delayed as a result of a law enforcement investigation, if that information is reasonably possible to determine at the time the notice is provided."
+8,Who must receive notice of a data breach in either Texas or Nebraska?,"Looking into the following states:
+1. Texas
+2. Nebraska
+
+Texas:
+According to Tex. Bus. & Com. Code § 521.053:
+
+The person who conducts business in the state and owns or licenses computerized data that includes sensitive personal information shall disclose any breach of system security to any individual whose sensitive personal information was or is reasonably believed to have been acquired by an unauthorized person.
+
+References:
+1) Current Cybersecurity Law\Texas\Business\Tex. Bus. & Com. Code § 521.053.pdf - Page 1 of 3
+
+Nebraska:
+According to Legislation code: R.R.S. Neb. § 87-803:
+
+1) An individual or a commercial entity that conducts business in Nebraska and that owns or licenses computerized data that includes personal information about a resident of Nebraska shall, when it becomes aware of a breach of the security of the system, conduct in good faith a reasonable and prompt investigation to determine the likelihood that personal information has been or will be used for an unauthorized purpose. If the investigation determines that the use of information about a Nebraska resident for an unauthorized purpose has occurred or is reasonably likely to occur, the individual or commercial entity shall give notice to the affected Nebraska resident. Notice shall be made as soon as possible and without unreasonable delay, consistent with the legitimate needs of law enforcement and consistent with any measures necessary to determine the scope of the breach and to restore the reasonable integrity of the computerized data system.
+
+2) If notice of a breach of security of the system is required by subsection (1) of this section, the individual or commercial entity shall also, not later than the time when notice is provided to the Nebraska resident, provide notice of the breach of security of the system to the Attorney General.
+
+3) An individual or a commercial entity that maintains computerized data that includes personal information that the individual or commercial entity does not own or license shall give notice to and cooperate with the owner or licensee of the information of any breach of the security of the system when it becomes aware of a breach if use of personal information about a Nebraska resident for an unauthorized purpose occurred or is reasonably likely to occur. Cooperation includes, but is not limited to, sharing with the owner or licensee information relevant to the breach, not including information proprietary to the individual or commercial entity.
+
+References:
+1) Current Cybersecurity Law\Nebraska\Financial\R.R.S. Neb. § 87-803.pdf
+
+The affected Nebraska resident must receive notice of a data breach in Nebraska. Additionally, the Attorney General must receive notice of the breach of security of the system in Nebraska.","Looking into the following states:
+1. Texas
+2. Nebraska
+
+Texas:
+According to Tex. Bus. & Com. Code § 521.053:
+
+The person who conducts business in the state and owns or licenses computerized data that includes sensitive personal information shall disclose any breach of system security to any individual whose sensitive personal information was or is reasonably believed to have been acquired by an unauthorized person.
+
+Nebraska:
+According to Legislation code: R.R.S. Neb. § 87-803:
+
+1) An individual or a commercial entity that conducts business in Nebraska and that owns or licenses computerized data that includes personal information about a resident of Nebraska shall, when it becomes aware of a breach of the security of the system, conduct in good faith a reasonable and prompt investigation to determine the likelihood that personal information has been or will be used for an unauthorized purpose. If the investigation determines that the use of information about a Nebraska resident for an unauthorized purpose has occurred or is reasonably likely to occur, the individual or commercial entity shall give notice to the affected Nebraska resident. Notice shall be made as soon as possible and without unreasonable delay, consistent with the legitimate needs of law enforcement and consistent with any measures necessary to determine the scope of the breach and to restore the reasonable integrity of the computerized data system.
+
+2) If notice of a breach of security of the system is required by subsection (1) of this section, the individual or commercial entity shall also, not later than the time when notice is provided to the Nebraska resident, provide notice of the breach of security of the system to the Attorney General.
+
+3) An individual or a commercial entity that maintains computerized data that includes personal information that the individual or commercial entity does not own or license shall give notice to and cooperate with the owner or licensee of the information of any breach of the security of the system when it becomes aware of a breach if use of personal information about a Nebraska resident for an unauthorized purpose occurred or is reasonably likely to occur. Cooperation includes, but is not limited to, sharing with the owner or licensee information relevant to the breach, not including information proprietary to the individual or commercial entity.
+
+The affected Nebraska resident must receive notice of a data breach in Nebraska. Additionally, the Attorney General must receive notice of the breach of security of the system in Nebraska."
+9,Who must comply with the data breach notification statute in Pennsylvania and Virginia?,"Looking into the following states:
+1. Pennsylvania
+2. Virginia
+
+Pennsylvania:
+According to legislation code 73 P.S. § 2303, the entities that must comply with the data breach notification statute in Pennsylvania and Virginia are as follows:
+1. Any entity that maintains, stores, or manages computerized data that includes personal information.
+2. State agencies or State agency contractors if they are subject to a breach of the security of the system affecting personal information.
+3. Counties, public schools, or municipalities in case they are the subject of a breach of the security of the system.
+
+References:
+1) Current Cybersecurity Law\Pennsylvania\_ 2303. Notification of the breach of the security of the system.pdf
+2) Current Cybersecurity Law\Pennsylvania\40 Pa.C.S. -º 4518.pdf
+3) Current Cybersecurity Law\Pennsylvania\_ 2307. Notice exemption.pdf
+
+Virginia:
+According to Va. Code Ann. § 18.2-186.6:
+A. ""Entity"" includes corporations, business trusts, estates, partnerships, limited partnerships, limited liability partnerships, limited liability companies, associations, organizations, joint ventures, governments, governmental subdivisions, agencies, or instrumentalities or any other legal entity, whether for profit or not for profit.
+
+References:
+1) Current Cybersecurity Law\Virginia\Criminal\Va. Code Ann. § 18.2-186.6.pdf
+2) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Virginia\Insurance\Va. Code Ann. § 18.2-186.6.pdf
+
+Entities that must comply with the data breach notification statute in Pennsylvania and Virginia are as follows:
+1. Any entity that maintains, stores, or manages computerized data that includes personal information.
+2. State agencies or State agency contractors if they are subject to a breach of the security of the system affecting personal information.
+3. Counties, public schools, or municipalities in case they are the subject of a breach of the security of the system.","Looking into the following states:
+1. Pennsylvania
+2. Virginia
+
+Pennsylvania:
+According to legislation code 73 P.S. § 2303, the entities that must comply with the data breach notification statute in Pennsylvania and Virginia are as follows:
+1. Any entity that maintains, stores, or manages computerized data that includes personal information.
+2. State agencies or State agency contractors if they are subject to a breach of the security of the system affecting personal information.
+3. Counties, public schools, or municipalities in case they are the subject of a breach of the security of the system.
+
+
+Virginia:
+According to Va. Code Ann. § 18.2-186.6:
+A. ""Entity"" includes corporations, business trusts, estates, partnerships, limited partnerships, limited liability partnerships, limited liability companies, associations, organizations, joint ventures, governments, governmental subdivisions, agencies, or instrumentalities or any other legal entity, whether for profit or not for profit.
+
+Entities that must comply with the data breach notification statute in Pennsylvania and Virginia are as follows:
+1. Any entity that maintains, stores, or manages computerized data that includes personal information.
+2. State agencies or State agency contractors if they are subject to a breach of the security of the system affecting personal information.
+3. Counties, public schools, or municipalities in case they are the subject of a breach of the security of the system."
+10,"When do you have to provide notice to affected individuals of a data breach in California, Utah, Florida, and Michigan?","Looking into the following states:
+1. California
+2. Michigan
+3. Florida
+4. Utah
+
+California:
+According to California Civ. Code § 1798.82:
+1. California: ""Any data collector that owns or licenses computerized data that includes personal information shall disclose any breach of the security of the system following discovery or notification of the breach in the security of the data to any resident of California whose unencrypted personal information was, or is reasonably believed to have been, acquired by an unauthorized person.""
+
+2. Utah Code § 13-44-202:
+2. Utah: ""A person that owns or licenses computerized data that includes personal information concerning a Utah resident who must provide notice following a breach of the security system.""
+
+3. Florida Stat. § 501.171:
+3. Florida: ""Any entity that maintains computerized data that includes personal information must provide notice to affected individuals in the event of a data breach.""
+
+4. Michigan Comp. Laws § 445.73:
+4. Michigan: ""Any agency that owns or licenses data that includes personal information must disclose a breach of the security of the data to any resident of Michigan whose personal information was accessed.""
+
+References:
+1) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\California\California Civ. Code § 1798.82.pdf
+2) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Utah\Utah Code § 13-44-202.pdf
+3) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Florida\Florida Stat. § 501.171.pdf
+4) C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Michigan\Michigan Comp. Laws § 445.73.pdf
+
+Michigan:
+According to Legislation code MCLS § 445.72, regarding the Notice of Security Breach in Michigan:
+
+1. In California, Utah, Florida, and Michigan, a person or agency shall provide a notice of the security breach to each resident of the state if the security breach is likely to cause substantial loss or injury or result in identity theft for the affected individuals.
+
+References:
+1) Current Cybersecurity Law\Michigan\Commerce\MCLS _ 445.72.pdf
+2) Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.559.pdf
+3) Current Cybersecurity Law\Michigan\Insurance\MCLS _ 500.561.pdf
+
+Florida:
+According to Legislation code Fla. Stat. § 501.171:
+
+3. Notice to individuals of security breach.
+(a) A covered entity shall give notice to each individual in this state whose personal information was, or the covered entity reasonably believes to have been, accessed as a result of the breach. Notice to individuals shall be made as expeditiously as practicable and without unreasonable delay, taking into account the time necessary to allow the covered entity to determine the scope of the breach of security, to identify individuals affected by the breach, and to restore the reasonable integrity of the data system that was breached, but no later than 30 days after the determination of a breach or reason to believe a breach occurred unless subject to a delay authorized under paragraph (b) or waiver under paragraph (c).
+
+References:
+1) Current Cybersecurity Law\Florida\Consumer Protection\Fla. Stat. _ 501.171.pdf
+2) Current Cybersecurity Law\Florida\Consumer Protection\Fla. Stat. _ 501.171(2).pdf
+
+Utah:
+According to Utah Code Ann. § 63A-19-406:
+
+1) A governmental entity shall provide a data breach notice to an individual or legal guardian of an individual affected by the data breach:
+(a) after determining the scope of the data breach;
+(b) after restoring the reasonable integrity of the affected system, if necessary;
+(c) without unreasonable delay except as provided in Subsection (1)(b).
+
+References:
+1) Current Cybersecurity Law\Utah\Government\Utah Code Ann. § 63A-19-406.pdf
+
+In California, Utah, Florida, and Michigan, a person or agency shall provide notice to each resident of the state if the security breach is likely to cause substantial loss or injury or result in identity theft for the affected individuals.","Looking into the following states:
+1. California
+2. Michigan
+3. Florida
+4. Utah
+
+California:
+According to California Civ. Code § 1798.82:
+1. California: ""Any data collector that owns or licenses computerized data that includes personal information shall disclose any breach of the security of the system following discovery or notification of the breach in the security of the data to any resident of California whose unencrypted personal information was, or is reasonably believed to have been, acquired by an unauthorized person.""
+
+2. Utah Code § 13-44-202:
+2. Utah: ""A person that owns or licenses computerized data that includes personal information concerning a Utah resident who must provide notice following a breach of the security system.""
+
+3. Florida Stat. § 501.171:
+3. Florida: ""Any entity that maintains computerized data that includes personal information must provide notice to affected individuals in the event of a data breach.""
+
+4. Michigan Comp. Laws § 445.73:
+4. Michigan: ""Any agency that owns or licenses data that includes personal information must disclose a breach of the security of the data to any resident of Michigan whose personal information was accessed.""
+
+
+Michigan:
+According to Legislation code MCLS § 445.72, regarding the Notice of Security Breach in Michigan:
+
+1. In California, Utah, Florida, and Michigan, a person or agency shall provide a notice of the security breach to each resident of the state if the security breach is likely to cause substantial loss or injury or result in identity theft for the affected individuals.
+
+
+Florida:
+According to Legislation code Fla. Stat. § 501.171:
+
+3. Notice to individuals of security breach.
+(a) A covered entity shall give notice to each individual in this state whose personal information was, or the covered entity reasonably believes to have been, accessed as a result of the breach. Notice to individuals shall be made as expeditiously as practicable and without unreasonable delay, taking into account the time necessary to allow the covered entity to determine the scope of the breach of security, to identify individuals affected by the breach, and to restore the reasonable integrity of the data system that was breached, but no later than 30 days after the determination of a breach or reason to believe a breach occurred unless subject to a delay authorized under paragraph (b) or waiver under paragraph (c).
+
+
+Utah:
+According to Utah Code Ann. § 63A-19-406:
+
+1) A governmental entity shall provide a data breach notice to an individual or legal guardian of an individual affected by the data breach:
+(a) after determining the scope of the data breach;
+(b) after restoring the reasonable integrity of the affected system, if necessary;
+(c) without unreasonable delay except as provided in Subsection (1)(b).
+
+
+In California, Utah, Florida, and Michigan, a person or agency shall provide notice to each resident of the state if the security breach is likely to cause substantial loss or injury or result in identity theft for the affected individuals."

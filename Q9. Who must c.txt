@@ -1,0 +1,1040 @@
+Pennsylvania
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Pennsylvania\_ 2303. Notification of the breach of the security of the system.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+73 P.S. § 2303  
+Pa.C.S. documents are current through 2024 Regular Session Act 13; P.S. documents are current through 
+2024 Regular Session Act 13  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®   >  Pennsylvania Statutes (§§ 1 — 2710)   >  Title 73. Trade 
+and Commerce (Chs. 1 — 47)  >  Chapter 43. Brea ch of Personal Information Notification Act (§§ 2301 — 
+2329)  
+ 
+§ 2303. Notification of the breach of the security of the system   
+ 
+(a)  General rule.   An entity that maintains, stores or manages computerized data that includes 
+personal information shall provide notice of any breach of the security of the system following 
+determination of the breach of the security of the system to any resident of this Commonwealth 
+whose unencrypted and unredacted personal information was or is reasonably believed to have 
+been accessed and acquired by an unauthorized person. Except as provided in section 4 or in order 
+to take any measures necessary to determine the scope of the breach and to restore the reasonable 
+integrity of the data system, the notice shall be made witho ut unreasonable delay. For the purpose 
+of this section, a resident of this Commonwealth may be determined to be an individual whose 
+principal mailing address, as reflected in the computerized data which is maintained, stored or 
+managed by the entity, is in  this Commonwealth.  
+(a.1)  Notification by State agency or State agency contractor.    
+(1)  If a State agency determines that it is the subject of a breach of the security of the system 
+affecting personal information maintained by the State agency or State  agency contractor, the 
+State agency shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security 
+of the system. Notification shall be provid ed concurrently to the Office of Attorney General.  
+(2)  A State agency contractor shall, upon discovery of the breach of the security of the system, 
+notify the chief information security officer, or a designee, of the State agency affected by the 
+State age ncy contractor’s breach of the security of the system as soon as reasonably practical, 
+but no later than the time period specified in the applicable terms of the contract between the 
+State agency contractor and the State agency of the breach of the securit y of the system.  
+(3)  A State agency under the Governor’s jurisdiction shall also provide notice of a breach of 
+the security of the system to the Governor’s Office of Administration within three business 
+days following the determination of the breach of the security of the system. Notification shall 
+occur notwithstanding the existence of procedures and policies under section 7.  
+(4)  A State agency that, after the effective date of this section, enters into a contract which 
+involves the use of personal inf ormation with a State agency contractor shall ensure that the 
+contract includes provisions relating to the State agency contractor’s compliance with this act.  Page 2 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   (a.2)  Notification by county, public school or municipality.   If a county, public school or 
+municipality is the subject of a breach of the security of the system, the county, public school or 
+municipality shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security of 
+the system. Notification shall be provided to the district attorney in the county where the breach of 
+the security of the system occurred within three business days following determination of the 
+breach of the security of t he system. Notification shall occur notwithstanding the existence of 
+procedures and policies under section 7.  
+(a.3)  Electronic notification.   In the case of a breach of the security of the system involving 
+personal information for a user name or e -mail a ddress in combination with a password or security 
+question and answer that would permit access to an online account, the entity, to the extent that it 
+has sufficient contact information for the person, may comply with this section by providing the 
+breach o f the security of the system notification in electronic or other form that directs the person 
+whose personal information has been materially compromised by the breach of the security of the 
+system to promptly change the person’s password and security quest ion or answer, as applicable or 
+to take other steps appropriate to protect the online account with the entity and other online 
+accounts for which the person whose personal information has been materially compromised by 
+the breach of the security of the sys tem uses the same user name or e -mail address and password 
+or security question or answer.  
+(a.4)  Affected individuals.   In the case of a breach of the security of the system involving 
+personal information of an individual’s user name or e -mail address in  combination with a 
+password or security question and answer that would permit access to an online account, the State 
+agency contractor may comply with this section by providing a list of affected residents of this 
+Commonwealth and their valid e -mail addre sses, if known, to the State agency subject of the 
+breach of the security of the system.  
+(b)  Encrypted information.   An entity must provide notice of the breach if encrypted 
+information is accessed and acquired in an unencrypted form, if the security bre ach is linked to a 
+breach of the security of the encryption or if the security breach involves a person with access to 
+the encryption key.  
+(c)  Vendor notification.   A vendor that maintains, stores or manages computerized data on 
+behalf of another entity shall provide notice of any breach of the security of the system following 
+discovery by the vendor to the entity on whose behalf the vendor maintains, stores or manages the 
+data. The entity shall be responsible for making the determinations and discharging  any remaining 
+duties under this act.  
+(d)  Definitions.   As used in this section, the term “public school” means any school district, 
+intermediate unit, charter school, cyber charter school or area career and technical school.  
+History   
+ 
+Act 2005 -94 (S.B.  712), P.L. 474, § 3, approved Dec. 22, 2005, eff. in 180 days; Act 2022 -151 (S.B. 696), 
+§ 3, approved November 3, 2022, effective May 2, 2023.  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®  Page 3 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Pennsylvania\_ 2303. Notification of the breach of the security of the system.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+73 P.S. § 2303  
+Pa.C.S. documents are current through 2024 Regular Session Act 13; P.S. documents are current through 
+2024 Regular Session Act 13  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®   >  Pennsylvania Statutes (§§ 1 — 2710)   >  Title 73. Trade 
+and Commerce (Chs. 1 — 47)  >  Chapter 43. Brea ch of Personal Information Notification Act (§§ 2301 — 
+2329)  
+ 
+§ 2303. Notification of the breach of the security of the system   
+ 
+(a)  General rule.   An entity that maintains, stores or manages computerized data that includes 
+personal information shall provide notice of any breach of the security of the system following 
+determination of the breach of the security of the system to any resident of this Commonwealth 
+whose unencrypted and unredacted personal information was or is reasonably believed to have 
+been accessed and acquired by an unauthorized person. Except as provided in section 4 or in order 
+to take any measures necessary to determine the scope of the breach and to restore the reasonable 
+integrity of the data system, the notice shall be made witho ut unreasonable delay. For the purpose 
+of this section, a resident of this Commonwealth may be determined to be an individual whose 
+principal mailing address, as reflected in the computerized data which is maintained, stored or 
+managed by the entity, is in  this Commonwealth.  
+(a.1)  Notification by State agency or State agency contractor.    
+(1)  If a State agency determines that it is the subject of a breach of the security of the system 
+affecting personal information maintained by the State agency or State  agency contractor, the 
+State agency shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security 
+of the system. Notification shall be provid ed concurrently to the Office of Attorney General.  
+(2)  A State agency contractor shall, upon discovery of the breach of the security of the system, 
+notify the chief information security officer, or a designee, of the State agency affected by the 
+State age ncy contractor’s breach of the security of the system as soon as reasonably practical, 
+but no later than the time period specified in the applicable terms of the contract between the 
+State agency contractor and the State agency of the breach of the securit y of the system.  
+(3)  A State agency under the Governor’s jurisdiction shall also provide notice of a breach of 
+the security of the system to the Governor’s Office of Administration within three business 
+days following the determination of the breach of the security of the system. Notification shall 
+occur notwithstanding the existence of procedures and policies under section 7.  
+(4)  A State agency that, after the effective date of this section, enters into a contract which 
+involves the use of personal inf ormation with a State agency contractor shall ensure that the 
+contract includes provisions relating to the State agency contractor’s compliance with this act.  Page 2 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   (a.2)  Notification by county, public school or municipality.   If a county, public school or 
+municipality is the subject of a breach of the security of the system, the county, public school or 
+municipality shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security of 
+the system. Notification shall be provided to the district attorney in the county where the breach of 
+the security of the system occurred within three business days following determination of the 
+breach of the security of t he system. Notification shall occur notwithstanding the existence of 
+procedures and policies under section 7.  
+(a.3)  Electronic notification.   In the case of a breach of the security of the system involving 
+personal information for a user name or e -mail a ddress in combination with a password or security 
+question and answer that would permit access to an online account, the entity, to the extent that it 
+has sufficient contact information for the person, may comply with this section by providing the 
+breach o f the security of the system notification in electronic or other form that directs the person 
+whose personal information has been materially compromised by the breach of the security of the 
+system to promptly change the person’s password and security quest ion or answer, as applicable or 
+to take other steps appropriate to protect the online account with the entity and other online 
+accounts for which the person whose personal information has been materially compromised by 
+the breach of the security of the sys tem uses the same user name or e -mail address and password 
+or security question or answer.  
+(a.4)  Affected individuals.   In the case of a breach of the security of the system involving 
+personal information of an individual’s user name or e -mail address in  combination with a 
+password or security question and answer that would permit access to an online account, the State 
+agency contractor may comply with this section by providing a list of affected residents of this 
+Commonwealth and their valid e -mail addre sses, if known, to the State agency subject of the 
+breach of the security of the system.  
+(b)  Encrypted information.   An entity must provide notice of the breach if encrypted 
+information is accessed and acquired in an unencrypted form, if the security bre ach is linked to a 
+breach of the security of the encryption or if the security breach involves a person with access to 
+the encryption key.  
+(c)  Vendor notification.   A vendor that maintains, stores or manages computerized data on 
+behalf of another entity shall provide notice of any breach of the security of the system following 
+discovery by the vendor to the entity on whose behalf the vendor maintains, stores or manages the 
+data. The entity shall be responsible for making the determinations and discharging  any remaining 
+duties under this act.  
+(d)  Definitions.   As used in this section, the term “public school” means any school district, 
+intermediate unit, charter school, cyber charter school or area career and technical school.  
+History   
+ 
+Act 2005 -94 (S.B.  712), P.L. 474, § 3, approved Dec. 22, 2005, eff. in 180 days; Act 2022 -151 (S.B. 696), 
+§ 3, approved November 3, 2022, effective May 2, 2023.  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®  Page 3 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Pennsylvania\40 Pa.C.S. -º 4518.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+73 P.S. § 2303  
+Pa.C.S. documents are current through 2024 Regular Session Act 13; P.S. documents are current through 
+2024 Regular Session Act 13  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®   >  Pennsylvania Statutes (§§ 1 — 2710)   >  Title 73. Trade 
+and Commerce (Chs. 1 — 47)  >  Chapter 43. Brea ch of Personal Information Notification Act (§§ 2301 — 
+2329)  
+ 
+§ 2303. Notification of the breach of the security of the system   
+ 
+(a)  General rule.   An entity that maintains, stores or manages computerized data that includes 
+personal information shall provide notice of any breach of the security of the system following 
+determination of the breach of the security of the system to any resident of this Commonwealth 
+whose unencrypted and unredacted personal information was or is reasonably believed to have 
+been accessed and acquired by an unauthorized person. Except as provided in section 4 or in order 
+to take any measures necessary to determine the scope of the breach and to restore the reasonable 
+integrity of the data system, the notice shall be made witho ut unreasonable delay. For the purpose 
+of this section, a resident of this Commonwealth may be determined to be an individual whose 
+principal mailing address, as reflected in the computerized data which is maintained, stored or 
+managed by the entity, is in  this Commonwealth.  
+(a.1)  Notification by State agency or State agency contractor.    
+(1)  If a State agency determines that it is the subject of a breach of the security of the system 
+affecting personal information maintained by the State agency or State  agency contractor, the 
+State agency shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security 
+of the system. Notification shall be provid ed concurrently to the Office of Attorney General.  
+(2)  A State agency contractor shall, upon discovery of the breach of the security of the system, 
+notify the chief information security officer, or a designee, of the State agency affected by the 
+State age ncy contractor’s breach of the security of the system as soon as reasonably practical, 
+but no later than the time period specified in the applicable terms of the contract between the 
+State agency contractor and the State agency of the breach of the securit y of the system.  
+(3)  A State agency under the Governor’s jurisdiction shall also provide notice of a breach of 
+the security of the system to the Governor’s Office of Administration within three business 
+days following the determination of the breach of the security of the system. Notification shall 
+occur notwithstanding the existence of procedures and policies under section 7.  
+(4)  A State agency that, after the effective date of this section, enters into a contract which 
+involves the use of personal inf ormation with a State agency contractor shall ensure that the 
+contract includes provisions relating to the State agency contractor’s compliance with this act.  Page 2 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   (a.2)  Notification by county, public school or municipality.   If a county, public school or 
+municipality is the subject of a breach of the security of the system, the county, public school or 
+municipality shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security of 
+the system. Notification shall be provided to the district attorney in the county where the breach of 
+the security of the system occurred within three business days following determination of the 
+breach of the security of t he system. Notification shall occur notwithstanding the existence of 
+procedures and policies under section 7.  
+(a.3)  Electronic notification.   In the case of a breach of the security of the system involving 
+personal information for a user name or e -mail a ddress in combination with a password or security 
+question and answer that would permit access to an online account, the entity, to the extent that it 
+has sufficient contact information for the person, may comply with this section by providing the 
+breach o f the security of the system notification in electronic or other form that directs the person 
+whose personal information has been materially compromised by the breach of the security of the 
+system to promptly change the person’s password and security quest ion or answer, as applicable or 
+to take other steps appropriate to protect the online account with the entity and other online 
+accounts for which the person whose personal information has been materially compromised by 
+the breach of the security of the sys tem uses the same user name or e -mail address and password 
+or security question or answer.  
+(a.4)  Affected individuals.   In the case of a breach of the security of the system involving 
+personal information of an individual’s user name or e -mail address in  combination with a 
+password or security question and answer that would permit access to an online account, the State 
+agency contractor may comply with this section by providing a list of affected residents of this 
+Commonwealth and their valid e -mail addre sses, if known, to the State agency subject of the 
+breach of the security of the system.  
+(b)  Encrypted information.   An entity must provide notice of the breach if encrypted 
+information is accessed and acquired in an unencrypted form, if the security bre ach is linked to a 
+breach of the security of the encryption or if the security breach involves a person with access to 
+the encryption key.  
+(c)  Vendor notification.   A vendor that maintains, stores or manages computerized data on 
+behalf of another entity shall provide notice of any breach of the security of the system following 
+discovery by the vendor to the entity on whose behalf the vendor maintains, stores or manages the 
+data. The entity shall be responsible for making the determinations and discharging  any remaining 
+duties under this act.  
+(d)  Definitions.   As used in this section, the term “public school” means any school district, 
+intermediate unit, charter school, cyber charter school or area career and technical school.  
+History   
+ 
+Act 2005 -94 (S.B.  712), P.L. 474, § 3, approved Dec. 22, 2005, eff. in 180 days; Act 2022 -151 (S.B. 696), 
+§ 3, approved November 3, 2022, effective May 2, 2023.  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®  Page 3 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 4: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Pennsylvania\_ 2307. Notice exemption.pdfLegislation code:Trayce Hockstad   
+Trayce Hockstad   
+73 P.S. § 2303  
+Pa.C.S. documents are current through 2024 Regular Session Act 13; P.S. documents are current through 
+2024 Regular Session Act 13  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®   >  Pennsylvania Statutes (§§ 1 — 2710)   >  Title 73. Trade 
+and Commerce (Chs. 1 — 47)  >  Chapter 43. Brea ch of Personal Information Notification Act (§§ 2301 — 
+2329)  
+ 
+§ 2303. Notification of the breach of the security of the system   
+ 
+(a)  General rule.   An entity that maintains, stores or manages computerized data that includes 
+personal information shall provide notice of any breach of the security of the system following 
+determination of the breach of the security of the system to any resident of this Commonwealth 
+whose unencrypted and unredacted personal information was or is reasonably believed to have 
+been accessed and acquired by an unauthorized person. Except as provided in section 4 or in order 
+to take any measures necessary to determine the scope of the breach and to restore the reasonable 
+integrity of the data system, the notice shall be made witho ut unreasonable delay. For the purpose 
+of this section, a resident of this Commonwealth may be determined to be an individual whose 
+principal mailing address, as reflected in the computerized data which is maintained, stored or 
+managed by the entity, is in  this Commonwealth.  
+(a.1)  Notification by State agency or State agency contractor.    
+(1)  If a State agency determines that it is the subject of a breach of the security of the system 
+affecting personal information maintained by the State agency or State  agency contractor, the 
+State agency shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security 
+of the system. Notification shall be provid ed concurrently to the Office of Attorney General.  
+(2)  A State agency contractor shall, upon discovery of the breach of the security of the system, 
+notify the chief information security officer, or a designee, of the State agency affected by the 
+State age ncy contractor’s breach of the security of the system as soon as reasonably practical, 
+but no later than the time period specified in the applicable terms of the contract between the 
+State agency contractor and the State agency of the breach of the securit y of the system.  
+(3)  A State agency under the Governor’s jurisdiction shall also provide notice of a breach of 
+the security of the system to the Governor’s Office of Administration within three business 
+days following the determination of the breach of the security of the system. Notification shall 
+occur notwithstanding the existence of procedures and policies under section 7.  
+(4)  A State agency that, after the effective date of this section, enters into a contract which 
+involves the use of personal inf ormation with a State agency contractor shall ensure that the 
+contract includes provisions relating to the State agency contractor’s compliance with this act.  Page 2 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   (a.2)  Notification by county, public school or municipality.   If a county, public school or 
+municipality is the subject of a breach of the security of the system, the county, public school or 
+municipality shall provide notice of the breach of the security of the system required under 
+subsection (a) within seven business days following determination of the breach of the security of 
+the system. Notification shall be provided to the district attorney in the county where the breach of 
+the security of the system occurred within three business days following determination of the 
+breach of the security of t he system. Notification shall occur notwithstanding the existence of 
+procedures and policies under section 7.  
+(a.3)  Electronic notification.   In the case of a breach of the security of the system involving 
+personal information for a user name or e -mail a ddress in combination with a password or security 
+question and answer that would permit access to an online account, the entity, to the extent that it 
+has sufficient contact information for the person, may comply with this section by providing the 
+breach o f the security of the system notification in electronic or other form that directs the person 
+whose personal information has been materially compromised by the breach of the security of the 
+system to promptly change the person’s password and security quest ion or answer, as applicable or 
+to take other steps appropriate to protect the online account with the entity and other online 
+accounts for which the person whose personal information has been materially compromised by 
+the breach of the security of the sys tem uses the same user name or e -mail address and password 
+or security question or answer.  
+(a.4)  Affected individuals.   In the case of a breach of the security of the system involving 
+personal information of an individual’s user name or e -mail address in  combination with a 
+password or security question and answer that would permit access to an online account, the State 
+agency contractor may comply with this section by providing a list of affected residents of this 
+Commonwealth and their valid e -mail addre sses, if known, to the State agency subject of the 
+breach of the security of the system.  
+(b)  Encrypted information.   An entity must provide notice of the breach if encrypted 
+information is accessed and acquired in an unencrypted form, if the security bre ach is linked to a 
+breach of the security of the encryption or if the security breach involves a person with access to 
+the encryption key.  
+(c)  Vendor notification.   A vendor that maintains, stores or manages computerized data on 
+behalf of another entity shall provide notice of any breach of the security of the system following 
+discovery by the vendor to the entity on whose behalf the vendor maintains, stores or manages the 
+data. The entity shall be responsible for making the determinations and discharging  any remaining 
+duties under this act.  
+(d)  Definitions.   As used in this section, the term “public school” means any school district, 
+intermediate unit, charter school, cyber charter school or area career and technical school.  
+History   
+ 
+Act 2005 -94 (S.B.  712), P.L. 474, § 3, approved Dec. 22, 2005, eff. in 180 days; Act 2022 -151 (S.B. 696), 
+§ 3, approved November 3, 2022, effective May 2, 2023.  
+ 
+Pennsylvania Statutes, Annotated by LexisNexis®  Page 3 of 3 
+§ 2303. Notification of the breach of the security of the system  
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+
+Virginia
+Context 1: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Virginia\Criminal\Va. Code Ann. § 18.2-186.6.pdfLegislation code:Page 1 of 5 
+Page 1 of 5 
+Va. Code Ann. § 18.2 -186.6 
+    
+Va. Code Ann. § 18.2 -186.6 
+Current through 2024 Acts effective April 1, 2024  
+ 
+Code of Virginia 1950   >  Title 18.2. Crimes and Offenses Generally. (Chs. 1 — 13)  >  Chapter 6. Crimes 
+Involving Fraud. (Arts. 1 — 10)  >  Article 5. False Representations to Obtain Property or Credit. (§§ 18.2 -186 
+— 18.2-190) 
+ 
+§ 18.2 -186.6. Breach  of personal information notification.   
+ 
+A.  As used in this section:  
+“Breach of the security of the system” means the unauthorized access and acquisition of 
+unencrypted and unredacted computerized data that compromises the security or confidentiality of 
+personal information maintained by an individual or entity as part of a database of personal 
+information regarding multiple individuals and that causes, or the individual or entity reasonably 
+believes has caused, or will cause, identity theft or other frau d to any resident of the 
+Commonwealth. Good faith acquisition of personal information by an employee or agent of an 
+individual or entity for the purposes of the individual or entity is not a breach of the security of the 
+system, provided that the personal information is not used for a purpose other than a lawful 
+purpose of the individual or entity or subject to further unauthorized disclosure.  
+“Encrypted” means the transformation of data  through the use of an algorithmic process into a 
+form in which there is a low probability of assigning meaning without the use of a confidential 
+process or key, or the securing of the information by another method that renders the data elements 
+unreadable  or unusable.  
+“Entity” includes corporations, business trusts, estates, partnerships, limited partnerships, limited 
+liability partnerships, limited liability companies, associations, organizations, joint ventures, 
+governments, governmental subdivisions, ag encies, or instrumentalities or any other legal entity, 
+whether for profit or not for profit.  
+“Financial institution” has the meaning given that term in 15 U.S.C. §  6809(3).  
+“Individual” means a natural person.  
+“Notice” means:  
+1.  Written notice to the las t known postal address in the records of the individual or entity;  
+2.  Telephone notice;  
+3.  Electronic notice; or  
+4.  Substitute notice, if the individual or the entity required to provide notice demonstrates that 
+the cost of providing notice will exceed $50,000, the affected class of Virginia residents to be 
+notified exceeds 100,000 residents, or the individual or the entity does not have sufficient Page 2 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   contact information or consent to provide notice as described in subdivisions 1, 2, or 3 of this 
+definition . Substitute notice consists of all of the following:  
+a.  E-mail notice if the individual or the entity has e -mail addresses for the members of the 
+affected class of residents;  
+b.  Conspicuous posting of the notice on the website of the individual or the e ntity if the 
+individual or the entity maintains a website; and  
+c.  Notice to major statewide media.  
+Notice required by this section shall not be considered a debt communication as defined by 
+the Fair Debt Collection Practices Act in 15 U.S.C. §  1692a.  
+Notice required by this section shall include a description of the following:  
+(1)  The incident in general terms;  
+(2)  The type of personal information that was subject to the unauthorized access and 
+acquisition;  
+(3)  The general acts of the individual or entity to protect the personal information from 
+further unauthorized access;  
+(4)  A telephone number that the person may call for further information and 
+assistance, if one exists; and  
+(5)  Advice that directs the person to remain vigilant by reviewing acc ount statements 
+and monitoring free credit reports.  
+“Personal information” means the first name or first initial and last name in 
+combination with and linked to any one or more of the following data elements that 
+relate to a resident of the Commonwealth, w hen the data elements are neither encrypted 
+nor redacted:  
+1.  Social security number;  
+2.  Driver’s license number or state identification card number issued in lieu of a driver’s 
+license number;  
+3.  Financial account number, or credit card or debit card nu mber, in combination with any 
+required security code, access code, or password that would permit access to a resident’s 
+financial accounts;  
+4.  Passport number; or  
+5.  Military identification number.  
+The term does not include information that is lawfully o btained from publicly available 
+information, or from federal, state, or local government records lawfully made available to the 
+general public.  
+“Redact” means alteration or truncation of data such that no more than the following are 
+accessible as part of t he personal information:  
+1.  Five digits of a social security number; or  Page 3 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   2.  The last four digits of a driver’s license number, state identification card number, or 
+account number.  
+B.  If unencrypted or unredacted personal information was or is reasonably believed to have been 
+accessed and acquired by an unauthorized person and causes, or the individual or entity reasonably 
+believes has caused or will cause, identity theft or another fra ud to any resident of the 
+Commonwealth, an individual or entity that owns or licenses computerized data that includes 
+personal information shall disclose any breach of the security of the system following discovery or 
+notification of the breach of the secu rity of the system to the Office of the Attorney General and 
+any affected resident of the Commonwealth without unreasonable delay. Notice required by this 
+section may be reasonably delayed to allow the individual or entity to determine the scope of the 
+breach of the security of the system and restore the reasonable integrity of the system. Notice 
+required by this section may be delayed if, after the individual or entity notifies a law -enforcement 
+agency, the law -enforcement agency determines and advises the  individual or entity that the notice 
+will impede a criminal or civil investigation, or homeland or national security. Notice shall be 
+made without unreasonable delay after the law -enforcement agency determines that the 
+notification will no longer impede t he investigation or jeopardize national or homeland security.  
+C.  An individual or entity shall disclose the breach of the security of the system if encrypted 
+information is accessed and acquired in an unencrypted form, or if the security breach involves a  
+person with access to the encryption key and the individual or entity reasonably believes that such 
+a breach has caused or will cause identity theft or other fraud to any resident of the 
+Commonwealth.  
+D.  An individual or entity that maintains computerize d data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breach of the security of the system without unreasonable delay following 
+discovery of the breach o f the security of the system, if the personal information was accessed and 
+acquired by an unauthorized person or the individual or entity reasonably believes the personal 
+information was accessed and acquired by an unauthorized person.  
+E.  In the event an individual or entity provides notice to more than 1,000 persons at one time 
+pursuant to this section, the individual or entity shall notify, without unreasonable delay, the 
+Office of the Attorney General and all consumer reporting agencies that compile and  maintain files 
+on consumers on a nationwide basis, as defined in 15 U.S.C. §  1681a (p), of the timing, 
+distribution, and content of the notice.  
+F.  An entity that maintains its own notification procedures as part of an information privacy or 
+security poli cy for the treatment of personal information that are consistent with the timing 
+requirements of this section shall be deemed to be in compliance with the notification 
+requirements of this section if it notifies residents of the Commonwealth in accordance with its 
+procedures in the event of a breach of the security of the system.  
+G.  An entity that is subject to Title V of the Gramm -Leach -Bliley Act (15 U.S.C. §  6801 et seq.) 
+and maintains procedures for notification of a breach  of the security of the system in accordance 
+with the provision of that Act and any rules, regulations, or guidelines promulgated thereto shall 
+be deemed to be in compliance with this section.  Page 4 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   H.  An entity that complies with the notification requirements or procedures pursuant to the rules, 
+regulations, procedures, or guidelines established by the entity’s primary or functional state or 
+federal regulator shall be in compliance with this section.  
+I.  Except as provided by subsections J and K, pursuant to th e enforcement duties and powers of 
+the Office of the Attorney General, the Attorney General may bring an action to address violations 
+of this section. The Office of the Attorney General may impose a civil penalty not to exceed 
+$150,000 per breach of the se curity of the system or a series of breaches of a similar nature that are 
+discovered in a single investigation. Nothing in this section shall limit an individual from 
+recovering direct economic damages from a violation of this section.  
+J.  A violation of t his section by a state -chartered or licensed financial institution shall be 
+enforceable exclusively by the financial institution’s primary state regulator.  
+K.  Nothing in this section shall apply to an individual or entity regulated by the State Corporatio n 
+Commission’s Bureau of Insurance.  
+L.  The provisions of this section shall not apply to criminal intelligence systems subject to the 
+restrictions of 28 C.F.R. Part 23 that are maintained by law -enforcement agencies of the 
+Commonwealth and the organized C riminal Gang File of the Virginia Criminal Information 
+Network (VCIN), established pursuant to Chapter 2 (§  52-12 et seq.) of Title 52.  
+M.  Notwithstanding any other provision of this section, any employer or payroll service provider 
+that owns or licenses computerized data relating to income tax withheld pursuant to Article 16 
+(§ 58.1-460 et seq.) of Chapter 3 of Title 58.1 shall notify the Office of the Attorney General 
+without unreasonable delay after the discovery or notification of unauthorized access a nd 
+acquisition of unencrypted and unredacted computerized data containing a taxpayer identification 
+number in combination with the income tax withheld for that taxpayer that compromises the 
+confidentiality of such data and that creates a reasonable belief that an unencrypted and unredacted 
+version of such information was accessed and acquired by an unauthorized person, and causes, or 
+the employer or payroll provider reasonably believes has caused or will cause, identity theft or 
+other fraud. With respect to  employers, this subsection applies only to information regarding the 
+employer’s employees, and does not apply to information regarding the employer’s customers or 
+other non -employees.  
+Such employer or payroll service provider shall provide the Office of t he Attorney General with 
+the name and federal employer identification number of the employer as defined in §  58.1-460 that 
+may be affected by the compromise in confidentiality. Upon receipt of such notice, the Office of 
+the Attorney General shall notify th e Department of Taxation of the compromise in confidentiality. 
+The notification required under this subsection that does not otherwise require notification under 
+this section shall not be subject to any other notification, requirement, exemption, or penalt y 
+contained in this section.  
+History   
+ 
+2008, cc. 566, 801; 2017, cc. 419, 427; 2019, c. 484; 2020, c. 264.  
+ 
+Code of Virginia 1950  Page 5 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 2: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Virginia\Criminal\Va. Code Ann. § 18.2-186.6.pdfLegislation code:Page 1 of 5 
+Page 1 of 5 
+Va. Code Ann. § 18.2 -186.6 
+    
+Va. Code Ann. § 18.2 -186.6 
+Current through 2024 Acts effective April 1, 2024  
+ 
+Code of Virginia 1950   >  Title 18.2. Crimes and Offenses Generally. (Chs. 1 — 13)  >  Chapter 6. Crimes 
+Involving Fraud. (Arts. 1 — 10)  >  Article 5. False Representations to Obtain Property or Credit. (§§ 18.2 -186 
+— 18.2-190) 
+ 
+§ 18.2 -186.6. Breach  of personal information notification.   
+ 
+A.  As used in this section:  
+“Breach of the security of the system” means the unauthorized access and acquisition of 
+unencrypted and unredacted computerized data that compromises the security or confidentiality of 
+personal information maintained by an individual or entity as part of a database of personal 
+information regarding multiple individuals and that causes, or the individual or entity reasonably 
+believes has caused, or will cause, identity theft or other frau d to any resident of the 
+Commonwealth. Good faith acquisition of personal information by an employee or agent of an 
+individual or entity for the purposes of the individual or entity is not a breach of the security of the 
+system, provided that the personal information is not used for a purpose other than a lawful 
+purpose of the individual or entity or subject to further unauthorized disclosure.  
+“Encrypted” means the transformation of data  through the use of an algorithmic process into a 
+form in which there is a low probability of assigning meaning without the use of a confidential 
+process or key, or the securing of the information by another method that renders the data elements 
+unreadable  or unusable.  
+“Entity” includes corporations, business trusts, estates, partnerships, limited partnerships, limited 
+liability partnerships, limited liability companies, associations, organizations, joint ventures, 
+governments, governmental subdivisions, ag encies, or instrumentalities or any other legal entity, 
+whether for profit or not for profit.  
+“Financial institution” has the meaning given that term in 15 U.S.C. §  6809(3).  
+“Individual” means a natural person.  
+“Notice” means:  
+1.  Written notice to the las t known postal address in the records of the individual or entity;  
+2.  Telephone notice;  
+3.  Electronic notice; or  
+4.  Substitute notice, if the individual or the entity required to provide notice demonstrates that 
+the cost of providing notice will exceed $50,000, the affected class of Virginia residents to be 
+notified exceeds 100,000 residents, or the individual or the entity does not have sufficient Page 2 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   contact information or consent to provide notice as described in subdivisions 1, 2, or 3 of this 
+definition . Substitute notice consists of all of the following:  
+a.  E-mail notice if the individual or the entity has e -mail addresses for the members of the 
+affected class of residents;  
+b.  Conspicuous posting of the notice on the website of the individual or the e ntity if the 
+individual or the entity maintains a website; and  
+c.  Notice to major statewide media.  
+Notice required by this section shall not be considered a debt communication as defined by 
+the Fair Debt Collection Practices Act in 15 U.S.C. §  1692a.  
+Notice required by this section shall include a description of the following:  
+(1)  The incident in general terms;  
+(2)  The type of personal information that was subject to the unauthorized access and 
+acquisition;  
+(3)  The general acts of the individual or entity to protect the personal information from 
+further unauthorized access;  
+(4)  A telephone number that the person may call for further information and 
+assistance, if one exists; and  
+(5)  Advice that directs the person to remain vigilant by reviewing acc ount statements 
+and monitoring free credit reports.  
+“Personal information” means the first name or first initial and last name in 
+combination with and linked to any one or more of the following data elements that 
+relate to a resident of the Commonwealth, w hen the data elements are neither encrypted 
+nor redacted:  
+1.  Social security number;  
+2.  Driver’s license number or state identification card number issued in lieu of a driver’s 
+license number;  
+3.  Financial account number, or credit card or debit card nu mber, in combination with any 
+required security code, access code, or password that would permit access to a resident’s 
+financial accounts;  
+4.  Passport number; or  
+5.  Military identification number.  
+The term does not include information that is lawfully o btained from publicly available 
+information, or from federal, state, or local government records lawfully made available to the 
+general public.  
+“Redact” means alteration or truncation of data such that no more than the following are 
+accessible as part of t he personal information:  
+1.  Five digits of a social security number; or  Page 3 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   2.  The last four digits of a driver’s license number, state identification card number, or 
+account number.  
+B.  If unencrypted or unredacted personal information was or is reasonably believed to have been 
+accessed and acquired by an unauthorized person and causes, or the individual or entity reasonably 
+believes has caused or will cause, identity theft or another fra ud to any resident of the 
+Commonwealth, an individual or entity that owns or licenses computerized data that includes 
+personal information shall disclose any breach of the security of the system following discovery or 
+notification of the breach of the secu rity of the system to the Office of the Attorney General and 
+any affected resident of the Commonwealth without unreasonable delay. Notice required by this 
+section may be reasonably delayed to allow the individual or entity to determine the scope of the 
+breach of the security of the system and restore the reasonable integrity of the system. Notice 
+required by this section may be delayed if, after the individual or entity notifies a law -enforcement 
+agency, the law -enforcement agency determines and advises the  individual or entity that the notice 
+will impede a criminal or civil investigation, or homeland or national security. Notice shall be 
+made without unreasonable delay after the law -enforcement agency determines that the 
+notification will no longer impede t he investigation or jeopardize national or homeland security.  
+C.  An individual or entity shall disclose the breach of the security of the system if encrypted 
+information is accessed and acquired in an unencrypted form, or if the security breach involves a  
+person with access to the encryption key and the individual or entity reasonably believes that such 
+a breach has caused or will cause identity theft or other fraud to any resident of the 
+Commonwealth.  
+D.  An individual or entity that maintains computerize d data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breach of the security of the system without unreasonable delay following 
+discovery of the breach o f the security of the system, if the personal information was accessed and 
+acquired by an unauthorized person or the individual or entity reasonably believes the personal 
+information was accessed and acquired by an unauthorized person.  
+E.  In the event an individual or entity provides notice to more than 1,000 persons at one time 
+pursuant to this section, the individual or entity shall notify, without unreasonable delay, the 
+Office of the Attorney General and all consumer reporting agencies that compile and  maintain files 
+on consumers on a nationwide basis, as defined in 15 U.S.C. §  1681a (p), of the timing, 
+distribution, and content of the notice.  
+F.  An entity that maintains its own notification procedures as part of an information privacy or 
+security poli cy for the treatment of personal information that are consistent with the timing 
+requirements of this section shall be deemed to be in compliance with the notification 
+requirements of this section if it notifies residents of the Commonwealth in accordance with its 
+procedures in the event of a breach of the security of the system.  
+G.  An entity that is subject to Title V of the Gramm -Leach -Bliley Act (15 U.S.C. §  6801 et seq.) 
+and maintains procedures for notification of a breach  of the security of the system in accordance 
+with the provision of that Act and any rules, regulations, or guidelines promulgated thereto shall 
+be deemed to be in compliance with this section.  Page 4 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   H.  An entity that complies with the notification requirements or procedures pursuant to the rules, 
+regulations, procedures, or guidelines established by the entity’s primary or functional state or 
+federal regulator shall be in compliance with this section.  
+I.  Except as provided by subsections J and K, pursuant to th e enforcement duties and powers of 
+the Office of the Attorney General, the Attorney General may bring an action to address violations 
+of this section. The Office of the Attorney General may impose a civil penalty not to exceed 
+$150,000 per breach of the se curity of the system or a series of breaches of a similar nature that are 
+discovered in a single investigation. Nothing in this section shall limit an individual from 
+recovering direct economic damages from a violation of this section.  
+J.  A violation of t his section by a state -chartered or licensed financial institution shall be 
+enforceable exclusively by the financial institution’s primary state regulator.  
+K.  Nothing in this section shall apply to an individual or entity regulated by the State Corporatio n 
+Commission’s Bureau of Insurance.  
+L.  The provisions of this section shall not apply to criminal intelligence systems subject to the 
+restrictions of 28 C.F.R. Part 23 that are maintained by law -enforcement agencies of the 
+Commonwealth and the organized C riminal Gang File of the Virginia Criminal Information 
+Network (VCIN), established pursuant to Chapter 2 (§  52-12 et seq.) of Title 52.  
+M.  Notwithstanding any other provision of this section, any employer or payroll service provider 
+that owns or licenses computerized data relating to income tax withheld pursuant to Article 16 
+(§ 58.1-460 et seq.) of Chapter 3 of Title 58.1 shall notify the Office of the Attorney General 
+without unreasonable delay after the discovery or notification of unauthorized access a nd 
+acquisition of unencrypted and unredacted computerized data containing a taxpayer identification 
+number in combination with the income tax withheld for that taxpayer that compromises the 
+confidentiality of such data and that creates a reasonable belief that an unencrypted and unredacted 
+version of such information was accessed and acquired by an unauthorized person, and causes, or 
+the employer or payroll provider reasonably believes has caused or will cause, identity theft or 
+other fraud. With respect to  employers, this subsection applies only to information regarding the 
+employer’s employees, and does not apply to information regarding the employer’s customers or 
+other non -employees.  
+Such employer or payroll service provider shall provide the Office of t he Attorney General with 
+the name and federal employer identification number of the employer as defined in §  58.1-460 that 
+may be affected by the compromise in confidentiality. Upon receipt of such notice, the Office of 
+the Attorney General shall notify th e Department of Taxation of the compromise in confidentiality. 
+The notification required under this subsection that does not otherwise require notification under 
+this section shall not be subject to any other notification, requirement, exemption, or penalt y 
+contained in this section.  
+History   
+ 
+2008, cc. 566, 801; 2017, cc. 419, 427; 2019, c. 484; 2020, c. 264.  
+ 
+Code of Virginia 1950  Page 5 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 3: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Virginia\Insurance\Va. Code Ann. § 38.2-626.pdfLegislation code:Page 1 of 5 
+Page 1 of 5 
+Va. Code Ann. § 18.2 -186.6 
+    
+Va. Code Ann. § 18.2 -186.6 
+Current through 2024 Acts effective April 1, 2024  
+ 
+Code of Virginia 1950   >  Title 18.2. Crimes and Offenses Generally. (Chs. 1 — 13)  >  Chapter 6. Crimes 
+Involving Fraud. (Arts. 1 — 10)  >  Article 5. False Representations to Obtain Property or Credit. (§§ 18.2 -186 
+— 18.2-190) 
+ 
+§ 18.2 -186.6. Breach  of personal information notification.   
+ 
+A.  As used in this section:  
+“Breach of the security of the system” means the unauthorized access and acquisition of 
+unencrypted and unredacted computerized data that compromises the security or confidentiality of 
+personal information maintained by an individual or entity as part of a database of personal 
+information regarding multiple individuals and that causes, or the individual or entity reasonably 
+believes has caused, or will cause, identity theft or other frau d to any resident of the 
+Commonwealth. Good faith acquisition of personal information by an employee or agent of an 
+individual or entity for the purposes of the individual or entity is not a breach of the security of the 
+system, provided that the personal information is not used for a purpose other than a lawful 
+purpose of the individual or entity or subject to further unauthorized disclosure.  
+“Encrypted” means the transformation of data  through the use of an algorithmic process into a 
+form in which there is a low probability of assigning meaning without the use of a confidential 
+process or key, or the securing of the information by another method that renders the data elements 
+unreadable  or unusable.  
+“Entity” includes corporations, business trusts, estates, partnerships, limited partnerships, limited 
+liability partnerships, limited liability companies, associations, organizations, joint ventures, 
+governments, governmental subdivisions, ag encies, or instrumentalities or any other legal entity, 
+whether for profit or not for profit.  
+“Financial institution” has the meaning given that term in 15 U.S.C. §  6809(3).  
+“Individual” means a natural person.  
+“Notice” means:  
+1.  Written notice to the las t known postal address in the records of the individual or entity;  
+2.  Telephone notice;  
+3.  Electronic notice; or  
+4.  Substitute notice, if the individual or the entity required to provide notice demonstrates that 
+the cost of providing notice will exceed $50,000, the affected class of Virginia residents to be 
+notified exceeds 100,000 residents, or the individual or the entity does not have sufficient Page 2 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   contact information or consent to provide notice as described in subdivisions 1, 2, or 3 of this 
+definition . Substitute notice consists of all of the following:  
+a.  E-mail notice if the individual or the entity has e -mail addresses for the members of the 
+affected class of residents;  
+b.  Conspicuous posting of the notice on the website of the individual or the e ntity if the 
+individual or the entity maintains a website; and  
+c.  Notice to major statewide media.  
+Notice required by this section shall not be considered a debt communication as defined by 
+the Fair Debt Collection Practices Act in 15 U.S.C. §  1692a.  
+Notice required by this section shall include a description of the following:  
+(1)  The incident in general terms;  
+(2)  The type of personal information that was subject to the unauthorized access and 
+acquisition;  
+(3)  The general acts of the individual or entity to protect the personal information from 
+further unauthorized access;  
+(4)  A telephone number that the person may call for further information and 
+assistance, if one exists; and  
+(5)  Advice that directs the person to remain vigilant by reviewing acc ount statements 
+and monitoring free credit reports.  
+“Personal information” means the first name or first initial and last name in 
+combination with and linked to any one or more of the following data elements that 
+relate to a resident of the Commonwealth, w hen the data elements are neither encrypted 
+nor redacted:  
+1.  Social security number;  
+2.  Driver’s license number or state identification card number issued in lieu of a driver’s 
+license number;  
+3.  Financial account number, or credit card or debit card nu mber, in combination with any 
+required security code, access code, or password that would permit access to a resident’s 
+financial accounts;  
+4.  Passport number; or  
+5.  Military identification number.  
+The term does not include information that is lawfully o btained from publicly available 
+information, or from federal, state, or local government records lawfully made available to the 
+general public.  
+“Redact” means alteration or truncation of data such that no more than the following are 
+accessible as part of t he personal information:  
+1.  Five digits of a social security number; or  Page 3 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   2.  The last four digits of a driver’s license number, state identification card number, or 
+account number.  
+B.  If unencrypted or unredacted personal information was or is reasonably believed to have been 
+accessed and acquired by an unauthorized person and causes, or the individual or entity reasonably 
+believes has caused or will cause, identity theft or another fra ud to any resident of the 
+Commonwealth, an individual or entity that owns or licenses computerized data that includes 
+personal information shall disclose any breach of the security of the system following discovery or 
+notification of the breach of the secu rity of the system to the Office of the Attorney General and 
+any affected resident of the Commonwealth without unreasonable delay. Notice required by this 
+section may be reasonably delayed to allow the individual or entity to determine the scope of the 
+breach of the security of the system and restore the reasonable integrity of the system. Notice 
+required by this section may be delayed if, after the individual or entity notifies a law -enforcement 
+agency, the law -enforcement agency determines and advises the  individual or entity that the notice 
+will impede a criminal or civil investigation, or homeland or national security. Notice shall be 
+made without unreasonable delay after the law -enforcement agency determines that the 
+notification will no longer impede t he investigation or jeopardize national or homeland security.  
+C.  An individual or entity shall disclose the breach of the security of the system if encrypted 
+information is accessed and acquired in an unencrypted form, or if the security breach involves a  
+person with access to the encryption key and the individual or entity reasonably believes that such 
+a breach has caused or will cause identity theft or other fraud to any resident of the 
+Commonwealth.  
+D.  An individual or entity that maintains computerize d data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breach of the security of the system without unreasonable delay following 
+discovery of the breach o f the security of the system, if the personal information was accessed and 
+acquired by an unauthorized person or the individual or entity reasonably believes the personal 
+information was accessed and acquired by an unauthorized person.  
+E.  In the event an individual or entity provides notice to more than 1,000 persons at one time 
+pursuant to this section, the individual or entity shall notify, without unreasonable delay, the 
+Office of the Attorney General and all consumer reporting agencies that compile and  maintain files 
+on consumers on a nationwide basis, as defined in 15 U.S.C. §  1681a (p), of the timing, 
+distribution, and content of the notice.  
+F.  An entity that maintains its own notification procedures as part of an information privacy or 
+security poli cy for the treatment of personal information that are consistent with the timing 
+requirements of this section shall be deemed to be in compliance with the notification 
+requirements of this section if it notifies residents of the Commonwealth in accordance with its 
+procedures in the event of a breach of the security of the system.  
+G.  An entity that is subject to Title V of the Gramm -Leach -Bliley Act (15 U.S.C. §  6801 et seq.) 
+and maintains procedures for notification of a breach  of the security of the system in accordance 
+with the provision of that Act and any rules, regulations, or guidelines promulgated thereto shall 
+be deemed to be in compliance with this section.  Page 4 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   H.  An entity that complies with the notification requirements or procedures pursuant to the rules, 
+regulations, procedures, or guidelines established by the entity’s primary or functional state or 
+federal regulator shall be in compliance with this section.  
+I.  Except as provided by subsections J and K, pursuant to th e enforcement duties and powers of 
+the Office of the Attorney General, the Attorney General may bring an action to address violations 
+of this section. The Office of the Attorney General may impose a civil penalty not to exceed 
+$150,000 per breach of the se curity of the system or a series of breaches of a similar nature that are 
+discovered in a single investigation. Nothing in this section shall limit an individual from 
+recovering direct economic damages from a violation of this section.  
+J.  A violation of t his section by a state -chartered or licensed financial institution shall be 
+enforceable exclusively by the financial institution’s primary state regulator.  
+K.  Nothing in this section shall apply to an individual or entity regulated by the State Corporatio n 
+Commission’s Bureau of Insurance.  
+L.  The provisions of this section shall not apply to criminal intelligence systems subject to the 
+restrictions of 28 C.F.R. Part 23 that are maintained by law -enforcement agencies of the 
+Commonwealth and the organized C riminal Gang File of the Virginia Criminal Information 
+Network (VCIN), established pursuant to Chapter 2 (§  52-12 et seq.) of Title 52.  
+M.  Notwithstanding any other provision of this section, any employer or payroll service provider 
+that owns or licenses computerized data relating to income tax withheld pursuant to Article 16 
+(§ 58.1-460 et seq.) of Chapter 3 of Title 58.1 shall notify the Office of the Attorney General 
+without unreasonable delay after the discovery or notification of unauthorized access a nd 
+acquisition of unencrypted and unredacted computerized data containing a taxpayer identification 
+number in combination with the income tax withheld for that taxpayer that compromises the 
+confidentiality of such data and that creates a reasonable belief that an unencrypted and unredacted 
+version of such information was accessed and acquired by an unauthorized person, and causes, or 
+the employer or payroll provider reasonably believes has caused or will cause, identity theft or 
+other fraud. With respect to  employers, this subsection applies only to information regarding the 
+employer’s employees, and does not apply to information regarding the employer’s customers or 
+other non -employees.  
+Such employer or payroll service provider shall provide the Office of t he Attorney General with 
+the name and federal employer identification number of the employer as defined in §  58.1-460 that 
+may be affected by the compromise in confidentiality. Upon receipt of such notice, the Office of 
+the Attorney General shall notify th e Department of Taxation of the compromise in confidentiality. 
+The notification required under this subsection that does not otherwise require notification under 
+this section shall not be subject to any other notification, requirement, exemption, or penalt y 
+contained in this section.  
+History   
+ 
+2008, cc. 566, 801; 2017, cc. 419, 427; 2019, c. 484; 2020, c. 264.  
+ 
+Code of Virginia 1950  Page 5 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+Context 4: 
+
+File name: C:\Users\User\Box\UTD\PhD Research\RAG-app\Current Cybersecurity Law\Virginia\Insurance\Va. Code Ann. § 38.2-625.pdfLegislation code:Page 1 of 5 
+Page 1 of 5 
+Va. Code Ann. § 18.2 -186.6 
+    
+Va. Code Ann. § 18.2 -186.6 
+Current through 2024 Acts effective April 1, 2024  
+ 
+Code of Virginia 1950   >  Title 18.2. Crimes and Offenses Generally. (Chs. 1 — 13)  >  Chapter 6. Crimes 
+Involving Fraud. (Arts. 1 — 10)  >  Article 5. False Representations to Obtain Property or Credit. (§§ 18.2 -186 
+— 18.2-190) 
+ 
+§ 18.2 -186.6. Breach  of personal information notification.   
+ 
+A.  As used in this section:  
+“Breach of the security of the system” means the unauthorized access and acquisition of 
+unencrypted and unredacted computerized data that compromises the security or confidentiality of 
+personal information maintained by an individual or entity as part of a database of personal 
+information regarding multiple individuals and that causes, or the individual or entity reasonably 
+believes has caused, or will cause, identity theft or other frau d to any resident of the 
+Commonwealth. Good faith acquisition of personal information by an employee or agent of an 
+individual or entity for the purposes of the individual or entity is not a breach of the security of the 
+system, provided that the personal information is not used for a purpose other than a lawful 
+purpose of the individual or entity or subject to further unauthorized disclosure.  
+“Encrypted” means the transformation of data  through the use of an algorithmic process into a 
+form in which there is a low probability of assigning meaning without the use of a confidential 
+process or key, or the securing of the information by another method that renders the data elements 
+unreadable  or unusable.  
+“Entity” includes corporations, business trusts, estates, partnerships, limited partnerships, limited 
+liability partnerships, limited liability companies, associations, organizations, joint ventures, 
+governments, governmental subdivisions, ag encies, or instrumentalities or any other legal entity, 
+whether for profit or not for profit.  
+“Financial institution” has the meaning given that term in 15 U.S.C. §  6809(3).  
+“Individual” means a natural person.  
+“Notice” means:  
+1.  Written notice to the las t known postal address in the records of the individual or entity;  
+2.  Telephone notice;  
+3.  Electronic notice; or  
+4.  Substitute notice, if the individual or the entity required to provide notice demonstrates that 
+the cost of providing notice will exceed $50,000, the affected class of Virginia residents to be 
+notified exceeds 100,000 residents, or the individual or the entity does not have sufficient Page 2 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   contact information or consent to provide notice as described in subdivisions 1, 2, or 3 of this 
+definition . Substitute notice consists of all of the following:  
+a.  E-mail notice if the individual or the entity has e -mail addresses for the members of the 
+affected class of residents;  
+b.  Conspicuous posting of the notice on the website of the individual or the e ntity if the 
+individual or the entity maintains a website; and  
+c.  Notice to major statewide media.  
+Notice required by this section shall not be considered a debt communication as defined by 
+the Fair Debt Collection Practices Act in 15 U.S.C. §  1692a.  
+Notice required by this section shall include a description of the following:  
+(1)  The incident in general terms;  
+(2)  The type of personal information that was subject to the unauthorized access and 
+acquisition;  
+(3)  The general acts of the individual or entity to protect the personal information from 
+further unauthorized access;  
+(4)  A telephone number that the person may call for further information and 
+assistance, if one exists; and  
+(5)  Advice that directs the person to remain vigilant by reviewing acc ount statements 
+and monitoring free credit reports.  
+“Personal information” means the first name or first initial and last name in 
+combination with and linked to any one or more of the following data elements that 
+relate to a resident of the Commonwealth, w hen the data elements are neither encrypted 
+nor redacted:  
+1.  Social security number;  
+2.  Driver’s license number or state identification card number issued in lieu of a driver’s 
+license number;  
+3.  Financial account number, or credit card or debit card nu mber, in combination with any 
+required security code, access code, or password that would permit access to a resident’s 
+financial accounts;  
+4.  Passport number; or  
+5.  Military identification number.  
+The term does not include information that is lawfully o btained from publicly available 
+information, or from federal, state, or local government records lawfully made available to the 
+general public.  
+“Redact” means alteration or truncation of data such that no more than the following are 
+accessible as part of t he personal information:  
+1.  Five digits of a social security number; or  Page 3 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   2.  The last four digits of a driver’s license number, state identification card number, or 
+account number.  
+B.  If unencrypted or unredacted personal information was or is reasonably believed to have been 
+accessed and acquired by an unauthorized person and causes, or the individual or entity reasonably 
+believes has caused or will cause, identity theft or another fra ud to any resident of the 
+Commonwealth, an individual or entity that owns or licenses computerized data that includes 
+personal information shall disclose any breach of the security of the system following discovery or 
+notification of the breach of the secu rity of the system to the Office of the Attorney General and 
+any affected resident of the Commonwealth without unreasonable delay. Notice required by this 
+section may be reasonably delayed to allow the individual or entity to determine the scope of the 
+breach of the security of the system and restore the reasonable integrity of the system. Notice 
+required by this section may be delayed if, after the individual or entity notifies a law -enforcement 
+agency, the law -enforcement agency determines and advises the  individual or entity that the notice 
+will impede a criminal or civil investigation, or homeland or national security. Notice shall be 
+made without unreasonable delay after the law -enforcement agency determines that the 
+notification will no longer impede t he investigation or jeopardize national or homeland security.  
+C.  An individual or entity shall disclose the breach of the security of the system if encrypted 
+information is accessed and acquired in an unencrypted form, or if the security breach involves a  
+person with access to the encryption key and the individual or entity reasonably believes that such 
+a breach has caused or will cause identity theft or other fraud to any resident of the 
+Commonwealth.  
+D.  An individual or entity that maintains computerize d data that includes personal information 
+that the individual or entity does not own or license shall notify the owner or licensee of the 
+information of any breach of the security of the system without unreasonable delay following 
+discovery of the breach o f the security of the system, if the personal information was accessed and 
+acquired by an unauthorized person or the individual or entity reasonably believes the personal 
+information was accessed and acquired by an unauthorized person.  
+E.  In the event an individual or entity provides notice to more than 1,000 persons at one time 
+pursuant to this section, the individual or entity shall notify, without unreasonable delay, the 
+Office of the Attorney General and all consumer reporting agencies that compile and  maintain files 
+on consumers on a nationwide basis, as defined in 15 U.S.C. §  1681a (p), of the timing, 
+distribution, and content of the notice.  
+F.  An entity that maintains its own notification procedures as part of an information privacy or 
+security poli cy for the treatment of personal information that are consistent with the timing 
+requirements of this section shall be deemed to be in compliance with the notification 
+requirements of this section if it notifies residents of the Commonwealth in accordance with its 
+procedures in the event of a breach of the security of the system.  
+G.  An entity that is subject to Title V of the Gramm -Leach -Bliley Act (15 U.S.C. §  6801 et seq.) 
+and maintains procedures for notification of a breach  of the security of the system in accordance 
+with the provision of that Act and any rules, regulations, or guidelines promulgated thereto shall 
+be deemed to be in compliance with this section.  Page 4 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   H.  An entity that complies with the notification requirements or procedures pursuant to the rules, 
+regulations, procedures, or guidelines established by the entity’s primary or functional state or 
+federal regulator shall be in compliance with this section.  
+I.  Except as provided by subsections J and K, pursuant to th e enforcement duties and powers of 
+the Office of the Attorney General, the Attorney General may bring an action to address violations 
+of this section. The Office of the Attorney General may impose a civil penalty not to exceed 
+$150,000 per breach of the se curity of the system or a series of breaches of a similar nature that are 
+discovered in a single investigation. Nothing in this section shall limit an individual from 
+recovering direct economic damages from a violation of this section.  
+J.  A violation of t his section by a state -chartered or licensed financial institution shall be 
+enforceable exclusively by the financial institution’s primary state regulator.  
+K.  Nothing in this section shall apply to an individual or entity regulated by the State Corporatio n 
+Commission’s Bureau of Insurance.  
+L.  The provisions of this section shall not apply to criminal intelligence systems subject to the 
+restrictions of 28 C.F.R. Part 23 that are maintained by law -enforcement agencies of the 
+Commonwealth and the organized C riminal Gang File of the Virginia Criminal Information 
+Network (VCIN), established pursuant to Chapter 2 (§  52-12 et seq.) of Title 52.  
+M.  Notwithstanding any other provision of this section, any employer or payroll service provider 
+that owns or licenses computerized data relating to income tax withheld pursuant to Article 16 
+(§ 58.1-460 et seq.) of Chapter 3 of Title 58.1 shall notify the Office of the Attorney General 
+without unreasonable delay after the discovery or notification of unauthorized access a nd 
+acquisition of unencrypted and unredacted computerized data containing a taxpayer identification 
+number in combination with the income tax withheld for that taxpayer that compromises the 
+confidentiality of such data and that creates a reasonable belief that an unencrypted and unredacted 
+version of such information was accessed and acquired by an unauthorized person, and causes, or 
+the employer or payroll provider reasonably believes has caused or will cause, identity theft or 
+other fraud. With respect to  employers, this subsection applies only to information regarding the 
+employer’s employees, and does not apply to information regarding the employer’s customers or 
+other non -employees.  
+Such employer or payroll service provider shall provide the Office of t he Attorney General with 
+the name and federal employer identification number of the employer as defined in §  58.1-460 that 
+may be affected by the compromise in confidentiality. Upon receipt of such notice, the Office of 
+the Attorney General shall notify th e Department of Taxation of the compromise in confidentiality. 
+The notification required under this subsection that does not otherwise require notification under 
+this section shall not be subject to any other notification, requirement, exemption, or penalt y 
+contained in this section.  
+History   
+ 
+2008, cc. 566, 801; 2017, cc. 419, 427; 2019, c. 484; 2020, c. 264.  
+ 
+Code of Virginia 1950  Page 5 of 5 
+Va. Code Ann. § 18.2 -186.6 
+   Copyright © 2024 All rights reserved.  
+ 
+ 
+End of Document  
+

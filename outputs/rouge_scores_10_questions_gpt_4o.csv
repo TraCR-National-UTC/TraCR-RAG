@@ -1,0 +1,12 @@
+,question,rouge1_precision,rouge1_recall,rouge1_fmeasure,rouge2_precision,rouge2_recall,rouge2_fmeasure,rougeL_precision,rougeL_recall,rougeL_fmeasure
+0,Does Delaware require entities to notify the state attorney general or other governmental agency in the event of a data breach?,0.211428571,0.822222222,0.336363636,0.114942529,0.454545455,0.183486239,0.142857143,0.555555556,0.227272727
+1,How does Connecticut’s Data Breach Notification statute define a breach of security?,0.243902439,0.923076923,0.38585209,0.220408163,0.84375,0.349514563,0.235772358,0.892307692,0.372990354
+2,How does Montana’s Data Breach Notification Statute define personal information?,0.515283843,0.719512195,0.600508906,0.407894737,0.570552147,0.475703325,0.467248908,0.652439024,0.544529262
+3,Under what circumstances must disclosure of a data breach be made in North Dakota?,0.060367454,0.821428571,0.112469438,0.026315789,0.37037037,0.049140049,0.049868766,0.678571429,0.092909535
+4,What are the acceptable methods of notice of a data breach in Tennessee?,0.385892116,0.628378378,0.4781491,0.1625,0.265306122,0.201550388,0.203319502,0.331081081,0.251928021
+5,What are the maximum penalties for failing to follow the data breach notification statutes in Ohio and Oklahoma?,0.174129353,0.546875,0.264150943,0.08,0.253968254,0.121673004,0.114427861,0.359375,0.173584906
+6,What information must be provided in a data breach notification in South Carolina and Wyoming?,0.393382353,0.61849711,0.480898876,0.151291513,0.238372093,0.18510158,0.198529412,0.312138728,0.242696629
+7,Who must receive notice of a data breach in either Texas or Nebraska?,0.25,0.588235294,0.350877193,0.084639498,0.2,0.118942731,0.140625,0.330882353,0.197368421
+8,Who must comply with the data breach notification statute in Pennsylvania and Virginia?,0.429042904,0.490566038,0.457746479,0.168874172,0.193181818,0.180212014,0.207920792,0.237735849,0.221830986
+9,"When do you have to provide notice to affected individuals of a data breach in California, Utah, Florida, and Michigan?",0.366559486,0.606382979,0.456913828,0.161290323,0.267379679,0.201207243,0.196141479,0.324468085,0.244488978
+,,0.302998852,0.676517471,0.392393049,0.157815672,0.365742594,0.206653114,0.195671122,0.46745548,0.256959982

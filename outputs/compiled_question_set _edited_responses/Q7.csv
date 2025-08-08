@@ -1,0 +1,10 @@
+id,question,response_1
+7,How do states define and regulate cybersecurity incident response plans for organizations?,"According to Montana Legislation code 30-14-1704:
+1) Any person or business conducting business in Montana owning or licensing computerized data with personal information must disclose any breach without unreasonable delay to affected residents following discovery. The disclosure timing must align with law enforcement needs or breach scope determination. 
+2) If a person or business maintains computerized data they do not own, they must immediately inform the owner or licensee of any breach. 
+3) The notification can be delayed if it hampers a criminal investigation; it should proceed once it won't compromise the investigation. 
+4) ""Breach of the security of the data system"" denotes unauthorized data acquisition compromising personal information integrity, causing loss or injury to residents.
+5) Notice methods include written, electronic, telephonic, or substitute if justifiable by business constraints or lack of contact details.
+6) Compliance is maintained if a business has its notification procedures align with its policies for personal information treatment and promptly notifies affected persons in case of a breach.
+7) Coordination with a consumer reporting agency is needed if implying the individual may access their file from them after a breach disclosure.
+8) Upon issuing notification, an electronic copy must be submitted to the attorney general's consumer protection office, excluding personal identifiers of recipients."

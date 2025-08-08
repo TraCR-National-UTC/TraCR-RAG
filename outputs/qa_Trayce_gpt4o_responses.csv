@@ -1,0 +1,119 @@
+No,question,answer
+1,Does Delaware require entities to notify the state attorney general or other governmental agency in the event of a data breach?,"Yes, Delaware law requires entities to notify the state attorney general in the event of a data breach. Specifically, the Delaware Code requires that the Attorney General must be notified if a breach affects more than 500 residents of the state. This notification must occur no later than when the affected individuals are informed.
+
+Additionally, entities must notify affected individuals within a reasonable time, but not more than 60 days after the determination of the breach, unless a shorter time period is required by federal law. The law also mandates the inclusion of certain content in the notifications to both the attorney general and the affected individuals."
+2,How does Connecticut’s Data Breach Notification statute define a breach of security?,"In Connecticut, the Data Breach Notification statute defines a breach of security as the unauthorized access to or acquisition of electronic files, media, databases, or computerized data containing personal information that compromises the security, confidentiality, or integrity of the personal information maintained by an individual or a business. This definition is crucial for determining when notification requirements are triggered.
+
+The law specifically highlights that ""personal information"" includes a person's name in combination with data elements such as a Social Security number, driver's license number, or financial account information, among other identifiers. The statute emphasizes that entities must notify affected individuals promptly if a breach occurs."
+3,How does Montana’s Data Breach Notification Statute define personal information?,"Montana's Data Breach Notification Statute defines ""personal information"" as an individual's first name or first initial and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted:
+
+1. Social Security number;
+2. Driver's license number, state identification card number, or tribal identification card number;
+3. Financial account number, credit or debit card number, along with any required security code, access code, or password that would permit access to an individual's financial account;
+4. Medical information, which includes any information regarding an individual's medical history, mental or physical condition, or medical treatment or diagnosis by a health care professional;
+5. Health insurance information, which includes an individual's health insurance policy number or subscriber identification number, any unique identifier used by a health insurer to identify the individual, or any information in an individual's health insurance application and claims history.
+
+This definition is critical as it determines what constitutes personal information under the statute and thus what triggers the obligation to notify individuals in the event of a data breach involving such information."
+4,Under what circumstances must disclosure of a data breach be made in North Dakota?,"In North Dakota, the disclosure of a data breach must be made under the following circumstances:
+
+1. **Unauthorized Access or Acquisition:** The breach involves unauthorized access to or acquisition of computerized data that compromises the security, confidentiality, or integrity of personal information.
+
+2. **Personal Information Affected:** The data involved includes personal information, which is defined as an individual's first name or first initial and last name in combination with any of the following data elements when either the name or the data elements are not encrypted:
+   - Social Security number;
+   - Driver's license number or non-driver identification card number;
+   - Account number, credit or debit card number, in combination with any required security code, access code, or password that would permit access to an individual's financial account.
+
+3. **Risk of Harm:** The notification requirement is triggered if it is determined that the breach is likely to result in harm to the affected individuals.
+
+4. **Timeliness of Notification:** Notification to affected individuals must be made without unreasonable delay, consistent with the legitimate needs of law enforcement or measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system.
+
+Entities must also notify the attorney general if more than 250 residents are affected by the breach.
+
+These requirements ensure that individuals are informed about breaches that may pose a risk to their personal information and security."
+5,What are the acceptable methods of notice of a data breach in Tennessee?,"In Tennessee, the acceptable methods of notice for a data breach are as follows:
+
+1. **Written Notice:** This is a direct form of communication sent to the affected individuals at their address.
+
+2. **Electronic Notice:** This method is acceptable if it is consistent with the provisions regarding electronic records and signatures for commercial transactions as provided under federal law (E-SIGN Act).
+
+3. **Substitute Notice:** This method can be used if the cost of providing notice would exceed $250,000, the number of individuals to be notified exceeds 500,000, or the entity does not have sufficient contact information to provide written or electronic notice. Substitute notice must consist of all of the following:
+   - Email notice (if the entity has email addresses for the affected individuals);
+   - Conspicuous posting of the notice on the entity's website;
+   - Notification to major statewide media.
+
+These methods ensure that individuals are adequately informed about a data breach affecting their personal information."
+6,What are the maximum penalties for failing to follow the data breach notification statutes in Ohio and Oklahoma?,"The maximum penalties for failing to follow data breach notification statutes in Ohio and Oklahoma are as follows:
+
+### Ohio:
+In Ohio, failure to comply with the data breach notification statute can result in the following penalties:
+- **Civil Penalties:** The attorney general may bring a civil action to recover a civil penalty of up to $1,500 per violation. Each individual who is not notified in accordance with the statute constitutes a separate violation.
+- **Damages:** Entities may also be liable for actual damages sustained by individuals as a result of the failure to provide proper notification.
+
+### Oklahoma:
+In Oklahoma, the consequences for not adhering to the data breach notification statute include:
+- **Civil Penalties:** The attorney general can bring an action in court to recover a civil penalty of up to $150,000 per breach or series of breaches of a similar nature that are discovered in a single investigation.
+- **Additional Penalties:** Entities may also face potential additional penalties, including reimbursement of costs incurred by the state for investigations and enforcement.
+
+These penalties are designed to encourage compliance with the notification requirements and ensure that affected individuals are promptly informed of breaches involving their personal information."
+7,What information must be provided in a data breach notification in South Carolina and Wyoming?,"In South Carolina and Wyoming, data breach notifications must include specific information to ensure affected individuals are adequately informed. Here's a summary of the required content for each state:
+
+### South Carolina:
+The data breach notification must include:
+1. **Description of the Incident:** A general description of what happened, including the date of the breach and the date of discovery, if known.
+2. **Types of Information Compromised:** A description of the types of personal information that were involved in the breach (e.g., names, Social Security numbers, financial information).
+3. **Measures Taken:** Information on what the entity is doing to protect data from further unauthorized access.
+4. **Advice to Affected Individuals:** Guidance on what steps individuals can take to protect themselves from potential harm, such as contacting credit reporting agencies or monitoring account statements.
+5. **Contact Information:** Contact information for the entity providing the notice, including a phone number, website, and/or postal address.
+
+### Wyoming:
+The notification to affected individuals must include:
+1. **Description of the Breach:** A description of the breach incident and the date it was discovered.
+2. **Types of Data Involved:** A description of the types of personal information that were subject to unauthorized access or acquisition.
+3. **Steps Taken to Mitigate Damage:** Information on measures taken by the entity to address the breach and prevent further incidents.
+4. **Advice for Protection:** Recommendations on steps individuals can take to protect themselves, such as placing fraud alerts or security freezes on their credit reports.
+5. **Contact Information:** A toll-free number or other contact information for further assistance and information.
+
+These details ensure that individuals are fully informed and can take appropriate steps to protect themselves following a data breach."
+8,Who must receive notice of a data breach in either Texas or Nebraska?,"In both Texas and Nebraska, the entities required to receive notice of a data breach include:
+
+### Texas:
+1. **Affected Individuals:** Any individual whose sensitive personal information was, or is reasonably believed to have been, acquired by an unauthorized person must be notified of the breach.
+2. **Consumer Reporting Agencies:** If the breach affects more than 10,000 individuals, the entity must also notify all consumer reporting agencies that compile and maintain files on consumers on a nationwide basis, as defined under federal law.
+3. **Texas Attorney General:** If the breach affects at least 250 Texas residents, the entity must notify the Texas Attorney General within 60 days of discovering the breach.
+
+### Nebraska:
+1. **Affected Individuals:** Any resident of Nebraska whose personal information was, or is reasonably believed to have been, acquired by an unauthorized person must be notified of the breach.
+2. **Consumer Reporting Agencies:** If more than 1,000 individuals are affected, the entity must notify, without unreasonable delay, all consumer reporting agencies that maintain files on consumers on a nationwide basis.
+3. **Nebraska Attorney General:** Nebraska does not specifically require notification to the Attorney General based solely on the number of affected individuals, but compliance with general notification requirements and potential civil penalties for non-compliance may involve interaction with state authorities.
+
+These requirements ensure that affected individuals and relevant agencies are promptly informed of a data breach, allowing for appropriate protective measures to be taken."
+9,Who must comply with the data breach notification statute in Pennsylvania and Virginia?,"In both Pennsylvania and Virginia, the data breach notification statutes outline who must comply with the notification requirements:
+
+### Pennsylvania:
+1. **Entities Covered:** The Pennsylvania data breach notification statute applies to any individual, business, or government agency that owns or licenses computerized data that includes personal information.
+2. **Scope of Application:** The statute requires these entities to notify Pennsylvania residents whose unencrypted and unredacted personal information was or is reasonably believed to have been acquired by an unauthorized person.
+
+### Virginia:
+1. **Entities Covered:** The Virginia data breach notification statute applies to any individual, corporation, partnership, business, or governmental entity that owns or licenses computerized data containing personal information.
+2. **Scope of Application:** Entities must notify affected Virginia residents if there is a breach involving their personal information that is unencrypted and unredacted, and it is reasonably believed that the breach has caused or is likely to cause identity theft or other fraud.
+
+Both states mandate that these entities must take appropriate measures to inform affected individuals if their personal information is compromised due to a data breach. This ensures that residents can take steps to protect themselves from potential harm resulting from the breach."
+10,"When do you have to provide notice to affected individuals of a data breach in California, Utah, Florida, and Michigan?","The timing for providing notice to affected individuals of a data breach varies by state. Here's a summary for California, Utah, Florida, and Michigan:
+
+### California:
+- **Notification Timing:** Businesses must notify affected individuals ""in the most expedient time possible and without unreasonable delay,"" consistent with the needs of law enforcement or measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system.
+- **Additional Requirement:** If the breach affects more than 500 California residents, the entity must submit a sample copy of the breach notification to the Attorney General.
+
+### Utah:
+- **Notification Timing:** Entities must provide notice to affected individuals ""in the most expedient time possible without unreasonable delay,"" consistent with the needs of law enforcement or measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system.
+- **Additional Considerations:** The law does not specify an exact timeframe but emphasizes the importance of timeliness.
+
+### Florida:
+- **Notification Timing:** Entities must notify affected individuals ""as expeditiously as practicable and without unreasonable delay,"" but no later than 30 days after the determination of a breach or reason to believe a breach occurred.
+- **Additional Requirement:** If notification is delayed due to law enforcement, the entity must notify the Department of Legal Affairs as soon as the delay is lifted.
+
+### Michigan:
+- **Notification Timing:** Notification must be made ""without unreasonable delay,"" but no later than 45 days after the entity discovers or is notified of the breach.
+- **Additional Requirement:** If a data breach affects more than 1,000 individuals at a single time, the entity must also notify consumer reporting agencies.
+
+These timeframes ensure that affected individuals are informed promptly about breaches involving their personal information, enabling them to take appropriate actions to protect themselves."

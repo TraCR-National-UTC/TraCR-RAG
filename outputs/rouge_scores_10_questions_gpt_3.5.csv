@@ -1,0 +1,12 @@
+,question,rouge1_precision,rouge1_recall,rouge1_fmeasure,rouge2_precision,rouge2_recall,rouge2_fmeasure,rougeL_precision,rougeL_recall,rougeL_fmeasure
+0,Does Delaware require entities to notify the state attorney general or other governmental agency in the event of a data breach?,0.315789474,0.666666667,0.428571429,0.117021277,0.25,0.15942029,0.168421053,0.355555556,0.228571429
+1,How does Connecticut’s Data Breach Notification statute define a breach of security?,0.260416667,0.769230769,0.389105058,0.136125654,0.40625,0.203921569,0.197916667,0.584615385,0.295719844
+2,How does Montana’s Data Breach Notification Statute define personal information?,0.602339181,0.62804878,0.614925373,0.405882353,0.423312883,0.414414414,0.450292398,0.469512195,0.459701493
+3,Under what circumstances must disclosure of a data breach be made in North Dakota?,0.077738516,0.785714286,0.1414791,0.028368794,0.296296296,0.051779935,0.049469965,0.5,0.090032154
+4,What are the acceptable methods of notice of a data breach in Tennessee?,0.376146789,0.554054054,0.448087432,0.142857143,0.210884354,0.17032967,0.21559633,0.317567568,0.256830601
+5,What are the maximum penalties for failing to follow the data breach notification statutes in Ohio and Oklahoma?,0.091644205,0.53125,0.156321839,0.035135135,0.206349206,0.060046189,0.067385445,0.390625,0.114942529
+6,What information must be provided in a data breach notification in South Carolina and Wyoming?,0.294258373,0.710982659,0.416243655,0.122302158,0.296511628,0.173174873,0.167464115,0.404624277,0.236886633
+7,Who must receive notice of a data breach in either Texas or Nebraska?,0.281437126,0.691176471,0.4,0.108108108,0.266666667,0.153846154,0.182634731,0.448529412,0.259574468
+8,Who must comply with the data breach notification statute in Pennsylvania and Virginia?,0.439849624,0.441509434,0.440677966,0.173584906,0.174242424,0.173913043,0.233082707,0.233962264,0.233521657
+9,"When do you have to provide notice to affected individuals of a data breach in California, Utah, Florida, and Michigan?",0.355889724,0.755319149,0.483816014,0.216080402,0.459893048,0.294017094,0.243107769,0.515957447,0.330494037
+,,0.309550968,0.653395227,0.391922787,0.148546593,0.299040651,0.185486323,0.197537118,0.42209491,0.250627485

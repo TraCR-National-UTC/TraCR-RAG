@@ -1,0 +1,12 @@
+,question,rouge1_precision,rouge1_recall,rouge1_fmeasure,rouge2_precision,rouge2_recall,rouge2_fmeasure,rougeL_precision,rougeL_recall,rougeL_fmeasure
+0,Does Delaware require entities to notify the state attorney general or other governmental agency in the event of a data breach?,0.160714286,0.8,0.267657993,0.062780269,0.318181818,0.104868914,0.107142857,0.533333333,0.178438662
+1,How does Connecticut’s Data Breach Notification statute define a breach of security?,0.291262136,0.923076923,0.442804428,0.263414634,0.84375,0.401486989,0.27184466,0.861538462,0.413284133
+2,How does Montana’s Data Breach Notification Statute define personal information?,0.537313433,0.87804878,0.666666667,0.483146067,0.791411043,0.6,0.5,0.817073171,0.62037037
+3,Under what circumstances must disclosure of a data breach be made in North Dakota?,0.070063694,0.785714286,0.128654971,0.022364217,0.259259259,0.041176471,0.047770701,0.535714286,0.087719298
+4,What are the acceptable methods of notice of a data breach in Tennessee?,0.355421687,0.797297297,0.491666667,0.211480363,0.476190476,0.292887029,0.240963855,0.540540541,0.333333333
+5,What are the maximum penalties for failing to follow the data breach notification statutes in Ohio and Oklahoma?,0.12585034,0.578125,0.206703911,0.064846416,0.301587302,0.106741573,0.088435374,0.40625,0.145251397
+6,What information must be provided in a data breach notification in South Carolina and Wyoming?,0.396866841,0.878612717,0.54676259,0.285340314,0.63372093,0.393501805,0.315926893,0.699421965,0.435251799
+7,Who must receive notice of a data breach in either Texas or Nebraska?,0.253405995,0.683823529,0.369781312,0.087431694,0.237037037,0.127744511,0.147138965,0.397058824,0.21471173
+8,Who must comply with the data breach notification statute in Pennsylvania and Virginia?,0.452145215,0.516981132,0.482394366,0.168874172,0.193181818,0.180212014,0.211221122,0.241509434,0.225352113
+9,"When do you have to provide notice to affected individuals of a data breach in California, Utah, Florida, and Michigan?",0.393401015,0.824468085,0.532646048,0.239185751,0.502673797,0.324137931,0.253807107,0.531914894,0.343642612
+,,0.303644464,0.766614775,0.413573895,0.18888639,0.455699348,0.257275724,0.218425153,0.556435491,0.299735545
