@@ -55,5 +55,31 @@ git clone https://github.com/TraCR-National-UTC/TraCR-RAG.git
 cd TraCR-RAG
 ```
 
+---
+
+## 3) Create & activate a virtual environment
+
+A **virtual environment** is like a private workspace where only the tools and libraries needed for this project are installed.  
+This keeps things clean and avoids conflicts with other Python projects on your computer.
+
+### macOS/Linux
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### Windows (PowerShell)
+
+```powershell
+python -m venv .venv
+.\\.venv\\Scripts\\Activate.ps1
+```
+✅ When the virtual environment is active, your command line will show (.venv) at the start of the line.
+To leave (deactivate) the virtual environment later, just type:
+```bash
+deactivate
+```
+
+
+
 
 
