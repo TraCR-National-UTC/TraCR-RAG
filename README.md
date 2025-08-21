@@ -71,13 +71,39 @@ source .venv/bin/activate
 
 ```powershell
 python -m venv .venv
-.\\.venv\\Scripts\\Activate.ps1
+./.venv/Scripts/activate
 ```
+
 ✅ When the virtual environment is active, your command line will show (.venv) at the start of the line.
 To leave (deactivate) the virtual environment later, just type:
 ```bash
 deactivate
 ```
+
+---
+## 4) Install dependencies
+
+Dependencies are like ingredients the project needs to run.  
+They are listed in a file called `requirements.txt`.
+
+A typical `requirements.txt` might look like this:
+
+```txt
+django>=4.2
+openai>=1.0.0
+python-dotenv>=1.0.0
+```
+
+```bash
+# Make sure pip is up to date
+pip install --upgrade pip
+
+# Install everything listed in requirements.txt
+pip install -r requirements.txt
+```
+💡 If you get a permissions error, make sure your virtual environment (.venv) is activated before running these commands.
+
+
 
 
 
