@@ -93,7 +93,7 @@ django>=4.2
 openai>=1.0.0
 python-dotenv>=1.0.0
 ```
-
+Run the following commands to install all the dependencies.
 ```bash
 # Make sure pip is up to date
 pip install --upgrade pip
@@ -103,7 +103,47 @@ pip install -r requirements.txt
 ```
 💡 If you get a permissions error, make sure your virtual environment (.venv) is activated before running these commands.
 
+---
+## 5) Configuration (environment variables)
 
+The project needs secret information (like your OpenAI API key).  
+These are stored in **environment variables** so they’re not visible in the code.
+
+### Option 1: Using a `.env` file (recommended)
+
+1. In the root folder of your project (where `manage.py` is located), create a new file called **`.env`**.
+2. Add the following content inside it:
+
+```env
+# --- Django ---
+DJANGO_SECRET_KEY=change-me
+DJANGO_DEBUG=True
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+# --- OpenAI ---
+OPENAI_API_KEY=sk-...your-key-here...
+```
+👉 Never share or upload .env files! They should always be added to .gitignore.
+
+### Option 2: Setting environment variables manually
+
+You can also set them directly in your terminal.
+
+**Windows (PowerShell):**
+
+```powershell
+$env:OPENAI_API_KEY="sk-..."
+$env:DJANGO_SECRET_KEY="change-me"
+$env:DJANGO_DEBUG="True"
+```
+
+**macOS/Linux:**
+
+```powershell
+export OPENAI_API_KEY="sk-..."
+export DJANGO_SECRET_KEY="change-me"
+export DJANGO_DEBUG=True
+```
 
 
 
