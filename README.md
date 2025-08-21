@@ -133,19 +133,24 @@ You can also set them directly in your terminal.
 
 ```powershell
 $env:OPENAI_API_KEY="sk-..."
-$env:DJANGO_SECRET_KEY="change-me"
-$env:DJANGO_DEBUG="True"
 ```
 
 **macOS/Linux:**
 
 ```powershell
 export OPENAI_API_KEY="sk-..."
-export DJANGO_SECRET_KEY="change-me"
-export DJANGO_DEBUG=True
 ```
 
+---
+## 6) Run the development server
 
+Now you can start the server:
+
+```bash
+python manage.py runserver
+```
+Once it starts, open your browser and visit:
+👉 http://127.0.0.1:8000/
 
 
 
