@@ -116,8 +116,6 @@ These are stored in **environment variables** so they’re not visible in the co
 
 ```env
 # --- Django ---
-DJANGO_SECRET_KEY=change-me
-DJANGO_DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1
 
 # --- OpenAI ---
