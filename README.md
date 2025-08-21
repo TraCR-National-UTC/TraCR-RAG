@@ -25,11 +25,11 @@ Before you can run this project, you’ll need a few tools installed on your com
 If you see something like `Python 3.11.5`, you’re good to go.
 
 - **pip**  
-  pip is Python’s package manager 
+  pip is Python’s package manager. 
   It comes with Python by default and is used to install the extra libraries the project needs.
 
 - **virtualenv (or venv)**  
-  This is where we install only the tools needed for this project, so they don’t interfere with other things on any computer.  
+  This is where we install only the tools needed for this project, so they don’t interfere with other softwares or projects on any computer.  
 
 - **Git**  
   Git helps to download (or “clone”) the project from GitHub.  
@@ -41,4 +41,19 @@ If you see something like `Python 3.11.5`, you’re good to go.
 
 > **Tip:** On **Windows**, open PowerShell. On **macOS/Linux**, open Terminal.  
 > All the commands in this guide should be typed there.
+
+---
+## 2) Clone & enter the project
+
+This step copies the project from GitHub to your computer and moves you into the project folder.
+
+```bash
+# Clone the repository 
+git clone https://github.com/TraCR-National-UTC/TraCR-RAG.git
+
+# Move into the project directory
+cd TraCR-RAG
+```
+
+
 
