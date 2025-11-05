@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect
 from django.http import JsonResponse
-from .tracr_rag import get_response
+from .tracr_rag import get_response, create_query_engines
 import time
+
+state_wise_query_engines = create_query_engines()
 
 # Create your views here.
 def chatbot_titan(request):
