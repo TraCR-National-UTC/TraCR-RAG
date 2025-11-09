@@ -145,8 +145,11 @@ def create_query_engines(states = None):
     states = get_states(DATA_FOLDER)
   query_engines = {}
 
-  for state in states:
+  for i,state in enumerate(states):
     query_engines[state] = create_state_query_engine(state)
+
+    # if i ==5:
+    #     break
     # break  # remove this break to load all states
   
   return query_engines
@@ -323,15 +326,15 @@ def get_state_wise_response(state,question,top_k=10, model = "gpt-4o-mini"):
     modified_ret = ""
 
     if len(ret_2)>0:
-        modified_ret = ret_1 + "\nIndformation based on insurance documents:\n" + ret_2
+        modified_ret = ret_1 + "\n\nInformation based on insurance documents:\n" + ret_2
     else:
         modified_ret = ret_1 
 
     for ref in refs:
-        if ref in ret_1+ret_2:
+        if ref in ret_1 + ret_2:
             modified_ref = modify_ref(ref)
             modified_ret = modified_ret.replace(ref,modified_ref)
-    return modified_ret 
+    return modified_ret
 
 
 def modify_ref(ref):
@@ -523,6 +526,101 @@ def get_response(query, only_accumulated_response = False, model = "gpt-4o-mini"
             return response
         
 state_wise_query_engines = create_query_engines()
+
+def get_response_streamed(query, only_accumulated_response = False, model = "gpt-4o-mini"):
+    required_states_set = set(get_required_states(query).split(','))
+
+    required_states = []
+    for state in required_states_set:
+        required_states.append(state.strip())
+    
+    if "" in required_states:
+        required_states.remove("")
+
+    declaire_required_states = "Looking into the following states: <br>"
+    for i, state in enumerate(required_states, start=1):
+        declaire_required_states += str(i) + '. ' + state + '<br>'
+    yield declaire_required_states
+    
+
+    response = ""
+
+    context = ''
+    # response += '<br>Responses based on different states:<br>'
+    yield '<br><h5>Based on different states:</h5><br>'
+    state_wise_responses = {}
+    for i, state in enumerate(required_states, start=1):
+        yield f'<h6><br>{i}. {state}: <br></h6>'
+        
+        if state in state_wise_query_engines:
+            # print(f"---------- Getting response for: {state} ---------------")
+            state_wise_response = get_state_wise_response(state, query, model)
+            fact_check = fact_checking(query, state_wise_response, model)
+
+            if fact_check == "No":
+                # print("Skipped!")
+                response += state + ':<br>'
+                response += f'No documents found on this state.' +'<br>'
+                yield f'No documents found on this state.<br>'
+
+                continue
+
+            context += state_wise_response + '\n'
+            response += state + ': <br>'
+            response += state_wise_response +'<br>'
+            # for summarization
+            state_wise_responses[state] = state_wise_response
+            yield state_wise_response +'<br>'
+            # print("Included.")
+        else:
+            print(f'{state} is not present ------------------------------')
+            response += f'No documents found based on {state}.' +'<br>'
+            yield f'No documents found based on {state}.<br>'
+
+    accumulated_response = ""   
+    if len(required_states)>1:
+        try:
+            accumulated_response = get_accumulated_response(context, query,model)
+        except Exception as e:
+            print("Maximum limit of context exceeded! Generating Summaries!")
+            response = "Looking into the following states: <br>"
+            ind = 1
+            for state in required_states:
+                response += str(ind) + '. ' + state + '<br>'
+                ind+=1
+
+            context = ''
+
+
+            for state in required_states:
+                # response += state + ':<br>'
+                if state in state_wise_query_engines:
+                    print(f"---------- Getting summary for: {state} ---------------")
+                    context += get_summary(query, state_wise_response,model) + '\n'
+                    response += state_wise_response +'<br>'
+                else:
+                    print(f'{state} is not present ------------------------------')
+                    response += f'No documents found based on {state}.' +'<br>'
+            
+            accumulated_response = get_accumulated_response(context, query, model)
+
+        # response += '<br>' + accumulated_response + '<br>'
+
+    if only_accumulated_response == True:
+        if len(required_states)>1:
+            yield accumulated_response
+            # return accumulated_response
+        else:
+            yield response
+            # return response
+    else:
+        if len(required_states)>1:
+            yield accumulated_response
+            # return response + '<br>' + accumulated_response + '<br>'
+        else:
+            pass
+            # return response
+
 
 if __name__ == '__main__':
     query = "What are the identifying documents according to Alabama Legislations?"

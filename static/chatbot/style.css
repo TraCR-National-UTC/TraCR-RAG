@@ -1,0 +1,250 @@
+:root {
+  --bg: #212121;
+  --panel: #2a2a2a;
+  --panel-2: #1e1e1e;
+  --text: #eaeaea;
+  --muted: #b8b8b8;
+  --accent: #4caf50;
+  --border: #3a3a3a;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.app { display: grid; grid-template-columns: 280px 1fr; height: 100vh; }
+.sidebar {
+  background: var(--panel-2); border-right: 1px solid var(--border);
+  display: flex; flex-direction: column;
+}
+.brand { padding: 16px; font-weight: 700; border-bottom: 1px solid var(--border); }
+.btn {
+  margin: 12px; padding: 10px 12px; border: 1px solid var(--border);
+  background: var(--panel); color: var(--text); border-radius: 8px; cursor: pointer;
+}
+.btn:hover { border-color: var(--accent); }
+.history { flex: 1; overflow: auto; padding: 8px 12px; }
+.history .item {
+  padding: 8px 10px; border-radius: 6px; color: var(--muted); margin-bottom: 6px;
+  border: 1px solid transparent; cursor: pointer;
+}
+.history .item:hover { border-color: var(--border); color: var(--text); }
+.footer { padding: 12px; color: var(--muted); border-top: 1px solid var(--border); }
+
+.main { display: flex; flex-direction: column; }
+.chat {
+  flex: 1; overflow: auto; padding: 24px; background: var(--bg);
+}
+.msg { 
+    max-width: 720px; 
+    margin: 0 auto 16px auto; 
+    display: flex; 
+    gap: 12px; }
+.me {
+  justify-content: flex-end;     /* pushes message to right */
+}
+.me .bubble {
+  background: #0e4;              /* bright green like ChatGPT user bubble */
+  color: #111;
+  border-color: #0c3;
+  align-self: flex-end;          /* keep it aligned neatly */
+}
+
+.bot {
+  justify-content: flex-start;
+}
+
+.bot .bubble {
+  background: #2a2a2a;
+  color: #eaeaea;
+  border-color: #3a3a3a;
+}
+
+.avatar {
+  width: 32px; height: 32px; border-radius: 50%; background: var(--panel);
+  display: inline-flex; align-items: center; justify-content: center; font-size: 14px;
+}
+.bubble {
+  background: var(--panel); padding: 12px 14px; border-radius: 12px;
+  border: 1px solid var(--border); white-space: pre-wrap;
+}
+/* .me .bubble { background: #0e4; color: #000; border-color: #0c3; } */
+/* .bot .bubble { background: var(--panel); } */
+
+.composer {
+  display: grid; grid-template-columns: 1fr 90px; gap: 10px; padding: 16px; border-top: 1px solid var(--border);
+  background: var(--panel-2);
+}
+textarea {
+  width: 100%; min-height: 56px; max-height: 200px; resize: vertical;
+  padding: 12px; border-radius: 10px; border: 1px solid var(--border);
+  background: var(--panel); color: var(--text);
+}
+.send {
+  border: 1px solid var(--border); background: var(--accent); color: #111;
+  border-radius: 10px; cursor: pointer; font-weight: 600;
+}
+.send:hover { filter: brightness(1.05); }
+
+.typing::after {
+  content: "▋";
+  display: inline-block;
+  animation: blink 1s infinite;
+  color: #4caf50;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+
+
+/* Full-height app, no window scroll */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;            /* prevent the whole window from scrolling */
+  background: #212121;         /* keep your dark bg */
+  color: #eaeaea;
+  font: 16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Two-column layout, fixed to viewport height */
+.app {
+  height: 100vh;               /* lock to viewport height */
+  display: grid;
+  grid-template-columns: 280px 1fr;
+}
+
+
+
+.sidebar {
+  background: #1e1e1e;
+  border-right: 1px solid #3a3a3a;
+  position: sticky;            /* stick to the viewport */
+  top: 0;
+  height: 100vh;               /* full height */
+  display: flex;
+  flex-direction: column;
+  overflow: auto;              /* only the sidebar scrolls when needed */
+}
+
+.main {
+  height: 100vh;               /* full height */
+  display: flex;
+  flex-direction: column;      /* stack chat (flex:1) and composer (fixed) */
+}
+
+/* Only this area scrolls */
+.chat {
+  flex: 1;                     /* take remaining space */
+  overflow: auto;              /* internal scrolling! */
+  padding: 24px;
+  background: #212121;
+}
+
+/* Stays visible; does NOT scroll */
+.composer {
+  flex-shrink: 0;              /* don't let it shrink */
+  display: grid;
+  grid-template-columns: 1fr 90px;
+  gap: 10px;
+  padding: 16px;
+  border-top: 1px solid #3a3a3a;
+  background: #1e1e1e;
+}
+
+textarea {
+  min-height: 56px;
+  max-height: 200px;
+  resize: vertical;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #3a3a3a;
+  background: #2a2a2a;
+  color: #eaeaea;
+}
+
+.send {
+  border: 1px solid #3a3a3a;
+  background: #4caf50;
+  color: #111;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+
+.msg.me .avatar {
+  display: none;
+}
+
+
+/* Blinking typing cursor for active bubble (optional) */
+.bubble.typing::after {
+  content: "▋";
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* Thinking bubble: three animated dots */
+.thinking {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  min-width: 36px;
+}
+.thinking .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #bdbdbd;
+  animation: bounce 1.2s infinite;
+}
+.thinking .dot:nth-child(2) { animation-delay: 0.2s; }
+.thinking .dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.5; }
+  40% { transform: translateY(-4px); opacity: 1; }
+}
+
+.history .item.active {
+  background: #333;
+  color: #4caf50;
+  border-radius: 6px;
+}
+
+.history .item {
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: #b8b8b8;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.history .item:hover {
+  border-color: #3a3a3a;
+  color: #eaeaea;
+}
+
+.history .item.active {
+  background: #333;
+  color: #4caf50;
+  border-color: #4caf50;
+}
+
+.bubble a {
+  color: #8bd3ff;
+  text-decoration: underline;
+  word-break: break-word;
+}
+.bubble a:hover { text-decoration: none; }
+
+

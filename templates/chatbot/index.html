@@ -1,0 +1,37 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>TraCR-AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="/static/chatbot/style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <center>
+            <img src="{% static 'tracr_logo_rb.png' %}" style="width: 60%;" alt="TraCR-AI Logo" class="logo" />
+            <br>
+            TraCR-AI</div>
+        </center>
+
+      <button id="newChat" class="btn">+ New chat</button>
+      <div id="history" class="history"></div>
+      <div class="footer">© Transportation Cybersecurity and Resiliency (TraCR)</div>
+    </aside>
+
+    <main class="main">
+      <div id="chat" class="chat"></div>
+
+      <div class="composer">
+        <textarea id="msg" placeholder="Message…"></textarea>
+        <button id="send" class="send">Send</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="/static/chatbot/chat.js"></script>
+</body>
+</html>
