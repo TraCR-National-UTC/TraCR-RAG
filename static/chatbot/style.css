@@ -1,4 +1,5 @@
 :root {
+  /* Dark theme (default) */
   --bg: #212121;
   --panel: #2a2a2a;
   --panel-2: #1e1e1e;
@@ -6,6 +7,37 @@
   --muted: #b8b8b8;
   --accent: #4caf50;
   --border: #3a3a3a;
+  --user-msg-bg: #333232;
+  --user-msg-text: #ffffff;
+  --bot-msg-bg: var(--panel);
+  --bot-msg-text: var(--text);
+  --code-bg: #2b2b2b;
+  --code-text: #e0e0e0;
+  --code-block-bg: #2b2b2b;
+  --code-border: #404040;
+  --inline-code-bg: #333333;
+  --code-header-bg: #323232;
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --panel: #f5f5f5;
+  --panel-2: #eeeeee;
+  --text: #2c2c2c;
+  --muted: #666666;
+  --accent: #4caf50;
+  --border: #e0e0e0;
+  --user-msg-bg: #e9e9e9;
+  --user-msg-text: #2c2c2c;
+  --bot-msg-bg: #ffffff;
+  --bot-msg-text: #2c2c2c;
+  --code-bg: #ffffff;
+  --code-text: #24292e;
+  --code-block-bg: #ffffff;
+  --code-border: #dddddd;
+  --inline-code-bg: #f6f8fa;
+  --code-header-bg: #f6f8fa;
 }
 
 /* Minimal reset */
@@ -32,6 +64,40 @@ body {
   background: var(--panel); color: var(--text); border-radius: 8px; cursor: pointer;
 }
 .btn:hover { border-color: var(--accent); }
+
+/* Theme toggle button */
+.theme-toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-icon {
+  position: absolute;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.theme-icon.sun {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.theme-icon.moon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+[data-theme="light"] .theme-icon.sun {
+  opacity: 1;
+  transform: scale(1);
+}
+
+[data-theme="light"] .theme-icon.moon {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
 .history { flex: 1; overflow: auto; padding: 8px 12px; }
 .history .item {
   padding: 8px 10px; border-radius: 6px; color: var(--muted); margin-bottom: 6px;
@@ -59,9 +125,9 @@ body {
 }
 
 .me .bubble {
-    background: #0e4;
-    color: #111;
-    border-color: #0c3;
+    background: var(--user-msg-bg);
+    color: var(--user-msg-text);
+    border-color: var(--border);
     display: inline-block;    /* Allow content-based sizing */
     max-width: calc(100% - 44px); /* Maximum width up to bot's left edge */
     white-space: pre-wrap;    /* Preserve whitespace but allow wrapping */
@@ -80,9 +146,9 @@ body {
 }
 
 .bot .bubble {
-    background: #2a2a2a;
-    color: #eaeaea;
-    border-color: #3a3a3a;
+    background: var(--bot-msg-bg);
+    color: var(--bot-msg-text);
+    border-color: var(--border);
     flex: 1;                      /* make bot messages expand */
     min-width: 0;                 /* allow bubble to shrink if needed */
 }
@@ -136,8 +202,8 @@ html, body {
   height: 100%;
   margin: 0;
   overflow: hidden;            /* prevent the whole window from scrolling */
-  background: #212121;         /* keep your dark bg */
-  color: #eaeaea;
+  background: var(--bg);       /* use theme variable */
+  color: var(--text);         /* use theme variable */
   font: 16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
@@ -148,11 +214,9 @@ html, body {
   grid-template-columns: 280px 1fr;
 }
 
-
-
 .sidebar {
-  background: #1e1e1e;
-  border-right: 1px solid #3a3a3a;
+  background: var(--panel-2);  /* use theme variable */
+  border-right: 1px solid var(--border);  /* use theme variable */
   position: sticky;            /* stick to the viewport */
   top: 0;
   height: 100vh;               /* full height */
@@ -172,7 +236,7 @@ html, body {
   flex: 1;                     /* take remaining space */
   overflow: auto;              /* internal scrolling! */
   padding: 24px;
-  background: #212121;
+  background: var(--bg);       /* use theme variable */
 }
 
 /* Stays visible; does NOT scroll */
@@ -182,8 +246,8 @@ html, body {
   grid-template-columns: 1fr 90px;
   gap: 10px;
   padding: 16px;
-  border-top: 1px solid #3a3a3a;
-  background: #1e1e1e;
+  border-top: 1px solid var(--border);  /* use theme variable */
+  background: var(--panel-2);  /* use theme variable */
 }
 
 textarea {
@@ -192,9 +256,9 @@ textarea {
   resize: vertical;
   padding: 12px;
   border-radius: 10px;
-  border: 1px solid #3a3a3a;
-  background: #2a2a2a;
-  color: #eaeaea;
+  border: 1px solid var(--border);  /* use theme variable */
+  background: var(--panel);    /* use theme variable */
+  color: var(--text);         /* use theme variable */
 }
 
 .send {
@@ -252,21 +316,22 @@ textarea {
 .history .item {
   padding: 8px 10px;
   border-radius: 6px;
-  color: #b8b8b8;
+  color: var(--muted);
   border: 1px solid transparent;
   cursor: pointer;
   margin-bottom: 6px;
 }
 
 .history .item:hover {
-  border-color: #3a3a3a;
-  color: #eaeaea;
+  border-color: var(--border);
+  color: var(--text);
+  background: var(--panel);
 }
 
 .history .item.active {
-  background: #333;
-  color: #4caf50;
-  border-color: #4caf50;
+  background: var(--panel);
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
 .bubble a {
@@ -297,22 +362,25 @@ textarea {
 
 /* Code block styling */
 .bubble pre {
-  background: #111;
-  color: #ddd;
+  background: var(--code-block-bg);
+  color: var(--code-text);
   padding: 10px;
   border-radius: 8px;
   overflow-x: auto;
   font-size: 0.9rem;
   line-height: 1.4;
   margin: 0.6em 0;
+  border: 1px solid var(--code-border);
 }
 
 /* Inline code */
 .bubble code {
-  background: #2b2b2b;
+  background: var(--inline-code-bg);
+  color: var(--code-text);
   padding: 2px 5px;
   border-radius: 4px;
   font-family: monospace;
+  border: 1px solid var(--code-border);
 }
 
 .bubble h3 {
@@ -365,9 +433,9 @@ textarea {
 
 /* Room around code blocks */
 .bubble pre {
-  background: #0f0f0f;
-  color: #ddd;
-  border: 1px solid #2f2f2f;
+  background: var(--code-block-bg);
+  color: var(--code-text);
+  border: 1px solid var(--code-border);
   border-radius: 10px;
   padding: 12px 14px;
   margin: 0.8em 0;            /* <-- breathing room */
@@ -379,6 +447,7 @@ textarea {
 /* Wrapper adds a top-right copy button like ChatGPT */
 .codeblock {
   position: relative;
+  background: var(--code-block-bg);
 }
 
 .codeblock .copy-btn {
@@ -442,8 +511,8 @@ textarea {
   margin: 0.9em 0;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #2f2f2f;
-  background: #0f0f0f;
+  border: 1px solid var(--border);
+  background: var(--code-bg);
 }
 
 /* Header bar (language + copy button) */
@@ -452,13 +521,13 @@ textarea {
   justify-content: space-between;
   align-items: center;
   padding: 6px 12px;
-  background: #1a1a1a;
-  border-bottom: 1px solid #2f2f2f;
+  background: var(--code-header-bg);
+  border-bottom: 1px solid var(--code-border);
   height: 35px;
 }
 
 .codeblock-header .lang-label {
-  color: #999;
+  color: var(--muted);
   font-size: 0.75rem;
   text-transform: lowercase;
   font-family: system-ui, -apple-system, sans-serif;
@@ -493,22 +562,27 @@ textarea {
 
 /* Actual code area */
 .codeblock pre {
-  background: #1a1a1a;
+  background: var(--code-block-bg);
   margin: 0;
   padding: 12px 16px;
   overflow-x: auto;
   line-height: 1.5;
   font-size: 0.875rem;
-  color: #ddd;
+  color: var(--code-text);
   border-radius: 0 0 6px 6px;
 }
 
 .codeblock code {
   font-family: "Fira Code", monospace;
+  color: var(--code-text);
 }
 
 .codeblock {
-  padding: 10px;
+  background: var(--code-block-bg);
+  margin: 0.9em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--code-border);
 }
 
 /* Bubble footer with like/dislike */
@@ -521,9 +595,9 @@ textarea {
 }
 
 .bubble-footer .icon-btn {
-  border: 1px solid #3a3a3a;
-  background: #1f1f1f;
-  color: #b9b9b9;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--muted);
   width: 32px;
   height: 28px;
   padding: 0;
@@ -723,12 +797,241 @@ textarea {
 /* === User message font only === */
 .msg.me .bubble {
   font-family: "Segoe UI Semibold", "Helvetica Neue", Arial, sans-serif;
-  /* font-weight: 500; */
   font-size: 15px;
   line-height: 1.5;
-  color: #ffffff; /* optional: slightly lighter for contrast */
-  background-color: #333232;
+  color: var(--user-msg-text);
+  background-color: var(--user-msg-bg);
 }
+
+/* === THEME FIX FOR CODE BLOCKS === */
+.bubble pre,
+.codeblock pre {
+  background: var(--code-block-bg) !important;
+  color: var(--code-text) !important;
+  border-color: var(--code-border) !important;
+}
+
+.codeblock,
+.codeblock-header {
+  background: var(--code-block-bg) !important;
+  border-color: var(--code-border) !important;
+}
+
+.codeblock-header .copy-btn {
+  border-color: var(--code-border) !important;
+  color: var(--muted) !important;
+  background: var(--code-header-bg) !important;
+}
+
+.codeblock-header .copy-btn:hover {
+  background: var(--panel-2) !important;
+  color: var(--text) !important;
+}
+
+.hljs {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+
+:root {
+  --code-block-bg: #2b2b2b;
+  --code-text: #e0e0e0;
+}
+
+[data-theme="light"] {
+  --code-block-bg: #ffffff;
+  --code-text: #24292e;
+}
+
+/* ================================
+   CODE BLOCK THEME — FINAL OVERRIDES
+   Place at the VERY END of style.css
+   ================================ */
+
+/* 1) Define reliable variables (dark as default) */
+:root {
+  --code-block-bg: #0f1117;   /* dark slate */
+  --code-header-bg: #151821;  /* header strip */
+  --code-text: #e6e6e6;
+  --code-border: #2f2f2f;
+}
+
+/* Light theme overrides */
+[data-theme="light"] {
+  --code-block-bg: #f6f8fa;   /* GitHub-like */
+  --code-header-bg: #f3f4f6;
+  --code-text: #24292e;
+  --code-border: #d0d7de;
+}
+
+/* 2) Beat any older hard-coded backgrounds */
+.chat .codeblock,
+.chat .codeblock-header {
+  background: var(--code-header-bg) !important;
+  border: 1px solid var(--code-border) !important;
+  border-bottom: none !important;  /* header shares border with pre below */
+}
+
+.chat .codeblock pre,
+.chat .bubble pre {
+  background: var(--code-block-bg) !important;
+  color: var(--code-text) !important;
+  border-top: 1px solid var(--code-border) !important;
+  border-left: 1px solid var(--code-border) !important;
+  border-right: 1px solid var(--code-border) !important;
+  border-bottom: 1px solid var(--code-border) !important;
+  margin: 0 !important;
+  padding: 14px !important;
+  line-height: 1.45 !important;
+  font-size: 0.9rem !important;
+  overflow-x: auto !important;
+  border-radius: 0 0 8px 8px !important; /* rounded bottom if header above */
+}
+
+/* If you also render <pre> without .codeblock wrapper, keep consistency */
+.chat .bubble pre:not(:has(code)) {
+  background: var(--code-block-bg) !important;
+  color: var(--code-text) !important;
+  border: 1px solid var(--code-border) !important;
+  border-radius: 8px !important;
+}
+
+/* 3) Neutralize highlight.js theme backgrounds */
+.hljs {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+/* 4) Copy button / header buttons follow theme */
+.codeblock-header .copy-btn,
+.bubble-footer .copy-btn {
+  color: var(--text-muted, #a1a1a1) !important;
+  background: transparent !important;
+  border: none !important;
+}
+.codeblock-header .copy-btn:hover,
+.bubble-footer .copy-btn:hover {
+  background: rgba(0,0,0,0.06) !important;                 /* dark hover */
+}
+[data-theme="light"] .codeblock-header .copy-btn:hover,
+[data-theme="light"] .bubble-footer .copy-btn:hover {
+  background: rgba(0,0,0,0.06) !important;                 /* light hover */
+}
+
+/* 5) Ensure container doesn’t mask the theme */
+.chat .bubble code {
+  background: transparent !important;  /* inline code stays subtle */
+}
+
+/* === CLEANER CODE BLOCK THEME (no border lines on text) === */
+
+/* Code block container and header */
+.chat .codeblock,
+.chat .codeblock-header {
+  background: var(--code-header-bg) !important;
+  border: none !important;
+}
+
+/* Code area */
+.chat .codeblock pre,
+.chat .bubble pre {
+  background: var(--code-block-bg) !important;
+  color: var(--code-text) !important;
+  border: none !important;        /* 🚫 removes all border lines */
+  margin: 0 !important;
+  padding: 14px !important;
+  line-height: 1.45 !important;
+  font-size: 0.9rem !important;
+  overflow-x: auto !important;
+  border-radius: 8px !important;
+}
+
+/* Also handle any standalone <pre> blocks */
+.chat .bubble pre:not(:has(code)) {
+  background: var(--code-block-bg) !important;
+  color: var(--code-text) !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+/* Neutralize highlight.js backgrounds */
+.hljs {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+/* Inline code snippets */
+.chat .bubble code {
+  background: rgba(0, 0, 0, 0.08);
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+[data-theme="light"] .chat .bubble code {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Copy button and header icons */
+.codeblock-header .copy-btn,
+.bubble-footer .copy-btn {
+  color: var(--text-muted, #a1a1a1) !important;
+  background: transparent !important;
+  border: none !important;
+}
+.codeblock-header .copy-btn:hover,
+.bubble-footer .copy-btn:hover {
+  background: rgba(0, 0, 0, 0.06) !important;
+}
+[data-theme="light"] .codeblock-header .copy-btn:hover,
+[data-theme="light"] .bubble-footer .copy-btn:hover {
+  background: rgba(0, 0, 0, 0.06) !important;
+}
+
+/* === FLAT CODE BLOCK (no borders/lines anywhere) === */
+
+/* 1) Make header and code area the same flat background */
+.chat .codeblock,
+.chat .codeblock-header,
+.chat .codeblock pre,
+.chat .bubble pre {
+  background: var(--code-block-bg) !important;
+}
+
+/* 2) Nuke borders, outlines, shadows everywhere in the code block */
+.chat .codeblock,
+.chat .codeblock-header,
+.chat .codeblock pre,
+.chat .bubble pre,
+.chat .bubble pre code {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* 3) Ensure the code text itself has no “pill” background/padding */
+.chat .bubble pre code {
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* 4) Keep inline code outside of fenced blocks styled (optional) */
+.chat .bubble :not(pre) > code {
+  background: rgba(0,0,0,0.08);
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+[data-theme="light"] .chat .bubble :not(pre) > code {
+  background: rgba(0,0,0,0.05);
+}
+
+/* 5) Neutralize highlight.js theme background just in case */
+.hljs {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+
 
 
 

@@ -3,6 +3,20 @@ const msg = document.getElementById("msg");
 const send = document.getElementById("send");
 const historyEl = document.getElementById("history");
 const newChatBtn = document.getElementById("newChat");
+const themeToggle = document.getElementById("themeToggle");
+
+// Theme handling
+let currentTheme = localStorage.getItem("theme") || "dark";
+
+// Set initial theme
+document.documentElement.setAttribute("data-theme", currentTheme);
+
+// Toggle theme
+themeToggle.addEventListener("click", () => {
+  currentTheme = currentTheme === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", currentTheme);
+  localStorage.setItem("theme", currentTheme);
+});
 const defaultGreeting = `
 Hi, I am <strong>TraCR-AI</strong>, your AI companion to help you with
 <strong>Transportation Cybersecurity Legislations</strong>.<br>
