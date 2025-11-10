@@ -347,7 +347,173 @@ def modify_ref(ref):
     html = '<a href= "static/'+str(rel_path)+'" target="_blank">'+ rel_path +'</a>'
     return html
 
+def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-mini"):
+    prompt = question
+    query_engine = state_wise_query_engines[state]
+    response = query_engine.query(question)
 
+    context_1 = ""
+    context_2 = ""
+    refs = []
+    i = 0
+    l = []
+    for node in response.source_nodes:        
+        # context += f"Context {i+1}: \n\n"
+        refs.append(node.metadata['file_path'])
+        text = ""
+        text += f"File name: {node.metadata['file_path']}"
+        file_text = read_pdf(node.metadata['file_path'])
+        leg_code = file_text.split('\n')[0]
+        text += "Legislation code:" + leg_code + '\n'
+        text += file_text
+
+        token_count = count_tokens(context_1) + count_tokens(text) + count_tokens(question) + 450 + 1500
+        if token_count >= 16000 :
+            break
+
+        if 'insurance' in node.metadata['file_path'].lower():
+            context_2 += f"Context {i+1}: \n\n"
+            context_2 += text
+        else:
+            context_1 += f"Context {i+1}: \n\n"
+            context_1 += text
+
+        i += 1
+        if i == top_k:
+            break
+        
+
+    prompt = f'''You have the following contexts and a Question. 
+                Based on the information in the context, answer the question.\n
+                -------------------------------------------------------------
+                Contexts:
+                {context_1}
+                -------------------------------------------------------------
+                Question: 
+                {question}
+                -------------------------------------------------------------
+                Based on these contexts, answer the question. Try to use exact word from the context.
+                Answer as precisely as possible using the words from the context. Try to use all the information fom the context. 
+                While answering, mention the legislation code first.
+                Try to preserve the paragrapg numberings also.
+                Do not add any informatio which is not present in the context.
+                Remove the word "Trayce Hockstad" from your response.
+                
+                If I give you any context please mention the file name from where you are taking your information 
+                at the end of your response as "References". Mention exact file paths as numbered list in seperate lines.
+                No need to mention the sources with the paragraphs. Just mention them at the end.
+
+                No need to mention refrence while aswering to greetings questions like Hi or Hello.
+
+                Here is a example of a response. Follow this response formate strictly:
+                According to Code of Ala. § 8-27-2:
+                A “trade secret” is information that:
+                a. Is used or intended for use in a trade or business;
+                b. Is included or embodied in a formula, pattern, compilation, computer software,
+                drawing, device, method, technique, or process;
+                c. Is not publicly known and is not generally known in the trade or business of the person
+                asserting that it is a trade secret;
+                d. Cannot be readily ascertained or derived from publicly available information;
+                e. Is the subject of efforts that are reasonable under the circumstances to maintain its
+                secrecy; and
+                f. Has significant economic value.
+
+                Reference:
+                1) [file path]
+                '''
+    # Question:  What are the identidying document accordint to Alabama Legislations?
+    # Response:
+        
+    gpt_response = client.chat.completions.create(
+    # model="gpt-3.5-turbo",
+    model=model,
+    messages= [
+        {
+            "role":"system",
+            "content":"You are a helpful assisstant. Your name is TraCR AI. You were developed by TraCR. Your role is to help with Transportation Cybersecurity Legislations."
+        },
+        {
+            "role":"user",
+            "content":prompt
+        }
+    ],
+    max_tokens=1500,
+    )
+
+    ret_1 = str(gpt_response.choices[0].message.content).replace("\n",'<br>')
+
+    prompt = f'''You have the following contexts and a Question. 
+                Based on the information in the context, answer the question.\n
+                -------------------------------------------------------------
+                Contexts:
+                {context_2}
+                -------------------------------------------------------------
+                Question: 
+                {question}
+                -------------------------------------------------------------
+                Based on these contexts, answer the question. Try to use exact word from the context.
+                Answer as precisely as possible using the words from the context. Try to use all the information fom the context. 
+                While answering, mention the legislation code first.
+                Try to preserve the paragrapg numberings also.
+                Do not add any informatio which is not present in the context.
+                Remove the word "Trayce Hockstad" from your response.
+                If you do not have any answer, just give an empty response.
+                
+                If I give you any context please mention the file name from where you are taking your information 
+                at the end of your response as "References". Mention exact file paths as numbered list in seperate lines.
+                No need to mention the sources with the paragraphs. Just mention them at the end.
+
+                No need to mention refrence while aswering to greetings questions like Hi or Hello.
+
+                Here is a example of a response. Follow this response formate strictly:
+                According to Code of Ala. § 8-27-2:
+                A “trade secret” is information that:
+                a. Is used or intended for use in a trade or business;
+                b. Is included or embodied in a formula, pattern, compilation, computer software,
+                drawing, device, method, technique, or process;
+                c. Is not publicly known and is not generally known in the trade or business of the person
+                asserting that it is a trade secret;
+                d. Cannot be readily ascertained or derived from publicly available information;
+                e. Is the subject of efforts that are reasonable under the circumstances to maintain its
+                secrecy; and
+                f. Has significant economic value.
+
+                Reference:
+                1) Current Cybersecurity Law\Florida\Information Technology\Fla. Stat. _ 282.318.pdf
+                '''
+    # Question:  What are the identidying document accordint to Alabama Legislations?
+    # Response:
+        
+    gpt_response = client.chat.completions.create(
+    # model="gpt-3.5-turbo",
+    model=model,
+    messages= [
+        {
+            "role":"system",
+            "content":"You are a helpful assisstant. Your name is TraCR AI. You were developed by TraCR. Your role is to help with Transportation Cybersecurity Legislations."
+        },
+        {
+            "role":"user",
+            "content":prompt
+        }
+    ],
+    max_tokens=1500,
+    )
+
+    ret_2 = str(gpt_response.choices[0].message.content).replace("\n",'<br>')
+
+    modified_ret = ""
+
+    if len(ret_2)>0:
+        modified_ret = ret_1 + "\n\nInformation based on insurance documents:\n" + ret_2
+    else:
+        modified_ret = ret_1 
+
+    for ref in refs:
+        if ref in ret_1 + ret_2:
+            modified_ref = modify_ref(ref)
+            modified_ret = modified_ret.replace(ref,modified_ref)
+    return modified_ret
 
 
 def get_accumulated_response(context, question, model="gpt-4o-mini"):
@@ -584,10 +750,13 @@ def get_general_response(question, model = "gpt-4o-mini"):
     return ret
 
 def get_response_streamed(query, only_accumulated_response = False, model = "gpt-4o-mini"):
+    # check if the query is related to legislations
     check = check_query(query, model)
     if check[:3].strip().lower() != "yes":
         yield get_general_response(query, model)
         return
+    
+    # get the required states
     required_states_set = set(get_required_states(query).split(','))
 
     required_states = []
@@ -596,21 +765,27 @@ def get_response_streamed(query, only_accumulated_response = False, model = "gpt
     
     if "" in required_states:
         required_states.remove("")
-
-    declaire_required_states = "Looking into the following states: <br>"
-    for i, state in enumerate(required_states, start=1):
-        declaire_required_states += str(i) + '. ' + state + '<br>'
-    yield declaire_required_states
     
-
+    all_states_flag = False
+    # declare required states
+    if len(required_states) == 50:
+        all_states_flag = True
+        yield "## Looking into documents from all the states of United States.\n"
+    else:
+        declaire_required_states = "## Looking into documents from the following states:\n"
+        for i, state in enumerate(required_states, start=1):
+            declaire_required_states += f"{i}. {state}\n"
+        yield declaire_required_states
+    
+    yield "\n---\n\n"
     response = ""
 
     context = ''
     # response += '<br>Responses based on different states:<br>'
-    yield '<br><h5>Based on different states:</h5><br>'
+    yield '\n## According to the documents from the different states:\n'
     state_wise_responses = {}
     for i, state in enumerate(required_states, start=1):
-        yield f'<h6><br>{i}. {state}: <br></h6>'
+        yield f'### {i}. {state}:\n'
         
         if state in state_wise_query_engines:
             # print(f"---------- Getting response for: {state} ---------------")
@@ -619,24 +794,26 @@ def get_response_streamed(query, only_accumulated_response = False, model = "gpt
 
             if fact_check == "No":
                 # print("Skipped!")
-                response += state + ':<br>'
-                response += f'No documents found on this state.' +'<br>'
-                yield f'No documents found on this state.<br>'
+                response += state + ':\n'
+                response += f'No relevant documents were found for this state.' +'\n'
+                yield f'No relevant documents were found for this state.\n'
 
                 continue
 
             context += state_wise_response + '\n'
-            response += state + ': <br>'
-            response += state_wise_response +'<br>'
+            response += state + ':\n'
+            response += state_wise_response +'\n'
             # for summarization
             state_wise_responses[state] = state_wise_response
-            yield state_wise_response +'<br>'
+            yield state_wise_response +'\n'
+            yield '\n---\n\n'
             # print("Included.")
         else:
             print(f'{state} is not present ------------------------------')
-            response += f'No documents found based on {state}.' +'<br>'
-            yield f'No documents found based on {state}.<br>'
+            response += f'No relevant documents were found for the state of {state}.' +'\n'
+            yield f'No relevant documents were found for the state of {state}.\n'
 
+    return 
     accumulated_response = ""   
     if len(required_states)>1:
         try:
