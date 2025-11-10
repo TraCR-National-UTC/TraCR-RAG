@@ -1031,7 +1031,5 @@ textarea {
   color: inherit !important;
 }
 
-
-
-
-
+.bubble-copy-btn { z-index: 2; }
+.bubble a { position: relative; z-index: 1; } /* ensure links remain clickable */

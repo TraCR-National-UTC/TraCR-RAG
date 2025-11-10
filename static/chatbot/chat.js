@@ -81,14 +81,34 @@ function sanitizeHTML(input) {
           const ok = (ALLOWED_ATTRS[el.tagName] || new Set()).has(attr.name.toLowerCase());
           if (!ok) el.removeAttribute(attr.name);
         });
+
         if (el.tagName === "A") {
-          const href = el.getAttribute("href") || "#";
-          if (!/^https?:\/\//i.test(href) && !href.startsWith("#") && !href.startsWith("mailto:")) {
+          const href = el.getAttribute("href") || "";
+
+          const isHttp = /^https?:\/\//i.test(href);
+          const isHash = href.startsWith("#");
+          const isMail = href.startsWith("mailto:");
+          const isTel  = href.startsWith("tel:");
+          const isRoot = href.startsWith("/");     // <-- allow /static/...
+          const isRel  = href.startsWith("./") || href.startsWith("../"); // allow relative
+          const isPdf = href.toLowerCase().endsWith(".pdf");
+
+          if (!(isHttp || isHash || isMail || isTel || isRoot || isRel)) {
+            // Unknown scheme → neutralize
             el.setAttribute("href", "#");
+          } else {
+            // Safe targets - open in new tab for external links and PDFs
+            if (isHttp || isPdf) {
+              el.setAttribute("target", "_blank");
+              el.setAttribute("rel", "noopener noreferrer");
+            } else {
+              // Same-origin non-PDF: open in same tab
+              el.removeAttribute("target");
+              el.removeAttribute("rel");
+            }
           }
-          el.setAttribute("target", "_blank");
-          el.setAttribute("rel", "noopener noreferrer");
         }
+
         walk(el);
       }
     });

@@ -30,7 +30,8 @@ load_dotenv()  # loads variables from .env into environment
 assert os.getenv("OPENAI_API_KEY"), "OPENAI_API_KEY is not set!"
 client = OpenAI()
 
-DATA_FOLDER = './Current Cybersecurity Law/'
+# DATA_FOLDER = './Current Cybersecurity Law/'
+DATA_FOLDER = './static/legislations/Current Cybersecurity Law/'
 PERSIST_DIR = './Vector_Storage_Context/'
 
 

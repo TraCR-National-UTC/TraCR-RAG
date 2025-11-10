@@ -83,7 +83,6 @@ def demo_answer(msg: str) -> str:
     long_string = long_string_1 + "\n\n" + long_string_2 + "\n\n" + long_string_3
     return long_string
 
-
 def demo_answer_parts(msg: str) -> str:
     # Very basic placeholder; replace with your logic
     # long_string_1 = '''# Part 1: 
@@ -121,9 +120,21 @@ def demo_answer_parts(msg: str) -> str:
     # yield long_string_2
     # time.sleep(1)
     # yield long_string_3
+    from urllib.parse import quote
+
+    raw_1 = "/static/legislations/Current Cybersecurity Law/Alabama/Data Breach Notification Act/Files(12).pdf"
+    raw = "/static/legislations/Current Cybersecurity Law/Alabama/Data Breach Notification Act/demo(a).pdf"
+    safe_url_1 = quote(raw_1, safe="/:")  # encode spaces, parentheses, etc., but keep slashes
+    safe_url_1 = safe_url_1.replace("(", "%28").replace(")", "%29")
+    # md = f"[PDF]({safe_url})"
+    safe_url_2 = quote("/static/legislations/Current Cybersecurity Law/demo.pdf", safe="/:")
+    safe_url_3 = quote("/static/legislations/demo.pdf", safe="/:")
+
+    # safe_url_4 = md_static_link(raw_1)
 
 
-    demo_markdown = """
+
+    demo_markdown = f"""
 ## 👋 Hi, I’m **TraCR-AI**
 
 I’m your AI companion to help you with _Transportation Cybersecurity Legislations_.
@@ -156,10 +167,14 @@ print("Cybersecurity matters!")
 print("Cybersecurity matters!")
 
 ```
-"""
-    # yield demo_markdown
+[PDF3]({safe_url_3})
+[PDF2]({safe_url_2})
+[PDF1]({safe_url_1})
 
-    return get_response_streamed(query=msg)
+"""
+    yield demo_markdown
+
+    # return get_response_streamed(query=msg)
 
 def _sse(msg: str):
     # EventSource expects "data: ...\n\n" per message
