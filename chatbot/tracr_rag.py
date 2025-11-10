@@ -159,8 +159,8 @@ def create_query_engines(states = None):
   for i,state in enumerate(states):
     query_engines[state] = create_state_query_engine(state)
 
-    # if i ==5:
-    #     break
+    if i ==5:
+        break
     # break  # remove this break to load all states
   
   return query_engines
@@ -364,7 +364,9 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     refs = []
     i = 0
     l = []
-    for node in response.source_nodes:        
+    print("Number of node:",len(response.source_nodes))
+    for node in response.source_nodes:   
+             
         # context += f"Context {i+1}: \n\n"
         refs.append(node.metadata['file_path'])
         text = ""
@@ -373,6 +375,10 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
         leg_code = file_text.split('\n')[0]
         text += "Legislation code:" + leg_code + '\n'
         text += "File text:" + file_text
+
+        # print(node.metadata['file_path'])
+        # print('-------------------')
+        # print(file_text[:500])
 
         token_count = count_tokens(context_1) + count_tokens(text) + count_tokens(question) + 450 + 1500
         if token_count >= 16000 :
@@ -389,7 +395,7 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
         if i == top_k:
             break
         
-
+    # print("Context:", context_1)
     prompt = f'''You have the following contexts and a Question. 
                 Based on the information in the context, answer the question.\n
                 -------------------------------------------------------------
@@ -460,7 +466,7 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     final_response_1 += json_data['answer'].replace('\n','<br>') + '\n\nReferences:\n\n'
 
     for i,reference in enumerate(set(json_data['references']), start = 1):
-        final_response_1 += f"[{i}] [{reference[reference.find('Cyber'):]}]({safe_url(reference)})\n\n"
+        final_response_1 += f"[{i}] [{reference[reference.find('Current'):]}]({safe_url(reference)})\n\n"
 
     if len(context_2) == 0:
         return final_response_1
@@ -535,7 +541,7 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     final_response_2 += json_data['answer'] + '\n\nReferences:\n\n'
 
     for i,reference in enumerate(set(json_data['references']), start = 1):
-        final_response_2 += f"[{i}] [{reference}]({safe_url(reference)})\n"
+        final_response_2 += f"[{i}] [{reference[reference.find("Current"):]}]({safe_url(reference)})\n\n"
 
     # modified_ret = ""
 
@@ -558,8 +564,9 @@ def get_accumulated_response(context, question, model="gpt-4o-mini"):
                 context:
                 {context}
                 -------------------------------------------------------------
-                Based on these contexts, answer the following query. Try to use exact word from the context.
-                Try to use all the information fom the context. Try to preserve the paragrapg numberings also.
+                Accumulate the information from the contexts to answer the following question.
+                Only use the information present in the context to answer the question.
+                Do not use any information that is not present in the context.
                 Remove the word "Trayce Hockstad" from your response.
                 Query: {question}
 
@@ -838,8 +845,13 @@ def get_response_streamed(query, only_accumulated_response = False, model = "gpt
                 response += f'No relevant documents were found for this state.' +'\n'
                 yield f'No relevant documents were found for this state.\n'
 
-                continue
+                context += f'{state}:\n'
+                context += "No relevant documents were found for this state." + '\n'
+                state_wise_responses[state] = "No relevant documents were found for this state."
 
+                continue
+            
+            context += f'{state}:\n'
             context += state_wise_response + '\n'
             response += state + ':\n'
             response += state_wise_response +'\n'
@@ -853,50 +865,29 @@ def get_response_streamed(query, only_accumulated_response = False, model = "gpt
             response += f'No relevant documents were found for the state of {state}.' +'\n'
             yield f'No relevant documents were found for the state of {state}.\n'
 
-    return 
+    # return 
     accumulated_response = ""   
     if len(required_states)>1:
         try:
             accumulated_response = get_accumulated_response(context, query,model)
         except Exception as e:
             print("Maximum limit of context exceeded! Generating Summaries!")
-            response = "Looking into the following states: <br>"
-            ind = 1
+
+            full_response = ''
             for state in required_states:
-                response += str(ind) + '. ' + state + '<br>'
-                ind+=1
-
-            context = ''
-
-
-            for state in required_states:
-                # response += state + ':<br>'
                 if state in state_wise_query_engines:
                     print(f"---------- Getting summary for: {state} ---------------")
-                    context += get_summary(query, state_wise_response,model) + '\n'
-                    response += state_wise_response +'<br>'
-                else:
-                    print(f'{state} is not present ------------------------------')
-                    response += f'No documents found based on {state}.' +'<br>'
-            
-            accumulated_response = get_accumulated_response(context, query, model)
+                    full_response += state + ':\n'
+                    full_response += state_wise_responses[state] + '\n'
+
+            accumulated_response = get_accumulated_response(full_response, query, model)
 
         # response += '<br>' + accumulated_response + '<br>'
 
-    if only_accumulated_response == True:
-        if len(required_states)>1:
-            yield accumulated_response
-            # return accumulated_response
-        else:
-            yield response
-            # return response
-    else:
-        if len(required_states)>1:
-            yield accumulated_response
-            # return response + '<br>' + accumulated_response + '<br>'
-        else:
-            pass
-            # return response
+    if len(required_states)>1:
+        yield "\n\n## In conclusion, based on the documents from different states:\n\n"
+        yield accumulated_response
+        # return accumulated_response
 
 
 if __name__ == '__main__':
