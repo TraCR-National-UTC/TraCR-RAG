@@ -172,9 +172,9 @@ print("Cybersecurity matters!")
 [PDF1]({safe_url_1})
 
 """
-    yield demo_markdown
+    # yield demo_markdown
 
-    # return get_response_streamed(query=msg)
+    return get_response_streamed(query=msg)
 
 def _sse(msg: str):
     # EventSource expects "data: ...\n\n" per message

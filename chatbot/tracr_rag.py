@@ -1,3 +1,4 @@
+from email.utils import quote
 import openai 
 import os
 import datetime
@@ -34,8 +35,10 @@ client = OpenAI()
 DATA_FOLDER = './static/legislations/Current Cybersecurity Law/'
 PERSIST_DIR = './Vector_Storage_Context/'
 
-
-
+def safe_url(raw):
+    safe_url = quote(raw, safe="/:")  # encode spaces, parentheses, etc., but keep slashes
+    safe_url = safe_url.replace("(", "%28").replace(")", "%29")
+    return safe_url
 
 # Open the PDF file in binary mode
 def read_pdf(file):
@@ -528,7 +531,63 @@ def get_response(query, only_accumulated_response = False, model = "gpt-4o-mini"
         
 state_wise_query_engines = create_query_engines()
 
+def check_query(question, model = "gpt-4o-mini"):
+    
+    prompt = f'''Check the user message if the user is asking a question related to laws and legislations.\n
+                If yes, respond "Yes". 
+                Otherwise, say 'No'.
+                User message: {question}
+                '''
+    
+    gpt_response = client.chat.completions.create(
+    # model="gpt-3.5-turbo",
+    model=model,
+    messages= [
+        {
+            "role":"system",
+            "content":"You are a helpful assisstant. Your name is TraCR-Legal-AI. You were developed by TraCR. Your role is to help with Transportation Cybersecurity Legislations."
+        },
+        {
+            "role":"user",
+            "content":prompt
+        }
+    ]
+    )
+
+
+    ret = str(gpt_response.choices[0].message.content)
+    return ret
+
+def get_general_response(question, model = "gpt-4o-mini"):
+    
+    prompt = f'''Respond to the user message generally like a chatbot.
+                User message: {question}
+                '''
+    
+    gpt_response = client.chat.completions.create(
+    # model="gpt-3.5-turbo",
+    model=model,
+    messages= [
+        {
+            "role":"system",
+            "content":"You are a helpful assisstant. Your name is TraCR-Legal-AI. You were developed by TraCR. Your role is to help with Transportation Cybersecurity Legislations."
+        },
+        {
+            "role":"user",
+            "content":prompt
+        }
+    ]
+    )
+
+
+    ret = str(gpt_response.choices[0].message.content)
+    return ret
+
 def get_response_streamed(query, only_accumulated_response = False, model = "gpt-4o-mini"):
+    check = check_query(query, model)
+    if check[:3].strip().lower() != "yes":
+        yield get_general_response(query, model)
+        return
     required_states_set = set(get_required_states(query).split(','))
 
     required_states = []
