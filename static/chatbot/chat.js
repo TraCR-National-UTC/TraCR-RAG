@@ -106,6 +106,11 @@ function addMessageHTML(role, content) {
   if (role === "bot" && window.marked) {
     // Parse markdown to HTML, then sanitize
     bubble.innerHTML = sanitizeHTML(window.marked.parse(content));
+    if (window.hljs) {
+      bubble.querySelectorAll("pre code:not(.hljs)").forEach(el => hljs.highlightElement(el));
+    }
+    enhanceCodeBlocks(bubble);
+
   } else {
     bubble.innerHTML = sanitizeHTML(content);
   }
@@ -315,6 +320,13 @@ async function sendMessage() {
       // Convert MD → HTML every chunk, then sanitize
       const html = sanitizeHTML(window.marked.parse(combinedMd));
       botBubble.innerHTML = html;
+      // highlight newly rendered code
+      if (window.hljs) {
+        botBubble.querySelectorAll("pre code:not(.hljs)").forEach(el => hljs.highlightElement(el));
+      }
+      // add Copy button + wrapper like ChatGPT
+      enhanceCodeBlocks(botBubble);
+
     } else {
       // Fallback if marked isn't available: just type plain text
       // (or remove this else if you always have marked)
@@ -323,26 +335,6 @@ async function sendMessage() {
 
     if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
   };
-
-
-  // es.onmessage = (e) => {
-  //   // ignore replayed events
-  //   if (e.lastEventId && seenIds.has(e.lastEventId)) return;
-  //   if (e.lastEventId) seenIds.add(e.lastEventId);
-
-  //   const { delta } = JSON.parse(e.data || "{}");
-  //   if (!delta) return;
-
-  //   if (first) {
-  //     first = false;
-  //     try { thinkingRow.remove(); } catch {}
-  //     botBubble = createBotBubble();
-  //   }
-
-  //   const safeDelta = sanitizeHTML(delta);
-  //   combinedHTML += safeDelta;
-  //   enqueue(() => appendStreamedHTML(botBubble, safeDelta, 8));
-  // };
 
   es.addEventListener("done", () => {
     finished = true;
@@ -358,22 +350,6 @@ async function sendMessage() {
   });
 
 
-  // es.addEventListener("done", () => {
-  //   // Ensure we always close the EventSource and clear state even if processing fails
-  //   try {
-  //     try { console.debug && console.debug('EventSource done event', { ts: Date.now(), sid: new URL(es.url, location.href).searchParams.get('sid') }); } catch {}
-  //     finished = true;
-  //     queue.then(() => {
-  //       if (botBubble) botBubble.classList.remove("typing");
-  //       conversations[convoIndex].push({ role: "bot", content: combinedHTML, html: true });
-  //     }).catch(()=>{});
-  //   } finally {
-  //     try { if (!closed) { es.close(); closed = true; } } catch {}
-  //     try { if (currentStream === es) currentStream = null; } catch {}
-  //     busy = false; send.disabled = false;
-  //   }
-  // });
-
   es.onerror = () => {
     // Ignore errors after normal finish or after we closed it
     if (finished || closed) return;
@@ -388,6 +364,90 @@ async function sendMessage() {
     busy = false; send.disabled = false;
   };
 }
+
+// Wrap each <pre><code>...</code></pre> in a .codeblock and add a Copy button
+function enhanceCodeBlocks(container) {
+  const blocks = container.querySelectorAll("pre > code");
+  blocks.forEach(code => {
+    const pre = code.parentElement;
+    if (pre.closest(".codeblock")) return; // skip if already wrapped
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "codeblock";
+
+    const header = document.createElement("div");
+    header.className = "codeblock-header";
+
+    // language label
+    const lang = (code.className.match(/language-(\w+)/) || [])[1] || "text";
+    const label = document.createElement("span");
+    label.className = "lang-label";
+    label.textContent = lang;
+
+    // copy button
+    const btn = document.createElement("button");
+    btn.className = "copy-btn";
+    btn.type = "button";
+    btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copy code</span>';
+
+    btn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(code.innerText);
+        btn.classList.add("copied");
+        btn.querySelector("span").textContent = "Copied!";
+        setTimeout(() => {
+          btn.classList.remove("copied");
+          btn.querySelector("span").textContent = "Copy code";
+        }, 1500);
+      } catch {
+        btn.querySelector("span").textContent = "Failed";
+        setTimeout(() => btn.querySelector("span").textContent = "Copy code", 1500);
+      }
+    });
+
+    header.appendChild(label);
+    header.appendChild(btn);
+
+    // assemble
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(header);
+    wrapper.appendChild(pre);
+  });
+}
+
+
+// function enhanceCodeBlocks(container) {
+//   const blocks = container.querySelectorAll("pre > code");
+//   blocks.forEach(code => {
+//     const pre = code.parentElement;
+//     if (pre.closest(".codeblock")) return; // already enhanced
+
+//     const wrapper = document.createElement("div");
+//     wrapper.className = "codeblock";
+
+//     pre.parentNode.insertBefore(wrapper, pre);
+//     wrapper.appendChild(pre);
+
+//     const btn = document.createElement("button");
+//     btn.className = "copy-btn";
+//     btn.type = "button";
+//     btn.textContent = "Copy";
+//     btn.addEventListener("click", async () => {
+//       try {
+//         await navigator.clipboard.writeText(code.innerText);
+//         btn.classList.add("copied");
+//         btn.textContent = "Copied!";
+//         setTimeout(() => { btn.classList.remove("copied"); btn.textContent = "Copy"; }, 1200);
+//       } catch {
+//         btn.textContent = "Failed";
+//         setTimeout(() => { btn.textContent = "Copy"; }, 1200);
+//       }
+//     });
+
+//     wrapper.appendChild(btn);
+//   });
+// }
+
 
 send.onclick = sendMessage;
 msg.addEventListener("keydown", e => {

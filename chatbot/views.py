@@ -143,6 +143,18 @@ I’m your AI companion to help you with _Transportation Cybersecurity Legislati
 ```python
 # Example code block
 print("Cybersecurity matters!")
+print("Cybersecurity matters!")
+
+print("Cybersecurity matters!")
+
+print("Cybersecurity matters!")
+
+print("Cybersecurity matters!")
+
+print("Cybersecurity matters!")
+
+print("Cybersecurity matters!")
+
 ```
 """
     yield demo_markdown
@@ -210,29 +222,3 @@ def api_chat_stream(request):
     resp["Cache-Control"] = "no-cache, no-store"
     resp["X-Accel-Buffering"] = "no"
     return resp
-
-# @condition(etag_func=None)
-# def api_chat_stream(request):
-#     user_msg = (request.GET.get("message") or "").strip()
-#     if not user_msg:
-#         return StreamingHttpResponse(iter([_sse("Empty message")]), content_type="text/event-stream")
-
-#     def stream():
-#         # optional: tell client we're "thinking" (client shows thinking bubble already)
-#         # yield _sse("[thinking]")
-
-#         first = True
-#         for i,part in enumerate(demo_answer_parts(user_msg)):
-#             if first:
-#                 # you can also send a special event before first chunk if needed
-#                 first = False
-#             yield f"id: {i}\n"
-#             yield _sse(part)
-#         # signal completion (optional)
-#         yield "id: done\n"
-#         yield "event: done\ndata: {}\n\n"
-
-#     resp = StreamingHttpResponse(stream(), content_type="text/event-stream")
-#     resp["Cache-Control"] = "no-cache"
-#     resp["X-Accel-Buffering"] = "no"  # try to disable proxy buffering
-#     return resp
