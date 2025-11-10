@@ -86,13 +86,16 @@ def demo_answer(msg: str) -> str:
 
 def demo_answer_parts(msg: str) -> str:
     # Very basic placeholder; replace with your logic
-    long_string_1 = '''Part 1: Harry Potter and the Philosopher's Stone (also known as Harry Potter and the Sorcerer's Stone in the United States, India, and the Philippines) is a 2001 fantasy film directed by Chris Columbus and written by Steve Kloves, based on the 1997 novel by J. K. Rowling. It is the first instalment in the Harry Potter film series, and stars Daniel Radcliffe as Harry Potter, with Rupert Grint as Ron Weasley, and Emma Watson as Hermione Granger. Its story follows Harry's first year at Hogwarts School of Witchcraft and Wizardry as he discovers that he is a famous wizard and begins his formal wizarding education.\n\n'''
-    long_string_2 = '''Part 2: Warner Bros. Pictures bought the film rights to the book in 1999 for a reported £1 million ($1.65 million). Production began in the United Kingdom in 2000, with Columbus being chosen to helm the film from a short list of directors that included Steven Spielberg and Rob Reiner. Rowling insisted that the entire cast be British and Irish, with the three leads chosen in August 2000 following open casting calls. Filming took place at Leavesden Film Studios and historic buildings around the United Kingdom from September 2000 to March 2001.\n\n'''
-    long_string_3 = '''Part 3: Harry Potter and the Philosopher's Stone was previewed for two days in cinemas in the United Kingdom from 10 November 2001, and opened on 16 November in both the United Kingdom and the United States. It became a critical and commercial success, grossing $974 million at the box office during its initial run and over $1 billion with subsequent re-releases, against a $125 million budget. It became the highest-grossing film of 2001 and the second-highest-grossing film at the time. The film was nominated for several awards, including Academy Awards for Best Original Score, Best Art Direction and Best Costume Design. It was followed by seven sequels, beginning with Harry Potter and the Chamber of Secrets in 2002 and ending with Harry Potter and the Deathly Hallows – Part 2 in 2011.\n\n'''
+    # long_string_1 = '''# Part 1: 
+    # Harry Potter and the Philosopher's Stone (also known as Harry Potter and the Sorcerer's Stone in the United States, India, and the Philippines) is a 2001 fantasy film directed by Chris Columbus and written by Steve Kloves, based on the 1997 novel by J. K. Rowling. It is the first instalment in the Harry Potter film series, and stars Daniel Radcliffe as Harry Potter, with Rupert Grint as Ron Weasley, and Emma Watson as Hermione Granger. Its story follows Harry's first year at Hogwarts School of Witchcraft and Wizardry as he discovers that he is a famous wizard and begins his formal wizarding education.\n\n'''
+    # long_string_2 = '''## Part 2: 
+    # Warner Bros. Pictures bought the film rights to the book in 1999 for a reported £1 million ($1.65 million). Production began in the United Kingdom in 2000, with Columbus being chosen to helm the film from a short list of directors that included Steven Spielberg and Rob Reiner. Rowling insisted that the entire cast be British and Irish, with the three leads chosen in August 2000 following open casting calls. Filming took place at Leavesden Film Studios and historic buildings around the United Kingdom from September 2000 to March 2001.\n\n'''
+    # long_string_3 = '''### Part 3: 
+    # Harry Potter and the Philosopher's Stone was previewed for two days in cinemas in the United Kingdom from 10 November 2001, and opened on 16 November in both the United Kingdom and the United States. It became a critical and commercial success, grossing $974 million at the box office during its initial run and over $1 billion with subsequent re-releases, against a $125 million budget. It became the highest-grossing film of 2001 and the second-highest-grossing film at the time. The film was nominated for several awards, including Academy Awards for Best Original Score, Best Art Direction and Best Costume Design. It was followed by seven sequels, beginning with Harry Potter and the Chamber of Secrets in 2002 and ending with Harry Potter and the Deathly Hallows – Part 2 in 2011.\n\n'''
 
-    short_string_1 = "This is a demo streamed response 1.\n\n"
-    short_string_2 = "This is a demo streamed response 2.\n\n"
-    short_string_3 = "This is a demo streamed response 3.\n\n"
+    # short_string_1 = "This is a demo streamed response 1.\n\n"
+    # short_string_2 = "This is a demo streamed response 2.\n\n"
+    # short_string_3 = "This is a demo streamed response 3.\n\n"
 
     # time.sleep(1)
     # yield short_string_1
@@ -119,7 +122,32 @@ def demo_answer_parts(msg: str) -> str:
     # time.sleep(1)
     # yield long_string_3
 
-    return get_response_streamed(query=msg)
+
+    demo_markdown = """
+## 👋 Hi, I’m **TraCR-AI**
+
+I’m your AI companion to help you with _Transportation Cybersecurity Legislations_.
+
+---
+
+### 🔍 Here’s what I can do:
+- Summarize cybersecurity laws by state  
+- Compare legislations between **Texas**, **Alabama**, and **South Carolina**  
+- Provide quick references to important sections  
+
+---
+
+### 📚 Example:
+> **Texas** defines *computer tampering* under [Texas Penal Code §33.02](https://statutes.capitol.texas.gov/Docs/PE/htm/PE.33.htm).
+
+```python
+# Example code block
+print("Cybersecurity matters!")
+```
+"""
+    yield demo_markdown
+
+    # return get_response_streamed(query=msg)
 
 def _sse(msg: str):
     # EventSource expects "data: ...\n\n" per message

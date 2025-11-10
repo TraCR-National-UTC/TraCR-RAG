@@ -27,8 +27,19 @@ function sanitizeHTML(input) {
   const template = document.createElement("template");
   template.innerHTML = input;
 
-  const ALLOWED_TAGS = new Set(["BR","A","B","I","STRONG","EM","CODE","PRE","UL","OL","LI","P","SPAN"]);
-  const ALLOWED_ATTRS = { A: new Set(["href","title","target","rel"]) };
+  // Allow a richer set of HTML tags for markdown
+  const ALLOWED_TAGS = new Set([
+    "BR", "A", "B", "I", "STRONG", "EM", "CODE", "PRE", 
+    "UL", "OL", "LI", "P", "SPAN", "H1", "H2", "H3", "H4", "H5", "H6",
+    "BLOCKQUOTE", "HR", "TABLE", "THEAD", "TBODY", "TR", "TH", "TD",
+    "DIV", "DEL", "INS"
+  ]);
+  const ALLOWED_ATTRS = { 
+    A: new Set(["href", "title", "target", "rel"]),
+    CODE: new Set(["class"]),  // For syntax highlighting classes
+    PRE: new Set(["class"]),
+    DIV: new Set(["class"])
+  };
 
   (function walk(node) {
     [...node.children].forEach(el => {
@@ -83,8 +94,8 @@ async function appendStreamedHTML(bubble, html, speed = 0) {
   }
 }
 
-// Add a helper to render a saved HTML message (for history)
-function addMessageHTML(role, html) {
+// Add a helper to render a saved message (markdown supported for bot)
+function addMessageHTML(role, content) {
   const row = document.createElement("div");
   row.className = `msg ${role}`;
   const avatar = document.createElement("div");
@@ -92,7 +103,12 @@ function addMessageHTML(role, html) {
   avatar.textContent = role === "me" ? "🙂" : "🤖";
   const bubble = document.createElement("div");
   bubble.className = "bubble";
-  bubble.innerHTML = sanitizeHTML(html);
+  if (role === "bot" && window.marked) {
+    // Parse markdown to HTML, then sanitize
+    bubble.innerHTML = sanitizeHTML(window.marked.parse(content));
+  } else {
+    bubble.innerHTML = sanitizeHTML(content);
+  }
   row.appendChild(avatar);
   row.appendChild(bubble);
   chat.appendChild(row);
@@ -281,41 +297,82 @@ async function sendMessage() {
 
   let queue = Promise.resolve();
   const enqueue = (fn) => (queue = queue.then(fn).catch(()=>{}));
+  let combinedMd = "";   // ← accumulate MARKDOWN, not HTML
 
   es.onmessage = (e) => {
-    // ignore replayed events
-    if (e.lastEventId && seenIds.has(e.lastEventId)) return;
-    if (e.lastEventId) seenIds.add(e.lastEventId);
-
     const { delta } = JSON.parse(e.data || "{}");
     if (!delta) return;
 
     if (first) {
       first = false;
       try { thinkingRow.remove(); } catch {}
-      botBubble = createBotBubble();
+      botBubble = createBotBubble();     // has the .typing cursor
     }
 
-    const safeDelta = sanitizeHTML(delta);
-    combinedHTML += safeDelta;
-    enqueue(() => appendStreamedHTML(botBubble, safeDelta, 8));
+    combinedMd += delta;
+
+    if (window.marked) {
+      // Convert MD → HTML every chunk, then sanitize
+      const html = sanitizeHTML(window.marked.parse(combinedMd));
+      botBubble.innerHTML = html;
+    } else {
+      // Fallback if marked isn't available: just type plain text
+      // (or remove this else if you always have marked)
+      botBubble.textContent += delta;
+    }
+
+    if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
   };
 
+
+  // es.onmessage = (e) => {
+  //   // ignore replayed events
+  //   if (e.lastEventId && seenIds.has(e.lastEventId)) return;
+  //   if (e.lastEventId) seenIds.add(e.lastEventId);
+
+  //   const { delta } = JSON.parse(e.data || "{}");
+  //   if (!delta) return;
+
+  //   if (first) {
+  //     first = false;
+  //     try { thinkingRow.remove(); } catch {}
+  //     botBubble = createBotBubble();
+  //   }
+
+  //   const safeDelta = sanitizeHTML(delta);
+  //   combinedHTML += safeDelta;
+  //   enqueue(() => appendStreamedHTML(botBubble, safeDelta, 8));
+  // };
+
   es.addEventListener("done", () => {
-    // Ensure we always close the EventSource and clear state even if processing fails
-    try {
-      try { console.debug && console.debug('EventSource done event', { ts: Date.now(), sid: new URL(es.url, location.href).searchParams.get('sid') }); } catch {}
-      finished = true;
-      queue.then(() => {
-        if (botBubble) botBubble.classList.remove("typing");
-        conversations[convoIndex].push({ role: "bot", content: combinedHTML, html: true });
-      }).catch(()=>{});
-    } finally {
-      try { if (!closed) { es.close(); closed = true; } } catch {}
-      try { if (currentStream === es) currentStream = null; } catch {}
+    finished = true;
+    queue.then(() => {
+      if (botBubble) botBubble.classList.remove("typing");
+      const finalHtml = botBubble.innerHTML;       // save rendered HTML
+      conversations[convoIndex].push({ role: "bot", content: finalHtml, html: true });
+    }).finally(() => {
+      if (!closed) { es.close(); closed = true; }
+      if (currentStream === es) currentStream = null;
       busy = false; send.disabled = false;
-    }
+    });
   });
+
+
+  // es.addEventListener("done", () => {
+  //   // Ensure we always close the EventSource and clear state even if processing fails
+  //   try {
+  //     try { console.debug && console.debug('EventSource done event', { ts: Date.now(), sid: new URL(es.url, location.href).searchParams.get('sid') }); } catch {}
+  //     finished = true;
+  //     queue.then(() => {
+  //       if (botBubble) botBubble.classList.remove("typing");
+  //       conversations[convoIndex].push({ role: "bot", content: combinedHTML, html: true });
+  //     }).catch(()=>{});
+  //   } finally {
+  //     try { if (!closed) { es.close(); closed = true; } } catch {}
+  //     try { if (currentStream === es) currentStream = null; } catch {}
+  //     busy = false; send.disabled = false;
+  //   }
+  // });
 
   es.onerror = () => {
     // Ignore errors after normal finish or after we closed it

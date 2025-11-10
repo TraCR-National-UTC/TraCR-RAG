@@ -8,7 +8,13 @@
   --border: #3a3a3a;
 }
 
-* { box-sizing: border-box; }
+/* Minimal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, body { height: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--text);
@@ -247,4 +253,81 @@ textarea {
 }
 .bubble a:hover { text-decoration: none; }
 
+.bubble h2, .bubble h3, .bubble h4 { margin-top: 1em; }
+.bubble pre { background: #111; padding: 10px; border-radius: 8px; }
 
+/* Reduce line spacing and padding inside chat bubbles */
+.bubble {
+  line-height: 1.45;
+  padding: 10px 14px;
+}
+
+/* Markdown headings spacing */
+.bubble h1, .bubble h2, .bubble h3 {
+  margin: 0.6em 0 0.3em;
+}
+
+/* Tighten paragraph spacing */
+.bubble p {
+  margin: 0.3em 0;
+}
+
+/* Code block styling */
+.bubble pre {
+  background: #111;
+  color: #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0.6em 0;
+}
+
+/* Inline code */
+.bubble code {
+  background: #2b2b2b;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.bubble h3 {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.chat .bubble * {
+  margin: 0 !important;
+  padding: 0;
+}
+
+/* 1) Stop preserving extra newlines from Markdown/HTML */
+.chat .bubble {
+  white-space: normal !important;   /* override previous pre-wrap */
+}
+
+/* 2) Reset margins inside bubbles (wins over UA defaults) */
+.chat .bubble * {
+  margin: 0.25em 0 !important;      /* compact default */
+  padding: 0;                        /* remove stray padding */
+}
+
+/* 3) Give a little breathing room to common blocks */
+.chat .bubble h1,
+.chat .bubble h2,
+.chat .bubble h3 { margin: 0.6em 0 0.3em !important; }
+
+.chat .bubble pre,
+.chat .bubble blockquote,
+.chat .bubble ul,
+.chat .bubble ol { margin: 0.5em 0 !important; }
+
+.chat .bubble ul,
+.chat .bubble ol { padding-left: 1.2em !important; }
+
+.chat .bubble hr {
+  margin: 0.6em 0 !important;
+  border: 0; border-top: 1px solid var(--border);
+}

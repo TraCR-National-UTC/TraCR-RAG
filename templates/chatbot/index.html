@@ -6,6 +6,26 @@
   <title>TraCR-AI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="/static/chatbot/style.css" rel="stylesheet" />
+  <!-- Syntax highlighting -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/common.min.js"></script>
+  <script>
+    // Tell Marked to highlight code blocks using highlight.js
+    if (window.marked) {
+      window.marked.setOptions({
+        highlight: function (code, lang) {
+          try {
+            return hljs.highlight(code, { language: lang || "plaintext" }).value;
+          } catch (e) {
+            return hljs.highlightAuto(code).value;
+          }
+        },
+      });
+    }
+  </script>
 </head>
 <body>
   <div class="app">
@@ -32,6 +52,12 @@
     </main>
   </div>
 
+  <!-- <script src="/static/chatbot/marked.min.js"></script> -->
+   
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/common.min.js"></script>
+   <script>hljs.highlightAll();</script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css">
   <script src="/static/chatbot/chat.js"></script>
 </body>
 </html>

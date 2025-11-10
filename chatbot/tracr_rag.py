@@ -150,7 +150,7 @@ def create_query_engines(states = None):
 
     # if i ==5:
     #     break
-    # break  # remove this break to load all states
+    break  # remove this break to load all states
   
   return query_engines
 
