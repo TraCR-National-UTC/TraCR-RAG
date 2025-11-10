@@ -693,3 +693,42 @@ textarea {
   stroke-linejoin: round;
 }
 
+/* === FINAL OVERRIDES: user bubble auto-width, capped to bot-side boundary === */
+
+/* 1) Set the bot-side left offset once (avatar + gap). Adjust if needed. */
+:root { --bot-left-offset: 56px; }  /* e.g., avatar 40px + gap 16px = 56px */
+
+/* 2) Ensure rows align left/right (keep bot unchanged) */
+.msg.bot { justify-content: flex-start !important; }
+.msg.me  { justify-content: flex-end   !important; }
+
+/* 3) ONLY the user bubble: content-based width, never full stretch */
+.msg.me .bubble {
+  flex: 0 0 auto !important;     /* cancel any flex:1 on .bubble */
+  width: auto !important;        /* fit to content */
+  max-width: calc(100% - var(--bot-left-offset)) !important;  /* stop at bot’s left edge */
+  margin-left: auto !important;  /* stick to right */
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+/* 4) Keep BOT bubble behavior exactly as-is (don’t alter its width rules) */
+.msg.bot .bubble {
+  /* intentionally no width change here */
+}
+
+/* (Optional) if user avatar shows, hide it so the bubble hugs the right nicely */
+.msg.me .avatar { display: none !important; }
+
+/* === User message font only === */
+.msg.me .bubble {
+  font-family: "Segoe UI Semibold", "Helvetica Neue", Arial, sans-serif;
+  /* font-weight: 500; */
+  font-size: 15px;
+  line-height: 1.5;
+  color: #ffffff; /* optional: slightly lighter for contrast */
+  background-color: #333232;
+}
+
+
+
