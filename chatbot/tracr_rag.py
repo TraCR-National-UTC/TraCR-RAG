@@ -161,7 +161,7 @@ def create_query_engines(states = None):
 
     # if i ==5:
     #     break
-    break  # remove this break to load all states
+    # break  # remove this break to load all states
   
   return query_engines
 
@@ -402,9 +402,10 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
                 Based on these contexts, answer the question. Strictly use exact word from the context.
                 Answer as precisely as possible using the words from the context. Try to use all the relevant information from the context. 
                 While answering, mention the legislation code first.
-                Try to preserve the paragrapg numberings also.
+                Try to preserve the paragrapg numberings also. If ordered list is present in the context, try to preserve that also and make them appear in new lines.
                 Do not add any information which is not present in the context.
                 Remove the word "Trayce Hockstad" from your response.
+                Prepare the answer in a markdown format.
                 
                 Your answer should be in a valid JSON format with two keys: "answer" and "references". Becareful about making the JSON valid.
                 The "answer" key should contain the answer to the question based on the provided contexts.
@@ -434,6 +435,7 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     gpt_response = client.chat.completions.create(
     # model="gpt-3.5-turbo",
     model=model,
+    response_format={"type":"json_object"},
     messages= [
         {
             "role":"system",
@@ -451,14 +453,14 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     res_1 = str(gpt_response.choices[0].message.content.strip())
     json_data = json.loads(res_1)
 
-    print(json_data['answer'])
+    # print(json_data['answer'])
 
     final_response_1 = ""
 
     final_response_1 += json_data['answer'].replace('\n','<br>') + '\n\nReferences:\n\n'
 
-    for i,reference in enumerate(json_data['references'], start = 1):
-        final_response_1 += f"[{i}] [{reference}]({safe_url(reference)})\n\n"
+    for i,reference in enumerate(set(json_data['references']), start = 1):
+        final_response_1 += f"[{i}] [{reference[reference.find('Cyber'):]}]({safe_url(reference)})\n\n"
 
     if len(context_2) == 0:
         return final_response_1
@@ -476,7 +478,7 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
                 Based on these contexts, answer the question. Strictly use exact word from the context.
                 Answer as precisely as possible using the words from the context. Try to use all the relevant information from the context. 
                 While answering, mention the legislation code first.
-                Try to preserve the paragrapg numberings also including new lines.
+                Try to preserve the paragrapg numberings also. if ordered list is present in the context, try to preserve that also and make them appear in new lines.
                 Do not add any information which is not present in the context.
                 Remove the word "Trayce Hockstad" from your response.
                 
@@ -508,6 +510,7 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     gpt_response = client.chat.completions.create(
     # model="gpt-3.5-turbo",
     model=model,
+    response_format={"type": "json_object"},
     messages= [
         {
             "role":"system",
@@ -525,19 +528,19 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     res_2 = str(gpt_response.choices[0].message.content.strip())
     json_data = json.loads(res_2)
 
-    print(json_data['answer'])
+    # print(json_data['answer'])
 
     final_response_2 = ""
 
-    final_response_2 += json_data['answer'] + '\n\nReferences:\n'
+    final_response_2 += json_data['answer'] + '\n\nReferences:\n\n'
 
-    for i,reference in enumerate(json_data['references'], start = 1):
+    for i,reference in enumerate(set(json_data['references']), start = 1):
         final_response_2 += f"[{i}] [{reference}]({safe_url(reference)})\n"
 
     # modified_ret = ""
 
     if len(final_response_2)>0:
-        final_response = final_response_1 + "\n\n**Information based on insurance documents:**\n" + final_response_2
+        final_response = final_response_1 + "\n\n**Information based on insurance documents:**\n\n" + final_response_2
     else:
         final_response = final_response_1 
     
@@ -820,7 +823,13 @@ def get_response_streamed(query, only_accumulated_response = False, model = "gpt
         
         if state in state_wise_query_engines:
             # print(f"---------- Getting response for: {state} ---------------")
-            state_wise_response = get_state_wise_response_updated(state, query, model)
+            try:
+                state_wise_response = get_state_wise_response_updated(state, query, model)
+            except Exception as e:
+                yield f"Error occured while getting response from {state}. Skipping...\n"
+                print(f"Error occured while getting response from {state}. Skipping...\n")
+                print(e)
+                continue
             fact_check = fact_checking(query, state_wise_response, model)
 
             if fact_check == "No":
