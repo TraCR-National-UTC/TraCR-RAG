@@ -17,9 +17,19 @@ themeToggle.addEventListener("click", () => {
   document.documentElement.setAttribute("data-theme", currentTheme);
   localStorage.setItem("theme", currentTheme);
 });
+
 const defaultGreeting = `
-Hi, I am <strong>TraCR-AI</strong>, your AI companion to help you with
-<strong>Transportation Cybersecurity Legislations</strong>.<br>
+## 👋 Hi, I’m **TraCR-Legal-AI**
+
+I’m your AI companion to help you with _Transportation Cybersecurity Legislations_.
+
+---
+
+### 🔍 Here’s what I can do:
+- Provide details on cybersecurity laws by states  
+- Compare legislations across states and identify potential loopholes  
+- Suggest new policies to address inconsistencies between state regulations
+---
 How can I assist you today?
 `;
 
@@ -699,5 +709,10 @@ newChatBtn.onclick = () => {
   refreshHistory();
 };
 
-refreshHistory();
-renderConvo();
+// Show initial greeting when page loads
+showDefaultGreeting();
+
+// Also show greeting when clicking "New Chat"
+newChatBtn.onclick = () => {
+  showDefaultGreeting();
+};
