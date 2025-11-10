@@ -1,4 +1,5 @@
 from email.utils import quote
+import json
 import openai 
 import os
 import datetime
@@ -26,6 +27,9 @@ import glob
 
 import PyPDF2
 
+from urllib.parse import quote
+
+
 
 load_dotenv()  # loads variables from .env into environment
 assert os.getenv("OPENAI_API_KEY"), "OPENAI_API_KEY is not set!"
@@ -36,8 +40,11 @@ DATA_FOLDER = './static/legislations/Current Cybersecurity Law/'
 PERSIST_DIR = './Vector_Storage_Context/'
 
 def safe_url(raw):
-    safe_url = quote(raw, safe="/:")  # encode spaces, parentheses, etc., but keep slashes
+    safe_url = raw[raw.find('Current'):]  # get substring starting from 'Current'
+    safe_url = quote(safe_url, safe="/:")  # encode spaces, parentheses, etc., but keep slashes
     safe_url = safe_url.replace("(", "%28").replace(")", "%29")
+    safe_url = safe_url.replace("\\", "/")  # replace backslashes with forward slashes
+    safe_url = '/static/legislations/' + safe_url  # append /static/legislations at the end
     return safe_url
 
 # Open the PDF file in binary mode
@@ -361,11 +368,11 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
         # context += f"Context {i+1}: \n\n"
         refs.append(node.metadata['file_path'])
         text = ""
-        text += f"File name: {node.metadata['file_path']}"
+        text += f"File Path: {node.metadata['file_path']}"
         file_text = read_pdf(node.metadata['file_path'])
         leg_code = file_text.split('\n')[0]
         text += "Legislation code:" + leg_code + '\n'
-        text += file_text
+        text += "File text:" + file_text
 
         token_count = count_tokens(context_1) + count_tokens(text) + count_tokens(question) + 450 + 1500
         if token_count >= 16000 :
@@ -392,21 +399,19 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
                 Question: 
                 {question}
                 -------------------------------------------------------------
-                Based on these contexts, answer the question. Try to use exact word from the context.
-                Answer as precisely as possible using the words from the context. Try to use all the information fom the context. 
+                Based on these contexts, answer the question. Strictly use exact word from the context.
+                Answer as precisely as possible using the words from the context. Try to use all the relevant information from the context. 
                 While answering, mention the legislation code first.
                 Try to preserve the paragrapg numberings also.
-                Do not add any informatio which is not present in the context.
+                Do not add any information which is not present in the context.
                 Remove the word "Trayce Hockstad" from your response.
                 
-                If I give you any context please mention the file name from where you are taking your information 
-                at the end of your response as "References". Mention exact file paths as numbered list in seperate lines.
-                No need to mention the sources with the paragraphs. Just mention them at the end.
-
-                No need to mention refrence while aswering to greetings questions like Hi or Hello.
-
-                Here is a example of a response. Follow this response formate strictly:
-                According to Code of Ala. § 8-27-2:
+                Your answer should be in a valid JSON format with two keys: "answer" and "references". Becareful about making the JSON valid.
+                The "answer" key should contain the answer to the question based on the provided contexts.
+                The "references" key should contain a list of file paths from which the information was taken.
+                Example:
+                {{ \"answer\": 
+                \"According to Code of Ala. § 8-27-2:
                 A “trade secret” is information that:
                 a. Is used or intended for use in a trade or business;
                 b. Is included or embodied in a formula, pattern, compilation, computer software,
@@ -416,10 +421,12 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
                 d. Cannot be readily ascertained or derived from publicly available information;
                 e. Is the subject of efforts that are reasonable under the circumstances to maintain its
                 secrecy; and
-                f. Has significant economic value.
-
-                Reference:
-                1) [file path]
+                f. Has significant economic value.\"
+                , \"references\": [
+                    \"file_path_1\",
+                    \"file_path_2\"
+                ]
+                }}
                 '''
     # Question:  What are the identidying document accordint to Alabama Legislations?
     # Response:
@@ -430,7 +437,8 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     messages= [
         {
             "role":"system",
-            "content":"You are a helpful assisstant. Your name is TraCR AI. You were developed by TraCR. Your role is to help with Transportation Cybersecurity Legislations."
+            "content":"""You are a helpful assisstant. Your name is TraCR AI. You were developed by TraCR. 
+            Your role is to help with Transportation Cybersecurity Legislations. Follow the instructions and the examples strictly"""
         },
         {
             "role":"user",
@@ -440,7 +448,21 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     max_tokens=1500,
     )
 
-    ret_1 = str(gpt_response.choices[0].message.content).replace("\n",'<br>')
+    res_1 = str(gpt_response.choices[0].message.content.strip())
+    json_data = json.loads(res_1)
+
+    print(json_data['answer'])
+
+    final_response_1 = ""
+
+    final_response_1 += json_data['answer'].replace('\n','<br>') + '\n\nReferences:\n\n'
+
+    for i,reference in enumerate(json_data['references'], start = 1):
+        final_response_1 += f"[{i}] [{reference}]({safe_url(reference)})\n\n"
+
+    if len(context_2) == 0:
+        return final_response_1
+
 
     prompt = f'''You have the following contexts and a Question. 
                 Based on the information in the context, answer the question.\n
@@ -451,22 +473,19 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
                 Question: 
                 {question}
                 -------------------------------------------------------------
-                Based on these contexts, answer the question. Try to use exact word from the context.
-                Answer as precisely as possible using the words from the context. Try to use all the information fom the context. 
+                Based on these contexts, answer the question. Strictly use exact word from the context.
+                Answer as precisely as possible using the words from the context. Try to use all the relevant information from the context. 
                 While answering, mention the legislation code first.
-                Try to preserve the paragrapg numberings also.
-                Do not add any informatio which is not present in the context.
+                Try to preserve the paragrapg numberings also including new lines.
+                Do not add any information which is not present in the context.
                 Remove the word "Trayce Hockstad" from your response.
-                If you do not have any answer, just give an empty response.
                 
-                If I give you any context please mention the file name from where you are taking your information 
-                at the end of your response as "References". Mention exact file paths as numbered list in seperate lines.
-                No need to mention the sources with the paragraphs. Just mention them at the end.
-
-                No need to mention refrence while aswering to greetings questions like Hi or Hello.
-
-                Here is a example of a response. Follow this response formate strictly:
-                According to Code of Ala. § 8-27-2:
+                Your answer should be in a valid JSON format with two keys: "answer" and "references". Becareful about making the JSON valid.
+                The "answer" key should contain the answer to the question based on the provided contexts.
+                The "references" key should contain a list of file paths from which the information was taken.
+                Example:
+                {{ \"answer\": 
+                \"According to Code of Ala. § 8-27-2:
                 A “trade secret” is information that:
                 a. Is used or intended for use in a trade or business;
                 b. Is included or embodied in a formula, pattern, compilation, computer software,
@@ -476,10 +495,12 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
                 d. Cannot be readily ascertained or derived from publicly available information;
                 e. Is the subject of efforts that are reasonable under the circumstances to maintain its
                 secrecy; and
-                f. Has significant economic value.
-
-                Reference:
-                1) Current Cybersecurity Law\Florida\Information Technology\Fla. Stat. _ 282.318.pdf
+                f. Has significant economic value.\"
+                , \"references\": [
+                    \"file_path_1\",
+                    \"file_path_2\"
+                ]
+                }}
                 '''
     # Question:  What are the identidying document accordint to Alabama Legislations?
     # Response:
@@ -490,7 +511,8 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     messages= [
         {
             "role":"system",
-            "content":"You are a helpful assisstant. Your name is TraCR AI. You were developed by TraCR. Your role is to help with Transportation Cybersecurity Legislations."
+            "content":"""You are a helpful assisstant. Your name is TraCR AI. You were developed by TraCR. 
+            Your role is to help with Transportation Cybersecurity Legislations. Follow the instructions and the examples strictly"""
         },
         {
             "role":"user",
@@ -500,20 +522,29 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     max_tokens=1500,
     )
 
-    ret_2 = str(gpt_response.choices[0].message.content).replace("\n",'<br>')
+    res_2 = str(gpt_response.choices[0].message.content.strip())
+    json_data = json.loads(res_2)
 
-    modified_ret = ""
+    print(json_data['answer'])
 
-    if len(ret_2)>0:
-        modified_ret = ret_1 + "\n\nInformation based on insurance documents:\n" + ret_2
+    final_response_2 = ""
+
+    final_response_2 += json_data['answer'] + '\n\nReferences:\n'
+
+    for i,reference in enumerate(json_data['references'], start = 1):
+        final_response_2 += f"[{i}] [{reference}]({safe_url(reference)})\n"
+
+    # modified_ret = ""
+
+    if len(final_response_2)>0:
+        final_response = final_response_1 + "\n\n**Information based on insurance documents:**\n" + final_response_2
     else:
-        modified_ret = ret_1 
+        final_response = final_response_1 
+    
+    return final_response
 
-    for ref in refs:
-        if ref in ret_1 + ret_2:
-            modified_ref = modify_ref(ref)
-            modified_ret = modified_ret.replace(ref,modified_ref)
-    return modified_ret
+    
+    # return modified_ret
 
 
 def get_accumulated_response(context, question, model="gpt-4o-mini"):
@@ -789,7 +820,7 @@ def get_response_streamed(query, only_accumulated_response = False, model = "gpt
         
         if state in state_wise_query_engines:
             # print(f"---------- Getting response for: {state} ---------------")
-            state_wise_response = get_state_wise_response(state, query, model)
+            state_wise_response = get_state_wise_response_updated(state, query, model)
             fact_check = fact_checking(query, state_wise_response, model)
 
             if fact_check == "No":
@@ -861,5 +892,6 @@ def get_response_streamed(query, only_accumulated_response = False, model = "gpt
 
 if __name__ == '__main__':
     query = "What are the identifying documents according to Alabama Legislations?"
-    response = get_response(query=query, only_accumulated_response=False, model="gpt-4o-mini")
+    # response = get_response(query=query, only_accumulated_response=False, model="gpt-4o-mini")
+    response = get_state_wise_response_updated(state="Alabama", question=query, top_k=10, model="gpt-4o-mini")
     print(response)
