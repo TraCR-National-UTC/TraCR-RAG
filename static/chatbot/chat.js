@@ -10,6 +10,11 @@ How can I assist you today?
 `;
 
 
+
+// const upBtn = mkBtn("up", "Like");
+// const downBtn = mkBtn("down", "Dislike");
+
+
 let conversations = [[]]; // simple in-memory; one convo with array of {role, content}
 let current = 0;
 function showDefaultGreeting() {
@@ -95,7 +100,7 @@ async function appendStreamedHTML(bubble, html, speed = 0) {
 }
 
 // Add a helper to render a saved message (markdown supported for bot)
-function addMessageHTML(role, content) {
+function addMessageHTML(role, content, returnBubble = false) {
   const row = document.createElement("div");
   row.className = `msg ${role}`;
   const avatar = document.createElement("div");
@@ -103,24 +108,50 @@ function addMessageHTML(role, content) {
   avatar.textContent = role === "me" ? "🙂" : "🤖";
   const bubble = document.createElement("div");
   bubble.className = "bubble";
+
   if (role === "bot" && window.marked) {
-    // Parse markdown to HTML, then sanitize
     bubble.innerHTML = sanitizeHTML(window.marked.parse(content));
     if (window.hljs) {
       bubble.querySelectorAll("pre code:not(.hljs)").forEach(el => hljs.highlightElement(el));
     }
     enhanceCodeBlocks(bubble);
-
   } else {
     bubble.innerHTML = sanitizeHTML(content);
   }
+
   row.appendChild(avatar);
   row.appendChild(bubble);
   chat.appendChild(row);
   if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
+  return returnBubble ? bubble : undefined;
 }
 
-function addMessage(role, text) {
+// function addMessageHTML(role, content) {
+//   const row = document.createElement("div");
+//   row.className = `msg ${role}`;
+//   const avatar = document.createElement("div");
+//   avatar.className = "avatar";
+//   avatar.textContent = role === "me" ? "🙂" : "🤖";
+//   const bubble = document.createElement("div");
+//   bubble.className = "bubble";
+//   if (role === "bot" && window.marked) {
+//     // Parse markdown to HTML, then sanitize
+//     bubble.innerHTML = sanitizeHTML(window.marked.parse(content));
+//     if (window.hljs) {
+//       bubble.querySelectorAll("pre code:not(.hljs)").forEach(el => hljs.highlightElement(el));
+//     }
+//     enhanceCodeBlocks(bubble);
+
+//   } else {
+//     bubble.innerHTML = sanitizeHTML(content);
+//   }
+//   row.appendChild(avatar);
+//   row.appendChild(bubble);
+//   chat.appendChild(row);
+//   if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
+// }
+
+function addMessage(role, text, returnBubble = false) {
   const row = document.createElement("div");
   row.className = `msg ${role}`;
   const avatar = document.createElement("div");
@@ -133,7 +164,23 @@ function addMessage(role, text) {
   row.appendChild(bubble);
   chat.appendChild(row);
   if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
+  return returnBubble ? bubble : undefined;
 }
+
+// function addMessage(role, text) {
+//   const row = document.createElement("div");
+//   row.className = `msg ${role}`;
+//   const avatar = document.createElement("div");
+//   avatar.className = "avatar";
+//   avatar.textContent = role === "me" ? "🙂" : "🤖";
+//   const bubble = document.createElement("div");
+//   bubble.className = "bubble";
+//   bubble.textContent = text;
+//   row.appendChild(avatar);
+//   row.appendChild(bubble);
+//   chat.appendChild(row);
+//   if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
+// }
 
 function refreshHistory() {
   historyEl.innerHTML = "";
@@ -186,16 +233,32 @@ function switchConvo(i) {
   refreshHistory();   // will highlight the active one
 }
 
-
 function renderConvo() {
   chat.innerHTML = "";
   const convo = conversations[current] || [];
-  for (const m of convo) {
-    if (m.html) addMessageHTML(m.role, m.content);
-    else addMessage(m.role, m.content);
-  }
+  convo.forEach((m, i) => {
+    let bubble;
+    if (m.html) bubble = addMessageHTML(m.role, m.content, true);
+    else        bubble = addMessage(m.role, m.content, true);
+
+    if (m.role === "bot") {
+      attachFeedback(bubble, current, i);
+      attachCopyFullMessage(bubble);
+    }
+  });
   if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
 }
+
+
+// function renderConvo() {
+//   chat.innerHTML = "";
+//   const convo = conversations[current] || [];
+//   for (const m of convo) {
+//     if (m.html) addMessageHTML(m.role, m.content);
+//     else addMessage(m.role, m.content);
+//   }
+//   if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
+// }
 
 function createThinkingBubble() {
   const row = document.createElement("div");
@@ -227,6 +290,127 @@ function createBotBubble() {
   if (shouldAutoScroll()) chat.scrollTop = chat.scrollHeight;
   return bubble;
 }
+
+// Add a "Copy full message" button at the top-right of bot bubbles
+function attachCopyFullMessage(bubble) {
+  if (!bubble || bubble.querySelector(".bubble-copy-btn")) return;
+
+  const btn = document.createElement("button");
+  btn.className = "bubble-copy-btn";
+  btn.innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+    viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+    </svg>
+  `;
+  btn.title = "Copy entire message";
+
+  btn.addEventListener("click", async () => {
+    try {
+      // Get the full text (strip HTML tags but keep readable text)
+      const range = document.createRange();
+      range.selectNodeContents(bubble);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      const text = sel.toString().trim();
+      sel.removeAllRanges();
+
+      await navigator.clipboard.writeText(text);
+      btn.classList.add("copied");
+      btn.title = "Copied!";
+      setTimeout(() => {
+        btn.classList.remove("copied");
+        btn.title = "Copy entire message";
+      }, 1500);
+    } catch (err) {
+      console.error("Copy failed:", err);
+    }
+  });
+
+  // Ensure bubble is relatively positioned
+  bubble.style.position = "relative";
+  bubble.appendChild(btn);
+}
+
+
+// Attach like/dislike controls to a bubble and sync with conversations[]
+function attachFeedback(bubble, convoIndex, msgIndex) {
+  if (!bubble || bubble.dataset.hasFeedback) return;
+  bubble.dataset.hasFeedback = "1";
+
+  const footer = document.createElement("div");
+  footer.className = "bubble-footer";
+
+  const mkBtn = (cls, title, svg) => {
+    const btn = document.createElement("button");
+    btn.className = cls;
+    btn.type = "button";
+    btn.title = title;
+    btn.innerHTML = svg;
+    return btn;
+  };
+
+  const upSvg = `
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+  viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-1 7H5a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h7l5-10a2 2 0 0 0-2-2h-1z"/></svg>`;
+
+  const downSvg = `
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+  viewBox="0 0 24 24"><path d="M10 15v4a3 3 0 0 0 3 3l1-7h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-7L7 14a2 2 0 0 0 2 2h1z"/></svg>`;
+
+  const copySvg = `
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+  viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
+
+  const upBtn = mkBtn("icon-btn up", "Like", upSvg);
+  const downBtn = mkBtn("icon-btn down", "Dislike", downSvg);
+  const copyBtn = mkBtn("copy-btn", "Copy message", copySvg);
+
+  const msg = (conversations[convoIndex] || [])[msgIndex] || {};
+  if (msg.feedback === "up") upBtn.classList.add("active", "up");
+  if (msg.feedback === "down") downBtn.classList.add("active", "down");
+
+  const setFeedback = (val) => {
+    const arr = conversations[convoIndex] || (conversations[convoIndex] = []);
+    arr[msgIndex] = arr[msgIndex] || { role: "bot", content: "" };
+    if (arr[msgIndex].feedback === val) {
+      arr[msgIndex].feedback = null;
+      upBtn.classList.remove("active","up");
+      downBtn.classList.remove("active","down");
+    } else {
+      arr[msgIndex].feedback = val;
+      upBtn.classList.toggle("active", val === "up");
+      upBtn.classList.toggle("up", val === "up");
+      downBtn.classList.toggle("active", val === "down");
+      downBtn.classList.toggle("down", val === "down");
+    }
+  };
+
+  upBtn.onclick = () => setFeedback("up");
+  downBtn.onclick = () => setFeedback("down");
+
+  // copy full bubble text
+  copyBtn.onclick = async () => {
+    try {
+      const text = bubble.innerText.trim();
+      await navigator.clipboard.writeText(text);
+      copyBtn.classList.add("copied");
+      setTimeout(() => copyBtn.classList.remove("copied"), 1200);
+    } catch {
+      console.error("Copy failed");
+    }
+  };
+
+  footer.appendChild(copyBtn);
+  footer.appendChild(upBtn);
+  footer.appendChild(downBtn);
+  bubble.appendChild(footer);
+}
+
+
 
 // Append text with a typewriter effect into an existing bubble
 function typeText(bubble, text, speed = 0) {
@@ -340,14 +524,54 @@ async function sendMessage() {
     finished = true;
     queue.then(() => {
       if (botBubble) botBubble.classList.remove("typing");
-      const finalHtml = botBubble.innerHTML;       // save rendered HTML
+
+      const finalHtml = botBubble ? botBubble.innerHTML : "";   // <- use rendered HTML
       conversations[convoIndex].push({ role: "bot", content: finalHtml, html: true });
+
+      const msgIndex = conversations[convoIndex].length - 1;
+      const lastBubble = document.querySelector("#chat .msg.bot:last-child .bubble");
+      if (lastBubble) {
+        attachFeedback(lastBubble, convoIndex, msgIndex);
+        attachCopyFullMessage(lastBubble);
+      }
     }).finally(() => {
       if (!closed) { es.close(); closed = true; }
-      if (currentStream === es) currentStream = null;
       busy = false; send.disabled = false;
     });
   });
+
+
+  // es.addEventListener("done", () => {
+  //   finished = true;
+  //   queue.then(() => {
+  //     if (botBubble) botBubble.classList.remove("typing");
+
+  //     // save final message (HTML or text based on your setup)
+  //     conversations[convoIndex].push({ role: "bot", content: combinedHTML, html: true });
+
+  //     // attach like/dislike to the just-added bubble
+  //     const msgIndex = conversations[convoIndex].length - 1;
+  //     const lastBubble = document.querySelector("#chat .msg.bot:last-child .bubble");
+  //     if (lastBubble) attachFeedback(lastBubble, convoIndex, msgIndex);
+  //   }).finally(() => {
+  //     if (!closed) { es.close(); closed = true; }
+  //     busy = false; send.disabled = false;
+  //   });
+  // });
+
+
+  // es.addEventListener("done", () => {
+  //   finished = true;
+  //   queue.then(() => {
+  //     if (botBubble) botBubble.classList.remove("typing");
+  //     const finalHtml = botBubble.innerHTML;       // save rendered HTML
+  //     conversations[convoIndex].push({ role: "bot", content: finalHtml, html: true });
+  //   }).finally(() => {
+  //     if (!closed) { es.close(); closed = true; }
+  //     if (currentStream === es) currentStream = null;
+  //     busy = false; send.disabled = false;
+  //   });
+  // });
 
 
   es.onerror = () => {

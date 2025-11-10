@@ -45,28 +45,46 @@ body {
   flex: 1; overflow: auto; padding: 24px; background: var(--bg);
 }
 .msg { 
-    max-width: 720px; 
     margin: 0 auto 16px auto; 
     display: flex; 
     gap: 12px; }
+
 .me {
-  justify-content: flex-end;     /* pushes message to right */
+    width: 90%;                /* Same width as bot container */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;            /* Use flexbox for alignment */
+    justify-content: flex-end; /* Align container to the right */
 }
+
 .me .bubble {
-  background: #0e4;              /* bright green like ChatGPT user bubble */
-  color: #111;
-  border-color: #0c3;
-  align-self: flex-end;          /* keep it aligned neatly */
+    background: #0e4;
+    color: #111;
+    border-color: #0c3;
+    display: inline-block;    /* Allow content-based sizing */
+    max-width: calc(100% - 44px); /* Maximum width up to bot's left edge */
+    white-space: pre-wrap;    /* Preserve whitespace but allow wrapping */
+    text-align: right;        /* Right align text inside bubble */
+    margin-left: auto;        /* Push bubble to the right side */
+    padding: 10px 14px;       /* Consistent padding */
+    width: auto;              /* Let content determine width */
 }
 
 .bot {
-  justify-content: flex-start;
+    width: 90%;                /* Same width as user messages */
+    max-width: 1200px;        /* Increased max-width */
+    margin-left: auto;
+    margin-right: auto;       /* Center the container */
+    justify-content: flex-start;
 }
 
 .bot .bubble {
-  background: #2a2a2a;
-  color: #eaeaea;
-  border-color: #3a3a3a;
+    background: #2a2a2a;
+    color: #eaeaea;
+    border-color: #3a3a3a;
+    flex: 1;                      /* make bot messages expand */
+    min-width: 0;                 /* allow bubble to shrink if needed */
 }
 
 .avatar {
@@ -74,8 +92,13 @@ body {
   display: inline-flex; align-items: center; justify-content: center; font-size: 14px;
 }
 .bubble {
-  background: var(--panel); padding: 12px 14px; border-radius: 12px;
-  border: 1px solid var(--border); white-space: pre-wrap;
+  background: var(--panel); 
+  padding: 12px 14px; 
+  border-radius: 12px;
+  border: 1px solid var(--border); 
+  white-space: pre-wrap;
+  flex: 1;  /* Make bubble take available space */
+  min-width: 0;  /* Allow bubble to shrink if needed */
 }
 /* .me .bubble { background: #0e4; color: #000; border-color: #0c3; } */
 /* .bot .bubble { background: var(--panel); } */
@@ -482,5 +505,191 @@ textarea {
 
 .codeblock code {
   font-family: "Fira Code", monospace;
+}
+
+.codeblock {
+  padding: 10px;
+}
+
+/* Bubble footer with like/dislike */
+.bubble-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+  opacity: 0.85;
+}
+
+.bubble-footer .icon-btn {
+  border: 1px solid #3a3a3a;
+  background: #1f1f1f;
+  color: #b9b9b9;
+  width: 32px;
+  height: 28px;
+  padding: 0;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+
+.bubble-footer .icon-btn:hover { background: #2a2a2a; color: #fff; }
+.bubble-footer .icon-btn.active.up   { color: #38d269; border-color: #38d269; }
+.bubble-footer .icon-btn.active.down { color: #ff5c5c; border-color: #ff5c5c; }
+
+.bubble-footer svg { width: 16px; height: 16px; }
+
+
+/* === ChatGPT-style like / dislike footer === */
+.bubble-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* Base button look */
+.bubble-footer .icon-btn {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #bcbcbc;
+  padding: 4px 6px;
+  transition: background 0.15s ease, color 0.15s ease;
+  height: 24px;
+  width: 28px;
+}
+
+.bubble-footer .icon-btn:hover {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+/* Active state colors (green/red like ChatGPT) */
+.bubble-footer .icon-btn.active.up {
+  color: #19c37d;
+  background: rgba(25,195,125,0.12);
+}
+.bubble-footer .icon-btn.active.down {
+  color: #ef4146;
+  background: rgba(239,65,70,0.12);
+}
+
+/* SVG icon sizing and alignment */
+.bubble-footer svg {
+  width: 17px;
+  height: 17px;
+  stroke-width: 2;
+}
+
+.icon-btn[title] {
+  position: relative;
+}
+.icon-btn[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 125%;
+  background: #222;
+  color: #eee;
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0.85;
+}
+
+/* === ChatGPT-style "Copy full message" button === */
+.bubble-copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: #a1a1a1;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.msg.bot:hover .bubble-copy-btn {
+  opacity: 1;
+}
+
+.bubble-copy-btn:hover {
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+}
+
+.bubble-copy-btn.copied {
+  color: #19c37d;
+}
+
+.bubble-copy-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2;
+}
+
+.bubble-copy-btn { opacity: 1 !important; }
+
+/* === Copy full message button, next to like/dislike === */
+.bubble-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 4px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.bubble-footer .icon-btn,
+.bubble-footer .copy-btn {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #a1a1a1;
+  background-color: transparent;
+  transition: background-color .15s ease, color .15s ease;
+}
+
+.bubble-footer .icon-btn:hover,
+.bubble-footer .copy-btn:hover {
+  background-color: rgba(255,255,255,0.06);
+  color: #fff;
+}
+
+/* Active feedback colors */
+.bubble-footer .icon-btn.active.up {
+  color: #19c37d;
+  background-color: rgba(25,195,125,0.1);
+}
+.bubble-footer .icon-btn.active.down {
+  color: #ef4146;
+  background-color: rgba(239,65,70,0.1);
+}
+
+/* Copy feedback animation */
+.bubble-footer .copy-btn.copied {
+  color: #19c37d;
+}
+.bubble-footer svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
