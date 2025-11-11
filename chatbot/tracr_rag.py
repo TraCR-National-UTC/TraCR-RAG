@@ -159,8 +159,8 @@ def create_query_engines(states = None):
   for i,state in enumerate(states):
     query_engines[state] = create_state_query_engine(state)
 
-    if i ==5:
-        break
+    # if i ==5:
+    #     break
     # break  # remove this break to load all states
   
   return query_engines
