@@ -1,0 +1,154 @@
+# TraCR-RAG
+
+This project develops a Retrieval-Augmented Generation (RAG) powered Large Language Model (LLM) designed to support legislative analysis for connected and automated transportation systems. The framework extracts relevant information from existing laws to answer policy-related inquiries, reduces LLM hallucinations by generating curated training datasets, and highlights potential legal gaps for further review. By combining retrieval with generative capabilities, the system provides more accurate, reliable, and context-specific responses compared to leading commercial LLMs. This approach demonstrates how domain-specific RAG frameworks can enhance legal analysis, cybersecurity, and data privacy policymaking in emerging transportation technologies.
+
+---
+
+## 1) Prerequisites
+
+Before you can run this project, you’ll need a few tools installed on your computer.  
+
+- **Python (version 3.10 or higher)**  
+  Python is the main programming language this project is written in.  
+  👉 Download it from [python.org/downloads](https://www.python.org/downloads/).
+
+  To check if Python is already installed, open your command line (Terminal on macOS/Linux, PowerShell on Windows) and type:
+  ```bash
+  python --version
+  ```
+  or
+
+  ```bash
+  python3 --version
+  ```
+  
+If you see something like `Python 3.11.5` or any version above that, you’re good to go.
+
+- **pip**  
+  pip is Python’s package manager. 
+  It comes with Python by default and is used to install the extra libraries the project needs.
+
+- **virtualenv (or venv)**  
+  This is where we install only the tools needed for this project, so they don’t interfere with other softwares or projects on any computer.  
+
+- **Git**  
+  Git helps to download (or “clone”) the project from GitHub.  
+  👉 Get it from [git-scm.com](https://git-scm.com/downloads).
+
+- **SQLite (optional)**  
+  This is a lightweight database that usually comes included with Python.  
+  You don’t need to install anything extra for development unless you plan to use a different database.
+
+> **Tip:** On **Windows**, open PowerShell. On **macOS/Linux**, open Terminal.  
+> All the commands in this guide should be typed there.
+
+---
+## 2) Clone & enter the project
+
+This step copies the project from GitHub to your computer and moves you into the project folder.
+
+```bash
+# Clone the repository 
+git clone https://github.com/TraCR-National-UTC/TraCR-RAG.git
+
+# Move into the project directory
+cd TraCR-RAG
+```
+
+---
+
+## 3) Create & activate a virtual environment
+
+A **virtual environment** is like a private workspace where only the tools and libraries needed for this project are installed.  
+This keeps things clean and avoids conflicts with other Python projects on your computer.
+
+### macOS/Linux
+```bash
+python3 -m venv .venv
+source ./venv/bin/activate
+```
+### Windows (PowerShell)
+
+```powershell
+python -m venv .venv
+./venv/Scripts/activate
+```
+
+✅ When the virtual environment is active, your command line will show (.venv) at the start of the line.
+To leave (deactivate) the virtual environment later, just type:
+```bash
+deactivate
+```
+
+---
+## 4) Install dependencies
+
+Dependencies are like ingredients the project needs to run.  
+They are listed in a file called `requirements.txt`.
+
+A typical `requirements.txt` might look like this:
+
+```txt
+django>=4.2
+openai>=1.0.0
+python-dotenv>=1.0.0
+```
+Run the following commands to install all the dependencies.
+```bash
+# Make sure pip is up to date
+pip install --upgrade pip
+
+# Install everything listed in requirements.txt
+pip install -r requirements.txt
+```
+💡 If you get a permissions error, make sure your virtual environment (.venv) is activated before running these commands.
+
+---
+## 5) Configuration (environment variables)
+
+The project needs secret information (like your OpenAI API key).  
+These are stored in **environment variables** so they’re not visible in the code.
+
+### Option 1: Using a `.env` file (recommended)
+
+1. In the root folder of your project (where `manage.py` is located), create a new file called **`.env`**.
+2. Add the following content inside it:
+
+```env
+# --- Django ---
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+# --- OpenAI ---
+OPENAI_API_KEY=sk-...your-key-here...
+```
+👉 Never share or upload .env files! They should always be added to .gitignore.
+
+### Option 2: Setting environment variables manually
+
+You can also set them directly in your terminal.
+
+**Windows (PowerShell):**
+
+```powershell
+$env:OPENAI_API_KEY="sk-..."
+```
+
+**macOS/Linux:**
+
+```powershell
+export OPENAI_API_KEY="sk-..."
+```
+
+---
+## 6) Run the development server
+
+Now you can start the server:
+
+```bash
+python manage.py runserver
+```
+Once it starts, open your browser and visit:
+👉 http://127.0.0.1:8000/
+
+
+
