@@ -77,16 +77,12 @@ source ./.venv/bin/activate
 
 
 ✅ When the virtual environment is active, your command line will show (.venv) at the start of the line.
-To leave (deactivate) the virtual environment later, just type:
-```bash
-deactivate
-```
 
 ---
 ## 4) Install dependencies
 
 Dependencies are like ingredients the project needs to run.  
-They are listed in a file called `requirements.txt`.
+They are listed in a file called `requirements.txt`. The GitHub repository should already have this file.
 
 A typical `requirements.txt` might look like this:
 
