@@ -259,6 +259,7 @@ textarea {
   border: 1px solid var(--border);  /* use theme variable */
   background: var(--panel);    /* use theme variable */
   color: var(--text);         /* use theme variable */
+  font-size: 16px;            /* increased font size for better readability */
 }
 
 .send {
