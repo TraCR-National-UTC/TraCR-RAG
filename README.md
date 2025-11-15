@@ -116,6 +116,17 @@ ALLOWED_HOSTS=localhost,127.0.0.1
 # --- OpenAI ---
 OPENAI_API_KEY=sk-...your-key-here...
 ```
+Here, the "OPENAI_API_KEY" has to be your own API_KEY from the openai platform.
+This key powers the generator component of the RAG system. In our setup, we use GPT-4o-mini, the lightweight version of the model, as the LLM.
+
+You can get the key from here:
+
+1. Go to https://platform.openai.com/settings/organization/general and then navigate to **API keys** from the left sidebar.  
+2. Create a new key.  
+3. Copy and paste it here.  
+4. Go to **Billing** from the left sidebar.  
+5. Add some credit to your API key — you can start with as little as **$5**.
+
 👉 Never share or upload .env files! They should always be added to .gitignore.
 
 ## 6) Load the static files
