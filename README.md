@@ -63,7 +63,7 @@ This keeps things clean and avoids conflicts with other Python projects on your 
 
 ```powershell
 python -m venv .venv
-./.venv/Scripts/activate
+.\.venv\Scripts\activate
 ```
 
 ### macOS/Linux
