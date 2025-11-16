@@ -8,7 +8,7 @@ This project develops a Retrieval-Augmented Generation (RAG) powered Large Langu
 
 Before you can run this project, you’ll need a few tools installed on your computer.  
 
-- **Python (version 3.10 or higher)**  
+- **Python (version 3.10 or higher)**  [must]
   Python is the main programming language this project is written in.  
   👉 Download it from [python.org/downloads](https://www.python.org/downloads/).
 
@@ -24,20 +24,17 @@ Before you can run this project, you’ll need a few tools installed on your com
   
 If you see something like `Python 3.11.5` or any version above that, you’re good to go.
 
-- **pip**  
+- **pip**  [auto]
   pip is Python’s package manager. 
   It comes with Python by default and is used to install the extra libraries the project needs.
 
-- **virtualenv (or venv)**  
-  This is where we install only the tools needed for this project, so they don’t interfere with other softwares or projects on any computer.  
+- **virtualenv (or venv)**  [auto]
+  This is where we install only the tools needed for this project, so they don’t interfere with other softwares or projects on any computer.
+  It will also come with Python by default. 
 
-- **Git**  
+- **Git**  [must]
   Git helps to download (or “clone”) the project from GitHub.  
   👉 Get it from [git-scm.com](https://git-scm.com/downloads).
-
-- **SQLite (optional)**  
-  This is a lightweight database that usually comes included with Python.  
-  You don’t need to install anything extra for development unless you plan to use a different database.
 
 > **Tip:** On **Windows**, open PowerShell. On **macOS/Linux**, open Terminal.  
 > All the commands in this guide should be typed there.
@@ -62,29 +59,27 @@ cd TraCR-RAG
 A **virtual environment** is like a private workspace where only the tools and libraries needed for this project are installed.  
 This keeps things clean and avoids conflicts with other Python projects on your computer.
 
-### macOS/Linux
-```bash
-python3 -m venv .venv
-source ./venv/bin/activate
-```
 ### Windows (PowerShell)
 
 ```powershell
 python -m venv .venv
-./venv/Scripts/activate
+.\.venv\Scripts\activate
 ```
 
-✅ When the virtual environment is active, your command line will show (.venv) at the start of the line.
-To leave (deactivate) the virtual environment later, just type:
+### macOS/Linux
 ```bash
-deactivate
+python3 -m venv .venv
+source ./.venv/bin/activate
 ```
+
+
+✅ When the virtual environment is active, your command line will show (.venv) at the start of the line.
 
 ---
 ## 4) Install dependencies
 
 Dependencies are like ingredients the project needs to run.  
-They are listed in a file called `requirements.txt`.
+They are listed in a file called `requirements.txt`. The GitHub repository should already have this file.
 
 A typical `requirements.txt` might look like this:
 
@@ -109,7 +104,7 @@ pip install -r requirements.txt
 The project needs secret information (like your OpenAI API key).  
 These are stored in **environment variables** so they’re not visible in the code.
 
-### Option 1: Using a `.env` file (recommended)
+### Use a `.env` file (recommended)
 
 1. In the root folder of your project (where `manage.py` is located), create a new file called **`.env`**.
 2. Add the following content inside it:
@@ -121,26 +116,33 @@ ALLOWED_HOSTS=localhost,127.0.0.1
 # --- OpenAI ---
 OPENAI_API_KEY=sk-...your-key-here...
 ```
+Here, the "OPENAI_API_KEY" has to be your own API_KEY from the openai platform.
+This key powers the generator component of the RAG system. In our setup, we use GPT-4o-mini, the lightweight version of the model, as the LLM.
+
+You can get the key from here:
+
+1. Go to https://platform.openai.com/settings/organization/general and then navigate to **API keys** from the left sidebar.  
+2. Create a new key.  
+3. Copy and paste it here.  
+4. Go to **Billing** from the left sidebar.  
+5. Add some credit to your API key — you can start with as little as **$5**.
+
 👉 Never share or upload .env files! They should always be added to .gitignore.
 
-### Option 2: Setting environment variables manually
+## 6) Load the static files
 
-You can also set them directly in your terminal.
+Run the following command to load the static files (images, styles, etc.):
 
-**Windows (PowerShell):**
+```bash
+python manage.py collectstatic --noinput 
+```
+or 
 
-```powershell
-$env:OPENAI_API_KEY="sk-..."
+```bash
+python3 manage.py collectstatic --noinput 
 ```
 
-**macOS/Linux:**
-
-```powershell
-export OPENAI_API_KEY="sk-..."
-```
-
----
-## 6) Run the development server
+## 7) Run the development server
 
 Now you can start the server:
 
