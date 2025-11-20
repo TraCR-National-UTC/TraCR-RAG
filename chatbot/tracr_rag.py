@@ -41,9 +41,9 @@ PERSIST_DIR = './Vector_Storage_Context/'
 
 def safe_url(raw):
     safe_url = raw[raw.find('Current'):]  # get substring starting from 'Current'
+    safe_url = safe_url.replace("\\", "/")  # replace backslashes with forward slashes FIRST
     safe_url = quote(safe_url, safe="/:")  # encode spaces, parentheses, etc., but keep slashes
     safe_url = safe_url.replace("(", "%28").replace(")", "%29")
-    safe_url = safe_url.replace("\\", "/")  # replace backslashes with forward slashes
     safe_url = '/static/legislations/' + safe_url  # append /static/legislations at the end
     return safe_url
 
