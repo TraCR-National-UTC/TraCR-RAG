@@ -368,10 +368,11 @@ def get_state_wise_response_updated(state,question,top_k=10, model = "gpt-4o-min
     for node in response.source_nodes:   
              
         # context += f"Context {i+1}: \n\n"
-        refs.append(node.metadata['file_path'])
+        file_path = node.metadata['file_path'][node.metadata['file_path'].find('Current'):]
+        refs.append(file_path)
         text = ""
-        text += f"File Path: {node.metadata['file_path']}"
-        file_text = read_pdf(node.metadata['file_path'])
+        text += f"File Path: {file_path}"
+        file_text = read_pdf('static/legislations/' + file_path)
         leg_code = file_text.split('\n')[0]
         text += "Legislation code:" + leg_code + '\n'
         text += "File text:" + file_text
