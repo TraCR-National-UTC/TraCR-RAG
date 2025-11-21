@@ -25,6 +25,7 @@ if not exist .venv (
 	echo virtual environment exists as .venv
 )
 
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 call .\.venv\Scripts\activate.bat
 
 Rem Make sure pip is up to date
