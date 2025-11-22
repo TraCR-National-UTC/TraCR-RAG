@@ -43,3 +43,6 @@ if %errorlevel% neq 0 (
     pause
     exit /b %errorlevel%
 )
+
+echo "TraCR-RAG" Setup completed successfully.
+pause
