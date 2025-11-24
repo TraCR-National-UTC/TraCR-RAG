@@ -1,7 +1,15 @@
 # TraCR-RAG
 
-This project develops a Retrieval-Augmented Generation (RAG) powered Large Language Model (LLM) designed to support legislative analysis for connected and automated transportation systems. The framework extracts relevant information from existing laws to answer policy-related inquiries, reduces LLM hallucinations by generating curated training datasets, and highlights potential legal gaps for further review. By combining retrieval with generative capabilities, the system provides more accurate, reliable, and context-specific responses compared to leading commercial LLMs. This approach demonstrates how domain-specific RAG frameworks can enhance legal analysis, cybersecurity, and data privacy policymaking in emerging transportation technologies.
+We have developed a Retrieval-Augmented Generation (RAG) powered Large Language Model (LLM) designed to support legislative analysis for connected and automated transportation systems. The framework extracts relevant information from existing laws to answer policy-related inquiries, reduces LLM hallucinations by generating curated training datasets, and highlights potential legal gaps for further review. By combining retrieval with generative capabilities, the system provides more accurate, reliable, and context-specific responses compared to leading commercial LLMs. This approach demonstrates how domain-specific RAG frameworks can enhance legal analysis, cybersecurity, and data privacy policymaking in emerging transportation technologies.
+
+Our work has been published as a conference paper in TRB 2025 and is in the process of publication as a journal paper in TRB 2025. If you use our work, please cite our paper - 
+Paper link - https://arxiv.org/abs/2505.18426
+
+You can follow this YouTube link to set up and install the tool - https://youtu.be/7eDy8TOHMjA
+
 <br><br>
+
+
 <img width="2560" height="1401" alt="image" src="https://github.com/user-attachments/assets/c5d9819b-a57d-42a3-b45e-0ad2eedf2ffb" />
 
 
